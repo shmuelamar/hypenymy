@@ -26,6 +26,7 @@ def parse_ans1_hyper_hypo(premise, row):
 
     hyper = row['Answer.1a. Main Hypernym']
     label = row['Answer.1b. Label original Hypo->Hyper']
+    validate_cell(label)
 
     return Sample(
         premise=premise,

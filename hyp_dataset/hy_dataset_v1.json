@@ -1908,18 +1908,6 @@
         }
     },
     {
-        "premise": "No one need sit up.",
-        "hypothesis": "No number need sit up.",
-        "label": "{}",
-        "metadata": {
-            "section": "1",
-            "row_id": 5,
-            "worker_id": "A2A4UAFZ5LW71K",
-            "hit_id": "39I4RL8QGJISJRTHVNKXTKHTIS6H4Y",
-            "is_complete": false
-        }
-    },
-    {
         "premise": "The authorities believe that the bounty hunters used their profession as a cover for armed robbery.",
         "hypothesis": "The authorities believe that the bounty hunters used their profession as a cover for armed crime.",
         "label": "entailment",
