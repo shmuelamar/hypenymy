@@ -32,7 +32,13 @@ def parse_ans1_hyper_hypo(premise, row):
         premise=premise,
         hypothesis=safe_replace(premise, old=main_hypo, new=hyper),
         label=label,
-        metadata={'section': '1'},
+        metadata={
+            'section': '1',
+            'pword': main_hypo,
+            'hword': hyper,
+            'ptype': 'hypo',
+            'htype': 'hyper',
+        },
     )
 
 
@@ -53,18 +59,30 @@ def parse_ans2_hyper_hypos(premise, row):
             premise=hyper_sentence,
             hypothesis=safe_replace(premise, old=main_hypo, new=hypo),
             label=label,
-            metadata={'section': '2 hypo->hyper'},
+            metadata={
+                'section': '2 hypo->hyper',
+                'pword': main_hyper,
+                'hword': hypo,
+                'ptype': 'hyper',
+                'htype': 'hypo',
+            },
         )
 
     # hyper -> hypo
     label_hyper2hypo = str2list(row['Answer.2b-2. Label list Hyper->Hypo'])
     assert len(label_hyper2hypo) == len(hypos)
-    for hyper, label in zip(hypos, label_hyper2hypo):
+    for word, label in zip(hypos, label_hyper2hypo):
         yield Sample(
-            premise=safe_replace(premise, old=main_hypo, new=hyper),
+            premise=safe_replace(premise, old=main_hypo, new=word),
             hypothesis=hyper_sentence,
             label=label,
-            metadata={'section': '2 hyper->hypo'},
+            metadata={
+                'section': '2 hyper->hypo',
+                'pword': word,
+                'hword': main_hyper,
+                'ptype': 'hypo',
+                'htype': 'hyper',
+            },
         )
 
 
@@ -87,7 +105,13 @@ def parse_ans3_non_hypos(premise, row):
             premise=safe_replace(premise, old=main_hypo, new=nonhypo),
             hypothesis=hyper_sentence,
             label=label,
-            metadata={'section': '3 Nonhypo->hyper'},
+            metadata={
+                'section': '3 Nonhypo->hyper',
+                'pword': nonhypo,
+                'hword': main_hyper,
+                'ptype': 'nonhypo',
+                'htype': 'hyper',
+            },
         )
 
     # hyper -> non-hypo
@@ -100,68 +124,118 @@ def parse_ans3_non_hypos(premise, row):
             premise=hyper_sentence,
             hypothesis=safe_replace(premise, old=main_hypo, new=nonhypo),
             label=label,
-            metadata={'section': '3 Hyper->Nonhypo'},
+            metadata={
+                'section': '3 Hyper->Nonhypo',
+                'pword': main_hyper,
+                'hword': nonhypo,
+                'ptype': 'hyper',
+                'htype': 'nonhypo',
+            },
         )
 
 
 def parse_ans4_hyper_hypo_freestyle(_, row):
+    main_hyper = row['Answer.1a. Main Hypernym']
+    main_hypo = row['Answer.1a. Original_hyponym (hyponym 1)']
+    main_nonhypo = str2list(row['Answer.3a. Non-hyponyms list'])[0]
+
     premise = row['Answer.4. Premise (Hyper)']
     premise = premise[premise.find(')') + 1 :].strip()  # remove (1) at start
-    validate_cell(premise)
+
+    hypothesis1 = row['Answer.4a. Hyper->Hypo text']
+    hypothesis2 = row['Answer.4b. Hyper->Nonhypo text']
+
+    assert get_word_position(premise, main_hyper)
+    assert get_word_position(hypothesis1, main_hypo)
+    assert get_word_position(hypothesis2, main_nonhypo)
+    validate_cell(premise)    
 
     # hyper -> hypo
     yield Sample(
         premise=premise,
-        hypothesis=row['Answer.4a. Hyper->Hypo text'],
+        hypothesis=hypothesis1,
         label=row['Answer.4al. Hyper->Hypo label'],
-        metadata={'section': '4 hyper->hypo freestyle original'},
+        metadata={
+            'section': '4 hyper->hypo freestyle original',
+            'pword': main_hyper,
+            'hword': main_hypo,
+            'ptype': 'hyper',
+            'htype': 'hypo',
+        },
     )
 
     yield Sample(
         premise=premise,
-        hypothesis=row['Answer.4b. Hyper->Nonhypo text'],
+        hypothesis=hypothesis2,
         label=row['Answer.4al. Hyper->Hypo label'],
-        metadata={'section': '4 hyper->Nonhypo freestyle original'},
+        metadata={
+            'section': '4 hyper->Nonhypo freestyle original',
+            'pword': main_hyper,
+            'hword': main_nonhypo,
+            'ptype': 'hyper',
+            'htype': 'nonhypo',
+        },
     )
 
 
 def parse_ans5_hypo_hyper_freestyle(_, row):
+    main_hyper = row['Answer.1a. Main Hypernym']
+    main_hypo = row['Answer.1a. Original_hyponym (hyponym 1)']
+    main_nonhypo = str2list(row['Answer.3a. Non-hyponyms list'])[0]
+
     premise = row['Answer.5. Premise (Hypo)']
     premise = premise[premise.find(')') + 1 :].strip()  # remove (1) at start
+    hypothesis1 = row['Answer.5a. Hypo->Hyper text']
+    hypothesis2 = row['Answer.5b. Hypo->Nonhypo text']
+
+    assert get_word_position(premise, main_hypo)
+    assert get_word_position(hypothesis1, main_hyper)
+    assert get_word_position(hypothesis2, main_nonhypo)
     validate_cell(premise)
 
     # hyper -> hypo
     yield Sample(
         premise=premise,
-        hypothesis=row['Answer.5a. Hypo->Hyper text'],
+        hypothesis=hypothesis1,
         label=row['Answer.5al. Hypo->Hyper label'],
-        metadata={'section': '5 hypo->hyper freestyle original'},
+        metadata={
+            'section': '5 hypo->hyper freestyle original',
+            'pword': main_hypo,
+            'hword': main_hyper,
+            'ptype': 'hypo',
+            'htype': 'hyper',
+        },
     )
 
     yield Sample(
         premise=premise,
-        hypothesis=row['Answer.5b. Hypo->Nonhypo text'],
+        hypothesis=hypothesis2,
         label=row['Answer.5bl. Hypo->Nonhypo label'],
-        metadata={'section': '5 hypo->Nonhyper freestyle original'},
+        metadata={
+            'section': '5 hypo->Nonhypo freestyle original',
+            'pword': main_hypo,
+            'hword': main_nonhypo,
+            'ptype': 'hypo',
+            'htype': 'nonhypo',
+        },
     )
 
 
 def parse_ans4_and_5_freestyle_hypothesis_with_substitution(_, row):
     premise4 = row['Answer.4. Premise (Hyper)']
-    premise4 = premise4[
-        premise4.find(')') + 1 :
-    ].strip()  # remove (1) at start
-    premise5 = row['Answer.4. Premise (Hyper)']
-    premise5 = premise5[
-        premise5.find(')') + 1 :
-    ].strip()  # remove (1) at start
+    premise4 = premise4[premise4.find(')') + 1 :].strip()  # remove (1)
+    premise5 = row['Answer.5. Premise (Hypo)']
+    premise5 = premise5[premise5.find(')') + 1 :].strip()  # remove (1)
 
     hypos = str2list(row['Answer.2a. Hyponyms list'])
     non_hypos = str2list(row['Answer.3a. Non-hyponyms list'])
 
     main_hyper = row['Answer.1a. Main Hypernym']
     main_hypo = row['Answer.1a. Original_hyponym (hyponym 1)']
-    first_nonhypo = non_hypos[0]
+    main_nonhypo = non_hypos[0]
+
+    assert get_word_position(premise4, main_hyper)
+    assert get_word_position(premise5, main_hypo)
 
     # 4a
     for hypo_word in hypos:
@@ -174,7 +248,11 @@ def parse_ans4_and_5_freestyle_hypothesis_with_substitution(_, row):
             ),
             label=row['Answer.4al. Hyper->Hypo label'],
             metadata={
-                'section': 'dataset3 hyper->hypo freestyle substitution'
+                'section': 'dataset3 hyper->hypo freestyle substitution',
+                'pword': main_hyper,
+                'hword': hypo_word,
+                'ptype': 'hyper',
+                'htype': 'hypo',
             },
         )
 
@@ -184,44 +262,53 @@ def parse_ans4_and_5_freestyle_hypothesis_with_substitution(_, row):
             premise=premise4,
             hypothesis=safe_replace(
                 row['Answer.4b. Hyper->Nonhypo text'],
-                old=first_nonhypo,
+                old=main_nonhypo,
                 new=nonhypo_word,
             ),
             label=row['Answer.4bl. Hyper->Nonhypo label'],
             metadata={
-                'section': 'dataset3 hyper->nonhypo freestyle substitution'
+                'section': 'dataset3 hyper->nonhypo freestyle substitution',
+                'pword': main_hyper,
+                'hword': nonhypo_word,
+                'ptype': 'hyper',
+                'htype': 'nonhypo',
             },
         )
 
     # 5a
     for hypo_word in hypos:
         yield Sample(
-            premise=premise5,
-            hypothesis=safe_replace(
-                row['Answer.5a. Hypo->Hyper text'],
-                old=main_hyper,
-                new=hypo_word,
-            ),
+            premise=safe_replace(premise5, old=main_hypo, new=hypo_word),
+            hypothesis=row['Answer.5a. Hypo->Hyper text'],
             label=row['Answer.5al. Hypo->Hyper label'],
             metadata={
-                'section': 'dataset3 hypo->hyper freestyle substitution'
+                'section': 'dataset3 hypo->hyper freestyle substitution',
+                'pword': hypo_word,
+                'hword': main_hyper,
+                'ptype': 'hypo',
+                'htype': 'hyper',
             },
         )
 
     # 5b
     for nonhypo_word in non_hypos[1:]:
-        yield Sample(
-            premise=premise5,
-            hypothesis=safe_replace(
-                row['Answer.5b. Hypo->Nonhypo text'],
-                old=first_nonhypo,
-                new=nonhypo_word,
-            ),
-            label=row['Answer.5bl. Hypo->Nonhypo label'],
-            metadata={
-                'section': 'dataset3 hypo->nonhypo freestyle substitution'
-            },
-        )
+        for hypo_word in hypos:
+            yield Sample(
+                premise=safe_replace(premise5, old=main_hypo, new=hypo_word),
+                hypothesis=safe_replace(
+                    row['Answer.5b. Hypo->Nonhypo text'],
+                    old=main_nonhypo,
+                    new=nonhypo_word,
+                ),
+                label=row['Answer.5bl. Hypo->Nonhypo label'],
+                metadata={
+                    'section': 'dataset3 hypo->nonhypo freestyle substitution',
+                    'pword': hypo_word,
+                    'hword': nonhypo_word,
+                    'ptype': 'hypo',
+                    'htype': 'nonhypo',
+                },
+            )
 
 
 PARSERS = [
@@ -246,7 +333,7 @@ def parse_row(premise, row):
             continue
         except Exception as e:
             print(repr(e), premise, row)
-            raise
+            # raise
 
 
 def add_metadata(sample: Sample, row, row_id):
@@ -280,9 +367,17 @@ def build_dataset(input_file, output_file):
     unique_samples_labels = Counter(
         (s.premise, s.hypothesis, s.label) for s in all_samples
     )
-    assert len(unique_samples) == len(
-        unique_samples_labels
-    ), 'contradicting samples'
+    if len(unique_samples) != len(unique_samples_labels):
+        print('!! WARNING - contradicting examples found!')
+
+    # seen = set()
+    # for s, h, l in unique_samples_labels:
+    #     for lbl in {'contradiction', 'neutral', 'entailment'} - {l}:
+    #         if (s, h, lbl) in unique_samples_labels and (s,h) not in seen:
+    #             seen.add((s,h))
+    #             print(s, h, lbl, l)
+
+    print(len(unique_samples), len(unique_samples_labels))
     print(f'found {len(unique_samples)}/{len(all_samples)} unique/samples')
 
     print('some duplicates:')
