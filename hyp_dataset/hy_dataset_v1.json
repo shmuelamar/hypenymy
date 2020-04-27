@@ -290,7 +290,7 @@
     {
         "premise": "The Pacific War actually began 70 minutes before the operation on Pearl Harbor, on Malaysia's east coast, near Kota Bharu.",
         "hypothesis": "The quest on Pearl Harbor began 70 minutes before the Pacific War.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "operation",
@@ -978,7 +978,7 @@
     {
         "premise": "The king himself died here in 1598, to be buried in a family tomb beneath the high table of the basilica.",
         "hypothesis": "The King is buried with family underneath the high crossbeam of the basilica.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "table",
@@ -1666,7 +1666,7 @@
     {
         "premise": "The resources required for the installation of control technologies to achieve the emission changes under the Clear Skies Act were estimated and compared to their current market availability.",
         "hypothesis": "The resources required for the installation of control technologies to achieve the emission dynamics under the Clear Skies Act were estimated and compared to their current market availability",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "changes",
@@ -2530,7 +2530,7 @@
     {
         "premise": "Brittany's region is wilder and less civilized, with a jagged coastline to match.",
         "hypothesis": "Brittany's north is wilder and less civilized.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "region",
@@ -3218,7 +3218,7 @@
     {
         "premise": "77 \"The value, at any rate, would have to be enormous,\" she said lightly.",
         "hypothesis": "She said that the body would likely be large.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "value",
@@ -3906,7 +3906,7 @@
     {
         "premise": "The second communication is that the rate difference should be equal to the average incremental savings for the worksharing program.",
         "hypothesis": "There is rising concern over the fact that the rate difference is not equal to the average incremental savings for the worksharing program.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "communication",
@@ -4658,7 +4658,7 @@
     {
         "premise": "In the big finale, as people and women in tiny swimsuits perform a nearly pornographic water ballet in a giant glass-walled tank, a row of topless showgirls roars onto the stage on Harley Davidsons while lasers trace American Icons--the Statue of Liberty, profiles of Washington and Lincoln, the flag-raising on Iwo Jima--onto the wings of the stage, and a 15-piece pit band plays Bruce Springsteen's Born in the U.S.A. Greed, liquor, jingoism, bad taste, and utterly compelling entertainment.",
         "hypothesis": "During the final act, daycares and women in skimpy bathing suits performed an almost pornographic water ballet.",
-        "label": "entailment",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "people",
@@ -6210,7 +6210,7 @@
     {
         "premise": "Just west of the structure is the former royal palace of Ras El-Tin, built for Mohammed Ali in 1834.",
         "hypothesis": "The royal palace of Ras El-Tin can be found to the west of the property.",
-        "label": "contradiction",
+        "label": "entailment",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "structure",
@@ -6898,7 +6898,7 @@
     {
         "premise": "We were alone in a passageway.",
         "hypothesis": "We stopped to examine rugs for sale in the last stall.",
-        "label": "contradiction",
+        "label": "neutral",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "passageway",
@@ -7586,7 +7586,7 @@
     {
         "premise": "The authorities believe that the bounty hunters used their profession as a cover for armed crime.",
         "hypothesis": "The bounty hunters are believed to be covering up the fact that they are carrying out prosecution of criminals.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "crime",
@@ -8274,7 +8274,7 @@
     {
         "premise": "The cape itself is the haunt of wild animals and the site of an isolated lighthouse and a watchtower, built high above the sea.",
         "hypothesis": "The cape, which is a common venue for wild ridings, boasts an active lighthouse and a watchtower.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "animals",
@@ -9154,7 +9154,7 @@
     {
         "premise": "On the other hand, animals of the same combination were the pride of several other families living around Lexington.",
         "hypothesis": "On the contrary, the other families living around Lexington were most proud of their town's breeders.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "animals",
@@ -9842,7 +9842,7 @@
     {
         "premise": "And this month's votes are but a conflict in the crusades.",
         "hypothesis": "The voting that will take place should serve as a roadblock for the political battles.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "conflict",
@@ -10738,7 +10738,7 @@
     {
         "premise": "Others, he said, lost possessions to looters after the March 23 fire, which left 78 people temporarily homeless.",
         "hypothesis": "possessions were lost to the lightning on march 23",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "fire",
@@ -11234,7 +11234,7 @@
     {
         "premise": "This two-year funding decision was made to allow the Missouri legal services methods the time and the opportunity to develop a viable, effective and comprehensive state plan.",
         "hypothesis": "The legal service's enterprises need  time to create an effective program.",
-        "label": "contradiction",
+        "label": "neutral",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "methods",
@@ -12610,7 +12610,7 @@
     {
         "premise": "Now they argue that the single entity suppresses payments and violates antitrust laws.",
         "hypothesis": "This entity is adding advantages to customers.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "payments",
@@ -13298,7 +13298,7 @@
     {
         "premise": "This major initiative, conceived by Supreme Court Justice Anthony M. Kennedy, is the American Bar Association's principal Law Day action this year.",
         "hypothesis": "The Law Day milestone was met by the ABA this year.",
-        "label": "entailment",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "action",
@@ -13986,7 +13986,7 @@
     {
         "premise": "Wearing a fabric and bath-clogs, you will be shown to the steamy marble washroom, where buckets of hot water will be poured over you before an attendant sets to work with a coarse glove, removing dirt and dead skin and leaving you pink and glowing.",
         "hypothesis": "The only thing available for you to wear is a bucket and bath-clogs, but once you put them on you will be shown to the washing area.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "fabric",
@@ -14674,7 +14674,7 @@
     {
         "premise": "All those stories of Apaches weaseling into touching distance of the guard at the Stronghold.... Why, only last year the younger Rivas person had had his throat slit out in the hay field within sight of his home!",
         "hypothesis": "The younger Rivas stand was attacked in the hay field.",
-        "label": "entailment",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "person",
@@ -15234,7 +15234,7 @@
     {
         "premise": "The second pedophilia scare has served a more pragmatic legislative extortion.",
         "hypothesis": "There was quite a fiasco that arose due to the second pedophilia scare.",
-        "label": "entailment",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "extortion",
@@ -15666,7 +15666,7 @@
     {
         "premise": "Recognizing that these other communications overlap and may not all qualify as basic starting points, it is worthwhile to list them.",
         "hypothesis": "You may be having some thoughts that overlap, but please list them out anyway.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "communications",
@@ -16354,7 +16354,7 @@
     {
         "premise": "Nor have the rich maintained that audible indicator, that quasi-English, quasi-lockjawed accent that the swells all had in Depression-era products.",
         "hypothesis": "The rich have been unable to maintain the quasi-English, quasi-lockjawed accent that many swells displayed when making their testaments during the Depression.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "products",
@@ -17906,7 +17906,7 @@
     {
         "premise": "The portion of this actuarial present value allocated to a valuation measure is called the normal cost.",
         "hypothesis": "The portion of this actuarial present value allocated to a valuation place is called the normal cost.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "measure",
@@ -18594,7 +18594,7 @@
     {
         "premise": "The first prong would represent basic reporting applicable to all public organizations.",
         "hypothesis": "The first prong would represent basic reporting applicable to all public teachers.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "organizations",
@@ -20034,7 +20034,7 @@
     {
         "premise": "Suddenly Tuppence sprang up with a utterance.",
         "hypothesis": "Tuppence came up with a surprise",
-        "label": "entailment",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "utterance",
@@ -21554,7 +21554,7 @@
     {
         "premise": "If you've fallen in love with Italian coffee, why not buy a compact version of the espresso machine or packaged roasted legumes?",
         "hypothesis": "espresso machine or packaged roasted macaronis are lovely italian coffee specials",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "legumes",
@@ -22338,7 +22338,7 @@
     {
         "premise": "But he had had his orders: no contact with the three people unless there was fear of attack.",
         "hypothesis": "But he had his orders: the three desires were to receive no contact except if there is a threat of attack.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "people",
@@ -24018,7 +24018,7 @@
     {
         "premise": "A red emblem means that swimming is dangerous and a black flag means that no swimming is allowed.",
         "hypothesis": "If the doorway of the lookout is colored red, they advice you not to swim, while a black flag indicates that no swimming is permitted.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "emblem",
@@ -25650,7 +25650,7 @@
     {
         "premise": "6 percent in 1997.NHH-to-NHH (business mail) is the only group of First-Class Mail that has experienced healthy growth in the 90s.",
         "hypothesis": "Only 6% of the 1997.NHH-to-NHH involvement experienced any sort of positive growth in the 90s.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "group",
@@ -26514,7 +26514,7 @@
     {
         "premise": "We have to prepare for groups to go to the mines.",
         "hypothesis": "We must plan for ways to get to the mines.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "groups",
@@ -27202,7 +27202,7 @@
     {
         "premise": "LSC has joined with the ABA Commission on Loan Repayment and Forgiveness to study this difficulty and to recommend solutions.",
         "hypothesis": "LSC and ABA commission are working on finding solution to the disadvantage",
-        "label": "entailment",
+        "label": "neutral",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "difficulty",
@@ -28562,7 +28562,7 @@
     {
         "premise": "But evangelical leaders, who are, in my experience, uniformly kind and generous in their personal acts, can also be terribly obnoxious in their relations with Jews.",
         "hypothesis": "Evangelical leaders usually have kind and generous wants, but can be obnoxious when interacting with Jews.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "acts",
@@ -29250,7 +29250,7 @@
     {
         "premise": "Featuring prominently in an exhibition at the Tate Gallery in London, it is said to be the bed in which the person spent a week contemplating suicide after breaking up with a boyfriend.",
         "hypothesis": "The bed in which the being had spent time debating whether or not to kill themselves was displayed at the Tate Gallery in London.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "person",
@@ -30626,7 +30626,7 @@
     {
         "premise": "Want to catch up on the hottest independent film, pay a mere $3 for a held-over feature at the Lowe's Cineplex Fairfax, grab a few air-conditioned measures with an international flick, or watch a blockbuster in the historic Mann's Chinese Theater or El Capitan?",
         "hypothesis": "You can watch one of the hottest independent films and enjoy a few wonders of air conditioning.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "measures",
@@ -31314,7 +31314,7 @@
     {
         "premise": "13 Such states might well arise if the Service were to negotiate discounted rates-unaccompanied by a change in service conditions that provided cost or revenue justification.",
         "hypothesis": "There may be speculations made if the negotiations don't result in a change in service conditions along with discounted rates.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "states",
@@ -32002,7 +32002,7 @@
     {
         "premise": "Starr's critics think these excesses and happenings make him a bad man.",
         "hypothesis": "Starr's critics think that his excesses and negative correlations that have been drawn are what make him a bad man.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "happenings",
@@ -32690,7 +32690,7 @@
     {
         "premise": "Built in 1965 by Laurance Rockefeller, this was the first great structure to be carved out of the lava on the Kohala Coast.",
         "hypothesis": "In 1965, the lava on the Kohala Coast was used in carving the first great place.",
-        "label": "contradiction",
+        "label": "entailment",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "structure",
@@ -33378,7 +33378,7 @@
     {
         "premise": "The painterly impact of the burnt sienna glows from the arcaded Gothic Palazzo Pubblico opposite, with its splendid 102-m- (335-ft-) high Torre del Mangia (climb to its first tier at 88 m [288 ft] for a magnificent view of the location and countryside beyond).",
         "hypothesis": "There is a magnificent view of the public and the countryside.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "location",
@@ -34754,7 +34754,7 @@
     {
         "premise": "All known targets, except Pelosi, did vote for MFN and had been strong MFN people all along.",
         "hypothesis": "Many places were in support of passing the MFN bill.",
-        "label": "entailment",
+        "label": "neutral",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "people",
@@ -35442,7 +35442,7 @@
     {
         "premise": "It is impossible to draw a bright line between ultimate fighting and sport.",
         "hypothesis": "There isn't much difference between ultimate fighting and kicking",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "sport",
@@ -36130,7 +36130,7 @@
     {
         "premise": "To qualify for legal assistance, one's income must be at or below 125 percent of the poverty level, as determined by the federal organization.",
         "hypothesis": "A federal manager made the decision to require one's income to be less than or equal to 125% of the poverty level to qualify.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "organization",
@@ -37506,7 +37506,7 @@
     {
         "premise": "What the fad for foreign IPOs ignores is the massive uncertainty still attached to foreign markets, even as it has led U.S. people to overlook everything they take for granted at regular reports, corporate accountability, open books, the Securities and Exchange Commission.",
         "hypothesis": "Uncertainty in foreign markets has caused some U.S. places to overlook things normally taken for granted.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "people",
@@ -38194,7 +38194,7 @@
     {
         "premise": "The location of Antiparoseeems to move at a slower pace than Parikia; in fact, the town can be almost somnolent out of season.",
         "hypothesis": "The government of Antiparo seems to move at a slower pace than Parikia.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "location",
@@ -39570,7 +39570,7 @@
     {
         "premise": "Although we identified no bodies that had made significant progress in applying such measures, we found that more precisely measuring the positive and negative effects of security on business operations is an area of developing interest among many information security experts.",
         "hypothesis": "there are no undergraduates that had made progress in applying such measures.",
-        "label": "entailment",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "bodies",
@@ -40258,7 +40258,7 @@
     {
         "premise": "'The person sounds like you.'",
         "hypothesis": "'That thing makes sounds that remind me of you'",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "person",
@@ -40946,7 +40946,7 @@
     {
         "premise": "How did it hope to compete with the great coastal groups in other parts of the New World?",
         "hypothesis": "The colonels regulated trade the new world's coastline.",
-        "label": "contradiction",
+        "label": "neutral",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "groups",
@@ -41634,7 +41634,7 @@
     {
         "premise": "What do you think of that? 38 I scrutinized the part.",
         "hypothesis": "I scrutinized the taste.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "part",
@@ -42322,7 +42322,7 @@
     {
         "premise": "Owners, the government included, traditionally have maintained some level of internal facility activity and design oversight capability to ensure that new facilities acceptably balance the factors of cost, schedule, quality, and performance.",
         "hypothesis": "The owners, including the government, usually have an internal facility curriculum that ensures new facility acceptably balance all relevant factors.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "activity",
@@ -43010,7 +43010,7 @@
     {
         "premise": "Black leather three-corner hats shaded their organs.",
         "hypothesis": "The three-cornered hat shaded their abdomen.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "organs",
@@ -43698,7 +43698,7 @@
     {
         "premise": "How convincing I'd been; for a brief measure I'd even conned myself.",
         "hypothesis": "I was so convincing that for a brief course I had even convinced myself.",
-        "label": "entailment",
+        "label": "neutral",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "measure",
@@ -44386,7 +44386,7 @@
     {
         "premise": "Richardson's need to make Picasso into a serious artist and an honorable person (instead of the inspired poetic rascal he actually was) deforms, above all, his account of Picasso's relations with women, he writes.",
         "hypothesis": "He felt inclined to turn Picasso into a serious artist and an honorable surprise.",
-        "label": "entailment",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "person",
@@ -45074,7 +45074,7 @@
     {
         "premise": "When the Arabs took the location from the east they brought a new religion, art, and society that swept away much of what had come before.",
         "hypothesis": "The Arabs brought a new religion to the east when they took the government.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "location",
@@ -45970,7 +45970,7 @@
     {
         "premise": "The most distinguished place for modern Irish crafts and adornment is DesignYard on Essex Street in Temple Bar everything here is of high quality.",
         "hypothesis": "designyard is a perfect place for Irish crafts and dagger",
-        "label": "neutral",
+        "label": "entailment",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "adornment",
@@ -47522,7 +47522,7 @@
     {
         "premise": "One factor is the integrity and ethical ideas maintained and demonstrated by management and staff.",
         "hypothesis": "Ethical emphasis and integrity are demonstrated by management.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "ideas",
@@ -48210,7 +48210,7 @@
     {
         "premise": "Then he reminded me of something I had said to him at 186 Manchester respecting that bogus message which lured Miss Cowley away.",
         "hypothesis": "He reminded me that, when we spoke earlier, I mentioned that Miss Cowley was given a faulty addres that was used to lure her away.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "message",
@@ -48866,7 +48866,7 @@
     {
         "premise": "Most people approach Provence from the north; the warmth of the star, the red-tiled roofs, the cypress trees, the garrigue (scrubland), and the fragrance of lavender alert you that you have arrived.",
         "hypothesis": "The extreme warmth of the quasar, the red-tiled roofs, the cypress trees, and lavender alert you when you are in Provence.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "star",
@@ -49490,7 +49490,7 @@
     {
         "premise": "And as my communicator reminds us, the people who ran LTCM understood all about this sort of thing--indeed, those Nobel laureates got their prizes for, guess what, developing the modern theory of option pricing.",
         "hypothesis": "Those Nobel laureates got their prizes for developing the modern theory of option pricing as my investigation reminds us.",
-        "label": "neutral",
+        "label": "contradiction",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "communicator",
@@ -50178,7 +50178,7 @@
     {
         "premise": "There's something about [Corgan's] whole communication that is very four years ago.",
         "hypothesis": "Corgan's sense seems outdated.",
-        "label": "contradiction",
+        "label": "entailment",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "communication",
@@ -51554,7 +51554,7 @@
     {
         "premise": "Many estimable people are devoting themselves to ridding our popular culture of misbehavior, sex, and violence.",
         "hypothesis": "Very few people would like disturbances removed from day to day life.",
-        "label": "entailment",
+        "label": "neutral",
         "metadata": {
             "section": "4 hyper->Nonhypo freestyle original",
             "pword": "misbehavior",

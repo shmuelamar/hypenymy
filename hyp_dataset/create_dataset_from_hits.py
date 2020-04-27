@@ -167,7 +167,7 @@ def parse_ans4_hyper_hypo_freestyle(_, row):
     yield Sample(
         premise=premise,
         hypothesis=hypothesis2,
-        label=row['Answer.4al. Hyper->Hypo label'],
+        label=row['Answer.5bl. Hypo->Nonhypo label'],
         metadata={
             'section': '4 hyper->Nonhypo freestyle original',
             'pword': main_hyper,
