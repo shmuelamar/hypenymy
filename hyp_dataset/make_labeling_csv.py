@@ -53,9 +53,6 @@ def main(input_file, output_file):
                     }
                 )
 
-            # write empty line
-            writer.writerow({f: None for f in fields})
-
 
 def make_bold(s, word):
     new_sent = re.sub(fr'\b{re.escape(word)}', f'**{word}**', s, 1)
