@@ -51,16 +51,16 @@ def parse_ans2_hyper_hypos(premise, row):
     # take premise sentence, replace it with the hyper word
     hyper_sentence = safe_replace(premise, main_hypo, main_hyper)
 
-    # hypo -> hyper
-    labels_hypo2hyper = str2list(row['Answer.2b-1. Label list Hypo->Hyper'])
-    assert len(labels_hypo2hyper) == len(hypos)
-    for hypo, label in zip(hypos, labels_hypo2hyper):
+    # hyper -> hypo
+    label_hyper2hypo = str2list(row['Answer.2b-2. Label list Hyper->Hypo'])
+    assert len(label_hyper2hypo) == len(hypos)
+    for hypo, label in zip(hypos, label_hyper2hypo):
         yield Sample(
             premise=hyper_sentence,
             hypothesis=safe_replace(premise, old=main_hypo, new=hypo),
             label=label,
             metadata={
-                'section': '2 hypo->hyper',
+                'section': '2 hyper->hypo',
                 'pword': main_hyper,
                 'hword': hypo,
                 'ptype': 'hyper',
@@ -68,17 +68,17 @@ def parse_ans2_hyper_hypos(premise, row):
             },
         )
 
-    # hyper -> hypo
-    label_hyper2hypo = str2list(row['Answer.2b-2. Label list Hyper->Hypo'])
-    assert len(label_hyper2hypo) == len(hypos)
-    for word, label in zip(hypos, label_hyper2hypo):
+    # hypo -> hyper
+    labels_hypo2hyper = str2list(row['Answer.2b-1. Label list Hypo->Hyper'])
+    assert len(labels_hypo2hyper) == len(hypos)
+    for hypo, label in zip(hypos, labels_hypo2hyper):
         yield Sample(
-            premise=safe_replace(premise, old=main_hypo, new=word),
+            premise=safe_replace(premise, old=main_hypo, new=hypo),
             hypothesis=hyper_sentence,
             label=label,
             metadata={
-                'section': '2 hyper->hypo',
-                'pword': word,
+                'section': '2 hypo->hyper',
+                'pword': hypo,
                 'hword': main_hyper,
                 'ptype': 'hypo',
                 'htype': 'hyper',
