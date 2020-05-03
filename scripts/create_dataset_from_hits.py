@@ -3,6 +3,7 @@ import json
 import re
 from collections import namedtuple, Counter
 
+import cbox
 import pandas as pd
 
 
@@ -416,13 +417,10 @@ def str2list(s):
     return s.split(',')
 
 
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument('-i', '--input-csv')
-    parser.add_argument('-o', '--output-dataset')
-    args = parser.parse_args()
-    build_dataset(args.input_csv, args.output_dataset)
+@cbox.cmd
+def main(input_csv, output_dataset):
+    build_dataset(input_csv, output_dataset)
 
 
 if __name__ == '__main__':
-    main()
+    cbox.main(main)
