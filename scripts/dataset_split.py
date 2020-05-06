@@ -6,6 +6,8 @@ import cbox
 import pandas as pd
 import os
 
+from nlp_utils import find_hyper_hypo_pairs
+
 EXCLUDED_WORKERS = frozenset({'A2BK45LZGGWPLX', 'A3V916K8KYOTPS'})
 METADATA_FIELDS = (
     'row_id',
@@ -35,6 +37,7 @@ def load_raw_data(input_file):
         .groupby(['premise', 'hypothesis'])
         .nunique()
     )
+
     dups_and_multi_label = set(dups_df[dups_df['label'] > 1].index.tolist())
 
     # same premise hypothesis pair tagged twice with different labels
@@ -42,13 +45,26 @@ def load_raw_data(input_file):
         lambda x: (x.premise, x.hypothesis) in dups_and_multi_label, axis=1
     )
 
+    df['has_multiple_hyper_hypo_pairs'] = df.apply(
+        lambda x: len(find_hyper_hypo_pairs(x.premise, x.hypothesis)) > 1,
+        axis=1,
+    )
+    multi_hyper_hypo_cnt = len(df[df['has_multiple_hyper_hypo_pairs']])
+
+    df = df[~df['has_multiple_hyper_hypo_pairs']]
     df = df[~df['has_multiple_labels']]
     df = df.drop_duplicates(['premise', 'hypothesis'])
 
     print(
-        f'dedup: found {original_len}/{len(df)} unique/total samples on '
-        f'{input_file}. filtered {len(dups_and_multi_label)} samples with '
-        f'conflicting labels for same pair'
+        f'dedup: found {len(df)}/{original_len} final/total samples on '
+        f'{input_file}.'
+    )
+    print(
+        f'filtered {len(dups_and_multi_label)} samples with '
+        f'conflicting labels for same pair.'
+    )
+    print(
+        f'filtered {multi_hyper_hypo_cnt} samples with multiple hyper hypo pairs'
     )
     return df
 

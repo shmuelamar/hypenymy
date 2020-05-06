@@ -16,5 +16,5 @@ this command will:
 
 
 ```bash
-$ python scripts/dataset_split.py --input-file ./dataset/hy_dataset_v1.json --output-dir dataset/
+$ PYTHONPATH=".:$PYTHONPATH" python scripts/dataset_split.py --input-file ./dataset/hy_dataset_v1.json --output-dir dataset/
 ```

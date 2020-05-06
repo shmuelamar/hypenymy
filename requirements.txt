@@ -1,2 +1,5 @@
 cbox
 pandas
+inflect
+spacy
+nltk
