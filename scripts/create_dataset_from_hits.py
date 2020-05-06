@@ -149,7 +149,7 @@ def parse_ans4_hyper_hypo_freestyle(_, row):
     assert get_word_position(premise, main_hyper)
     assert get_word_position(hypothesis1, main_hypo)
     assert get_word_position(hypothesis2, main_nonhypo)
-    validate_cell(premise)    
+    validate_cell(premise)
 
     # hyper -> hypo
     yield Sample(
