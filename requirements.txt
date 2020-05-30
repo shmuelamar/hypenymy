@@ -1,2 +1,4 @@
 cbox
 pandas
+SPARQLWrapper
+requests
