@@ -119,6 +119,11 @@
     #all-answers {
         display: none;
     }
+
+    .highlight-mnli-word {
+        font-weight: bold;
+        background-color: yellow;
+    }
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -389,11 +394,8 @@
 
 
         <form id="main-form" action="/action_page.php">
-            <input id="all-my_answers" name="my_answers" type="hidden"
-                   value=""/>
 
-            <div class="panel-group" id="accordion" role="tablist"
-                 aria-multiselectable="true">
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                 <!--************************************* 1. Tag Location Other-Location *****************************************************-->
                 <div class="panel panel-default">
                     <div class="panel-heading" role="tab" id="heading1">
@@ -494,7 +496,6 @@
                                 </table>
                                 <br/><br/>
                             </div>
-
                             <input type="button" value="Next" onclick="navigate('collapse1', 'collapse2', 2)" id="next-1"/>
                             <br/>
                         </div>
@@ -525,9 +526,8 @@
                             <label for="h-2_1">{{{s2_text2}}}</label>&nbsp;<br/>
                             <textarea class="form-control" cols="85"
                                       id="h-2_1" placeholder=""
-                                      maxlength="250" name="comment-2"
-                                      value="{{{s2_hypothesis5}}}"
-                                      rows="2" onblur="updateCreative()"></textarea>
+                                      maxlength="250" name="s2_creative_entailment_sentence"
+                                      rows="2" onblur="updateCreative()">{{{s2_hypothesis5}}}</textarea>
                             <br/>
                             <br/>
                         </div>
@@ -540,9 +540,8 @@
                             <label for="h-2_2">{{{s2_text3}}}</label>&nbsp;<br/>
                             <textarea class="form-control" cols="85"
                                       id="h-2_2" placeholder=""
-                                      maxlength="250" name="comment-2"
-                                      value="{{{s2_hypothesis6}}}"
-                                      rows="2" onblur="updateCreative()"></textarea>
+                                      maxlength="250" name="s2_creative_other_sentence"
+                                      rows="2" onblur="updateCreative()">{{{s2_hypothesis6}}}</textarea>
                             <br/>
                             <br/>
                         </div>
@@ -587,6 +586,9 @@
                         <br/><br/>
                     </div>
                     <br/>
+                    <input type="button" value="Back"
+                           onclick="navigate('collapse2', 'collapse1', 1)"
+                           id="back-2"/>
                     <input type="button" value="Next"
                            onclick="navigate('collapse2', 'collapse3', 3)"
                            id="next-2"/>
@@ -594,6 +596,113 @@
                     </div>
                 </div>
             </div>
+            <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading3">
+                        <h4 class="panel-title" id="pannel3_title">
+                            {{{s3_header_text}}}
+                        </h4>
+                    </div>
+                    <div id="collapse3" class="panel-collapse collapse"
+                         role="tabpanel" aria-labelledby="heading1">
+                        <div class="panel-body">
+                            <br/><br/>
+                            <div id="nli9">
+                                <span id="s3_instructions1">{{{s3_text1}}}</span>
+
+                                <!-- location -> Country -->
+                                <div class="clickable" style="font-size: medium; padding-left:2em">
+                                    (1)
+                                    <span id="nli9_premise">{{{s3_premise9}}}</span>
+                                </div>
+                                <div class="clickable" style="font-size: medium; padding-left:2em">
+                                    (2)
+                                    <span>{{{s3_hypothesis9}}}</span>
+                                </div>
+                                <br/>
+                                {{{g_tag_text}}}
+                                <table border="0" cellpadding="4" cellspacing="0" style="font-family: Verdana, Geneva, sans-serif; font-size:medium;">
+                                    <tbody>
+                                        <tr><td style="padding-left:2em"><input id="s3-nli9-radio1" name="nli9" type="radio" value="1" /> {{{g_entail_text}}}</td></tr>
+                                        <tr><td style="padding-left:2em"><input id="s3-nli9-radio2" name="nli9" type="radio" value="-1" /> {{{g_contra_text}}}</td></tr>
+                                        <tr><td style="padding-left:2em"><input id="s3-nli9-radio3" name="nli9" type="radio" value="0" /> {{{g_neutral_text}}}</td></tr>
+                                    </tbody>
+                                </table>
+                                <br/><br/>
+                            </div>
+
+                            <!-- other-location -> Country -->
+                            <div id="nli10">
+                                <div class="clickable" style="font-size: medium; padding-left:2em">
+                                    (1)
+                                    <span id="nli10_premise">{{{s3_premise10}}}</span>
+                                </div>
+                                <div class="clickable" style="font-size: medium; padding-left:2em">
+                                    (2)
+                                    <span>{{{s3_hypothesis10}}}</span>
+                                </div>
+                                <br/>
+                                {{{g_tag_text}}}
+                                <table border="0" cellpadding="4" cellspacing="0" style="font-family: Verdana, Geneva, sans-serif; font-size:medium;">
+                                    <tbody>
+                                        <tr><td style="padding-left:2em"><input id="s3-nli10-radio1" name="nli10" type="radio" value="1" /> {{{g_entail_text}}}</td></tr>
+                                        <tr><td style="padding-left:2em"><input id="s3-nli10-radio2" name="nli10" type="radio" value="-1" /> {{{g_contra_text}}}</td></tr>
+                                        <tr><td style="padding-left:2em"><input id="s3-nli10-radio3" name="nli10" type="radio" value="0" /> {{{g_neutral_text}}}</td></tr>
+                                    </tbody>
+                                </table>
+                                <br/><br/>
+                            </div>
+
+                            <!-- other-location -> Country -->
+                            <div id="nli11">
+                                <div class="clickable" style="font-size: medium; padding-left:2em">
+                                    (1)
+                                    <span id="nli11_premise">{{{s3_premise11}}}</span>
+                                </div>
+                                <div class="clickable" style="font-size: medium; padding-left:2em">
+                                    (2)
+                                    <span>{{{s3_hypothesis11}}}</span>
+                                </div>
+                                <br/>
+                                {{{g_tag_text}}}
+                                <table border="0" cellpadding="4" cellspacing="0" style="font-family: Verdana, Geneva, sans-serif; font-size:medium;">
+                                    <tbody>
+                                        <tr><td style="padding-left:2em"><input id="s3-nli11-radio1" name="nli11" type="radio" value="1" /> {{{g_entail_text}}}</td></tr>
+                                        <tr><td style="padding-left:2em"><input id="s3-nli11-radio2" name="nli11" type="radio" value="-1" /> {{{g_contra_text}}}</td></tr>
+                                        <tr><td style="padding-left:2em"><input id="s3-nli11-radio3" name="nli11" type="radio" value="0" /> {{{g_neutral_text}}}</td></tr>
+                                    </tbody>
+                                </table>
+                                <br/><br/>
+                            </div>
+
+                            <!-- other-location -> Country -->
+                            <div id="nli12">
+                                <div class="clickable" style="font-size: medium; padding-left:2em">
+                                    (1)
+                                    <span id="nli12_premise">{{{s3_premise12}}}</span>
+                                </div>
+                                <div class="clickable" style="font-size: medium; padding-left:2em">
+                                    (2)
+                                    <span>{{{s3_hypothesis12}}}</span>
+                                </div>
+                                <br/>
+                                {{{g_tag_text}}}
+                                <table border="0" cellpadding="4" cellspacing="0" style="font-family: Verdana, Geneva, sans-serif; font-size:medium;">
+                                    <tbody>
+                                        <tr><td style="padding-left:2em"><input id="s3-nli12-radio1" name="nli12" type="radio" value="1" /> {{{g_entail_text}}}</td></tr>
+                                        <tr><td style="padding-left:2em"><input id="s3-nli12-radio2" name="nli12" type="radio" value="-1" /> {{{g_contra_text}}}</td></tr>
+                                        <tr><td style="padding-left:2em"><input id="s3-nli12-radio3" name="nli12" type="radio" value="0" /> {{{g_neutral_text}}}</td></tr>
+                                    </tbody>
+                                </table>
+                                <br/><br/>
+                            </div>
+                            <input type="button" value="Back" onclick="navigate('collapse3', 'collapse2', 2)" id="back-3"/>
+                            <input type="button" value="Submit HIT" onclick="submitHITForm()" id="submit-button"/>
+                            <br/>
+                        </div>
+                        <br/>
+
+                    </div>
+                </div>
             <br/>
         </form>
     </div>
@@ -607,11 +716,13 @@
     let COUNTRY = "France";
     let LOCATION = "Paris";
     let OTHER_LOCATION = "London";
+    let SENTENCE = "Canal tours expose the grandest face of {{{location}}}.";
+    let SECTION2_LABEL = "Neutral";  // Neutral or Contradiction
 
-    let COUNTRY_SENTENCE = "Canal tours expose the grandest face of <mark>France</mark>.";
-    let LOCATION_SENTENCE = "Canal tours expose the grandest face of <mark>Paris</mark>.";
-    let OTHER_LOCATION_SENTENCE = "Canal tours expose the grandest face of <mark>London</mark>.";
-    let SECTION2_LABEL = "Neutral";  // Neutral / Contradiction
+    // the main 3 sentences
+    let COUNTRY_SENTENCE = renderSentence(SENTENCE, COUNTRY);
+    let LOCATION_SENTENCE = renderSentence(SENTENCE, LOCATION);
+    let OTHER_LOCATION_SENTENCE = renderSentence(SENTENCE, OTHER_LOCATION);
 
     // constant texts and values to render inside the page
     let VALUES = {
@@ -638,7 +749,7 @@
         // ***** section2 *****
         s2_header_text: "2. Write Two Sentences",
 
-        // 5. location -> country (creative) - entailment
+        // 5. location -> country (creative1) - entailment
         s2_text2: "Write a true sentence using the word <mark>" + COUNTRY + "</mark>",
         s2_premise5: LOCATION_SENTENCE,
         s2_hypothesis5: "",  // placeholder
@@ -648,13 +759,33 @@
         s2_premise6: LOCATION_SENTENCE,
         s2_hypothesis6: "",  // placeholder
 
-        // 7. other-location -> country (creative)
+        // 7. other-location -> country (creative1)
         s2_premise7: OTHER_LOCATION_SENTENCE,
         s2_hypothesis7: "",  // placeholder
 
         // 8. other-location -> country (creative2)
         s2_premise8: OTHER_LOCATION_SENTENCE,
         s2_hypothesis8: "",  // placeholder
+
+        // ***** section3 *****
+        s3_header_text: "1. Label Hypothesis",
+        s3_text1: "Read the two sentences below:",
+
+        // 9. country (creative1) -> location
+        s3_premise9: "",  // placeholder (creative1)
+        s3_hypothesis9: LOCATION_SENTENCE,
+
+        // 10. country (creative2) -> location
+        s3_premise10: "",  // placeholder (creative2)
+        s3_hypothesis10: LOCATION_SENTENCE,
+
+        // 11. country (creative1) -> other-location
+        s3_premise11: "",  // placeholder (creative1)
+        s3_hypothesis11: OTHER_LOCATION_SENTENCE,
+
+        // 12. country (creative2) -> other-location
+        s3_premise12: "",  // placeholder (creative1)
+        s3_hypothesis12: OTHER_LOCATION_SENTENCE,
 
         //globals
         g_tag_text: "Which of the following is correct?",
@@ -668,6 +799,10 @@
         document.getElementById(elementId).style.display = current === 'none' ? 'block' : 'none';
     }
 
+    function renderSentence(sent, location) {
+        return Mustache.render(sent, {location: '<span class="highlight-mnli-word">'+location+"</span>"});
+    }
+
     function navigate(collapse, open, section) {
         SECTION = section;
         render(open);
@@ -678,19 +813,51 @@
     function updateCreative() {
         const sentCreative1 = document.getElementById("h-2_1").value;
         const sentCreative2 = document.getElementById("h-2_2").value;
+
         VALUES.s2_hypothesis5 = sentCreative1;
         VALUES.s2_hypothesis7 = sentCreative1;
+        VALUES.s3_premise9 = sentCreative1;
+        VALUES.s3_premise11 = sentCreative1;
+
         VALUES.s2_hypothesis6 = sentCreative2;
         VALUES.s2_hypothesis8 = sentCreative2;
+        VALUES.s3_premise10 = sentCreative2;
+        VALUES.s3_premise12 = sentCreative2;
 
-        document.getElementById('s2_hypothesis7').innerText = sentCreative1;
-        document.getElementById('s2_hypothesis8').innerText = sentCreative2;
+        const s1Highlight = highlight(sentCreative1, COUNTRY);
+        const s2Highlight = highlight(sentCreative2, COUNTRY);
+        document.getElementById('s2_hypothesis7').innerHTML = s1Highlight;
+        document.getElementById('nli9_premise').innerHTML = s1Highlight;
+        document.getElementById('nli11_premise').innerHTML = s1Highlight;
+
+        document.getElementById('s2_hypothesis8').innerHTML = s2Highlight;
+        document.getElementById('nli10_premise').innerHTML = s2Highlight;
+        document.getElementById('nli12_premise').innerHTML = s2Highlight;
+    }
+
+    function highlight(text, word) {
+        reg = new RegExp("\\b" + word + "\\b");
+
+        if (text.match(reg)) {index = text.match(reg).index} else {index = -1}
+
+        if (index >= 0) {
+            return text.substring(0, index) + '<span class="highlight-mnli-word">' + text.substring(index, index + word.length) + "</span>" + text.substring(index + word.length);
+        }
+
+        console.log("the word " + word + " was not found on: " + text);
+        return text;
     }
 
     function render(elem) {
         console.log("rendering");
         let template = document.getElementById(elem).innerHTML;
         document.getElementById(elem).innerHTML = Mustache.render(template, VALUES);
+    }
+
+    function submitHITForm() {
+        // FIXME: validation before submit
+        const form = document.querySelector("form");
+        form.submit();
     }
 
     window.onload = function () {
@@ -703,6 +870,7 @@
     };
 
     if (!localStorage.getItem("seen-instructions")) {
+        console.log("first time - showing instructions");
         localStorage.setItem("seen-instructions", "True");
         toggle('inst-collapse1');
         toggle('inst-collapse2');
@@ -710,11 +878,7 @@
 
     // FIXME: validation on next
     // FIXME: validate not location and country in creative text
-    // FIXME: add onload and seen-instructions
-    // FIXME: back button
     // FIXME: section2b (3)
-    // FIXME: highlight text function on input sentences
-    // FIXME: single sentence as input and format it
     // FIXME: answers consistent names
     // FIXME: submit
 
