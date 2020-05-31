@@ -496,7 +496,7 @@
                                 </table>
                                 <br/><br/>
                             </div>
-                            <input type="button" value="Next" onclick="navigate('collapse1', 'collapse2', 2)" id="next-1"/>
+                            <input type="button" value="Next" onclick="navigate('collapse1', 'collapse2', 1)" id="next-1"/>
                             <br/>
                         </div>
                         <br/>
@@ -521,13 +521,22 @@
                             <br/><br/>
                             <span style="padding-left: 1em; ">Assuming this sentence is true:</span>
                             <br/>
-                            <span style="font-style: italic; padding-left: 2em; ">{{{s2_premise5}}}</span>
+                            <span style="font-style: italic; padding-left: 2em; ">(1) {{{s2_premise5}}}</span>
                             <br/><br/>
                             <label for="h-2_1">{{{s2_text2}}}</label>&nbsp;<br/>
-                            <textarea class="form-control" cols="85"
-                                      id="h-2_1" placeholder=""
+                            <p style="float: left; padding-left: 2em; ">(2) </p><textarea class="form-control" cols="85"
+                                      id="h-2_1" placeholder=""  style="width:60%"
                                       maxlength="250" name="s2_creative_entailment_sentence"
                                       rows="2" onblur="updateCreative()">{{{s2_hypothesis5}}}</textarea>
+                            <br/>
+                            {{{g_tag_text}}}
+                            <table border="0" cellpadding="4" cellspacing="0" style="font-family: Verdana, Geneva, sans-serif; font-size:medium;">
+                                <tbody>
+                                    <tr><td style="padding-left:2em"><input id="s2-nli5-radio1" name="nli5" type="radio" value="1" /> {{{g_entail_text}}}</td></tr>
+                                    <tr><td style="padding-left:2em"><input id="s2-nli5-radio2" name="nli5" type="radio" value="-1" /> {{{g_contra_text}}}</td></tr>
+                                    <tr><td style="padding-left:2em"><input id="s2-nli5-radio3" name="nli5" type="radio" value="0" /> {{{g_neutral_text}}}</td></tr>
+                                </tbody>
+                            </table>
                             <br/>
                             <br/>
                         </div>
@@ -535,18 +544,46 @@
                             <!---- Original Sentence ---->
                             <span style="padding-left: 1em; ">Assuming this sentence is true:</span>
                             <br/>
-                            <span style="font-style: italic; padding-left: 2em; ">{{{s2_premise6}}}</span>
+                            <span style="font-style: italic; padding-left: 2em; ">(1) {{{s2_premise6}}}</span>
                             <br/><br/>
                             <label for="h-2_2">{{{s2_text3}}}</label>&nbsp;<br/>
-                            <textarea class="form-control" cols="85"
-                                      id="h-2_2" placeholder=""
+                            <p style="float: left; padding-left: 2em; ">(2) </p><textarea class="form-control" cols="85"
+                                      id="h-2_2" placeholder="" style="width:60%"
                                       maxlength="250" name="s2_creative_other_sentence"
                                       rows="2" onblur="updateCreative()">{{{s2_hypothesis6}}}</textarea>
                             <br/>
+                            {{{g_tag_text}}}
+                            <table border="0" cellpadding="4" cellspacing="0" style="font-family: Verdana, Geneva, sans-serif; font-size:medium;">
+                                <tbody>
+                                    <tr><td style="padding-left:2em"><input id="s2-nli6-radio1" name="nli6" type="radio" value="1" /> {{{g_entail_text}}}</td></tr>
+                                    <tr><td style="padding-left:2em"><input id="s2-nli6-radio2" name="nli6" type="radio" value="-1" /> {{{g_contra_text}}}</td></tr>
+                                    <tr><td style="padding-left:2em"><input id="s2-nli6-radio3" name="nli6" type="radio" value="0" /> {{{g_neutral_text}}}</td></tr>
+                                </tbody>
+                            </table>
+                            <br/>
                             <br/>
                         </div>
-
-                        <!-- creative other-location -> Country -->
+                    <br/>
+                    <input type="button" value="Back"
+                           onclick="navigate('collapse2', 'collapse1', 1)"
+                           id="back-2"/>
+                    <input type="button" value="Next"
+                           onclick="navigate('collapse2', 'collapse2b', 2)"
+                           id="next-2"/>
+                    <br/>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading2b">
+                    <h4 class="panel-title" id="pannel2b_title">
+                        {{{s2b_header_text}}}
+                    </h4>
+                </div>
+                <div id="collapse2b" class="panel-collapse collapse"
+                     role="tabpanel" aria-labelledby="heading2">
+                    <div class="panel-body">
+                    <!-- creative other-location -> Country -->
                     <div id="nli7">
                         <div class="clickable" style="font-size: medium; padding-left:2em">
                             (1) <span>{{{s2_premise7}}}</span>
@@ -587,11 +624,11 @@
                     </div>
                     <br/>
                     <input type="button" value="Back"
-                           onclick="navigate('collapse2', 'collapse1', 1)"
-                           id="back-2"/>
+                           onclick="navigate('collapse2b', 'collapse2', 2)"
+                           id="back-2b"/>
                     <input type="button" value="Next"
-                           onclick="navigate('collapse2', 'collapse3', 3)"
-                           id="next-2"/>
+                           onclick="navigate('collapse2b', 'collapse3', 2.5)"
+                           id="next-2b"/>
                     <br/>
                     </div>
                 </div>
@@ -709,8 +746,6 @@
 </section>
 
 <script>
-    // holds current section
-    let SECTION = 1;
 
     // input from server
     let COUNTRY = "France";
@@ -759,6 +794,9 @@
         s2_premise6: LOCATION_SENTENCE,
         s2_hypothesis6: "",  // placeholder
 
+        // ***** section2b *****
+        s2b_header_text: "2b. Label Your Sentences",
+
         // 7. other-location -> country (creative1)
         s2_premise7: OTHER_LOCATION_SENTENCE,
         s2_hypothesis7: "",  // placeholder
@@ -768,7 +806,7 @@
         s2_hypothesis8: "",  // placeholder
 
         // ***** section3 *****
-        s3_header_text: "1. Label Hypothesis",
+        s3_header_text: "3. Label Hypothesis",
         s3_text1: "Read the two sentences below:",
 
         // 9. country (creative1) -> location
@@ -804,8 +842,10 @@
     }
 
     function navigate(collapse, open, section) {
-        SECTION = section;
-        render(open);
+        if(!validateForm(section)) {
+            return;
+        }
+
         $(document.getElementById(collapse)).collapse('hide');
         $(document.getElementById(open)).collapse('show');
     }
@@ -824,15 +864,15 @@
         VALUES.s3_premise10 = sentCreative2;
         VALUES.s3_premise12 = sentCreative2;
 
-        const s1Highlight = highlight(sentCreative1, COUNTRY);
-        const s2Highlight = highlight(sentCreative2, COUNTRY);
-        document.getElementById('s2_hypothesis7').innerHTML = s1Highlight;
-        document.getElementById('nli9_premise').innerHTML = s1Highlight;
-        document.getElementById('nli11_premise').innerHTML = s1Highlight;
+        const sent1Highlight = highlight(sentCreative1, COUNTRY);
+        const sent2Highlight = highlight(sentCreative2, COUNTRY);
+        document.getElementById('s2_hypothesis7').innerHTML = sent1Highlight;
+        document.getElementById('nli9_premise').innerHTML = sent1Highlight;
+        document.getElementById('nli11_premise').innerHTML = sent1Highlight;
 
-        document.getElementById('s2_hypothesis8').innerHTML = s2Highlight;
-        document.getElementById('nli10_premise').innerHTML = s2Highlight;
-        document.getElementById('nli12_premise').innerHTML = s2Highlight;
+        document.getElementById('s2_hypothesis8').innerHTML = sent2Highlight;
+        document.getElementById('nli10_premise').innerHTML = sent2Highlight;
+        document.getElementById('nli12_premise').innerHTML = sent2Highlight;
     }
 
     function highlight(text, word) {
@@ -854,8 +894,91 @@
         document.getElementById(elem).innerHTML = Mustache.render(template, VALUES);
     }
 
+    function validateMNLIRadioChecked(nliId){
+        return $('input[name="nli' + nliId + '"]:checked').length === 1;
+    }
+
+
+    function validateForm(section) {
+        // 1. validate all labels (Entail/Contra/Neutral) checked
+        let errors_msg = [];
+
+        let checkNLI;
+
+        if (section === 1){
+            checkNLI = 4;
+        }
+        else if (section === 2){
+            checkNLI = 6;
+        }
+        else if (section === 2.5){
+            checkNLI = 8;
+        } else {
+            checkNLI = 12;
+        }
+
+        for (let i = 1; i <= checkNLI; i++) {
+            if (!validateMNLIRadioChecked(i)) {
+                errors_msg.push('please choose the correct label for sentence number ' + i);
+            }
+        }
+
+        if (section >= 2) {
+            // 2. validate labels of creative section
+            if(!document.getElementById('s2-nli5-radio1').checked) {
+                errors_msg.push('please write a true sentence for sentence number 5');
+            }
+
+            if(SECTION2_LABEL === 'Neutral') {
+                if (!document.getElementById('s2-nli6-radio3').checked) {
+                    errors_msg.push('please write a neutral sentence for sentence number 6');
+                }
+            }else{  // Contradiction
+                if (!document.getElementById('s2-nli6-radio2').checked) {
+                    errors_msg.push('please write a contradiction sentence for sentence number 6');
+                }
+            }
+
+            // 3. validate sentences of creative section contains country
+            const reg = new RegExp("\\b" + COUNTRY + "\\b");
+            const sentCreative1 = document.getElementById("h-2_1").value;
+            const sentCreative2 = document.getElementById("h-2_2").value;
+
+            if (!sentCreative1.match(reg)) {
+                errors_msg.push('please use the word "' + COUNTRY +'" on sentence number 5');
+            }
+
+            if (!sentCreative2.match(reg)) {
+                errors_msg.push('please use the word "' + COUNTRY +'" on sentence number 6');
+            }
+
+            // 4. validate sentences of creative section does not contains location or other-location
+            for (let i = 0; i < 2; i++) {
+                let word = [LOCATION, OTHER_LOCATION][i];
+                const wordReg = new RegExp("\\b" + word + "\\b");
+
+                if (sentCreative1.match(wordReg)) {
+                    errors_msg.push('please do not use the word "' + word + '" on sentence number 5');
+                }
+
+                if (sentCreative2.match(wordReg)) {
+                    errors_msg.push('please do not use the word "' + word + '" on sentence number 6');
+                }
+            }
+        }
+
+        if (errors_msg.length > 0) {
+            alert('please fix the following:\r\n' + errors_msg.join('\r\n'));
+            return false;
+        }
+        return true;
+    }
+
     function submitHITForm() {
-        // FIXME: validation before submit
+        if(!validateForm(3)) {
+            return;
+        }
+
         const form = document.querySelector("form");
         form.submit();
     }
@@ -876,10 +999,7 @@
         toggle('inst-collapse2');
     }
 
-    // FIXME: validation on next
-    // FIXME: validate not location and country in creative text
-    // FIXME: section2b (3)
-    // FIXME: answers consistent names
-    // FIXME: submit
+    // FIXME: add input to form
+    // FIXME: numbering
 
 </script>
