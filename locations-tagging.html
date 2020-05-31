@@ -1,0 +1,710 @@
+<link href="https://s3.amazonaws.com/mturk-public/bs30/css/bootstrap.css"
+      media="screen" rel="stylesheet"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style type="text/css">
+
+    #content {
+        margin-bottom: 15px;
+        padding: 10px 10px;
+        font-family: Verdana, Geneva, sans-serif;
+        color: #333333;
+        font-size: 0.9em;
+    }
+
+    .header-toggle {
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    p {
+        padding: 10px;
+        margin: 0;
+    }
+
+    p.yellow {
+        font-size: 2em;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        margin-bottom: 21px;
+    }
+
+    p.yellow span {
+        background: orange;
+        cursor: pointer;
+    }
+
+    p.yellow::selection {
+        color: black;
+        background: yellow;
+    }
+
+    p.yellow::-moz-selection { /* Code for Firefox */
+        color: black;
+        background: yellow;
+    }
+
+
+    #question-hint {
+        display: none;
+    }
+
+    .answers-select {
+        display: none;
+    }
+
+    .x-button {
+        color: red;
+        background: white;
+        border: 1px solid black;
+        border-radius: 50%;
+        margin: 0 10px;
+        cursor: pointer;
+        padding: 1px 6px;
+    }
+
+
+    .flex {
+        display: flex;
+        width: 100%;
+    }
+
+    .flex > input {
+        width: 100%;
+    }
+
+    #skip, #another-question {
+        float: right;
+    }
+
+    .panel-primary > .panel-heading {
+        color: #ffffff;
+        background-color: #ca427e;
+        border-color: #ea2279;
+    }
+
+    .panel-primary {
+        border-color: #df2d75;
+    }
+
+    .panel-info > .panel-heading {
+        color: #ffffff;
+        background-color: #7b96e4;
+        border-color: #bce8f1;
+    }
+
+    .highlight {
+        background-color: yellow;
+    }
+
+    .radio1 {
+        padding-right: 2em;
+        padding-left: 1em;
+    }
+
+
+    .panel-body {
+        font-size: medium;
+    }
+
+    .panel-title {
+        font-size: x-large;
+    }
+
+    .hypernyms1 span:hover {
+        text-decoration: underline;
+    }
+
+    #all-answers {
+        display: none;
+    }
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.0.1/mustache.min.js"></script>
+
+<H1 class="panel-heading" style="padding-left:400px">
+    <mark>This HIT does NOT work from Internet Explorer.</mark>
+</H1>
+<h4 class="panel-heading" style="padding-left:400px">
+    (If you are using Internet Explorer browser (IE) please switch to Chrome or
+    Firefox)
+</h4>
+
+<h2 class="panel-heading" style="padding-left:400px">
+    <mark><b>Important!</b> Please read Instructions and Examples before you
+        begin
+    </mark>
+</h2>
+
+<div id="Version 5-1" style="display: none"></div>
+
+<section class="container" id="content">
+    <div class="row col-xs-12 col-md-12">
+        <!--Version1-->
+        <!-- Instructions -->
+        <div class="panel panel-primary" id="instructions">
+            <div class="panel-heading header-toggle"
+                 onmousedown="toggle('inst-collapse1')">
+                Instructions (click to collapse / expand)
+            </div>
+
+            <div class="panel-body">
+                <div id="inst-collapse1" style="display:none">
+                    This HIT is about selecting word-category word pairs (we'll
+                    explain soon) and see how replacing between them in
+                    different sentences effect the relations between the
+                    sentences.
+                    We'll ask you to: choose such pairs ; say what can or
+                    cannot be inferred from given sentences; to write your own
+                    sentences using the chosen words.
+                    <br/><br/>
+                    To correctly complete this HIT, it's crucial to first
+                    understand two key concepts, as detailed below:
+                    <i>category</i> and <i>sentence-relations</i>:<br/>
+                    <br><strong><font size="4">Categories</font></strong><br/>
+                    Category is a group of words that all belong to the
+                    category. It's as simple as it sounds.
+                    <br/><br/>
+                    For example, <b>apple</b> is a <b>fruit</b> and therefore
+                    we say that the word <i>apple</i> belongs to the category
+                    <i>fruits</i>.
+                    <br/><br/>
+                    To tell if a word belongs to a category, we usually ask if
+                    the [<i>word</i>] <u>is a </u> [<i>category</i>].<br/>
+                    For example, to tell if the word <b>dog</b> belongs to the
+                    category <b>animals</b> we'll ask if a <b>dog</b> <u>is
+                    an</u> <b>animal</b>.
+
+                    Please note that if both words mean the same (synonyms),
+                    neither of them is the category of the other. So, for
+                    example, the words <i>child</i> and <i>kid</i>. Although
+                    <br/>
+                    a <i>child</i> <u>is a</u> <i>kid</i><br/>
+                    and<br/>
+                    a <i>kid</i> <u>is a</u> <i>child</i><br/>
+                    they aren't categories of each other.
+                    <br/><br/>
+                    Conclusion - if we can do the <b>'is a'</b> test for both
+                    directions, neither of the words is a category of the
+                    other.<br/><br/>
+                    Words can belong to more than one category. For example, a
+                    <i>dog</i> is both a <i>mammal</i>, an <i>animal</i>, and a
+                    <i>living creature</i>.
+                    <br/><br/>
+                    A few more examples for word-category pairs:<br/>
+                    <ul>
+                        <li><b>shirt</b> is a <b>cloth</b> (the word
+                            <b>shirt</b> belongs to the category <b>cloths</b>)
+                        </li>
+                        <li><b>city</b> is a <b>location</b></li>
+                        <li><b>banana</b> is a <b>fruit</b> and also a
+                            <b>food</b> (the word <b>banana</b> belongs to both
+                            categories: <b>fruits</b> and <b>food</b>)
+                        </li>
+                        <li><b>teacher</b> is a <b>worker</b> and also a <b>person</b>
+                        </li>
+                    </ul>
+                    <br/>
+                    It's important to note that the category depands on the <u>meaning</u>
+                    of the word within the context of the sentence. The same
+                    word may belong to different categories,
+                    depanding on the sentence it's in. <br/><br/>
+
+                    For example, the word <b>bugs</b> can belong to either of
+                    the categories <b>defects</b> or <b>insects</b>, depending
+                    on the sentence:<br/>
+                    "John couldn't use the softward because it had too many <b>bugs</b>"
+                    - Category=<b>defects</b><br/>
+                    "There are so many <b>bugs</b> near my house" -
+                    Category=<b>insects</b><br/>
+
+                    <br/><br/>
+                    <br><strong><font
+                        size="4">Sentence-Relations</font></strong><br/>
+                    (If you completed the 10-question training - you can skip
+                    this section)
+                    <br/>
+                    In this task you'll be given two sentences, and assuming
+                    the first is true, you'll have to determine if the second
+                    is: <b>True</b>, <b>False</b> or <b>Neutral</b>: <br/><br/>
+                    <b>True</b><br>
+                    Assuming sentence (1) is true, sentence (2) is also likely
+                    to be true/correct. In other words, (2) can be inferred
+                    from sentence (1).<br/>
+                    For example:<br>
+                    (1) <i>There is a brown dog outside</i><br/>
+                    (2) <i>There is an animal outside</i><br/>
+                    <u>Answer</u>: If (1) is true, (2) is also <b>True</b><br/><br/>
+
+                    ...And another example:<br>
+                    (1) <i>The National Football League semifinals are set.</i><br/>
+                    (2) <i>The dates for the semifinals have been
+                    determined.</i><br/>
+                    <u>Answer</u>: If (1) is true, (2) is also <b>True</b><br/><br/>
+
+                    <br><b>False</b><br>
+                    Assuming sentence (1) is true, sentence (2) is likely to be
+                    false/incorrect. In other words, (2) contradicts sentence
+                    (1).<br/>
+                    For example:<br>
+                    (1) <i>There is a white dog outside</i><br/>
+                    (2) <i>There is a cat outside</i><br/>
+                    <u>Answer</u>: If (1) is true, (2) is probably <b>False</b><br/><br/>
+
+                    ...And another example:<br>
+                    (1) <i>We can leave them and let them die, said
+                    Thorn.</i><br/>
+                    (2) <i>Thorn told us to make sure we save them.</i><br/>
+                    <u>Answer</u>: If (1) is true, (2) is probably <b>False</b><br/><br/>
+
+                    <br><b>Neutral</b><br>
+                    Assuming sentence (1) is true, sentence (2) might and might
+                    not be true/correct. In other words, we don't have enough
+                    information
+                    to determine if (2) can be inferred from (1) or if it
+                    contradicts it.<br/>
+                    For example:<br>
+                    (1) <i>There is an animal outside</i><br/>
+                    (2) <i>There is a dog outside</i><br/>
+                    <u>Answer</u>: There is not enough information to determine
+                    if (2) is true or not (<b>Neutral</b>)<br/><br/>
+
+                    ...And another example:<br>
+                    (1) <i>The cathedral in particular is impressive after
+                    dark.</i><br/>
+                    (2) <i>The cathedral is equally as impressive during the
+                    light of day.</i><br/>
+                    <u>Answer</u>: There is not enough information to determine
+                    if (2) is true or not (<b>Neutral</b>)<br/><br/>
+
+                    See more examples in the Examples section (below).
+                    <br/><br/>
+                    <br><strong><font size="4">HIT Process</font></strong><br/>
+                    There are 5 sections in the HIT. This is a high-level
+                    description. You'll find more detailed instructions at each
+                    section:<br/>
+                    <ol>
+                        <li>For a given sentence, you'll have to select a word
+                            and its category, and then to determine the
+                            sentence-relation between two sentences containing
+                            the selected word and category.
+                        </li>
+                        <li>From a given list of words, you'll have to select 5
+                            words that belong to the category you chose in
+                            Section 1. Then you'll have to determine the
+                            sentence-relation between the sentence from Section
+                            1 and the same sentence containing each of the new
+                            5 selected words.
+                        </li>
+                        <li>From a given list of words, you'll have to select
+                            up to 5 words that do <u>not</u> belong to the
+                            category from Section 1. Again, you'll have to tell
+                            the sentence-relation for new sentences with the
+                            new selected words, with respect to the original
+                            sentence. You'll repeat this process 3-5 times
+                            (once of each word).
+                        </li>
+                        <li>Using the category you chose at Section 1, as well
+                            as one of the words you chose at Section 2, write 2
+                            sentences in your own words, the relate to a given
+                            sentence. Select how the new sentence relates to
+                            the first(true, false or neutral).
+                        </li>
+                        <li>Like Section 4, but using one of the words from
+                            Section 3
+                        </li>
+                    </ol>
+                    <br/>
+                    <br><strong><font size="4">Early HIT Ending</font></strong><br/>
+                    In some cases you won't be able to find matching words or
+                    categories from the give list. In this case, you'll be
+                    either able to go back and change your answers, or you'll
+                    have no choice
+                    and end the HIT early. If this is the case - don't worry.
+                    We can notice that and you'll get paid for the HIT. Yet,
+                    please do whatever you can to avoide it. Thanks.
+                    <br/>
+                    <br/>
+                    <br><strong><font size="4">Bonus</font></strong><br/>
+                    A special $10 bonus will be granted for a successful finish
+                    of 20 HITs in a good quality.
+                    <br/><br/><br/>
+
+                    Please feel free to email me if you have any further
+                    questions: ohadrozen@gmail.com. Thanks!
+                </div>
+            </div>
+        </div>
+
+
+        <!--&lt;!&ndash; Examples &ndash;&gt;-->
+
+        <div class="panel panel-info" id="instructions-examples">
+            <div class="panel-heading header-toggle"
+                 onmousedown="toggle('inst-collapse2')">
+                Examples (click to collapse / expand)
+            </div>
+            <div class="panel-body" style="background: #ddd">
+                <div id="inst-collapse2" style="display:none;"><!--  -->
+                    <!--- TODO Instructions -->
+
+                    <div class="container" style="width: 100%;">
+
+                        <h2>Section 1</h2>
+                        <img src="https://nlp.biu.ac.il/~ohadr/AMT/images/Slide1.JPG"
+                             alt="example1" width="100%">
+                        <br/><br/>
+                        <h2>Section 2</h2>
+                        <img src="https://nlp.biu.ac.il/~ohadr/AMT/images/Slide2.JPG"
+                             alt="example1" width="100%">
+                        <img src="https://nlp.biu.ac.il/~ohadr/AMT/images/Slide3.JPG"
+                             alt="example1" width="100%">
+                        <br/><br/>
+                        <h2>Section 3</h2>
+                        <img src="https://nlp.biu.ac.il/~ohadr/AMT/images/Slide4.JPG"
+                             alt="example1" width="100%">
+                        <img src="https://nlp.biu.ac.il/~ohadr/AMT/images/Slide5.JPG"
+                             alt="example1" width="100%">
+                        <img src="https://nlp.biu.ac.il/~ohadr/AMT/images/Slide6.JPG"
+                             alt="example1" width="100%">
+                        <img src="https://nlp.biu.ac.il/~ohadr/AMT/images/Slide7.JPG"
+                             alt="example1" width="100%">
+                        <br/><br/>
+                        <h2>Section 4</h2>
+                        <img src="https://nlp.biu.ac.il/~ohadr/AMT/images/Slide8.JPG"
+                             alt="example1" width="100%">
+                        <br/><br/>
+                        <h2>Section 5</h2>
+                        <img src="https://nlp.biu.ac.il/~ohadr/AMT/images/Slide9.JPG"
+                             alt="example1" width="100%">
+                        <ul class="nav nav-tabs" id="examples-header"
+                            style="display: inline-block;"></ul>
+                        <div class="tab-content" id="examples-content"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <form id="main-form" action="/action_page.php">
+            <input id="all-my_answers" name="my_answers" type="hidden"
+                   value=""/>
+
+            <div class="panel-group" id="accordion" role="tablist"
+                 aria-multiselectable="true">
+                <!--************************************* 1. Tag Location Other-Location *****************************************************-->
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading1">
+                        <h4 class="panel-title" id="pannel4_title">
+                            {{{s1_header_text}}}
+                        </h4>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse"
+                         role="tabpanel" aria-labelledby="heading1">
+                        <div class="panel-body">
+                            <br/><br/>
+                            <div id="nli1">
+                                <span id="s1_instructions1">{{{s1_text1}}}</span>
+
+                                <!-- location -> Country -->
+                                <div class="clickable" style="font-size: medium; padding-left:2em">
+                                    (1)
+                                    <span>{{{s1_premise1}}}</span>
+                                </div>
+                                <div class="clickable" style="font-size: medium; padding-left:2em">
+                                    (2)
+                                    <span>{{{s1_hypothesis1}}}</span>
+                                </div>
+                                <br/>
+                                {{{g_tag_text}}}
+                                <table border="0" cellpadding="4" cellspacing="0" style="font-family: Verdana, Geneva, sans-serif; font-size:medium;">
+                                    <tbody>
+                                        <tr><td style="padding-left:2em"><input id="s1-nli1-radio1" name="nli1" onclick="label2_chosen('entailment')" type="radio" value="1" /> {{{g_entail_text}}}</td></tr>
+                                        <tr><td style="padding-left:2em"><input id="s1-nli1-radio2" name="nli1" onclick="label2_chosen('contradiction')" type="radio" value="1" /> {{{g_contra_text}}}</td></tr>
+                                        <tr><td style="padding-left:2em"><input id="s1-nli1-radio3" name="nli1" onclick="label2_chosen('neutral')" type="radio" value="1" /> {{{g_neutral_text}}}</td></tr>
+                                    </tbody>
+                                </table>
+                                <br/><br/>
+                            </div>
+
+                            <!-- other-location -> Country -->
+                            <div id="nli2">
+                                <div class="clickable" style="font-size: medium; padding-left:2em">
+                                    (1)
+                                    <span>{{{s1_premise2}}}</span>
+                                </div>
+                                <div class="clickable" style="font-size: medium; padding-left:2em">
+                                    (2)
+                                    <span>{{{s1_hypothesis2}}}</span>
+                                </div>
+                                <br/>
+                                {{{g_tag_text}}}
+                                <table border="0" cellpadding="4" cellspacing="0" style="font-family: Verdana, Geneva, sans-serif; font-size:medium;">
+                                    <tbody>
+                                        <tr><td style="padding-left:2em"><input id="s1-nli2-radio1" name="nli2" onclick="label2_chosen('entailment')" type="radio" value="1" /> {{{g_entail_text}}}</td></tr>
+                                        <tr><td style="padding-left:2em"><input id="s1-nli2-radio2" name="nli2" onclick="label2_chosen('contradiction')" type="radio" value="1" /> {{{g_contra_text}}}</td></tr>
+                                        <tr><td style="padding-left:2em"><input id="s1-nli2-radio3" name="nli2" onclick="label2_chosen('neutral')" type="radio" value="1" /> {{{g_neutral_text}}}</td></tr>
+                                    </tbody>
+                                </table>
+                                <br/><br/>
+                            </div>
+
+                            <!-- other-location -> Country -->
+                            <div id="nli3">
+                                <div class="clickable" style="font-size: medium; padding-left:2em">
+                                    (1)
+                                    <span>{{{s1_premise3}}}</span>
+                                </div>
+                                <div class="clickable" style="font-size: medium; padding-left:2em">
+                                    (2)
+                                    <span>{{{s1_hypothesis3}}}</span>
+                                </div>
+                                <br/>
+                                {{{g_tag_text}}}
+                                <table border="0" cellpadding="4" cellspacing="0" style="font-family: Verdana, Geneva, sans-serif; font-size:medium;">
+                                    <tbody>
+                                        <tr><td style="padding-left:2em"><input id="s1-nli3-radio1" name="nli3" onclick="label2_chosen('entailment')" type="radio" value="1" /> {{{g_entail_text}}}</td></tr>
+                                        <tr><td style="padding-left:2em"><input id="s1-nli3-radio2" name="nli3" onclick="label2_chosen('contradiction')" type="radio" value="1" /> {{{g_contra_text}}}</td></tr>
+                                        <tr><td style="padding-left:2em"><input id="s1-nli3-radio3" name="nli3" onclick="label2_chosen('neutral')" type="radio" value="1" /> {{{g_neutral_text}}}</td></tr>
+                                    </tbody>
+                                </table>
+                                <br/><br/>
+                            </div>
+
+                            <!-- other-location -> Country -->
+                            <div id="nli4">
+                                <div class="clickable" style="font-size: medium; padding-left:2em">
+                                    (1)
+                                    <span>{{{s1_premise4}}}</span>
+                                </div>
+                                <div class="clickable" style="font-size: medium; padding-left:2em">
+                                    (2)
+                                    <span>{{{s1_hypothesis4}}}</span>
+                                </div>
+                                <br/>
+                                {{{g_tag_text}}}
+                                <table border="0" cellpadding="4" cellspacing="0" style="font-family: Verdana, Geneva, sans-serif; font-size:medium;">
+                                    <tbody>
+                                        <tr><td style="padding-left:2em"><input id="s1-nli4-radio1" name="nli4" onclick="label2_chosen('entailment')" type="radio" value="1" /> {{{g_entail_text}}}</td></tr>
+                                        <tr><td style="padding-left:2em"><input id="s1-nli4-radio2" name="nli4" onclick="label2_chosen('contradiction')" type="radio" value="1" /> {{{g_contra_text}}}</td></tr>
+                                        <tr><td style="padding-left:2em"><input id="s1-nli4-radio3" name="nli4" onclick="label2_chosen('neutral')" type="radio" value="1" /> {{{g_neutral_text}}}</td></tr>
+                                    </tbody>
+                                </table>
+                                <br/><br/>
+                            </div>
+
+                            <input type="button" value="Next" onclick="navigate('collapse1', 'collapse2', 2)" id="next-1"/>
+                            <br/>
+                        </div>
+                        <br/>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--************************************* 2. Write Hypothesis with Location *****************************************************-->
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading2">
+                    <h4 class="panel-title" id="pannel2_title">
+                        {{{s2_header_text}}}
+                    </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse"
+                     role="tabpanel" aria-labelledby="heading2">
+                    <div class="panel-body">
+                        <div id="nli5">
+                            <span>{{{s2_text1}}}</span>
+                            <!---- Original Sentence ---->
+                            <br/><br/>
+                            <span style="padding-left: 1em; ">Assuming this sentence is true:</span>
+                            <br/>
+                            <span style="font-style: italic; padding-left: 2em; ">{{{s2_premise5}}}</span>
+                            <br/><br/>
+                            <label for="h-2_1">{{{s2_text2}}}</label>&nbsp;<br/>
+                            <textarea class="form-control" cols="85"
+                                      id="h-2_1" placeholder=""
+                                      maxlength="250" name="comment-2"
+                                      value="{{{s2_hypothesis5}}}"
+                                      rows="2" onblur="updateCreative()"></textarea>
+                            <br/>
+                            <br/>
+                        </div>
+                        <div id="nli6">
+                            <!---- Original Sentence ---->
+                            <span style="padding-left: 1em; ">Assuming this sentence is true:</span>
+                            <br/>
+                            <span style="font-style: italic; padding-left: 2em; ">{{{s2_premise6}}}</span>
+                            <br/><br/>
+                            <label for="h-2_2">{{{s2_text3}}}</label>&nbsp;<br/>
+                            <textarea class="form-control" cols="85"
+                                      id="h-2_2" placeholder=""
+                                      maxlength="250" name="comment-2"
+                                      value="{{{s2_hypothesis6}}}"
+                                      rows="2" onblur="updateCreative()"></textarea>
+                            <br/>
+                            <br/>
+                        </div>
+
+                        <!-- creative other-location -> Country -->
+                    <div id="nli7">
+                        <div class="clickable" style="font-size: medium; padding-left:2em">
+                            (1) <span>{{{s2_premise7}}}</span>
+                        </div>
+                        <div class="clickable" style="font-size: medium; padding-left:2em">
+                            (2) <span id="s2_hypothesis7">{{{s2_hypothesis7}}}</span>
+                        </div>
+                        <br/>
+                        {{{g_tag_text}}}
+                        <table border="0" cellpadding="4" cellspacing="0" style="font-family: Verdana, Geneva, sans-serif; font-size:medium;">
+                            <tbody>
+                                <tr><td style="padding-left:2em"><input id="s2-nli7-radio1" name="nli4" onclick="label2_chosen('entailment')" type="radio" value="1" /> {{{g_entail_text}}}</td></tr>
+                                <tr><td style="padding-left:2em"><input id="s2-nli7-radio2" name="nli4" onclick="label2_chosen('contradiction')" type="radio" value="1" /> {{{g_contra_text}}}</td></tr>
+                                <tr><td style="padding-left:2em"><input id="s2-nli7-radio3" name="nli4" onclick="label2_chosen('neutral')" type="radio" value="1" /> {{{g_neutral_text}}}</td></tr>
+                            </tbody>
+                        </table>
+                        <br/><br/>
+                    </div>
+
+                    <!-- creative other-location -> Country -->
+                    <div id="nli8">
+                        <div class="clickable" style="font-size: medium; padding-left:2em">
+                            (1) <span>{{{s2_premise8}}}</span>
+                        </div>
+                        <div class="clickable" style="font-size: medium; padding-left:2em">
+                            (2) <span id="s2_hypothesis8">{{{s2_hypothesis8}}}</span>
+                        </div>
+                        <br/>
+                        {{{g_tag_text}}}
+                        <table border="0" cellpadding="4" cellspacing="0" style="font-family: Verdana, Geneva, sans-serif; font-size:medium;">
+                            <tbody>
+                                <tr><td style="padding-left:2em"><input id="s2-nli8-radio1" name="nli4" onclick="label2_chosen('entailment')" type="radio" value="1" /> {{{g_entail_text}}}</td></tr>
+                                <tr><td style="padding-left:2em"><input id="s2-nli8-radio2" name="nli4" onclick="label2_chosen('contradiction')" type="radio" value="1" /> {{{g_contra_text}}}</td></tr>
+                                <tr><td style="padding-left:2em"><input id="s2-nli8-radio3" name="nli4" onclick="label2_chosen('neutral')" type="radio" value="1" /> {{{g_neutral_text}}}</td></tr>
+                            </tbody>
+                        </table>
+                        <br/><br/>
+                    </div>
+                    <br/>
+                    <input type="button" value="Next"
+                           onclick="navigate('collapse2', 'collapse3', 3)"
+                           id="next-2"/>
+                    <br/>
+                    </div>
+                </div>
+            </div>
+            <br/>
+        </form>
+    </div>
+</section>
+
+<script>
+    // holds current section
+    let SECTION = 1;
+
+    // input from server
+    let COUNTRY = "France";
+    let LOCATION = "Paris";
+    let OTHER_LOCATION = "London";
+
+    let COUNTRY_SENTENCE = "Canal tours expose the grandest face of <mark>France</mark>.";
+    let LOCATION_SENTENCE = "Canal tours expose the grandest face of <mark>Paris</mark>.";
+    let OTHER_LOCATION_SENTENCE = "Canal tours expose the grandest face of <mark>London</mark>.";
+    let SECTION2_LABEL = "Neutral";  // Neutral / Contradiction
+
+    // constant texts and values to render inside the page
+    let VALUES = {
+        // ***** section1 *****
+        s1_header_text: "1. Label Hypothesis",
+        s1_text1: "Read the two sentences below:",
+
+        // 1. location -> country
+        s1_premise1: LOCATION_SENTENCE,
+        s1_hypothesis1: COUNTRY_SENTENCE,
+
+        // 2. other-location -> country
+        s1_premise2: OTHER_LOCATION_SENTENCE,
+        s1_hypothesis2: COUNTRY_SENTENCE,
+
+        // 3. country -> location
+        s1_premise3: COUNTRY_SENTENCE,
+        s1_hypothesis3: LOCATION_SENTENCE,
+
+        // 4. country -> other-location
+        s1_premise4: COUNTRY_SENTENCE,
+        s1_hypothesis4: OTHER_LOCATION_SENTENCE,
+
+        // ***** section2 *****
+        s2_header_text: "2. Write Two Sentences",
+
+        // 5. location -> country (creative) - entailment
+        s2_text2: "Write a truth sentence using the word <mark>" + COUNTRY + "</mark>",
+        s2_premise5: LOCATION_SENTENCE,
+        s2_hypothesis5: "",  // placeholder
+
+        // 6. location -> country (creative2) - non-entailment
+        s2_text3: "Write a "+ SECTION2_LABEL + " sentence using the word <mark>" + COUNTRY + "</mark>",
+        s2_premise6: LOCATION_SENTENCE,
+        s2_hypothesis6: "",  // placeholder
+
+        // 7. other-location -> country (creative)
+        s2_premise7: OTHER_LOCATION_SENTENCE,
+        s2_hypothesis7: "",  // placeholder
+
+        // 8. other-location -> country (creative2)
+        s2_premise8: OTHER_LOCATION_SENTENCE,
+        s2_hypothesis8: "",  // placeholder
+
+        //globals
+        g_tag_text: "Which of the following is correct?",
+        g_entail_text: " If (1) is true then (2) is likely to be <b>True</b> as well",
+        g_contra_text: " If (1) is true then (2) is likely to be <b>False</b>",
+        g_neutral_text: "There is not enough information to determine if (2) is true or not when (1) is true (<b>Neutral</b>)",
+    };
+
+    function toggle(elementId) {
+        const current = document.getElementById(elementId).style.display;
+        document.getElementById(elementId).style.display = current === 'none' ? 'block' : 'none';
+    }
+
+    function navigate(collapse, open, section) {
+        SECTION = section;
+        render(open);
+        $(document.getElementById(collapse)).collapse('hide');
+        $(document.getElementById(open)).collapse('show');
+    }
+
+    function updateCreative() {
+        const sentCreative1 = document.getElementById("h-2_1").value;
+        const sentCreative2 = document.getElementById("h-2_2").value;
+        VALUES.s2_hypothesis5 = sentCreative1;
+        VALUES.s2_hypothesis7 = sentCreative1;
+        VALUES.s2_hypothesis6 = sentCreative2;
+        VALUES.s2_hypothesis8 = sentCreative2;
+
+        document.getElementById('s2_hypothesis7').innerText = sentCreative1;
+        document.getElementById('s2_hypothesis8').innerText = sentCreative2;
+    }
+
+    function render(elem) {
+        console.log("rendering");
+        let template = document.getElementById(elem).innerHTML;
+        document.getElementById(elem).innerHTML = Mustache.render(template, VALUES);
+    }
+
+    window.onload = function () {
+        render('main-form');
+
+        // after rendering, wait 0.3 secs and open the first section
+        setTimeout(function () {
+            $(document.getElementById("collapse1")).collapse('show');
+        }, 300)
+    }
+
+    // FIXME: validation on next
+    // FIXME: add onload and seen-instructions
+    // FIXME: @ohad - is there any calls to srv or log of info we need to copy from EP page?
+    // FIXME: remove label2_chosen
+    // FIXME: back button
+</script>
