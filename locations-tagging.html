@@ -743,25 +743,55 @@
             <br/>
 
             <!-- placeholders for values -->
-            <input type="hidden" id="form-input-country" name="country" value="" />
-            <input type="hidden" id="form-input-location" name="location" value="" />
-            <input type="hidden" id="form-input-other-location" name="other_location" value="" />
-            <input type="hidden" id="form-input-sentence" name="sentence_template" value="" />
-            <input type="hidden" id="form-input-section2-label" name="section2_label" value="" />
-            <input type="hidden" id="form-input-section2-word-type" name="section2_word_type" value="" />
+            <input type="hidden" id="form-input-country" name="input_country" value="" />
+            <input type="hidden" id="form-input-location" name="input_location" value="" />
+            <input type="hidden" id="form-input-other-location" name="input_other_location" value="" />
+            <input type="hidden" id="form-input-sentence" name="input_sentence_template" value="" />
+            <input type="hidden" id="form-input-section2-label" name="input_section2_label" value="" />
+            <input type="hidden" id="form-input-section2-word-type" name="input_section2_word_type" value="" />
 
         </form>
     </div>
 </section>
 <script>
+    let DEUBG_MODE = false;
 
-    // input from server
-    let COUNTRY = "France";
-    let LOCATION = "Paris";
-    let OTHER_LOCATION = "London";
-    let SENTENCE = "Canal tours expose the grandest face of {{{location}}}.";
-    let SECTION2_LABEL = "Contradiction";  // Neutral or Contradiction
-    let SECTION2_WORD_TYPE = "Location";  // Country or Location
+    // main input from server
+    let COUNTRY;
+    let LOCATION;
+    let OTHER_LOCATION;
+    let SENTENCE;
+    let SECTION2_LABEL;
+    let SECTION2_WORD_TYPE;
+
+    if (DEUBG_MODE) {
+        COUNTRY = "${country}";
+        LOCATION = "${location}";
+        OTHER_LOCATION = "${other_location}";
+        SENTENCE = "${sentence}";
+        SECTION2_LABEL = "${section2_label}";  // Neutral or Contradiction
+        SECTION2_WORD_TYPE = "${section2_word_type}";  // Country or Location
+    }else {
+        COUNTRY = "France";
+        LOCATION = "Paris";
+        OTHER_LOCATION = "London";
+        SENTENCE = "Canal tours expose the grandest face of {{{location}}}.";
+        SECTION2_LABEL = "Contradiction";  // Neutral or Contradiction
+        SECTION2_WORD_TYPE = "Location";  // Country or Location
+    }
+
+    // metadata input from server - only for output not really used
+    let INPUT_METADATA = {
+        can_be_entailed: "${can_be_entailed}",
+        multiple_locations: "${multiple_locations}",
+        non_geo_location: "${non_geo_location}",
+        wrong_location: "${wrong_location}",
+        telephone: "${telephone}",
+        doesnt_make_sense: "${doesnt_make_sense}",
+        start_char: "${start_char}",
+        end_char: "${end_char}",
+        id: "${id}",
+    };
 
     // the main 3 sentences
     let COUNTRY_SENTENCE = renderSentence(SENTENCE, COUNTRY);
@@ -1005,6 +1035,20 @@
         document.getElementById("form-input-sentence").value = SENTENCE;
         document.getElementById("form-input-section2-label").value = SECTION2_LABEL;
         document.getElementById("form-input-section2-word-type").value = SECTION2_WORD_TYPE;
+
+        // add metadata fields
+        let main_form = document.getElementById("main-form");
+
+        Object.keys(INPUT_METADATA).forEach(function (key) {
+            let value = INPUT_METADATA[key];
+            let input = document.createElement("input");
+            input.type = 'hidden';
+            input.id = 'form-input-metadata-' + key;
+            input.name = 'metadata_' + key;
+            input.value = value;
+
+            main_form.appendChild(input);
+        });
 
         const form = document.querySelector("form");
         form.submit();
