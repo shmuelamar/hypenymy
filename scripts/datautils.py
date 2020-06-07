@@ -20,6 +20,12 @@ def jsonl_dump(data, fname, mode='w'):
             fp.write('\n')
 
 
+def jsonl_load(fname):
+    with open(fname) as fp:
+        for line in fp:
+            yield json.loads(line)
+
+
 def get_nlp():
     """lazy load nlp"""
     global NLP

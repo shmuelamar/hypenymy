@@ -1,5 +1,7 @@
+import csv
 import json
 import os
+import random
 import re
 import time
 from collections import Counter
@@ -13,7 +15,11 @@ import datautils
 
 COUNTRIES_FNAME = os.path.join(datautils.SRCDIR, 'countries.json')
 
-KNOWN_LOCATIONS = {c.lower() for cs in datautils.json_load(COUNTRIES_FNAME).values() for c in cs} | set(datautils.json_load(COUNTRIES_FNAME))
+KNOWN_LOCATIONS = {
+    c.lower()
+    for cs in datautils.json_load(COUNTRIES_FNAME).values()
+    for c in cs
+} | set(datautils.json_load(COUNTRIES_FNAME))
 
 COUNTRIES = [
     "Afghanistan",
@@ -224,6 +230,7 @@ def retry_forever(f):
                 time.sleep(15)
         print('failed retrieve - returning None')
         return None
+
     return wrapped
 
 
@@ -253,13 +260,15 @@ def get_wikidata_country(location, sparql):
       SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
     } 
     ORDER BY ASC(?num)
-    LIMIT 1""" % (location)
+    LIMIT 1""" % (
+        location
+    )
 
     print(f'querying location - {location}')
     sparql.setQuery(query_s)
     sparql.setReturnFormat(JSON)
     results = sparql.query().convert()
-    if len(results["results"]["bindings"])>0:
+    if len(results["results"]["bindings"]) > 0:
         return results["results"]["bindings"][0]['typeLabel']['value']
     return None
 
@@ -314,7 +323,16 @@ def download_locations(locs_cnt_fname, outfile):
                 continue
             res = get_wikidata_country(loc, sparql)
             is_country = loc.lower() in countries
-            fp.write(json.dumps({'location': loc, 'cnt': cnt, 'result': res, 'is_country': is_country}))
+            fp.write(
+                json.dumps(
+                    {
+                        'location': loc,
+                        'cnt': cnt,
+                        'result': res,
+                        'is_country': is_country,
+                    }
+                )
+            )
             fp.write('\n')
             fp.flush()
 
@@ -326,18 +344,23 @@ def filter_locations_sents(sentence, doc, loc_entities_types=('LOC', 'GPE')):
     if len(loc_entities) == 0:
         return False, None
 
-    return True, {
-        'num_locations': len(loc_entities),
-        'locations': [str(e).lower() for e in loc_entities],
-        'start_char': [e.start_char for e in loc_entities],
-        'end_char': [e.end_char for e in loc_entities],
-        # known to us - found on the db
-        'known_location': [str(e).lower() in KNOWN_LOCATIONS for e in
-                           loc_entities],
-
-        # take either spacy number of span tokens or word regex - the higher
-        'word_count': [max(e.end - e.start, count_words(str(e))) for e in loc_entities],
-    }
+    return (
+        True,
+        {
+            'num_locations': len(loc_entities),
+            'locations': [str(e).lower() for e in loc_entities],
+            'start_char': [e.start_char for e in loc_entities],
+            'end_char': [e.end_char for e in loc_entities],
+            # known to us - found on the db
+            'known_location': [
+                str(e).lower() in KNOWN_LOCATIONS for e in loc_entities
+            ],
+            # take either spacy number of span tokens or word regex - the higher
+            'word_count': [
+                max(e.end - e.start, count_words(str(e))) for e in loc_entities
+            ],
+        },
+    )
 
 
 def count_words(s):
@@ -345,10 +368,7 @@ def count_words(s):
 
 
 def extract_sentences_from_mnli(mnli_samples, filter_func):
-    sentence2name = {
-        'sentence1': 'permise',
-        'sentence2': 'hypothesis',
-    }
+    sentence2name = {'sentence1': 'permise', 'sentence2': 'hypothesis'}
     nlp = datautils.get_nlp()
 
     for sample_id, sample in enumerate(tqdm(mnli_samples)):
@@ -376,5 +396,104 @@ def extract_mnli_sentences_with_locations(mnli_fname, outfile):
     datautils.jsonl_dump(matches, outfile)
 
 
+@cbox.cmd
+def create_sentences_pool_for_filtering(infile, outfile):
+    country2cities = get_country2cities_deduped()
+    known_deduped_locations = {c for c in country2cities} | {
+        c for cs in country2cities.values() for c in cs
+    }
+
+    # because we dedup strings each city has exactly one country
+    city2country = {
+        city: country
+        for country, cities in country2cities.items()
+        for city in cities
+    }
+
+    def _filter_sents(x):
+        return (
+            x['num_locations'] == 1
+            and all(x['known_location'])
+            and x['word_count'][0] == 1
+            and x['genre'] != 'telephone'
+            and x['locations'][0].lower() in known_deduped_locations
+        )
+
+    sents = [x for x in datautils.jsonl_load(infile) if _filter_sents(x)]
+
+    random.seed('location location location')
+    random.shuffle(sents)
+
+    with open(outfile, 'w') as fp:
+        writer = csv.DictWriter(
+            fp,
+            fieldnames=[
+                'original_sentence',
+                'highlighted_sentence',
+                'country',
+                'location',
+                'is_country',
+                'start_char',
+                'end_char',
+                'id',
+            ],
+        )
+        writer.writeheader()
+
+        for s in sents:
+            loc = s['locations'][0].lower()
+            is_country = loc in country2cities
+
+            if is_country:
+                country = loc
+                location = random.choice(country2cities[loc])
+            else:
+                country = city2country[loc]
+                location = loc
+
+            schar = s['start_char'][0]
+            echar = s['end_char'][0]
+
+            row = {
+                'original_sentence': s['sentence'],
+                'highlighted_sentence': s['sentence'][:schar]
+                + '**'
+                + s['sentence'][schar:echar]
+                + '**'
+                + s['sentence'][echar:],
+                'country': country,
+                'location': location,
+                'is_country': is_country,
+                'start_char': schar,
+                'end_char': echar,
+                'id': f'{s["sample_id"]}_{s["type"][0]}',
+            }
+
+            writer.writerow(row)
+
+
+def get_country2cities_deduped():
+    country2city = datautils.json_load(COUNTRIES_FNAME)
+
+    locations_cnt = Counter()
+    for country, cities in country2city.items():
+        locations_cnt.update([c.lower() for c in cities + [country.lower()]])
+
+    deduped_country2cities = {}
+    for country, cities in country2city.items():
+        if locations_cnt[country.lower()] == 1:
+            deduped_country2cities[country.lower()] = [
+                c.lower() for c in cities if locations_cnt[c.lower()] == 1
+            ]
+    return deduped_country2cities
+
+
 if __name__ == '__main__':
-    cbox.main([extract_mnli_locations, download_locations, extract_mnli_sentences_with_locations])
+    cbox.main(
+        [
+            extract_mnli_locations,
+            download_locations,
+            extract_mnli_sentences_with_locations,
+            create_sentences_pool_for_filtering,
+        ]
+    )
