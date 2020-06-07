@@ -472,6 +472,81 @@ def create_sentences_pool_for_filtering(infile, outfile):
             writer.writerow(row)
 
 
+@cbox.cmd
+def finalize_sentences_for_tagging(infile, outfile):
+    df = pd.read_csv(infile)
+
+    df = df[df['can_be_entailed'].isin({0, 1})]
+    df = df.sample(n=len(df), random_state=42)
+    df = df[
+        [
+            'id',
+            'original_sentence',
+            'can_be_entailed',
+            'country',
+            'start_char',
+            'end_char',
+        ]
+    ]
+
+    df = df.rename(columns={'original_sentence': 'sentence'})
+    country2city = {
+        'Albania': 'Durres',
+        'Argentina': 'Salta',
+        'Australia': 'Sydney',
+        'Dominican': 'Republic	Santiago',
+        'England': 'Liverpool',
+        'Finland': 'Turku',
+        'France': 'Lyon',
+        'Germany': 'Munich',
+        'Greece': 'Thessaloniki',
+        'Guadeloupe': 'Lamentin',
+        'Indonesia': 'Makassar',
+        'India': 'Mumbai',
+        'Iraq': 'Erbil',
+        'Israel': 'Haifa',
+        'Japan': 'Osaka',
+        'Malaysia': 'Malacca',
+        'Martinique': 'Ducos',
+        'Nepal': 'Pokhara',
+        'Netherlands': 'Rotterdam',
+        'Nicaragua': 'Leon',
+        'Philippines': 'Makati',
+        'Portugal': 'Porto',
+        'Romania': 'Oradea',
+        'South Africa': 'Durban',
+        'Sweden': 'Malmo',
+        'United Kingdom': 'Bristol',
+        'United States': 'Chicago',
+        'Vietnam': 'Dalat',
+    }
+    df['country'] = df['country'].apply(str.title)
+    df['location'] = df['country'].apply(country2city.__getitem__)
+
+    random.seed('locations!!')
+    df['other_location'] = df['country'].apply(
+        lambda x: random.choice(
+            sorted(set(country2city.values()) - {country2city[x]})
+        )
+    )
+
+    df['sentence'] = df.apply(
+        lambda x: x.sentence[: x.start_char]
+        + '{{{location}}}'
+        + x.sentence[x.end_char :],
+        axis=1,
+    )
+
+    sec2_labels = ['Neutral', 'Contradiction']
+    sec2_word_types = ['Country', 'Location']
+    df['section2_label'] = [sec2_labels[i % 2] for i in range(len(df))]
+    df['section2_word_type'] = [
+        sec2_word_types[(i // 2) % 2] for i in range(len(df))
+    ]
+
+    df.to_csv(outfile, index=False)
+
+
 def get_country2cities_deduped():
     country2city = datautils.json_load(COUNTRIES_FNAME)
 
@@ -495,5 +570,6 @@ if __name__ == '__main__':
             download_locations,
             extract_mnli_sentences_with_locations,
             create_sentences_pool_for_filtering,
+            finalize_sentences_for_tagging,
         ]
     )
