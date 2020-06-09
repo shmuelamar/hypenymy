@@ -928,10 +928,11 @@
         return text;
     }
 
-    function render(elem) {
+    function render() {
         console.log("rendering");
-        let template = document.getElementById(elem).innerHTML;
-        document.getElementById(elem).innerHTML = Mustache.render(template, VALUES);
+        let form = document.querySelector("form");
+        let template = form.innerHTML;
+        form.innerHTML = Mustache.render(template, VALUES);
     }
 
     function validateMNLIRadioChecked(nliId){
@@ -1050,7 +1051,7 @@
     }
 
     window.onload = function () {
-        render('main-form');
+        render();
 
         // after rendering, wait 0.3 secs and open the first section
         setTimeout(function () {
