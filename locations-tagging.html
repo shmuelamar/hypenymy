@@ -467,10 +467,10 @@
                             <span style="font-style: italic; padding-left: 2em; ">(1) {{{s2_premise5}}}</span>
                             <br/><br/>
                             <label for="h-2_1">{{{s2_text2}}}</label>&nbsp;<br/>
-                            (If you can't think of any such sentence, check this box: <input id="impossible-h-2_1" name="nli5" type="checkbox"> )<br/>
+                            (If you can't think of any such sentence, check this box: <input id="impossible-h-2_1" name="nli5_flipped" type="checkbox" onclick="creativeEntailImpossibleFlip()"> )<br/>
                             <p style="float: left; padding-left: 2em; ">(2) </p><textarea class="form-control" cols="85"
                                       id="h-2_1" placeholder=""  style="width:60%"
-                                      maxlength="250" name="s2_creative_entailment_sentence"
+                                      maxlength="250" name="s2_creative_sentence1"
                                       rows="2" onblur="updateCreative()">{{{s2_hypothesis5}}}</textarea>
                             <br/>
                             <span style="font-weight: bold"> 5. {{{g_tag_validate_text}}} </span>
@@ -491,10 +491,9 @@
                             <span style="font-style: italic; padding-left: 2em; ">(1) {{{s2_premise6}}}</span>
                             <br/><br/>
                             <label for="h-2_2">{{{s2_text3}}}</label>&nbsp;<br/>
-                            (If you can't think of any such sentence, check this box: <input id="impossible-h-2_2" name="nli5" type="checkbox"> )<br/>
                             <p style="float: left; padding-left: 2em; ">(2) </p><textarea class="form-control" cols="85"
                                       id="h-2_2" placeholder="" style="width:60%"
-                                      maxlength="250" name="s2_creative_other_sentence"
+                                      maxlength="250" name="s2_creative_sentence2"
                                       rows="2" onblur="updateCreative()">{{{s2_hypothesis6}}}</textarea>
                             <br/>
                             <span style="font-weight: bold"> 6. {{{g_tag_text}}} </span>
@@ -528,7 +527,7 @@
                 <div id="collapse2b" class="panel-collapse collapse"
                      role="tabpanel" aria-labelledby="heading2">
                     <div class="panel-body">
-                    <!-- creative other-location -> Country -->
+                    <!-- other-location -> Country creative -->
                     <div id="nli7">
                         <div class="clickable" style="font-size: medium; padding-left:2em">
                             (1) <span>{{{s2_premise7}}}</span>
@@ -548,7 +547,7 @@
                         <br/><br/>
                     </div>
 
-                    <!-- creative other-location -> Country -->
+                    <!-- other-location -> Country creative -->
                     <div id="nli8">
                         <div class="clickable" style="font-size: medium; padding-left:2em">
                             (1) <span>{{{s2_premise8}}}</span>
@@ -637,6 +636,7 @@
     let OTHER_LOCATION_SENTENCE = renderSentence(SENTENCE, OTHER_LOCATION);
 
     // section2 word types
+    let SECTION2_IS_FLIP = false;
     let SECTION2_WORD, SECTION2_FORBIDDEN_WORDS, SECTION2_PREMISE_SENTENCE;
 
     // we randomly select either country or city for the creative sentence.
@@ -677,7 +677,7 @@
         s2_header_text: "2. Write Two Sentences",
 
         // 5. location -> country (creative1) - entailment
-        s2_text2: "Assuming (1) is true, write a <u><b>True</b></u> sentence using the word <span class=\"highlight-mnli-word\">" + SECTION2_WORD + "</span> <u>without</u> using the words <span class=\"highlight-mnli-word\">"+ SECTION2_FORBIDDEN_WORDS.join(' or ') + "</span>",
+        s2_text2: "Assuming (1) is true, write a <u><b><span id='s2_creative1_label'>True</span></b></u> sentence using the word <span class=\"highlight-mnli-word\">" + SECTION2_WORD + "</span> <u>without</u> using the words <span class=\"highlight-mnli-word\">"+ SECTION2_FORBIDDEN_WORDS.join(' or ') + "</span>",
         s2_premise5: SECTION2_PREMISE_SENTENCE,
         s2_hypothesis5: "",  // placeholder
 
@@ -732,12 +732,28 @@
         const sent2Highlight = highlight(sentCreative2, COUNTRY);
 
         document.getElementById('s2_hypothesis7').innerHTML = sent1Highlight;
-        document.getElementById('nli9_premise').innerHTML = sent1Highlight;
-        document.getElementById('nli11_premise').innerHTML = sent1Highlight;
-
         document.getElementById('s2_hypothesis8').innerHTML = sent2Highlight;
-        document.getElementById('nli10_premise').innerHTML = sent2Highlight;
-        document.getElementById('nli12_premise').innerHTML = sent2Highlight;
+    }
+
+    function creativeEntailImpossibleFlip() {
+        let isChecked = document.getElementById('impossible-h-2_1').checked;
+
+        SECTION2_IS_FLIP = !SECTION2_IS_FLIP;
+
+        let newLabel;
+        if (isChecked) {
+            if(SECTION2_LABEL === 'Contradiction'){
+                newLabel = 'Neutral';
+            }else{
+                newLabel = 'Contradiction';
+            }
+        }else{
+            newLabel = 'True';
+        }
+
+        document.getElementById('s2_creative1_label').innerText = newLabel;
+
+        alert('Please write a '+ newLabel + ' sentence on sentence 5');
     }
 
     function highlight(text, word) {
@@ -789,8 +805,23 @@
 
         if (section >= 2) {
             // 2. validate labels of creative section
-            if(!document.getElementById('s2-nli5-radio1').checked) {
-                errors_msg.push('please write a true sentence for sentence number 5');
+            let s2Sentence1RadioId;
+            let s2Sentence1RequiredLabel;
+
+            if(SECTION2_IS_FLIP) {
+                if(SECTION2_LABEL === 'Neutral') {
+                    s2Sentence1RadioId = 2;
+                    s2Sentence1RequiredLabel = 'Contradiction';
+                }else {
+                    s2Sentence1RadioId = 3;
+                    s2Sentence1RequiredLabel = 'Neutral';
+                }
+            }else{
+                s2Sentence1RadioId = 1;
+                s2Sentence1RequiredLabel = 'True';
+            }
+            if(!document.getElementById('s2-nli5-radio' + s2Sentence1RadioId.toString()).checked) {
+                errors_msg.push('please write a ' + s2Sentence1RequiredLabel + ' sentence for sentence number 5');
             }
 
             if(SECTION2_LABEL === 'Neutral') {
