@@ -568,6 +568,13 @@
                         <br/><br/>
                     </div>
                     <br/>
+                    <label for="turker_comments">{{{g_turker_comments_text}}}</label>&nbsp;<br/>
+                        <textarea class="form-control" cols="85"
+                                  id="turker_comments" placeholder="" style="width:60%"
+                                  maxlength="250" name="turker_comments"
+                                  rows="2"></textarea>
+                        <br/>
+                    <br/>
                     <input type="button" value="Back"
                            onclick="navigate('collapse2b', 'collapse2', 2)"
                            id="back-2b"/>
@@ -696,6 +703,7 @@
         g_entail_text: " <b>True</b>",
         g_contra_text: " <b>False</b> (Contradiction)",
         g_neutral_text: "There is not enough information in (1) to determine if (2) is true or not sentence using the(<b>Neutral</b>)",
+        g_turker_comments_text: "Do you have any more comments or suggestions about the task?",
     };
 
     function toggle(elementId) {
