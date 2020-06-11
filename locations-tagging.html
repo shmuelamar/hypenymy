@@ -571,120 +571,11 @@
                     <input type="button" value="Back"
                            onclick="navigate('collapse2b', 'collapse2', 2)"
                            id="back-2b"/>
-                    <input type="button" value="Next"
-                           onclick="navigate('collapse2b', 'collapse3', 2.5)"
-                           id="next-2b"/>
+                    <input type="button" value="Submit HIT" onclick="submitHITForm()" id="submit-button"/>
                     <br/>
                     </div>
                 </div>
             </div>
-            <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="heading3">
-                        <h4 class="panel-title" id="pannel3_title">
-                            {{{s3_header_text}}}
-                        </h4>
-                    </div>
-                    <div id="collapse3" class="panel-collapse collapse"
-                         role="tabpanel" aria-labelledby="heading1">
-                        <div class="panel-body">
-                            <br/><br/>
-                            <div id="nli9">
-                                <span id="s3_instructions1">{{{s3_text1}}}</span>
-
-                                <!-- location -> Country -->
-                                <div class="clickable" style="font-size: medium; padding-left:2em">
-                                    (1)
-                                    <span id="nli9_premise">{{{s3_premise9}}}</span>
-                                </div>
-                                <div class="clickable" style="font-size: medium; padding-left:2em">
-                                    (2)
-                                    <span>{{{s3_hypothesis9}}}</span>
-                                </div>
-                                <br/>
-                                <span style="font-weight: bold"> 9. {{{g_tag_text}}} </span>
-                                <table border="0" cellpadding="4" cellspacing="0" style="font-family: Verdana, Geneva, sans-serif; font-size:medium;">
-                                    <tbody>
-                                        <tr><td style="padding-left:2em"><input id="s3-nli9-radio1" name="nli9" type="radio" value="entailment" /> {{{g_entail_text}}}</td></tr>
-                                        <tr><td style="padding-left:2em"><input id="s3-nli9-radio2" name="nli9" type="radio" value="contradiction" /> {{{g_contra_text}}}</td></tr>
-                                        <tr><td style="padding-left:2em"><input id="s3-nli9-radio3" name="nli9" type="radio" value="neutral" /> {{{g_neutral_text}}}</td></tr>
-                                    </tbody>
-                                </table>
-                                <br/><br/>
-                            </div>
-
-                            <!-- other-location -> Country -->
-                            <div id="nli10">
-                                <div class="clickable" style="font-size: medium; padding-left:2em">
-                                    (1)
-                                    <span id="nli10_premise">{{{s3_premise10}}}</span>
-                                </div>
-                                <div class="clickable" style="font-size: medium; padding-left:2em">
-                                    (2)
-                                    <span>{{{s3_hypothesis10}}}</span>
-                                </div>
-                                <br/>
-                                <span style="font-weight: bold"> 10. {{{g_tag_text}}} </span>
-                                <table border="0" cellpadding="4" cellspacing="0" style="font-family: Verdana, Geneva, sans-serif; font-size:medium;">
-                                    <tbody>
-                                        <tr><td style="padding-left:2em"><input id="s3-nli10-radio1" name="nli10" type="radio" value="entailment" /> {{{g_entail_text}}}</td></tr>
-                                        <tr><td style="padding-left:2em"><input id="s3-nli10-radio2" name="nli10" type="radio" value="contradiction" /> {{{g_contra_text}}}</td></tr>
-                                        <tr><td style="padding-left:2em"><input id="s3-nli10-radio3" name="nli10" type="radio" value="neutral" /> {{{g_neutral_text}}}</td></tr>
-                                    </tbody>
-                                </table>
-                                <br/><br/>
-                            </div>
-
-                            <!-- other-location -> Country -->
-                            <div id="nli11">
-                                <div class="clickable" style="font-size: medium; padding-left:2em">
-                                    (1)
-                                    <span id="nli11_premise">{{{s3_premise11}}}</span>
-                                </div>
-                                <div class="clickable" style="font-size: medium; padding-left:2em">
-                                    (2)
-                                    <span>{{{s3_hypothesis11}}}</span>
-                                </div>
-                                <br/>
-                                <span style="font-weight: bold"> 11. {{{g_tag_text}}} </span>
-                                <table border="0" cellpadding="4" cellspacing="0" style="font-family: Verdana, Geneva, sans-serif; font-size:medium;">
-                                    <tbody>
-                                        <tr><td style="padding-left:2em"><input id="s3-nli11-radio1" name="nli11" type="radio" value="entailment" /> {{{g_entail_text}}}</td></tr>
-                                        <tr><td style="padding-left:2em"><input id="s3-nli11-radio2" name="nli11" type="radio" value="contradiction" /> {{{g_contra_text}}}</td></tr>
-                                        <tr><td style="padding-left:2em"><input id="s3-nli11-radio3" name="nli11" type="radio" value="neutral" /> {{{g_neutral_text}}}</td></tr>
-                                    </tbody>
-                                </table>
-                                <br/><br/>
-                            </div>
-
-                            <!-- other-location -> Country -->
-                            <div id="nli12">
-                                <div class="clickable" style="font-size: medium; padding-left:2em">
-                                    (1)
-                                    <span id="nli12_premise">{{{s3_premise12}}}</span>
-                                </div>
-                                <div class="clickable" style="font-size: medium; padding-left:2em">
-                                    (2)
-                                    <span>{{{s3_hypothesis12}}}</span>
-                                </div>
-                                <br/>
-                                <span style="font-weight: bold"> 12. {{{g_tag_text}}} </span>
-                                <table border="0" cellpadding="4" cellspacing="0" style="font-family: Verdana, Geneva, sans-serif; font-size:medium;">
-                                    <tbody>
-                                        <tr><td style="padding-left:2em"><input id="s3-nli12-radio1" name="nli12" type="radio" value="entailment" /> {{{g_entail_text}}}</td></tr>
-                                        <tr><td style="padding-left:2em"><input id="s3-nli12-radio2" name="nli12" type="radio" value="contradiction" /> {{{g_contra_text}}}</td></tr>
-                                        <tr><td style="padding-left:2em"><input id="s3-nli12-radio3" name="nli12" type="radio" value="neutral" /> {{{g_neutral_text}}}</td></tr>
-                                    </tbody>
-                                </table>
-                                <br/><br/>
-                            </div>
-                            <input type="button" value="Back" onclick="navigate('collapse3', 'collapse2', 2)" id="back-3"/>
-                            <input type="button" value="Submit HIT" onclick="submitHITForm()" id="submit-button"/>
-                            <br/>
-                        </div>
-                        <br/>
-
-                    </div>
-                </div>
             <br/>
 
             <!-- placeholders for values -->
@@ -699,7 +590,7 @@
     </div>
 </section>
 <script>
-    let DEBUG_MODE = false;
+    let DEBUG_MODE = true;
 
     // main input from server
     let COUNTRY;
@@ -709,7 +600,7 @@
     let SECTION2_LABEL;
     let SECTION2_WORD_TYPE;
 
-    if (DEBUG_MODE) {
+    if (!DEBUG_MODE) {
         COUNTRY = "${country}";
         LOCATION = "${location}";
         OTHER_LOCATION = "${other_location}";
@@ -799,26 +690,6 @@
         s2_premise8: OTHER_LOCATION_SENTENCE,
         s2_hypothesis8: "",  // placeholder
 
-        // ***** section3 *****
-        s3_header_text: "3. Label Hypothesis",
-        s3_text1: "Read the two sentences below:",
-
-        // 9. country (creative1) -> location
-        s3_premise9: "",  // placeholder (creative1)
-        s3_hypothesis9: LOCATION_SENTENCE,
-
-        // 10. country (creative2) -> location
-        s3_premise10: "",  // placeholder (creative2)
-        s3_hypothesis10: LOCATION_SENTENCE,
-
-        // 11. country (creative1) -> other-location
-        s3_premise11: "",  // placeholder (creative1)
-        s3_hypothesis11: OTHER_LOCATION_SENTENCE,
-
-        // 12. country (creative2) -> other-location
-        s3_premise12: "",  // placeholder (creative1)
-        s3_hypothesis12: OTHER_LOCATION_SENTENCE,
-
         //globals
         g_tag_text: "Assuming (1) is true, sentence (2) is likely to be:",
         g_tag_validate_text: "Just to be sure, please read carefully the two sentences again. Assuming (1) is true, sentence (2) is likely to be:",
@@ -837,7 +708,7 @@
     }
 
     function navigate(collapse, open, section) {
-        if(!validateForm(section)) {
+        if(!validateForm(section) && !DEBUG_MODE) {
             return;
         }
 
@@ -898,10 +769,8 @@
         else if (section === 2){
             checkNLI = 6;
         }
-        else if (section === 2.5){
+        else {
             checkNLI = 8;
-        } else {
-            checkNLI = 12;
         }
 
         for (let i = 1; i <= checkNLI; i++) {
@@ -959,7 +828,7 @@
             }
         }
 
-        if ((errors_msg.length > 0) && !DEBUG_MODE) {
+        if (errors_msg.length > 0) {
             alert('please fix the following:\r\n' + errors_msg.join('\r\n'));
             return false;
         }
@@ -967,7 +836,7 @@
     }
 
     function submitHITForm() {
-        if(!validateForm(3)) {
+        if(!validateForm(3) && !DEBUG_MODE) {
             return;
         }
 
