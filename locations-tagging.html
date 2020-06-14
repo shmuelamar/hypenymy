@@ -596,7 +596,7 @@
     </div>
 </section>
 <script>
-    let DEBUG_MODE = true;
+    let DEBUG_MODE = false;
 
     // main input from server
     let COUNTRY;
@@ -605,6 +605,10 @@
     let SENTENCE;
     let SECTION2_LABEL;
     let SECTION2_WORD_TYPE;
+    let INPUT_CAN_BE_ENTAILED;
+    let INPUT_START_CHAR;
+    let INPUT_END_CHAR;
+    let INPUT_ID;
 
     if (!DEBUG_MODE) {
         COUNTRY = "${country}";
@@ -613,6 +617,10 @@
         SENTENCE = "${sentence}";
         SECTION2_LABEL = "${section2_label}";  // Neutral or Contradiction
         SECTION2_WORD_TYPE = "${section2_word_type}";  // Country or Location
+        INPUT_CAN_BE_ENTAILED = "${can_be_entailed}";
+        INPUT_START_CHAR = "${start_char}";
+        INPUT_END_CHAR = "${end_char}";
+        INPUT_ID = "";
     }else {
         COUNTRY = "France";
         LOCATION = "Paris";
@@ -620,14 +628,18 @@
         SENTENCE = "Canal tours expose the grandest face of {{{location}}}.";
         SECTION2_LABEL = "Contradiction";  // Neutral or Contradiction
         SECTION2_WORD_TYPE = "Location";  // Country or Location
+        INPUT_CAN_BE_ENTAILED = "1";
+        INPUT_START_CHAR = "15";
+        INPUT_END_CHAR = "17";
+        INPUT_ID = "1337_p";
     }
 
     // metadata input from server - only for output not really used
     let INPUT_METADATA = {
-        can_be_entailed: "${can_be_entailed}",
-        start_char: "${start_char}",
-        end_char: "${end_char}",
-        id: "${id}",
+        can_be_entailed: INPUT_CAN_BE_ENTAILED,
+        start_char: INPUT_START_CHAR,
+        end_char: INPUT_END_CHAR,
+        id: INPUT_ID,
     };
 
     // the main 3 sentences
@@ -887,7 +899,7 @@
         document.getElementById("form-input-section2-word-type").value = SECTION2_WORD_TYPE;
 
         // add metadata fields
-        let main_form = document.getElementById("main-form");
+        let main_form = document.querySelector("form");
 
         Object.keys(INPUT_METADATA).forEach(function (key) {
             let value = INPUT_METADATA[key];
@@ -900,8 +912,7 @@
             main_form.appendChild(input);
         });
 
-        const form = document.querySelector("form");
-        form.submit();
+        main_form.submit();
     }
 
     window.onload = function () {
