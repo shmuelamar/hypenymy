@@ -462,18 +462,18 @@
                             <span>{{{s2_text1}}}</span>
                             <!---- Original Sentence ---->
                             <br/><br/>
-                            <span style="padding-left: 1em; ">Read the following sentence:</span>
+                            <span style="padding-left: 1em; ">5. Read the following sentence:</span>
                             <br/>
                             <span style="font-style: italic; padding-left: 2em; ">(1) {{{s2_premise5}}}</span>
                             <br/><br/>
                             <label for="h-2_1">{{{s2_text2}}}</label>&nbsp;<br/>
-                            (If you can't think of any such sentence, check this box: <input id="impossible-h-2_1" name="nli5_flipped" type="checkbox" onclick="creativeEntailImpossibleFlip()"> )<br/>
+                            (If you really can't think of any such sentence, check this box: <input id="impossible-h-2_1" name="nli5_flipped" type="checkbox" onclick="creativeEntailImpossibleFlip()"> )<br/>
                             <p style="float: left; padding-left: 2em; ">(2) </p><textarea class="form-control" cols="85"
                                       id="h-2_1" placeholder=""  style="width:60%"
                                       maxlength="250" name="s2_creative_sentence1"
                                       rows="2" onblur="updateCreative()">{{{s2_hypothesis5}}}</textarea>
                             <br/>
-                            <span style="font-weight: bold"> 5. {{{g_tag_validate_text}}} </span>
+                            <span style="font-weight: bold"> {{{g_tag_validate_text}}} </span>
                             <table border="0" cellpadding="4" cellspacing="0" style="font-family: Verdana, Geneva, sans-serif; font-size:medium;">
                                 <tbody>
                                     <tr><td style="padding-left:2em"><input id="s2-nli5-radio1" name="nli5" type="radio" value="entailment" /> {{{g_entail_text}}}</td></tr>
@@ -486,7 +486,7 @@
                         </div>
                         <div id="nli6">
                             <!---- Original Sentence ---->
-                            <span style="padding-left: 1em; ">Read the following sentence:</span>
+                            <span style="padding-left: 1em; ">6. Read the following sentence:</span>
                             <br/>
                             <span style="font-style: italic; padding-left: 2em; ">(1) {{{s2_premise6}}}</span>
                             <br/><br/>
@@ -496,7 +496,7 @@
                                       maxlength="250" name="s2_creative_sentence2"
                                       rows="2" onblur="updateCreative()">{{{s2_hypothesis6}}}</textarea>
                             <br/>
-                            <span style="font-weight: bold"> 6. {{{g_tag_validate_text}}} </span>
+                            <span style="font-weight: bold"> {{{g_tag_validate_text}}} </span>
                             <table border="0" cellpadding="4" cellspacing="0" style="font-family: Verdana, Geneva, sans-serif; font-size:medium;">
                                 <tbody>
                                     <tr><td style="padding-left:2em"><input id="s2-nli6-radio1" name="nli6" type="radio" value="entailment" /> {{{g_entail_text}}}</td></tr>
@@ -753,7 +753,7 @@
 
         document.getElementById('s2_creative1_label').innerText = newLabel;
 
-        alert('Please write a '+ newLabel + ' sentence on sentence 5');
+        alert("Ok. If you can't think of anything, please write a "+ newLabel + " sentence instead");
     }
 
     function highlight(text, word) {
