@@ -757,7 +757,7 @@
     }
 
     function highlight(text, word) {
-        reg = new RegExp("\\b" + word + "\\b", 'i');
+        let reg = new RegExp("\\b" + word + "\\b", 'i');
 
         if (text.match(reg)) {index = text.match(reg).index} else {index = -1}
 
