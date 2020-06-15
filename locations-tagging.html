@@ -366,9 +366,9 @@
                             <span style="font-weight: bold"> {{{g_tag_validate_text}}} </span>
                             <table border="0" cellpadding="4" cellspacing="0" style="font-family: Verdana, Geneva, sans-serif; font-size:medium;">
                                 <tbody>
-                                    <tr><td style="padding-left:2em"><input id="s2-nli5-radio1" name="nli5" type="radio" value="entailment" /> {{{g_entail_text}}}</td></tr>
-                                    <tr><td style="padding-left:2em"><input id="s2-nli5-radio2" name="nli5" type="radio" value="contradiction" /> {{{g_contra_text}}}</td></tr>
-                                    <tr><td style="padding-left:2em"><input id="s2-nli5-radio3" name="nli5" type="radio" value="neutral" /> {{{g_neutral_text}}}</td></tr>
+                                    <tr><td style="padding-left:2em"><input id="s2-nli5-radio1" name="nli5" onclick="logTime(this)" type="radio" value="entailment" /> {{{g_entail_text}}}</td></tr>
+                                    <tr><td style="padding-left:2em"><input id="s2-nli5-radio2" name="nli5" onclick="logTime(this)" type="radio" value="contradiction" /> {{{g_contra_text}}}</td></tr>
+                                    <tr><td style="padding-left:2em"><input id="s2-nli5-radio3" name="nli5" onclick="logTime(this)" type="radio" value="neutral" /> {{{g_neutral_text}}}</td></tr>
                                 </tbody>
                             </table>
                             <br/>
@@ -389,9 +389,9 @@
                             <span style="font-weight: bold"> {{{g_tag_validate_text}}} </span>
                             <table border="0" cellpadding="4" cellspacing="0" style="font-family: Verdana, Geneva, sans-serif; font-size:medium;">
                                 <tbody>
-                                    <tr><td style="padding-left:2em"><input id="s2-nli6-radio1" name="nli6" type="radio" value="entailment" /> {{{g_entail_text}}}</td></tr>
-                                    <tr><td style="padding-left:2em"><input id="s2-nli6-radio2" name="nli6" type="radio" value="contradiction" /> {{{g_contra_text}}}</td></tr>
-                                    <tr><td style="padding-left:2em"><input id="s2-nli6-radio3" name="nli6" type="radio" value="neutral" /> {{{g_neutral_text}}}</td></tr>
+                                    <tr><td style="padding-left:2em"><input id="s2-nli6-radio1" name="nli6" type="radio" onclick="logTime(this)" value="entailment" /> {{{g_entail_text}}}</td></tr>
+                                    <tr><td style="padding-left:2em"><input id="s2-nli6-radio2" name="nli6" type="radio" onclick="logTime(this)" value="contradiction" /> {{{g_contra_text}}}</td></tr>
+                                    <tr><td style="padding-left:2em"><input id="s2-nli6-radio3" name="nli6" type="radio" onclick="logTime(this)" value="neutral" /> {{{g_neutral_text}}}</td></tr>
                                 </tbody>
                             </table>
                             <br/>
@@ -399,7 +399,7 @@
                         </div>
                     <br/>
                     <input type="button" value="Next"
-                           onclick="navigate('collapse2', 'collapse2b', 2)"
+                           name="next" onclick="logTime(this);navigate('collapse2', 'collapse2b', 2);logTime(this)"
                            id="next-2"/>
                     <br/>
                     </div>
@@ -427,9 +427,9 @@
                         <span style="font-weight: bold"> {{{g_tag_text}}} </span>
                         <table border="0" cellpadding="4" cellspacing="0" style="font-family: Verdana, Geneva, sans-serif; font-size:medium;">
                             <tbody>
-                                <tr><td style="padding-left:2em"><input id="s2-nli7-radio1" name="nli7" type="radio" value="entailment" /> {{{g_entail_text}}}</td></tr>
-                                <tr><td style="padding-left:2em"><input id="s2-nli7-radio2" name="nli7" type="radio" value="contradiction" /> {{{g_contra_text}}}</td></tr>
-                                <tr><td style="padding-left:2em"><input id="s2-nli7-radio3" name="nli7" type="radio" value="neutral" /> {{{g_neutral_text}}}</td></tr>
+                                <tr><td style="padding-left:2em"><input id="s2-nli7-radio1" name="nli7" type="radio" onclick="logTime(this)" value="entailment" /> {{{g_entail_text}}}</td></tr>
+                                <tr><td style="padding-left:2em"><input id="s2-nli7-radio2" name="nli7" type="radio" onclick="logTime(this)" value="contradiction" /> {{{g_contra_text}}}</td></tr>
+                                <tr><td style="padding-left:2em"><input id="s2-nli7-radio3" name="nli7" type="radio" onclick="logTime(this)" value="neutral" /> {{{g_neutral_text}}}</td></tr>
                             </tbody>
                         </table>
                         <br/><br/>
@@ -448,9 +448,9 @@
                         <span style="font-weight: bold">{{{g_tag_text}}} </span>
                         <table border="0" cellpadding="4" cellspacing="0" style="font-family: Verdana, Geneva, sans-serif; font-size:medium;">
                             <tbody>
-                                <tr><td style="padding-left:2em"><input id="s2-nli8-radio1" name="nli8" type="radio" value="entailment" /> {{{g_entail_text}}}</td></tr>
-                                <tr><td style="padding-left:2em"><input id="s2-nli8-radio2" name="nli8" type="radio" value="contradiction" /> {{{g_contra_text}}}</td></tr>
-                                <tr><td style="padding-left:2em"><input id="s2-nli8-radio3" name="nli8" type="radio" value="neutral" /> {{{g_neutral_text}}}</td></tr>
+                                <tr><td style="padding-left:2em"><input id="s2-nli8-radio1" name="nli8" type="radio" value="entailment" onclick="logTime(this)"/> {{{g_entail_text}}}</td></tr>
+                                <tr><td style="padding-left:2em"><input id="s2-nli8-radio2" name="nli8" type="radio" value="contradiction" onclick="logTime(this)"/> {{{g_contra_text}}}</td></tr>
+                                <tr><td style="padding-left:2em"><input id="s2-nli8-radio3" name="nli8" type="radio" value="neutral" onclick="logTime(this)" /> {{{g_neutral_text}}}</td></tr>
                             </tbody>
                         </table>
                         <br/><br/>
@@ -466,7 +466,7 @@
                     <input type="button" value="Back"
                            onclick="navigate('collapse2b', 'collapse2', 2)"
                            id="back-2b"/>
-                    <input type="button" value="Submit HIT" onclick="submitHITForm()" id="submit-button"/>
+                    <input type="button" value="Submit HIT" name="done" onclick="logTime(this);submitHITForm()" id="submit-button"/>
                     <br/>
                     </div>
                 </div>
@@ -615,6 +615,13 @@
 
     function renderSentence(sent, location) {
         return Mustache.render(sent, {location: '<span class="highlight-mnli-word">'+location+"</span>"});
+    }
+
+    function logTime(elem){
+        let field = "click_time_" + elem.name;
+        if (!INPUT_METADATA[field]){
+            INPUT_METADATA[field] = (new Date() - START_TIME) / 1000.0;
+        }
     }
 
     function navigate(collapse, open, section) {
