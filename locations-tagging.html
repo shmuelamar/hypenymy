@@ -354,7 +354,7 @@
                             <br/><br/>
                             <span style="padding-left: 1em; ">1. Read the following sentence:</span>
                             <br/>
-                            <span style="font-style: italic; padding-left: 2em; ">(1) {{{s2_premise5}}}</span>
+                            <span style="font-style: italic; padding-left: 2em; ">(1) <i>{{{s2_premise5}}}</i></span>
                             <br/><br/>
                             <label for="h-2_1">{{{s2_text2}}}</label>&nbsp;<br/>
                             (If you really can't think of any such sentence, check this box: <input id="impossible-h-2_1" name="nli5_flipped" type="checkbox" onclick="creativeEntailImpossibleFlip()"> )<br/>
@@ -378,7 +378,7 @@
                             <!---- Original Sentence ---->
                             <span style="padding-left: 1em; ">2. Read the following sentence:</span>
                             <br/>
-                            <span style="font-style: italic; padding-left: 2em; ">(1) {{{s2_premise6}}}</span>
+                            <span style="font-style: italic; padding-left: 2em; ">(1) <i>{{{s2_premise6}}}</i></span>
                             <br/><br/>
                             <label for="h-2_2">{{{s2_text3}}}</label>&nbsp;<br/>
                             <p style="float: left; padding-left: 2em; ">(2) </p><textarea class="form-control" cols="85"
@@ -416,14 +416,15 @@
                     <div class="panel-body">
                     <!-- other-location -> Country creative -->
                     <div id="nli7">
+                        <span style="padding-left: 1em; ">3. Read the following sentence:</span><br/>
                         <div class="clickable" style="font-size: medium; padding-left:2em">
-                            (1) <span>{{{s2_premise7}}}</span>
+                            (1) <span><i>{{{s2_premise7}}}</i></span>
                         </div>
                         <div class="clickable" style="font-size: medium; padding-left:2em">
-                            (2) <span id="s2_hypothesis7">{{{s2_hypothesis7}}}</span>
+                            (2) <i><span id="s2_hypothesis7">{{{s2_hypothesis7}}}</span></i>
                         </div>
                         <br/>
-                        <span style="font-weight: bold"> 3. {{{g_tag_text}}} </span>
+                        <span style="font-weight: bold"> {{{g_tag_text}}} </span>
                         <table border="0" cellpadding="4" cellspacing="0" style="font-family: Verdana, Geneva, sans-serif; font-size:medium;">
                             <tbody>
                                 <tr><td style="padding-left:2em"><input id="s2-nli7-radio1" name="nli7" type="radio" value="entailment" /> {{{g_entail_text}}}</td></tr>
@@ -436,14 +437,15 @@
 
                     <!-- other-location -> Country creative -->
                     <div id="nli8">
+                        <span style="padding-left: 1em; ">4. Read the following sentence:</span><br/>
                         <div class="clickable" style="font-size: medium; padding-left:2em">
-                            (1) <span>{{{s2_premise8}}}</span>
+                            (1) <span><i>{{{s2_premise8}}}</i></span>
                         </div>
                         <div class="clickable" style="font-size: medium; padding-left:2em">
-                            (2) <span id="s2_hypothesis8">{{{s2_hypothesis8}}}</span>
+                            (2) <i><span id="s2_hypothesis8">{{{s2_hypothesis8}}}</span></i>
                         </div>
                         <br/>
-                        <span style="font-weight: bold"> 4. {{{g_tag_text}}} </span>
+                        <span style="font-weight: bold">{{{g_tag_text}}} </span>
                         <table border="0" cellpadding="4" cellspacing="0" style="font-family: Verdana, Geneva, sans-serif; font-size:medium;">
                             <tbody>
                                 <tr><td style="padding-left:2em"><input id="s2-nli8-radio1" name="nli8" type="radio" value="entailment" /> {{{g_entail_text}}}</td></tr>
@@ -484,6 +486,7 @@
 </section>
 <script>
     let DEBUG_MODE = true;
+    let START_TIME;
 
     // main input from server
     let COUNTRY;
@@ -597,8 +600,8 @@
         s2_hypothesis8: "",  // placeholder
 
         //globals
-        g_tag_text: "Assuming (1) is true, sentence (2) is likely to be:",
-        g_tag_validate_text: "Just to be sure, please read carefully the two sentences again. Assuming (1) is true, sentence (2) is likely to be:",
+        g_tag_text: "Assuming (1) is correct, sentence (2) is likely to be:",
+        g_tag_validate_text: "Just to be sure, please read carefully the two sentences again. Assuming (1) is correct, sentence (2) is likely to be:",
         g_entail_text: "Using only this description and what you know about the world, write a sentence that is definitely <b>correct</b> about the situation or event in the sentence",
         g_contra_text: "Using only this description and what you know about the world, write a sentence that is definitely <b>incorrect</b> about the situation or event in the sentence",
         g_neutral_text: "Using only this description and what you know about the world, write a sentence that <b>might be correct</b> about the situation or event in the sentence, but we can't tell for sure",
@@ -810,7 +813,9 @@
         // after rendering, wait 0.3 secs and open the first section
         setTimeout(function () {
             $(document.getElementById("collapse2")).collapse('show');
-        }, 300)
+        }, 300);
+
+        START_TIME = new Date();
     };
 
     if (!localStorage.getItem("seen-instructions")) {
