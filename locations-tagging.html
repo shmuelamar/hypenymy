@@ -301,31 +301,11 @@
                     <div class="container" style="width: 100%;">
 
                         <h2>Section 1</h2>
-                        <img src="https://nlp.biu.ac.il/~ohadr/AMT/images/Slide1.JPG"
+                        <img src="https://nlp.biu.ac.il/~ohadr/AMT/images/location/Slide1.JPG"
                              alt="example1" width="100%">
                         <br/><br/>
                         <h2>Section 2</h2>
-                        <img src="https://nlp.biu.ac.il/~ohadr/AMT/images/Slide2.JPG"
-                             alt="example1" width="100%">
-                        <img src="https://nlp.biu.ac.il/~ohadr/AMT/images/Slide3.JPG"
-                             alt="example1" width="100%">
-                        <br/><br/>
-                        <h2>Section 3</h2>
-                        <img src="https://nlp.biu.ac.il/~ohadr/AMT/images/Slide4.JPG"
-                             alt="example1" width="100%">
-                        <img src="https://nlp.biu.ac.il/~ohadr/AMT/images/Slide5.JPG"
-                             alt="example1" width="100%">
-                        <img src="https://nlp.biu.ac.il/~ohadr/AMT/images/Slide6.JPG"
-                             alt="example1" width="100%">
-                        <img src="https://nlp.biu.ac.il/~ohadr/AMT/images/Slide7.JPG"
-                             alt="example1" width="100%">
-                        <br/><br/>
-                        <h2>Section 4</h2>
-                        <img src="https://nlp.biu.ac.il/~ohadr/AMT/images/Slide8.JPG"
-                             alt="example1" width="100%">
-                        <br/><br/>
-                        <h2>Section 5</h2>
-                        <img src="https://nlp.biu.ac.il/~ohadr/AMT/images/Slide9.JPG"
+                        <img src="https://nlp.biu.ac.il/~ohadr/AMT/images/location/Slide2.JPG"
                              alt="example1" width="100%">
                         <ul class="nav nav-tabs" id="examples-header"
                             style="display: inline-block;"></ul>
@@ -352,7 +332,7 @@
                             <span>{{{s2_text1}}}</span>
                             <!---- Original Sentence ---->
                             <br/><br/>
-                            <span style="padding-left: 1em; ">1. Read the following sentence:</span>
+                            <span style="padding-left: 1em; ">1. Given that <span class="highlight-mnli-word">{{{location}}}</span> is a city in <span class="highlight-mnli-word">{{{country}}}</span>, read the following sentence:</span>
                             <br/>
                             <span style="font-style: italic; padding-left: 2em; ">(1) <i>{{{s2_premise5}}}</i></span>
                             <br/><br/>
@@ -488,6 +468,12 @@
     let DEBUG_MODE = true;
     let START_TIME;
 
+    let LABEL2TEXT = {
+        True: 'that is definitely correct',
+        Contradiction: 'that is definitely incorrect',
+        Neutral: 'that might be correct',
+    };
+
     // main input from server
     let COUNTRY;
     let LOCATION;
@@ -516,7 +502,7 @@
         LOCATION = "Paris";
         OTHER_LOCATION = "London";
         SENTENCE = "Canal tours expose the grandest face of {{{location}}}.";
-        SECTION2_LABEL = "Contradiction";  // Neutral or Contradiction
+        SECTION2_LABEL = "Neutral";  // Neutral or Contradiction
         SECTION2_WORD_TYPE = "Location";  // Country or Location
         INPUT_CAN_BE_ENTAILED = "1";
         INPUT_START_CHAR = "15";
@@ -559,6 +545,9 @@
         s1_header_text: "1. Label Hypothesis",
         s1_text1: "Read the two sentences below:",
 
+        country: COUNTRY,
+        location: LOCATION,
+
         // 1. location -> country
         s1_premise1: LOCATION_SENTENCE,
         s1_hypothesis1: COUNTRY_SENTENCE,
@@ -579,12 +568,12 @@
         s2_header_text: "1. Write Two Sentences",
 
         // 5. location -> country (creative1) - entailment
-        s2_text2: "Assuming (1) is true, write a <u><b><span id='s2_creative1_label'>True</span></b></u> sentence using the word <span class=\"highlight-mnli-word\">" + SECTION2_WORD + "</span> <u>without</u> using the words <span class=\"highlight-mnli-word\">"+ SECTION2_FORBIDDEN_WORDS.join(' or ') + "</span>",
+        s2_text2: "Using only this description and what you know about the world, write a sentence <u><b><span id='s2_creative1_label'>" + LABEL2TEXT['True'] + "</span></b></u> about the situation or event in the sentence using the word <span class=\"highlight-mnli-word\">" + SECTION2_WORD + "</span> <u>without</u> using the words <span class=\"highlight-mnli-word\">"+ SECTION2_FORBIDDEN_WORDS.join(' or ') + "</span>",
         s2_premise5: SECTION2_PREMISE_SENTENCE,
         s2_hypothesis5: "",  // placeholder
 
         // 6. location -> country (creative2) - non-entailment
-        s2_text3: "Assuming (1) is true, write a <u><b>" + SECTION2_LABEL + "</b></u> sentence using the word <span class=\"highlight-mnli-word\">" + SECTION2_WORD + "</span> and <u>without</u> using the words <span class=\"highlight-mnli-word\">"+ SECTION2_FORBIDDEN_WORDS.join(' or ') + "</span>",
+        s2_text3: "Using only this description and what you know about the world, write a sentence  <u><b>"+ LABEL2TEXT[SECTION2_LABEL] + "</b></u> about the situation or event in the sentence using the word <span class=\"highlight-mnli-word\">" + SECTION2_WORD + "</span> <u>without</u> using the words <span class=\"highlight-mnli-word\">"+ SECTION2_FORBIDDEN_WORDS.join(' or ') + "</span>",
         s2_premise6: SECTION2_PREMISE_SENTENCE,
         s2_hypothesis6: "",  // placeholder
 
@@ -600,11 +589,11 @@
         s2_hypothesis8: "",  // placeholder
 
         //globals
-        g_tag_text: "Assuming (1) is correct, sentence (2) is likely to be:",
-        g_tag_validate_text: "Just to be sure, please read carefully the two sentences again. Assuming (1) is correct, sentence (2) is likely to be:",
-        g_entail_text: "Using only this description and what you know about the world, write a sentence that is definitely <b>correct</b> about the situation or event in the sentence",
-        g_contra_text: "Using only this description and what you know about the world, write a sentence that is definitely <b>incorrect</b> about the situation or event in the sentence",
-        g_neutral_text: "Using only this description and what you know about the world, write a sentence that <b>might be correct</b> about the situation or event in the sentence, but we can't tell for sure",
+        g_tag_text: "Using only the description at (1) and what you know about the world, select whether (2):",
+        g_tag_validate_text: "Just to be sure, please read carefully the two sentences again. Using only the description at (1) and what you know about the world, select whether (2):",
+        g_entail_text: "is definitely <b>correct</b>",
+        g_contra_text: "is definitely <b>incorrect</b>",
+        g_neutral_text: "<b>might</b> (or might not) be correct",
         g_turker_comments_text: "Do you have any more comments or suggestions about the task?",
     };
 
@@ -620,7 +609,7 @@
     function logTime(elem){
         let field = "click_time_" + elem.name;
         if (!INPUT_METADATA[field]){
-            INPUT_METADATA[field] = (new Date() - START_TIME) / 1000.0;
+            INPUT_METADATA[field] = Math.round((new Date() - START_TIME) / 60000.0);
         }
     }
 
@@ -660,9 +649,9 @@
             newLabel = 'True';
         }
 
-        document.getElementById('s2_creative1_label').innerText = newLabel;
+        document.getElementById('s2_creative1_label').innerText = LABEL2TEXT[newLabel];
 
-        alert("Ok. If you can't think of anything, please write a "+ newLabel + " sentence instead");
+        alert("Ok. If you can't think of anything, please write a sentence "+ LABEL2TEXT[newLabel] + " sentence instead");
     }
 
     function highlight(text, word) {
