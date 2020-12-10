@@ -1,0 +1,932 @@
+<link href="https://s3.amazonaws.com/mturk-public/bs30/css/bootstrap.css"
+      media="screen" rel="stylesheet"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style type="text/css">
+
+    #content {
+        margin-bottom: 15px;
+        padding: 10px 10px;
+        font-family: Verdana, Geneva, sans-serif;
+        country: #333333;
+        font-size: 0.9em;
+    }
+
+    .header-toggle {
+        country: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    p {
+        padding: 10px;
+        margin: 0;
+    }
+
+    p.yellow {
+        font-size: 2em;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        margin-bottom: 21px;
+    }
+
+    p.yellow span {
+        background: orange;
+        cursor: pointer;
+    }
+
+    p.yellow::selection {
+        country: black;
+        background: yellow;
+    }
+
+    p.yellow::-moz-selection { /* Code for Firefox */
+        country: black;
+        background: yellow;
+    }
+
+
+    #question-hint {
+        display: none;
+    }
+
+    .answers-select {
+        display: none;
+    }
+
+    .x-button {
+        country: red;
+        background: white;
+        border: 1px solid black;
+        border-radius: 50%;
+        margin: 0 10px;
+        cursor: pointer;
+        padding: 1px 6px;
+    }
+
+
+    .flex {
+        display: flex;
+        width: 100%;
+    }
+
+    .flex > input {
+        width: 100%;
+    }
+
+    #skip, #another-question {
+        float: right;
+    }
+
+    .panel-primary > .panel-heading {
+        color: #ffffff;
+        background-color: #ca427e;
+        border-color: #ea2279;
+    }
+
+    .panel-primary {
+        border-color: #df2d75;
+    }
+
+    .panel-info > .panel-heading {
+        color: #ffffff;
+        background-color: #7b96e4;
+        border-color: #bce8f1;
+    }
+
+    .highlight {
+        background-color: yellow;
+    }
+
+    .radio1 {
+        padding-right: 2em;
+        padding-left: 1em;
+    }
+
+    .instructions-body {}
+    {
+        font-size: small;
+    }
+
+    .panel-body {
+        font-size: small;
+    }
+
+    .panel-title {
+        font-size: x-large;
+    }
+
+    .hypernyms1 span:hover {
+        text-decoration: underline;
+    }
+
+    #all-answers {
+        display: none;
+    }
+
+    .highlight-mnli-word {
+        font-weight: bold;
+        background-color: yellow;
+    }
+
+    .highlight-country {
+        font-weight: bold;
+        background-color: deepskyblue;
+    }
+
+    .highlight-other-country {
+        font-weight: bold;
+        background-color: coral;
+    }
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.0.1/mustache.min.js"></script>
+
+
+<!--<h2 class="panel-heading" style="padding-left:400px">-->
+    <!--<mark>A bonus of $2 will be granted for <u>successfully</u> answering these two qualification HITs (this HIT, and the next HIT). </br>That would also grant you access to the rest of our HITs. </br>For that, please make sure you've done this <a href="https://nlp.biu.ac.il/~ohadr/AMT/NLI_training_location.html" target="_blank">training session</a> before answering this HIT</mark>-->
+
+<!--</h2>-->
+
+<div id="Version 5-1" style="display: none"></div>
+
+<section class="container" id="content">
+    <div class="row col-xs-12 col-md-12">
+        <!--Version1-->
+        <!-- Instructions -->
+        <div class="panel panel-primary" id="instructions">
+            <div class="panel-heading header-toggle"
+                 onmousedown="toggle('inst-collapse1')">
+                Instructions (click to collapse / expand)
+            </div>
+
+            <div class="panel-body" style="font-size:small">
+                <br id="inst-collapse1" style="display:none">
+<!--
+
+    <br><strong>Sentence-Relations</strong><br/>
+
+	<p class="red-temp">This task will involve reading a line taken from the web (marked with (1)) and selecting the correctness of the second sentence (marked with (2)). The line will describe a situation or event. Using only this description, write a sentence that:</p>
+	<ul>
+		<li>is definitely <b>correct</b> about the situation or event in the line.</li>
+		<li>is definitely <b>incorrect</b> about the situation or event in the line.</li>
+		<li><b>might (or might not)</b> be correct about the situation or event in the line. In other words, there isn't enough information in (1) to tell.</li>
+		(in the task you'll only have to write two of the three, according to the instruction detailed on the page)
+	</ul>
+
+		<br/>
+		<br/>
+	<h4>A few examples:</h4>
+
+
+		<br/>
+		(1) <i>Many offer dinner as well as feta cheese.</i><br/>
+		(2) <i>A white cheese is offered by many.</i><br/>
+		Using only the description in (1), sentence (2):<br/>
+		<b>is definitely correct</b>.<br/>
+		Explanation: If there are many temples in Tokyo, these temples are also in Japan (Tokyo is in Japan), so there must be also many temples in Japan.
+		<br/><br/>
+
+
+		(1) <i>Many offer dinner as well as feta cheese.</i><br/>
+		(2) <i>Only few offer any white food.</i><br/>
+		Using only the description in (1), sentence (2):<br/>
+		<b>is definitely incorrect</b>.<br/>
+		Explanation: It says in (1) that the temples are in Tokyo, so (2) is definitely incorrect.
+		<br/><br/>
+
+
+		(1) <i>Although he hated the city, John travelled to France many times.</i><br/>
+		(2) <i>John visited Paris at least once.</i><br/>
+		Using only the description in (1), sentence (2):<br/>
+		<b>might (or might not) be correct</b>.<br/>
+		Explanation: We can't know for sure from (1) if John visited Paris, or any other city. We only know it was somewhere in France, but there is no information at (1) regarding Paris.
+		<br/><br/>
+                    See more examples in the Examples section (below).
+                    <br/><br/>
+
+                    <br><strong><font size="4">Writing Your Own Sentences</font></strong><br/>
+                    When writing your own sentences, please consider the following:
+                    <ol>
+                        <li><b>The second sentence must always relate to the same scene or event!</b> So when writing a sentence that <i>might or might not </i>be correct (let's call it <b>Neutral</b>), do NOT come up with information that is totally not related to the first sentence.
+                            <br/>Here is a <b>bad</b> example for the following first sentence:<br/>
+                            <i>(1) We all enjoyed the game very much.</i><br/>
+                            even if you want to write a <i>Neutral</i> or <i>incorrect</i> sentence, do <b>NOT</b> write anything like that:<br/>
+                            <i>"it was sunny yesterday."</i><br/>
+                        </li>
+                        <li>When writing an <i>incorrect</i> sentence, pleaes avoid from coming up with too many false details that will make the reader think it's a different event or scene.<br/>
+                            For example, for the following first sentence:<br/>
+                            <i>(1) Both me and John enjoyed the game on Sunday very much.</i><br/>
+                            Good <i>incorrect</i> sentence may be:
+                            <ul>
+                                <li>"<i>I hated the game</i>" - ('hated' contradicts 'enjoyed')</li>
+                            </ul>
+                            The following is a BAD <i>Contradiction</i> sentence:<br/>
+                            <i>"Bill hated the game on Monday"</i> - There are too many details that are different from (1), and the reader can't know if it even refers to the same scene. In this case, therefore, this sentence would consider Neutral with respect to (1).
+                        </li>
+                        <li>When writing an <i>incorrect</i> sentence, pleaes try to avoid using negation if possible (e.g. words like: <i>no</i>, <i>don't</i>, <i>ever</i>, etc.). It's not always possible, but please try.<br/>
+                            For example, for the following first sentence:<br/>
+                            <i>(1) Both me and John enjoyed the game on Sunday very much.</i><br/>
+                            Instead of writing: "<i>I didn't enjoy the game on Sunday.</i>"</br>
+                            You can write something like: "<i>I thought the game on Sunday was boring.</i>"</br>
+                        </li>
+                        <li>Make sure your sentence is quite different from the first one, just like in the examples above (i.e. don't just copy it while changing only one word.)</li>
+                        <li>Try to be creative with your logic inference. Think of details that are true or not in the first sentence, and use them to create a new sentence. For exapmle:<br/>
+                            <i>(1) Both me and John enjoyed the game on Sunday very much.</i><br/>
+                            You can write the following <b>correct</b> sentences:
+                              <ul>
+                                <li>"<i>John enjoyed the game</i>" (it's not mandatory to include the fact that the game took place on Sunday)</li>
+                                <li>"<i>John attended the game</i>"</li>
+                                <li>"<i>A game took place on Sunday</i>"</li>
+                            </ul>
+                            You can write the following <b>incorrect</b> sentence:
+                              <ul>
+                                <li>"<i>John hated the game</i>"</li>
+                            </ul>
+                            You can write the following <b>Neutral</b> sentence:
+                              <ul>
+                                <li>"<i>I love soccer games.</i>" (We don't know from (1) that it was a soccer game. Could be any other game)</li>
+                                <li>"<i>John thought the game was the best one in his life.</i>" (We don't know that from (1))</li>
+                            </ul>
+                        </li>
+                    </ol>
+
+                    <br><strong><font size="4">Additional Training</font></strong><br/>
+                    If you want to make sure you understand the instructions correctly, our quick training session (2-3 minutes) is available <a href="https://nlp.biu.ac.il/~ohadr/AMT/NLI_training_color.html" target="_blank">here</a>.
+                    You can find there 6 more examples with explanations.
+                    <br/><br/><br/>
+
+                    <br><strong><font size="4">Bonus</font></strong><br/>
+                    A special $10 bonus will be granted for a successful finish
+                    of 20 HITs in a good quality.
+                    <br/><br/><br/>
+
+                    Please feel free to email me if you have any further
+                    questions: ohadrozen@gmail.com. Thanks!
+-->
+                <u>Section 1:</u><br/>
+                This task will involve reading a line from a science fiction story and writing three sentences that relate to it. The line will describe a situation or event.
+                Using only this description and the specific restrictions (detailed below), please write:
+                <br/><br/>
+                <ul>
+                    <li>Write one sentence that is <b>definitely correct</b> about the situation or event in the line.</li>
+                    <li>Write one sentence that is <b>definitely incorrect</b> about the situation or event in the line.</li>
+                    <li>Write one sentence that <b>might or might not be correct</b> about the situation or event in the line.</li>
+                </ul>
+                <br/><br/>
+                Below the given line we also specify a few restrictions about a few words to use or not to use. We ask you not to use the company name (in yellow), but use its country of origin (in blue) instead.
+                <br/><br/>
+
+                <u>Section 2:</u><br/>
+                Instead of writing the sentences, now simply tell us if the new sentences are <b>correct</b>, <b>incorrect</b> or <b>maybe correct</b>
+
+                <br/><br/>
+                Bar Ilan University Center for Data Science is collecting your answers for use in research on computer understanding of English. Thank you for your help!
+                <br/><br/>
+                If you have more questions, please consult these <a href="https://sites.google.com/a/nyu.edu/faq-nyu-captions-task-on-mturk/">FQA</a>.
+            </div>
+        </div>
+
+
+        <!--&lt;!&ndash; Examples &ndash;&gt;-->
+
+        <div class="panel panel-info" id="instructions-examples">
+            <div class="panel-heading header-toggle"
+                 onmousedown="toggle('inst-collapse2')">
+                Examples (click to collapse / expand)
+            </div>
+            <div class="panel-body" style="background: #ddd">
+                <div id="inst-collapse2" style="display:none;"><!--  -->
+                    <!--- TODO Instructions -->
+
+                    <div class="container" style="width: 100%;">
+
+                        <h2>Section 1</h2>
+                        <img src="https://nlp.biu.ac.il/~ohadr/AMT/images/color/Slide1.JPG"
+                             alt="example1" width="100%">
+                        <br/><br/>
+                        <h2>Section 2</h2>
+                        <img src="https://nlp.biu.ac.il/~ohadr/AMT/images/color/Slide2.JPG"
+                             alt="example2" width="100%">
+                        <br/><br/>
+                        <h2>Section 3</h2>
+                        <img src="https://nlp.biu.ac.il/~ohadr/AMT/images/color/Slide3.JPG"
+                             alt="example3" width="100%">
+                        <ul class="nav nav-tabs" id="examples-header"
+                            style="display: inline-block;"></ul>
+                        <div class="tab-content" id="examples-content"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <form id="main-form" action="/action_page.php">
+
+            <!--************************************* 2. Write Hypothesis with Color *****************************************************-->
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading2">
+                    <h4 class="panel-title" id="pannel2_title">
+                        {{{s2_header_text}}}
+                    </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse"
+                     role="tabpanel" aria-labelledby="heading2">
+                    <div class="panel-body">
+                        <div id="nli5">
+                            <span>{{{s2_text1}}}</span>
+                            <!---- Original Sentence ---->
+                            <br/><br/>
+                            Line:<span  id="s2_premise5_text" style="font-style: italic; padding-left: 2em;"> <i><u>{{{s2_premise5}}}</u></i></span>
+                            <br/>&emsp;&emsp;&emsp;&emsp;&emsp; <span style="padding-left: 1em; ">(<span class="highlight-mnli-word">{{{company}}} </span> {{{comment}}} is a <span class="highlight-country">{{{country_adj}}} </span> company)</span>
+                            <br/><br/>
+                            Restrictions: &emsp;&emsp;
+                            {{{s2_restrictions}}}
+                            <br/><br/>
+                            <!--<label for="h-2_1">{{{s2_text2}}}</label>&nbsp;<br/>-->
+                            <br/>
+                            <p style="float: left; padding-left: 2em; "></p>{{{s2_text2_new}}}<br/>
+                            <textarea class="form-control" cols="85"
+                                      id="h-2_1" placeholder=""  style="width:60%"
+                                      maxlength="250" name="s2_creative_sentence1_entailment"
+                                      rows="2" onblur="updateCreative()">{{{s2_hypothesis5}}}</textarea>
+                            <br/>
+                            <!--<span style="font-weight: bold"> {{{g_tag_validate_text}}} </span>-->
+                            <!--<table border="0" cellpadding="4" cellspacing="0" style="font-family: Verdana, Geneva, sans-serif; font-size:medium;">-->
+                                <!--<tbody>-->
+                                    <!--<tr><td style="font-size:small; padding-left:2em"><input id="s2-nli5-radio1" name="nli5" onclick="logTime(this)" type="radio" value="entailment" /> {{{g_entail_text}}}</td></tr>-->
+                                    <!--<tr><td style="font-size:small; padding-left:2em"><input id="s2-nli5-radio2" name="nli5" onclick="logTime(this)" type="radio" value="contradiction" /> {{{g_contra_text}}}</td></tr>-->
+                                    <!--<tr><td style="font-size:small; padding-left:2em"><input id="s2-nli5-radio3" name="nli5" onclick="logTime(this)" type="radio" value="neutral" /> {{{g_neutral_text}}}</td></tr>-->
+                                <!--</tbody>-->
+                            <!--</table>-->
+                            <br/>
+                        </div>
+                        <div id="nli6">
+                            <!---- Original Sentence ---->
+                            <!--<span style="padding-left: 1em; ">2. For the same sentence:</span>-->
+                            <!--<br/>-->
+                            <!--<span style="font-style: italic; padding-left: 2em; ">(1) <i>{{{s2_premise6}}}</i></span>-->
+                            <!--<br/><br/>-->
+                            <!--<label for="h-2_2">{{{s2_text3}}}</label>&nbsp;<br/>-->
+                            <p style="float: left; padding-left: 2em; "></p>{{{s2_text3}}}<br/>
+                            <textarea class="form-control" cols="85"
+                                      id="h-2_2" placeholder="" style="width:60%"
+                                      maxlength="250" name="s2_creative_sentence2_Neutral"
+                                      rows="2" onblur="updateCreative()">{{{s2_hypothesis6}}}</textarea>
+                            <br/>
+                            <!--<span style="font-weight: bold"> {{{g_tag_validate_text}}} </span>-->
+                            <!--<table border="0" cellpadding="4" cellspacing="0" style="font-family: Verdana, Geneva, sans-serif; font-size:medium;">-->
+                                <!--<tbody>-->
+                                    <!--<tr><td style="font-size:small;padding-left:2em"><input id="s2-nli6-radio1" name="nli6" type="radio" onclick="logTime(this)" value="entailment" /> {{{g_entail_text}}}</td></tr>-->
+                                    <!--<tr><td style="font-size:small;padding-left:2em"><input id="s2-nli6-radio2" name="nli6" type="radio" onclick="logTime(this)" value="contradiction" /> {{{g_contra_text}}}</td></tr>-->
+                                    <!--<tr><td style="font-size:small;padding-left:2em"><input id="s2-nli6-radio3" name="nli6" type="radio" onclick="logTime(this)" value="neutral" /> {{{g_neutral_text}}}</td></tr>-->
+                                <!--</tbody>-->
+                            <!--</table>-->
+                            <br/>
+                        </div>
+                        <div id="nli7">
+                            <!---- Original Sentence ---->
+                            <!--<span style="padding-left: 1em; ">3. For the same sentence:</span>-->
+                            <!--<br/>-->
+                            <!--<span style="font-style: italic; padding-left: 2em; ">(1) <i>{{{s2_premise6b}}}</i></span>-->
+                            <!--<br/><br/>-->
+                            <!--<label for="h-2_2">{{{s2_text4}}}</label>&nbsp;<br/>-->
+                            <p style="float: left; padding-left: 2em; "></p>{{{s2_text4}}}<br/>
+                            <textarea class="form-control" cols="85"
+                                      id="h-2_3" placeholder="" style="width:60%"
+                                      maxlength="250" name="s2_creative_sentence3_Contradiction"
+                                      rows="2" onblur="updateCreative()">{{{s2_hypothesis6}}}</textarea>
+                            <br/>
+                            <!--<span style="font-weight: bold"> {{{g_tag_validate_text}}} </span>-->
+                            <!--<table border="0" cellpadding="4" cellspacing="0" style="font-family: Verdana, Geneva, sans-serif; font-size:medium;">-->
+                                <!--<tbody>-->
+                                    <!--<tr><td style="font-size:small;padding-left:2em"><input id="s2-nli7-radio1" name="nli7" type="radio" onclick="logTime(this)" value="entailment" /> {{{g_entail_text}}}</td></tr>-->
+                                    <!--<tr><td style="font-size:small;padding-left:2em"><input id="s2-nli7-radio2" name="nli7" type="radio" onclick="logTime(this)" value="contradiction" /> {{{g_contra_text}}}</td></tr>-->
+                                    <!--<tr><td style="font-size:small;padding-left:2em"><input id="s2-nli7-radio3" name="nli7" type="radio" onclick="logTime(this)" value="neutral" /> {{{g_neutral_text}}}</td></tr>-->
+                                <!--</tbody>-->
+                            <!--</table>-->
+                            <br/>
+                            <br/>
+                        </div>
+                    <br/>
+                    <input type="button" value="Next"
+                           name="next" onclick="logTime(this);navigate('collapse2', 'collapse2b', 2);logTime(this)"
+                           id="next-2"/>
+                    <br/>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading2b">
+                    <h4 class="panel-title" id="pannel2b_title">
+                        {{{s2b_header_text}}}
+                    </h4>
+                </div>
+                <div id="collapse2b" class="panel-collapse collapse"
+                     role="tabpanel" aria-labelledby="heading2">
+                    <div class="panel-body">
+                    <!-- other-country -> Country creative -->
+                    <div id="nli8">
+                        <br/>
+                        <u>Reminder</u>: <span class="highlight-mnli-word">{{{company}}}</span> {{{comment}}} is a <span class="highlight-country">{{{country_adj}}} </span> company.
+                        <br/>
+                        <br/>
+                        <!--<span style="padding-left: 1em; ">Read the following sentence pair:</span>-->
+                        <div  class="clickable" style="font-size: small; padding-left:2em">
+                            (1) <span id="s2_premise7_text"><i>{{{s2_premise7}}}</i></span>
+                        </div>
+                        <div class="clickable" style="font-size: small; padding-left:2em">
+                            (2) <i><span id="s2_hypothesis7">{{{s2_hypothesis7}}}</span></i>
+                        </div>
+                        <br/>
+                        <span style="font-weight: bold"> {{{g_tag_text}}} </span>
+                        <table border="0" cellpadding="4" cellspacing="0" style="font-family: Verdana, Geneva, sans-serif; font-size:medium;">
+                            <tbody>
+                                <tr><td style="font-size:small;padding-left:2em"><input id="s2-nli8-radio1" name="nli8" type="radio" onclick="logTime(this)" value="entailment" /> {{{g_entail_text}}}</td></tr>
+                                <tr><td style="font-size:small;padding-left:2em"><input id="s2-nli8-radio2" name="nli8" type="radio" onclick="logTime(this)" value="contradiction" /> {{{g_contra_text}}}</td></tr>
+                                <tr><td style="font-size:small;padding-left:2em"><input id="s2-nli8-radio3" name="nli8" type="radio" onclick="logTime(this)" value="neutral" /> {{{g_neutral_text}}}</td></tr>
+                            </tbody>
+                        </table>
+                        <br/><br/>
+                    </div>
+
+                    <!-- other-country -> Country creative -->
+                    <div id="nli9">
+                        <!--<span style="padding-left: 1em; ">5. Read the following sentence pair:</span><br/>-->
+                        <div class="clickable" style="font-size: small; padding-left:2em">
+                            (1) <span><i>{{{s2_premise8}}}</i></span>
+                        </div>
+                        <div class="clickable" style="font-size: small; padding-left:2em">
+                            (2) <i><span id="s2_hypothesis8">{{{s2_hypothesis8}}}</span></i>
+                        </div>
+                        <br/>
+                        <span style="font-weight: bold">{{{g_tag_text}}} </span>
+                        <table border="0" cellpadding="4" cellspacing="0" style="font-family: Verdana, Geneva, sans-serif; font-size:medium;">
+                            <tbody>
+                                <tr><td style="font-size:small;padding-left:2em"><input id="s2-nli9-radio1" name="nli9" type="radio" value="entailment" onclick="logTime(this)"/> {{{g_entail_text}}}</td></tr>
+                                <tr><td style="font-size:small;padding-left:2em"><input id="s2-nli9-radio2" name="nli9" type="radio" value="contradiction" onclick="logTime(this)"/> {{{g_contra_text}}}</td></tr>
+                                <tr><td style="font-size:small;padding-left:2em"><input id="s2-nli9-radio3" name="nli9" type="radio" value="neutral" onclick="logTime(this)" /> {{{g_neutral_text}}}</td></tr>
+                            </tbody>
+                        </table>
+                        <br/><br/>
+                    </div>
+
+                    <!-- other-country -> Country creative -->
+                    <div id="nli10">
+                        <!--<span style="padding-left: 1em; ">6. Read the following sentence pair:</span><br/>-->
+                        <div class="clickable" style="font-size: small; padding-left:2em">
+                            (1) <span><i>{{{s2_premise9}}}</i></span>
+                        </div>
+                        <div class="clickable" style="font-size: small; padding-left:2em">
+                            (2) <i><span id="s2_hypothesis9">{{{s2_hypothesis9}}}</span></i>
+                        </div>
+                        <br/>
+                        <span style="font-weight: bold">{{{g_tag_text}}} </span>
+                        <table border="0" cellpadding="4" cellspacing="0" style="font-family: Verdana, Geneva, sans-serif; font-size:medium;">
+                            <tbody>
+                                <tr><td style="font-size:small; padding-left:2em"><input id="s2-nli10-radio1" name="nli10" type="radio" value="entailment" onclick="logTime(this)"/> {{{g_entail_text}}}</td></tr>
+                                <tr><td style="font-size:small; padding-left:2em"><input id="s2-nli10-radio2" name="nli10" type="radio" value="contradiction" onclick="logTime(this)"/> {{{g_contra_text}}}</td></tr>
+                                <tr><td style="font-size:small; padding-left:2em"><input id="s2-nli10-radio3" name="nli10" type="radio" value="neutral" onclick="logTime(this)" /> {{{g_neutral_text}}}</td></tr>
+                            </tbody>
+                        </table>
+                        <br/><br/>
+                    </div>
+                    <br/>
+                    <label for="turker_comments">{{{g_turker_comments_text}}}</label>&nbsp;<br/>
+                        <textarea class="form-control" cols="85"
+                                  id="turker_comments" placeholder="" style="width:60%"
+                                  maxlength="250" name="turker_comments"
+                                  rows="2"></textarea>
+                        <br/>
+                    <br/>
+                    <input type="button" value="Back"
+                           onclick="navigate('collapse2b', 'collapse2', 2)"
+                           id="back-2b"/>
+                    <input type="button" value="Submit HIT" name="done" onclick="logTime(this);submitHITForm()" id="submit-button"/>
+                    <br/>
+                    </div>
+                </div>
+            </div>
+            <br/>
+
+            <!-- placeholders for values -->
+            <input type="hidden" id="form-input-premise1" name="input-premise1" value="" />
+            <input type="hidden" id="form-input-premise2a" name="input-premise2a" value="" />
+            <input type="hidden" id="form-input-premise2b" name="input-premise2b" value="" />
+            <input type="hidden" id="form-input-premise2c" name="input-premise2c" value="" />
+            <input type="hidden" id="form-input-country" name="input_country" value="" />
+            <input type="hidden" id="form-input-company" name="input_company" value="" />
+            <input type="hidden" id="form-input-other-country" name="input_other_country" value="" />
+            <input type="hidden" id="form-input-sentence" name="input_sentence_template" value="" />
+            <input type="hidden" id="form-input-section2-label" name="input_section2_label" value="" />
+            <input type="hidden" id="form-input-section2-word-type" name="input_section2_word_type" value="" />
+
+        </form>
+    </div>
+</section>
+<script>
+    let DEBUG_MODE = true;
+    let START_TIME;
+
+    let LABEL2TEXT = {
+        True: 'that is definitely correct',
+        Contradiction: 'that is definitely incorrect',
+        Neutral: 'that might (or might not) be correct',
+    };
+
+    // main input from server
+    let COUNTRY;
+    let COMPANY;
+    let OTHER_COUNTRY;
+    let SENTENCE;
+    let SECTION2_LABEL;
+    let SECTION2_WORD_TYPE;
+    let INPUT_START_CHAR;
+    let INPUT_END_CHAR;
+    let INPUT_NUMBER;
+    let HIGHLIGHTED_SENTENCE;
+    let ONLY_TRAIN;
+
+    if (!DEBUG_MODE) {
+        COUNTRY = "${country}";
+        COUNTRY_ADJ = "${country_adj}";
+        COMPANY = "${company}";
+        OTHER_COUNTRY = "${other_country}";
+        OTHER_COUNTRY_ADJ = "${other_country_adj}";
+        SENTENCE = "${sentence}";
+        COMMENT = "${comment}";     // explanation about the itme (e.g. peridot is a green gem)
+        GENRE = "${genre}";         // used to choose the right explanation for the task
+        if (COMMENT) {COMMENT = '(' + COMMENT + ')'}
+        INPUT_START_CHAR = "${start_char}";
+        INPUT_END_CHAR = "${end_char}";
+        HIGHLIGHTED_SENTENCE = "${highlighted_sentence}";
+        ONLY_TRAIN = "${only_train}";
+        INPUT_NUMBER = "";
+    }else {
+        COUNTRY = "Israel";
+        COUNTRY_ADJ = "Israeli";
+        COMPANY = "Anobit";
+        OTHER_COUNTRY = "Germany";
+        OTHER_COUNTRY_ADJ = "German";
+        SENTENCE = "Instead , {{{company}}} makes real things .";
+        COMMENT = '';
+        GENRE = "fiction";         // used to choose the right explanation for the task
+        if (COMMENT) {COMMENT = '(' + COMMENT + ')'}
+        INPUT_START_CHAR = "70";
+        INPUT_END_CHAR = "70";
+    }
+
+    // metadata input from server - only for output not really used
+    let INPUT_METADATA = {
+        start_char: INPUT_START_CHAR,
+        end_char: INPUT_END_CHAR,
+        highlighted_sentence: HIGHLIGHTED_SENTENCE,
+        only_train: ONLY_TRAIN,
+    };
+
+    // the main 3 sentences
+    let COLOR_SENTENCE = renderSentence(SENTENCE, COUNTRY);
+    let COMPANY_SENTENCE = renderSentence(SENTENCE, COMPANY);
+    let OTHER_COLOR_SENTENCE = renderSentence(SENTENCE, OTHER_COUNTRY);
+
+    // section2 word types
+    let SECTION2_IS_FLIP = false;
+    let SECTION2_WORD, SECTION2_FORBIDDEN_WORDS, SECTION2_PREMISE_SENTENCE;
+
+    // we randomly select either country or city for the creative sentence.
+    // and we forbid to use the other two words by the user.
+    SECTION2_WORD = COUNTRY;
+    SECTION2_WORD_ADJ = COUNTRY_ADJ;
+    SECTION2_PREMISE_SENTENCE = COMPANY_SENTENCE;
+    // SECTION2_FORBIDDEN_WORDS = [COMPANY, OTHER_COUNTRY];
+    SECTION2_FORBIDDEN_WORDS = [COMPANY];
+
+
+    // constant texts and values to render inside the page
+    let VALUES = {
+        // ***** section1 *****
+        s1_header_text: "1. Label Hypothesis",
+        s1_text1: "Read the two sentences below:",
+
+        country: COUNTRY,
+        country_adj: COUNTRY_ADJ,
+        company: COMPANY,
+        other_company: OTHER_COUNTRY,
+        comment: COMMENT,
+
+
+        // 1. company -> country
+        s1_premise1: COMPANY_SENTENCE,
+        s1_hypothesis1: COLOR_SENTENCE,
+
+        // 3. country -> company
+        s1_premise3: COLOR_SENTENCE,
+        s1_hypothesis3: COMPANY_SENTENCE,
+
+        // 4. country -> other-country
+        s1_premise4: COLOR_SENTENCE,
+        s1_hypothesis4: OTHER_COLOR_SENTENCE,
+
+        // ***** section2 *****
+        s2_header_text: "1. Write Three Sentences",
+
+        // 5. company -> country (creative1) - entailment
+        s2_text2: "Using only this description, write a sentence <u><b>" + LABEL2TEXT['True'] + "</b></u> about the situation or event in the sentence using either of the words '<span class=\"highlight-country\">" + SECTION2_WORD + "</span>' or '<span class=\"highlight-country\">" + SECTION2_WORD_ADJ +" </span>', <u> without</u> using the word <span class=\"highlight-mnli-word\">'"+ SECTION2_FORBIDDEN_WORDS.join(' or ') + "'</span>  or any other country name:",
+        s2_restrictions: "You must use the word '<span class=\"highlight-country\">" + SECTION2_WORD + "</span>' or '<span class=\"highlight-country\">" + SECTION2_WORD_ADJ +" </span>', but do <u>not</u> use any other country name nor the word <span class=\"highlight-mnli-word\">'"+ SECTION2_FORBIDDEN_WORDS.join(' or ') + "'</span>.",
+        s2_text2_new: "<b>Definately correct</b>",
+        s2_premise5: SECTION2_PREMISE_SENTENCE,
+        s2_hypothesis5: "",  // placeholder
+
+        // 6. company -> country (creative2) - Neutral
+        // s2_text3: "Using only this description, write a sentence  <u><b>" + LABEL2TEXT['Neutral'] + "</b></u> about the situation or event in the sentence using either of the words '<span class=\"highlight-country\">" + SECTION2_WORD + "</span>' or '<span class=\"highlight-country\">" + SECTION2_WORD_ADJ +" </span>', <u>without</u> using the word <span class=\"highlight-country\">'"+ SECTION2_FORBIDDEN_WORDS.join(' or ') + "'</span>  or any other country name:",
+        s2_text3: "<b>Definately incorrect</b>",
+        s2_premise6: SECTION2_PREMISE_SENTENCE,
+        s2_hypothesis6: "",  // placeholder
+
+        // 6c. company -> country (creative2) - Contradiction
+        // s2_text4: "Using only this description, write a sentence  <u><b>" + LABEL2TEXT['Contradiction'] + "</b></u> about the situation or event in the sentence using either of the words '<span class=\"highlight-country\">" + SECTION2_WORD + "</span>' or '<span class=\"highlight-country\">" + SECTION2_WORD_ADJ +" </span>', <u>without</u> using the word <span class=\"highlight-country\">'"+ SECTION2_FORBIDDEN_WORDS.join(' or ') + "'</span> or any other country name:",
+        s2_text4: "<b>Maybe correct</b>",
+        s2_premise6b: SECTION2_PREMISE_SENTENCE,
+        s2_hypothesis6c: "",  // placeholder
+
+        // ***** section2b *****
+        s2b_header_text: "2. Label Your Sentences",
+
+        // TODO: automatically change country in the written Hypothesis
+        // 7. company -> other country(creative1)
+        s2_premise7: SECTION2_PREMISE_SENTENCE,
+        s2_hypothesis7: "",  // placeholder
+
+        // 8. company -> other country (creative2)
+        s2_premise8: SECTION2_PREMISE_SENTENCE,
+        s2_hypothesis8: "",  // placeholder
+
+        // 9. company -> other country (creative2)
+        s2_premise9: SECTION2_PREMISE_SENTENCE,
+        s2_hypothesis9: "",  // placeholder
+
+        //globals
+        g_tag_text: "According only to the description at (1) and to what you know about the world, sentence (2):",
+        g_tag_validate_text: "Just to be sure, please read carefully the two sentences again. According only to the description at (1) and to what you know about the world, sentence (2):",
+        g_entail_text: "is definitely <b>correct</b>",
+        g_contra_text: "is definitely <b>incorrect</b>",
+        g_neutral_text: "<b>might</b> (or might not) be correct",
+        g_turker_comments_text: "Do you have any comments or suggestions regarding this task?",
+    };
+
+    function toggle(elementId) {
+        const current = document.getElementById(elementId).style.display;
+        document.getElementById(elementId).style.display = current === 'none' ? 'block' : 'none';
+    }
+
+    function renderSentence(sent, company) {
+        return Mustache.render(sent, {company: '<span class="highlight-mnli-word">'+company+"</span>"});
+    }
+
+
+    function swap_words(sent, source, target) {
+    let reg = new RegExp("\\b" + source + "\\b", 'i');
+    return sent.replace(reg, target);
+    }
+
+    function change_color(sent, country, other_company) {
+        sent = sent.replace(' ' + country + ' ',' ' + other_company + ' ');
+        sent = sent.replace(' ' + country + ',',' ' + other_company + ',');
+        sent = sent.replace(' ' + country + '-',' ' + other_company + '-');
+        sent = sent.replace(' ' + country + '.',' ' + other_company + '.');
+        // Checking beginning of the strnig
+        if (sent.search(country + ' ') === 0) {sent = sent.replace(country + ' ',other_company + ' ')}
+        if (sent.search(country + ',') === 0) {sent = sent.replace(country + ',',other_company + ',')}
+        if (sent.search(country + '-') === 0) {sent = sent.replace(country + '-',other_company + '-')}
+        // Checking end of the strnig
+        let endofstr = sent.substring(sent.length - country.length -1, sent.length);
+        endofstr = endofstr.replace(' ' + country, ' ' + other_company);
+        sent = sent.substring(0, sent.length - country.length -1) + endofstr;
+        return sent
+    }
+
+
+    function logTime(elem){
+        let field = "click_time_" + elem.name;
+        if (!INPUT_METADATA[field]){
+            INPUT_METADATA[field] = Math.round((new Date() - START_TIME) / 60000.0);
+        }
+    }
+
+    function navigate(collapse, open, section) {
+        if(!validateForm(section) && !DEBUG_MODE) {
+            return;
+        }
+
+        $(document.getElementById(collapse)).collapse('hide');
+        $(document.getElementById(open)).collapse('show');
+    }
+
+    function updateCreative() {
+        const sentCreative1 = document.getElementById("h-2_1").value;
+        const sentCreative2 = document.getElementById("h-2_2").value;
+        const sentCreative3 = document.getElementById("h-2_3").value;
+
+        const sent1Highlight = highlight(sentCreative1, COUNTRY);
+        const sent2Highlight = highlight(sentCreative2, COUNTRY);
+        const sent3Highlight = highlight(sentCreative3, COUNTRY);
+
+        document.getElementById('s2_hypothesis7').innerHTML = swap_words(sent1Highlight, COUNTRY, OTHER_COUNTRY);
+        document.getElementById('s2_hypothesis8').innerHTML = swap_words(sent2Highlight, COUNTRY, OTHER_COUNTRY);
+        document.getElementById('s2_hypothesis9').innerHTML = swap_words(sent3Highlight, COUNTRY, OTHER_COUNTRY);
+    }
+
+    function creativeEntailImpossibleFlip() {
+        let isChecked = document.getElementById('impossible-h-2_1').checked;
+
+        SECTION2_IS_FLIP = !SECTION2_IS_FLIP;
+
+        let newLabel;
+        if (isChecked) {
+            if(SECTION2_LABEL === 'Contradiction'){
+                newLabel = 'Neutral';
+            }else{
+                newLabel = 'Contradiction';
+            }
+        }else{
+            newLabel = 'True';
+        }
+
+        document.getElementById('s2_creative1_label').innerText = LABEL2TEXT[newLabel];
+
+        alert("Ok. If you can't think of anything, please write a sentence "+ LABEL2TEXT[newLabel] + " sentence instead");
+    }
+
+    function highlight(text, word) {
+        let reg = new RegExp("\\b" + word + "\\b", 'i');
+
+        if (text.match(reg)) {index = text.match(reg).index} else {index = -1}
+
+        if (index >= 0) {
+            return text.substring(0, index) + '<span class="highlight-mnli-word">' + text.substring(index, index + word.length) + "</span>" + text.substring(index + word.length);
+        }
+
+        console.log("the word " + word + " was not found on: " + text);
+        return text;
+    }
+
+    function render() {
+        console.log("rendering");
+        let form = document.querySelector("form");
+        let template = form.innerHTML;
+        form.innerHTML = Mustache.render(template, VALUES);
+    }
+
+
+
+    function validateMNLIRadioChecked(nliId){
+        return $('input[name="nli' + nliId + '"]:checked').length === 1;
+    }
+
+
+    function validateForm(section) {
+        // 1. validate all labels (Entail/Contra/Neutral) checked
+        let startNLI = 5; // first 4 are removed
+
+        let errors_msg = [];
+
+        let checkNLI;
+
+        if (section === 1){
+            checkNLI = 4;
+        }
+        else if (section === 2){
+            checkNLI = 7;
+        }
+        else {
+            checkNLI = 10;
+        }
+
+        for (let i = startNLI; i <= checkNLI; i++) {
+            if (!validateMNLIRadioChecked(i)) {
+                errors_msg.push('* please select one of the options at ' + (i - startNLI + 1) + '.');
+            }
+        }
+
+        if (section >= 2) {
+            // 2. validate labels of creative section
+            let s2Sentence1RadioId;
+            let s2Sentence1RequiredLabel;
+
+
+            s2Sentence1RadioId = 1;
+            s2Sentence1RequiredLabel = 'Correct';
+            //
+            // if(!document.getElementById('s2-nli5-radio' + s2Sentence1RadioId.toString()).checked) {
+            //     errors_msg.push('* please write a ' + s2Sentence1RequiredLabel + ' sentence at 1. (you selected differently)');
+            // }
+            //
+            // if (!document.getElementById('s2-nli6-radio3').checked) {
+            //     errors_msg.push('* please write a sentence that might be correct at 2. (you selected differently)');
+            // }
+            //
+            // if (!document.getElementById('s2-nli7-radio2').checked) {
+            //     errors_msg.push('* please write an Incorrect sentence at 3. (you selected differently)');
+            // }
+
+            // 3. validate sentences of creative section contains country
+            const reg = new RegExp("\\b" + SECTION2_WORD + "\\b", 'i');
+            const reg2 = new RegExp("\\b" + SECTION2_WORD + "\\b", 'i');
+            const sentCreative1 = document.getElementById("h-2_1").value;
+            const sentCreative2 = document.getElementById("h-2_2").value;
+            const sentCreative3 = document.getElementById("h-2_3").value;
+
+            if (!sentCreative1.match(reg)) {
+                errors_msg.push('* please use the word "' + COUNTRY +'" in sentence number 1');
+            }
+
+            if (!sentCreative2.match(reg)) {
+                errors_msg.push('* please use the word "' + COUNTRY +'" in sentence number 2');
+            }
+
+            if (!sentCreative3.match(reg)) {
+                errors_msg.push('* please use the word "' + COUNTRY +'" in sentence number 3');
+            }
+
+            // 4. validate sentences of creative section does not contains company or other-country
+            for (let i = 0; i < 2; i++) {
+                let word = SECTION2_FORBIDDEN_WORDS[i];
+                const wordReg = new RegExp("\\b" + word + "\\b", 'i');
+
+                if (sentCreative1.match(wordReg)) {
+                    errors_msg.push('* please do not use the word "' + word + '" on sentence number 1');
+                }
+
+                if (sentCreative2.match(wordReg)) {
+                    errors_msg.push('* please do not use the word "' + word + '" on sentence number 2');
+                }
+
+                if (sentCreative3.match(wordReg)) {
+                    errors_msg.push('* please do not use the word "' + word + '" on sentence number 3');
+                }
+            }
+
+            // 5. validate sentences differ
+            if (sentCreative1 === sentCreative2) {
+                errors_msg.push('* please write two different sentences on 1 and 2')
+            }
+        }
+
+        if (errors_msg.length > 0) {
+            alert('please fix the following:\r\n' + errors_msg.join('\r\n'));
+            return false;
+        }
+        return true;
+    }
+
+    function submitHITForm() {
+        if(!validateForm(3) && !DEBUG_MODE) {
+            return;
+        }
+
+        document.getElementById("form-input-premise1").value = document.getElementById("s2_premise5_text").textContent;
+        document.getElementById("form-input-premise2a").value = document.getElementById("s2_hypothesis7").textContent;
+        document.getElementById("form-input-premise2b").value = document.getElementById("s2_hypothesis8").textContent;
+        document.getElementById("form-input-premise2c").value = document.getElementById("s2_hypothesis9").textContent;
+        document.getElementById("form-input-country").value = COUNTRY;
+        document.getElementById("form-input-company").value = COMPANY;
+        document.getElementById("form-input-other-country").value = OTHER_COUNTRY;
+        document.getElementById("form-input-sentence").value = SENTENCE;
+        document.getElementById("form-input-section2-label").value = SECTION2_LABEL;
+        document.getElementById("form-input-section2-word-type").value = SECTION2_WORD_TYPE;
+        // add metadata fields
+        let main_form = document.querySelector("form");
+
+        Object.keys(INPUT_METADATA).forEach(function (key) {
+            let value = INPUT_METADATA[key];
+            let input = document.createElement("input");
+            input.type = 'hidden';
+            input.id = 'form-input-metadata-' + key;
+            input.name = 'metadata_' + key;
+            input.value = value;
+
+            main_form.appendChild(input);
+        });
+        main_form.submit();
+    }
+
+    window.onload = function () {
+        render();
+
+        // after rendering, wait 0.3 secs and open the first section
+        setTimeout(function () {
+            $(document.getElementById("collapse2")).collapse('show');
+        }, 300);
+
+        START_TIME = new Date();
+    };
+
+    if (!localStorage.getItem("seen-instructions")) {
+        console.log("first time - showing instructions");
+        localStorage.setItem("seen-instructions", "True");
+        toggle('inst-collapse1');
+        toggle('inst-collapse2');
+    }
+
+</script>
