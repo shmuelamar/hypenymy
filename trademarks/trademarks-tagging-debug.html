@@ -690,9 +690,25 @@
     }
 
 
-    function swap_words(sent, source, target) {
-    let reg = new RegExp("\\b" + source + "\\b", 'i');
-    return sent.replace(reg, target);
+    function swap_words(sent, source, target, source2, target2) {
+        // choose longest word first - to make sure we highlight everything
+        if (source2.length > source.length) {
+            let stmp = source2;
+            let ttmp = target2;
+            source2 = source;
+            target2 = target;
+            source = stmp;
+            target = ttmp;
+        }
+
+        let reg = new RegExp("\\b" + source + "\\b", 'i');
+        let reg2 = new RegExp("\\b" + source2 + "\\b", 'i');
+
+        let sNew = sent.replace(reg, target);
+        if (sNew !== sent) {
+            return sNew;
+        }
+        return sent.replace(reg2, target2);
     }
 
     function change_color(sent, country, other_company) {
@@ -737,14 +753,9 @@
         const sent2Highlight = highlight(sentCreative2, COUNTRY, COUNTRY_ADJ);
         const sent3Highlight = highlight(sentCreative3, COUNTRY, COUNTRY_ADJ);
 
-        document.getElementById('s2_hypothesis7').innerHTML = swap_words(sent1Highlight, COUNTRY, OTHER_COUNTRY);
-        document.getElementById('s2_hypothesis8').innerHTML = swap_words(sent2Highlight, COUNTRY, OTHER_COUNTRY);
-        document.getElementById('s2_hypothesis9').innerHTML = swap_words(sent3Highlight, COUNTRY, OTHER_COUNTRY);
-
-        // FIXME: the coral highlight
-        document.getElementById('s2_hypothesis7').innerHTML = swap_words(sent1Highlight, 'highlight-mnli-word', 'highlight-other-country');
-        document.getElementById('s2_hypothesis8').innerHTML = swap_words(sent2Highlight, 'highlight-mnli-word', 'highlight-other-country');
-        document.getElementById('s2_hypothesis9').innerHTML = swap_words(sent3Highlight, 'highlight-mnli-word', 'highlight-other-country');
+        document.getElementById('s2_hypothesis7').innerHTML = swap_words(sent1Highlight, COUNTRY, OTHER_COUNTRY, COUNTRY_ADJ, OTHER_COUNTRY_ADJ);
+        document.getElementById('s2_hypothesis8').innerHTML = swap_words(sent2Highlight, COUNTRY, OTHER_COUNTRY, COUNTRY_ADJ, OTHER_COUNTRY_ADJ);
+        document.getElementById('s2_hypothesis9').innerHTML = swap_words(sent3Highlight, COUNTRY, OTHER_COUNTRY, COUNTRY_ADJ, OTHER_COUNTRY_ADJ);
     }
 
     function creativeEntailImpossibleFlip() {
@@ -789,7 +800,7 @@
         }
 
         if (index >= 0) {
-            return text.substring(0, index) + '<span class="highlight-mnli-word">' + text.substring(index, index + word.length) + "</span>" + text.substring(index + word.length);
+            return text.substring(0, index) + '<span class="highlight-other-country">' + text.substring(index, index + word.length) + "</span>" + text.substring(index + word.length);
         }
 
         console.log("the word " + word + " was not found on: " + text);
