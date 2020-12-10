@@ -516,6 +516,7 @@
             <input type="hidden" id="form-input-premise2b" name="input-premise2b" value="" />
             <input type="hidden" id="form-input-premise2c" name="input-premise2c" value="" />
             <input type="hidden" id="form-input-country" name="input_country" value="" />
+            <input type="hidden" id="form-input-country-adj" name="input_country_adj" value="" />
             <input type="hidden" id="form-input-company" name="input_company" value="" />
             <input type="hidden" id="form-input-other-country" name="input_other_country" value="" />
             <input type="hidden" id="form-input-sentence" name="input_sentence_template" value="" />
@@ -537,8 +538,10 @@
 
     // main input from server
     let COUNTRY;
+    let COUNTRY_ADJ;
     let COMPANY;
     let OTHER_COUNTRY;
+    let OTHER_COUNTRY_ADJ;
     let SENTENCE;
     let SECTION2_LABEL;
     let SECTION2_WORD_TYPE;
@@ -547,6 +550,8 @@
     let INPUT_NUMBER;
     let HIGHLIGHTED_SENTENCE;
     let ONLY_TRAIN;
+    let COMMENT;
+    let GENRE;
 
     if (!DEBUG_MODE) {
         COUNTRY = "${country}";
@@ -592,7 +597,7 @@
 
     // section2 word types
     let SECTION2_IS_FLIP = false;
-    let SECTION2_WORD, SECTION2_FORBIDDEN_WORDS, SECTION2_PREMISE_SENTENCE;
+    let SECTION2_WORD, SECTION2_WORD_ADJ, SECTION2_FORBIDDEN_WORDS, SECTION2_PREMISE_SENTENCE;
 
     // we randomly select either country or city for the creative sentence.
     // and we forbid to use the other two words by the user.
@@ -728,13 +733,18 @@
         const sentCreative2 = document.getElementById("h-2_2").value;
         const sentCreative3 = document.getElementById("h-2_3").value;
 
-        const sent1Highlight = highlight(sentCreative1, COUNTRY);
-        const sent2Highlight = highlight(sentCreative2, COUNTRY);
-        const sent3Highlight = highlight(sentCreative3, COUNTRY);
+        const sent1Highlight = highlight(sentCreative1, COUNTRY, COUNTRY_ADJ);
+        const sent2Highlight = highlight(sentCreative2, COUNTRY, COUNTRY_ADJ);
+        const sent3Highlight = highlight(sentCreative3, COUNTRY, COUNTRY_ADJ);
 
         document.getElementById('s2_hypothesis7').innerHTML = swap_words(sent1Highlight, COUNTRY, OTHER_COUNTRY);
         document.getElementById('s2_hypothesis8').innerHTML = swap_words(sent2Highlight, COUNTRY, OTHER_COUNTRY);
         document.getElementById('s2_hypothesis9').innerHTML = swap_words(sent3Highlight, COUNTRY, OTHER_COUNTRY);
+
+        // FIXME: the coral highlight
+        document.getElementById('s2_hypothesis7').innerHTML = swap_words(sent1Highlight, 'highlight-mnli-word', 'highlight-other-country');
+        document.getElementById('s2_hypothesis8').innerHTML = swap_words(sent2Highlight, 'highlight-mnli-word', 'highlight-other-country');
+        document.getElementById('s2_hypothesis9').innerHTML = swap_words(sent3Highlight, 'highlight-mnli-word', 'highlight-other-country');
     }
 
     function creativeEntailImpossibleFlip() {
@@ -758,10 +768,25 @@
         alert("Ok. If you can't think of anything, please write a sentence "+ LABEL2TEXT[newLabel] + " sentence instead");
     }
 
-    function highlight(text, word) {
-        let reg = new RegExp("\\b" + word + "\\b", 'i');
+    function highlight(text, word, word2) {
+        // choose longest word first - to make sure we highlight everything
+        if (word2.length > word.length) {
+            let tmp = word2;
+            word2 = word;
+            word = tmp;
+        }
 
-        if (text.match(reg)) {index = text.match(reg).index} else {index = -1}
+        let reg = new RegExp("\\b" + word + "\\b", 'i');
+        let reg2 = new RegExp("\\b" + word2 + "\\b", 'i');
+
+        let index;
+        if (text.match(reg)) {
+            index = text.match(reg).index
+        } else if (text.match(reg2)) {
+            index = text.match(reg2).index
+        } else {
+            index = -1
+        }
 
         if (index >= 0) {
             return text.substring(0, index) + '<span class="highlight-mnli-word">' + text.substring(index, index + word.length) + "</span>" + text.substring(index + word.length);
@@ -787,7 +812,7 @@
 
     function validateForm(section) {
         // 1. validate all labels (Entail/Contra/Neutral) checked
-        let startNLI = 5; // first 4 are removed
+        let startNLI = 8; // first 4 are removed
 
         let errors_msg = [];
 
@@ -832,21 +857,22 @@
 
             // 3. validate sentences of creative section contains country
             const reg = new RegExp("\\b" + SECTION2_WORD + "\\b", 'i');
-            const reg2 = new RegExp("\\b" + SECTION2_WORD + "\\b", 'i');
+            const reg2 = new RegExp("\\b" + SECTION2_WORD_ADJ + "\\b", 'i');
             const sentCreative1 = document.getElementById("h-2_1").value;
             const sentCreative2 = document.getElementById("h-2_2").value;
             const sentCreative3 = document.getElementById("h-2_3").value;
 
-            if (!sentCreative1.match(reg)) {
-                errors_msg.push('* please use the word "' + COUNTRY +'" in sentence number 1');
+            const errorMsg = '* please use the word "' + COUNTRY +'" or the word "' + COUNTRY_ADJ + '" in sentence number ';
+            if (!sentCreative1.match(reg) && !sentCreative1.match(reg2)) {
+                errors_msg.push(errorMsg + '1');
             }
 
-            if (!sentCreative2.match(reg)) {
-                errors_msg.push('* please use the word "' + COUNTRY +'" in sentence number 2');
+            if (!sentCreative2.match(reg) && !sentCreative2.match(reg2)) {
+                errors_msg.push(errorMsg + '2');
             }
 
-            if (!sentCreative3.match(reg)) {
-                errors_msg.push('* please use the word "' + COUNTRY +'" in sentence number 3');
+            if (!sentCreative3.match(reg) && !sentCreative3.match(reg2)) {
+                errors_msg.push(errorMsg + '3');
             }
 
             // 4. validate sentences of creative section does not contains company or other-country
@@ -890,6 +916,7 @@
         document.getElementById("form-input-premise2b").value = document.getElementById("s2_hypothesis8").textContent;
         document.getElementById("form-input-premise2c").value = document.getElementById("s2_hypothesis9").textContent;
         document.getElementById("form-input-country").value = COUNTRY;
+        document.getElementById("form-input-country-adj").value = COUNTRY_ADJ;
         document.getElementById("form-input-company").value = COMPANY;
         document.getElementById("form-input-other-country").value = OTHER_COUNTRY;
         document.getElementById("form-input-sentence").value = SENTENCE;
