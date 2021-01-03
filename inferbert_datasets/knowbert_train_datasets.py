@@ -3,6 +3,8 @@ import os
 import subprocess
 import sys
 import time
+import json
+import shutil
 from itertools import product
 
 import torch
@@ -32,17 +34,16 @@ TRAIN_GRID = {
 
 
 def run_train_job(model_filename, logfile: str, overrides: dict):
-    python_cmd = sys.executable
+    allennlp_cmd = shutil.which('allennlp')
     cmd = [
         'nohup',
-        python_cmd,
-        'allennlp',
+        allennlp_cmd,
         'train',
         '--file-friendly-logging',
         '--include-package',
         'kb.include_all',
         '--overrides',
-        overrides,
+        json.dumps(overrides),
         'base-config.jsonnet',
         '-s',
         model_filename,
@@ -147,7 +148,8 @@ def main():
         run_train_job(model_filename, log_filename, overrides_dict)
 
         # sleep so we dont have race conditions on get cuda
-        time.sleep(180)
+        logger.info('sleeping 30 secs before next schedule')
+        time.sleep(30)
 
 
 if __name__ == '__main__':

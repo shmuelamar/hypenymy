@@ -11,7 +11,7 @@
                 },
                 "wordnet": {
                     "type": "wordnet_mention_generator",
-                    "entity_file": "../models-files/entities.jsonl"
+                    "entity_file": "../../models-files/entities.jsonl"
                 }
             },
             "entity_indexers": {
@@ -50,9 +50,9 @@
         "model": {
             "type": "from_archive",
             "archive_file": "s3://allennlp/knowbert/models/knowbert_wiki_wordnet_model.tar.gz",
-            "weights_file": "../mnli_final_model/bert.th",
+            "weights_file": "../../mnli_final_model/bert.th",
         },
-        "classifier_weights_file": "../mnli_final_model/clf.th",
+        "classifier_weights_file": "../../mnli_final_model/clf.th",
         "type": "simple-classifier",
         "bert_dim": 768,
         "metric_a": {
@@ -61,8 +61,8 @@
         "num_labels": 3,
         "task": "classification"
     },
-    "train_data_path": "../hypernymy/dataset/dataset_creative/dataset_creative_train.json",
-    "validation_data_path": "../hypernymy/dataset/dataset_creative/dataset_creative_test.json",
+    "train_data_path": "", // overrided
+    "validation_data_path": "", // overrided
     "trainer": {
         "cuda_device": 3,
         "gradient_accumulation_batch_size": 32,
@@ -100,6 +100,6 @@
         "validation_metric": "+accuracy"
     },
     "vocabulary": {
-        "directory_path": "../models-files/vocabulary_wordnet_wiki.tar.gz"
+        "directory_path": "../../models-files/vocabulary_wordnet_wiki.tar.gz"
     }
 }
