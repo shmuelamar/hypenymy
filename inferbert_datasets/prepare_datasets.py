@@ -110,7 +110,9 @@ def save_dataset(df, ds_dir, ds_name, dataset: Dataset):
             f'creating {set_name} set with {len(set_df)} samples from '
             f'{set_df["row_id"].nunique()} hits into {ds_fname}'
         )
-        set_df[list(dataset.columns)].to_json(ds_fname, orient='records')
+        set_df[list(dataset.columns)].to_json(
+            ds_fname, orient='records', indent=4
+        )
 
     # paranoid test
     dataset_dfs = [pd.read_json(f) for f in fnames]

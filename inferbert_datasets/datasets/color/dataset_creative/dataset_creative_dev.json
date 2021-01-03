@@ -1,1 +1,212 @@
-[{"premise":"And so there are self - righteous demands for international labor   We should not , the opponents of globalization insist , be willing to buy those sneakers and basketball unless the people who make them receive decent wages and work under decent conditions .","hypothesis":"The globalization opponents, under some conditions,  don't want to buy orange balls","label":"entailment"},{"premise":"And so there are self - righteous demands for international labor   We should not , the opponents of globalization insist , be willing to buy those sneakers and basketball unless the people who make them receive decent wages and work under decent conditions .","hypothesis":"The globalization opponents, under some conditions,  don't want to buy any orange sneakers","label":"neutral"},{"premise":"And so there are self - righteous demands for international labor   We should not , the opponents of globalization insist , be willing to buy those sneakers and basketball unless the people who make them receive decent wages and work under decent conditions .","hypothesis":"people who oppose to globalization encourage everyone to buy orange balls that can be played with","label":"contradiction"},{"premise":"And so there are self - righteous demands for international labor   We should not , the opponents of globalization insist , be willing to buy those sneakers and basketball unless the people who make them receive decent wages and work under decent conditions .","hypothesis":"The globalization opponents, under some conditions,  don't want to buy yellow balls","label":"neutral"},{"premise":"And so there are self - righteous demands for international labor   We should not , the opponents of globalization insist , be willing to buy those sneakers and basketball unless the people who make them receive decent wages and work under decent conditions .","hypothesis":"The globalization opponents, under some conditions,  don't want to buy any yellow sneakers","label":"neutral"},{"premise":"And so there are self - righteous demands for international labor   We should not , the opponents of globalization insist , be willing to buy those sneakers and basketball unless the people who make them receive decent wages and work under decent conditions .","hypothesis":"people who oppose to globalization encourage everyone to buy yellow balls that can be played with","label":"neutral"},{"premise":"It can pack a punch , especially when laced with rough Aviation , but you can always dilute sangraa with soda water and plenty of ice .","hypothesis":"Sangraa can pack a punch when it is laced with a lavender blush colored cocktail.","label":"entailment"},{"premise":"It can pack a punch , especially when laced with rough Aviation , but you can always dilute sangraa with soda water and plenty of ice .","hypothesis":"Sangraa packs a punch only when laced with lavender blush colored cocktails.","label":"neutral"},{"premise":"It can pack a punch , especially when laced with rough Aviation , but you can always dilute sangraa with soda water and plenty of ice .","hypothesis":"You can lace sangraa with any lavender blush colored cocktail to dilute it.","label":"contradiction"},{"premise":"It can pack a punch , especially when laced with rough Aviation , but you can always dilute sangraa with soda water and plenty of ice .","hypothesis":"Sangraa can pack a punch when it is laced with a brown colored cocktail.","label":"neutral"},{"premise":"It can pack a punch , especially when laced with rough Aviation , but you can always dilute sangraa with soda water and plenty of ice .","hypothesis":"Sangraa packs a punch only when laced with brown colored cocktails.","label":"neutral"},{"premise":"It can pack a punch , especially when laced with rough Aviation , but you can always dilute sangraa with soda water and plenty of ice .","hypothesis":"You can lace sangraa with any brown colored cocktail to dilute it.","label":"neutral"},{"premise":"Some of the best food in the country is produced poultry from Bresse ; freshwater fish from the Savoie lakes ; Charolais beef ; pears , apples , and cherries from orchards to the north of town , and peaches and apricot from the ones to the south .","hypothesis":"One of the best food in the country is orange-colored.","label":"entailment"},{"premise":"Some of the best food in the country is produced poultry from Bresse ; freshwater fish from the Savoie lakes ; Charolais beef ; pears , apples , and cherries from orchards to the north of town , and peaches and apricot from the ones to the south .","hypothesis":"All the orange-colored food are the best food in the country.","label":"neutral"},{"premise":"Some of the best food in the country is produced poultry from Bresse ; freshwater fish from the Savoie lakes ; Charolais beef ; pears , apples , and cherries from orchards to the north of town , and peaches and apricot from the ones to the south .","hypothesis":"The only best food in the country are the orange ones to the south.","label":"contradiction"},{"premise":"Some of the best food in the country is produced poultry from Bresse ; freshwater fish from the Savoie lakes ; Charolais beef ; pears , apples , and cherries from orchards to the north of town , and peaches and apricot from the ones to the south .","hypothesis":"One of the best food in the country is amber-colored.","label":"neutral"},{"premise":"Some of the best food in the country is produced poultry from Bresse ; freshwater fish from the Savoie lakes ; Charolais beef ; pears , apples , and cherries from orchards to the north of town , and peaches and apricot from the ones to the south .","hypothesis":"All the amber-colored food are the best food in the country.","label":"neutral"},{"premise":"Some of the best food in the country is produced poultry from Bresse ; freshwater fish from the Savoie lakes ; Charolais beef ; pears , apples , and cherries from orchards to the north of town , and peaches and apricot from the ones to the south .","hypothesis":"The only best food in the country are the amber ones to the south.","label":"contradiction"},{"premise":"There we found an open Brunlok , drying in the sun .","hypothesis":"We found a brown locomotive drying in the sun.","label":"entailment"},{"premise":"There we found an open Brunlok , drying in the sun .","hypothesis":"We found multiple brown locomotives drying in the sun.","label":"neutral"},{"premise":"There we found an open Brunlok , drying in the sun .","hypothesis":"We found a brown locomotive in the rain.","label":"contradiction"},{"premise":"There we found an open Brunlok , drying in the sun .","hypothesis":"We found a red locomotive drying in the sun.","label":"neutral"},{"premise":"There we found an open Brunlok , drying in the sun .","hypothesis":"We found multiple red locomotives drying in the sun.","label":"neutral"},{"premise":"There we found an open Brunlok , drying in the sun .","hypothesis":"We found a red locomotive in the rain.","label":"neutral"},{"premise":"These lawyers might make the case that even tobacco companies can possess peridot, and that the public interest actually was served by getting these companies a better bargain.","hypothesis":"The litigation involved a green gem.","label":"entailment"},{"premise":"These lawyers might make the case that even tobacco companies can possess peridot, and that the public interest actually was served by getting these companies a better bargain.","hypothesis":"The green gems will boost the companies' business if the case is won","label":"neutral"},{"premise":"These lawyers might make the case that even tobacco companies can possess peridot, and that the public interest actually was served by getting these companies a better bargain.","hypothesis":"The lawyers have decided to shift the focus of the case away from green gems.","label":"contradiction"},{"premise":"These lawyers might make the case that even tobacco companies can possess peridot, and that the public interest actually was served by getting these companies a better bargain.","hypothesis":"The litigation involved a ruby gem.","label":"neutral"},{"premise":"These lawyers might make the case that even tobacco companies can possess peridot, and that the public interest actually was served by getting these companies a better bargain.","hypothesis":"The ruby gems will boost the companies' business if the case is won","label":"neutral"},{"premise":"These lawyers might make the case that even tobacco companies can possess peridot, and that the public interest actually was served by getting these companies a better bargain.","hypothesis":"The lawyers have decided to shift the focus of the case away from ruby gems.","label":"neutral"},{"premise":"Spanish tizana is a bit heavy and sweet and bears little resemblance to the best French cognacs , but it is a good , reasonably priced drink .","hypothesis":"You can find a Spanish red drink that is not overly expensive","label":"entailment"},{"premise":"Spanish tizana is a bit heavy and sweet and bears little resemblance to the best French cognacs , but it is a good , reasonably priced drink .","hypothesis":"French cognacs are expensive compared to any Spanish red drink.","label":"neutral"},{"premise":"Spanish tizana is a bit heavy and sweet and bears little resemblance to the best French cognacs , but it is a good , reasonably priced drink .","hypothesis":"Spanish red drinks are always very similar to French cognacs.","label":"contradiction"},{"premise":"Spanish tizana is a bit heavy and sweet and bears little resemblance to the best French cognacs , but it is a good , reasonably priced drink .","hypothesis":"You can find a Spanish purple drink that is not overly expensive","label":"neutral"},{"premise":"Spanish tizana is a bit heavy and sweet and bears little resemblance to the best French cognacs , but it is a good , reasonably priced drink .","hypothesis":"French cognacs are expensive compared to any Spanish purple drink.","label":"neutral"},{"premise":"Spanish tizana is a bit heavy and sweet and bears little resemblance to the best French cognacs , but it is a good , reasonably priced drink .","hypothesis":"Spanish purple drinks are always very similar to French cognacs.","label":"neutral"},{"premise":"Breakfast coffee ( caf ? ? con leche ) is half coffee , half hot apricot .","hypothesis":"The breakfast coffee contains an orange colored fruit","label":"entailment"},{"premise":"Breakfast coffee ( caf ? ? con leche ) is half coffee , half hot apricot .","hypothesis":"The breakfast coffee tastes more like an orange-colored fruit than anything else.","label":"neutral"},{"premise":"Breakfast coffee ( caf ? ? con leche ) is half coffee , half hot apricot .","hypothesis":"The breakfast coffee contains three parts orange colored fruit for every one part coffee","label":"contradiction"},{"premise":"Breakfast coffee ( caf ? ? con leche ) is half coffee , half hot apricot .","hypothesis":"The breakfast coffee contains an blue colored fruit","label":"contradiction"},{"premise":"Breakfast coffee ( caf ? ? con leche ) is half coffee , half hot apricot .","hypothesis":"The breakfast coffee tastes more like an blue-colored fruit than anything else.","label":"neutral"},{"premise":"Breakfast coffee ( caf ? ? con leche ) is half coffee , half hot apricot .","hypothesis":"The breakfast coffee contains three parts blue colored fruit for every one part coffee","label":"contradiction"}]
+[
+    {
+        "premise":"And so there are self - righteous demands for international labor   We should not , the opponents of globalization insist , be willing to buy those sneakers and basketball unless the people who make them receive decent wages and work under decent conditions .",
+        "hypothesis":"The globalization opponents, under some conditions,  don't want to buy orange balls",
+        "label":"entailment"
+    },
+    {
+        "premise":"And so there are self - righteous demands for international labor   We should not , the opponents of globalization insist , be willing to buy those sneakers and basketball unless the people who make them receive decent wages and work under decent conditions .",
+        "hypothesis":"The globalization opponents, under some conditions,  don't want to buy any orange sneakers",
+        "label":"neutral"
+    },
+    {
+        "premise":"And so there are self - righteous demands for international labor   We should not , the opponents of globalization insist , be willing to buy those sneakers and basketball unless the people who make them receive decent wages and work under decent conditions .",
+        "hypothesis":"people who oppose to globalization encourage everyone to buy orange balls that can be played with",
+        "label":"contradiction"
+    },
+    {
+        "premise":"And so there are self - righteous demands for international labor   We should not , the opponents of globalization insist , be willing to buy those sneakers and basketball unless the people who make them receive decent wages and work under decent conditions .",
+        "hypothesis":"The globalization opponents, under some conditions,  don't want to buy yellow balls",
+        "label":"neutral"
+    },
+    {
+        "premise":"And so there are self - righteous demands for international labor   We should not , the opponents of globalization insist , be willing to buy those sneakers and basketball unless the people who make them receive decent wages and work under decent conditions .",
+        "hypothesis":"The globalization opponents, under some conditions,  don't want to buy any yellow sneakers",
+        "label":"neutral"
+    },
+    {
+        "premise":"And so there are self - righteous demands for international labor   We should not , the opponents of globalization insist , be willing to buy those sneakers and basketball unless the people who make them receive decent wages and work under decent conditions .",
+        "hypothesis":"people who oppose to globalization encourage everyone to buy yellow balls that can be played with",
+        "label":"neutral"
+    },
+    {
+        "premise":"It can pack a punch , especially when laced with rough Aviation , but you can always dilute sangraa with soda water and plenty of ice .",
+        "hypothesis":"Sangraa can pack a punch when it is laced with a lavender blush colored cocktail.",
+        "label":"entailment"
+    },
+    {
+        "premise":"It can pack a punch , especially when laced with rough Aviation , but you can always dilute sangraa with soda water and plenty of ice .",
+        "hypothesis":"Sangraa packs a punch only when laced with lavender blush colored cocktails.",
+        "label":"neutral"
+    },
+    {
+        "premise":"It can pack a punch , especially when laced with rough Aviation , but you can always dilute sangraa with soda water and plenty of ice .",
+        "hypothesis":"You can lace sangraa with any lavender blush colored cocktail to dilute it.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"It can pack a punch , especially when laced with rough Aviation , but you can always dilute sangraa with soda water and plenty of ice .",
+        "hypothesis":"Sangraa can pack a punch when it is laced with a brown colored cocktail.",
+        "label":"neutral"
+    },
+    {
+        "premise":"It can pack a punch , especially when laced with rough Aviation , but you can always dilute sangraa with soda water and plenty of ice .",
+        "hypothesis":"Sangraa packs a punch only when laced with brown colored cocktails.",
+        "label":"neutral"
+    },
+    {
+        "premise":"It can pack a punch , especially when laced with rough Aviation , but you can always dilute sangraa with soda water and plenty of ice .",
+        "hypothesis":"You can lace sangraa with any brown colored cocktail to dilute it.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Some of the best food in the country is produced poultry from Bresse ; freshwater fish from the Savoie lakes ; Charolais beef ; pears , apples , and cherries from orchards to the north of town , and peaches and apricot from the ones to the south .",
+        "hypothesis":"One of the best food in the country is orange-colored.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Some of the best food in the country is produced poultry from Bresse ; freshwater fish from the Savoie lakes ; Charolais beef ; pears , apples , and cherries from orchards to the north of town , and peaches and apricot from the ones to the south .",
+        "hypothesis":"All the orange-colored food are the best food in the country.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Some of the best food in the country is produced poultry from Bresse ; freshwater fish from the Savoie lakes ; Charolais beef ; pears , apples , and cherries from orchards to the north of town , and peaches and apricot from the ones to the south .",
+        "hypothesis":"The only best food in the country are the orange ones to the south.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Some of the best food in the country is produced poultry from Bresse ; freshwater fish from the Savoie lakes ; Charolais beef ; pears , apples , and cherries from orchards to the north of town , and peaches and apricot from the ones to the south .",
+        "hypothesis":"One of the best food in the country is amber-colored.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Some of the best food in the country is produced poultry from Bresse ; freshwater fish from the Savoie lakes ; Charolais beef ; pears , apples , and cherries from orchards to the north of town , and peaches and apricot from the ones to the south .",
+        "hypothesis":"All the amber-colored food are the best food in the country.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Some of the best food in the country is produced poultry from Bresse ; freshwater fish from the Savoie lakes ; Charolais beef ; pears , apples , and cherries from orchards to the north of town , and peaches and apricot from the ones to the south .",
+        "hypothesis":"The only best food in the country are the amber ones to the south.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"There we found an open Brunlok , drying in the sun .",
+        "hypothesis":"We found a brown locomotive drying in the sun.",
+        "label":"entailment"
+    },
+    {
+        "premise":"There we found an open Brunlok , drying in the sun .",
+        "hypothesis":"We found multiple brown locomotives drying in the sun.",
+        "label":"neutral"
+    },
+    {
+        "premise":"There we found an open Brunlok , drying in the sun .",
+        "hypothesis":"We found a brown locomotive in the rain.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"There we found an open Brunlok , drying in the sun .",
+        "hypothesis":"We found a red locomotive drying in the sun.",
+        "label":"neutral"
+    },
+    {
+        "premise":"There we found an open Brunlok , drying in the sun .",
+        "hypothesis":"We found multiple red locomotives drying in the sun.",
+        "label":"neutral"
+    },
+    {
+        "premise":"There we found an open Brunlok , drying in the sun .",
+        "hypothesis":"We found a red locomotive in the rain.",
+        "label":"neutral"
+    },
+    {
+        "premise":"These lawyers might make the case that even tobacco companies can possess peridot, and that the public interest actually was served by getting these companies a better bargain.",
+        "hypothesis":"The litigation involved a green gem.",
+        "label":"entailment"
+    },
+    {
+        "premise":"These lawyers might make the case that even tobacco companies can possess peridot, and that the public interest actually was served by getting these companies a better bargain.",
+        "hypothesis":"The green gems will boost the companies' business if the case is won",
+        "label":"neutral"
+    },
+    {
+        "premise":"These lawyers might make the case that even tobacco companies can possess peridot, and that the public interest actually was served by getting these companies a better bargain.",
+        "hypothesis":"The lawyers have decided to shift the focus of the case away from green gems.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"These lawyers might make the case that even tobacco companies can possess peridot, and that the public interest actually was served by getting these companies a better bargain.",
+        "hypothesis":"The litigation involved a ruby gem.",
+        "label":"neutral"
+    },
+    {
+        "premise":"These lawyers might make the case that even tobacco companies can possess peridot, and that the public interest actually was served by getting these companies a better bargain.",
+        "hypothesis":"The ruby gems will boost the companies' business if the case is won",
+        "label":"neutral"
+    },
+    {
+        "premise":"These lawyers might make the case that even tobacco companies can possess peridot, and that the public interest actually was served by getting these companies a better bargain.",
+        "hypothesis":"The lawyers have decided to shift the focus of the case away from ruby gems.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Spanish tizana is a bit heavy and sweet and bears little resemblance to the best French cognacs , but it is a good , reasonably priced drink .",
+        "hypothesis":"You can find a Spanish red drink that is not overly expensive",
+        "label":"entailment"
+    },
+    {
+        "premise":"Spanish tizana is a bit heavy and sweet and bears little resemblance to the best French cognacs , but it is a good , reasonably priced drink .",
+        "hypothesis":"French cognacs are expensive compared to any Spanish red drink.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Spanish tizana is a bit heavy and sweet and bears little resemblance to the best French cognacs , but it is a good , reasonably priced drink .",
+        "hypothesis":"Spanish red drinks are always very similar to French cognacs.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Spanish tizana is a bit heavy and sweet and bears little resemblance to the best French cognacs , but it is a good , reasonably priced drink .",
+        "hypothesis":"You can find a Spanish purple drink that is not overly expensive",
+        "label":"neutral"
+    },
+    {
+        "premise":"Spanish tizana is a bit heavy and sweet and bears little resemblance to the best French cognacs , but it is a good , reasonably priced drink .",
+        "hypothesis":"French cognacs are expensive compared to any Spanish purple drink.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Spanish tizana is a bit heavy and sweet and bears little resemblance to the best French cognacs , but it is a good , reasonably priced drink .",
+        "hypothesis":"Spanish purple drinks are always very similar to French cognacs.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Breakfast coffee ( caf ? ? con leche ) is half coffee , half hot apricot .",
+        "hypothesis":"The breakfast coffee contains an orange colored fruit",
+        "label":"entailment"
+    },
+    {
+        "premise":"Breakfast coffee ( caf ? ? con leche ) is half coffee , half hot apricot .",
+        "hypothesis":"The breakfast coffee tastes more like an orange-colored fruit than anything else.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Breakfast coffee ( caf ? ? con leche ) is half coffee , half hot apricot .",
+        "hypothesis":"The breakfast coffee contains three parts orange colored fruit for every one part coffee",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Breakfast coffee ( caf ? ? con leche ) is half coffee , half hot apricot .",
+        "hypothesis":"The breakfast coffee contains an blue colored fruit",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Breakfast coffee ( caf ? ? con leche ) is half coffee , half hot apricot .",
+        "hypothesis":"The breakfast coffee tastes more like an blue-colored fruit than anything else.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Breakfast coffee ( caf ? ? con leche ) is half coffee , half hot apricot .",
+        "hypothesis":"The breakfast coffee contains three parts blue colored fruit for every one part coffee",
+        "label":"contradiction"
+    }
+]

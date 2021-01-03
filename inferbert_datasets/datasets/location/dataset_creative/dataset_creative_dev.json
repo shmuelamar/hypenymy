@@ -1,1 +1,422 @@
-[{"premise":"Many people moved here from Chicago in the 1880s.","hypothesis":"In the 1880's many people moved from America cities","label":"entailment"},{"premise":"Many people moved here from Chicago in the 1880s.","hypothesis":"Many people moved from Canada to America.","label":"neutral"},{"premise":"Many people moved here from London in the 1880s.","hypothesis":"In the 1880's many people moved from America cities","label":"neutral"},{"premise":"Many people moved here from London in the 1880s.","hypothesis":"Many people moved from Canada to America.","label":"neutral"},{"premise":"When the Romans abandoned Bristol at the end of the fourth century a.d. , Hadrian's Wall fell into disrepair.","hypothesis":"Hadrian's Wall fell into disrepair because the Romans abandoned a city in England at the end of the 4th century AD","label":"entailment"},{"premise":"When the Romans abandoned Bristol at the end of the fourth century a.d. , Hadrian's Wall fell into disrepair.","hypothesis":"If the Romans had not abandoned any cities in England at the end of the 4th century AD, Hadrian's Wall would still be in a good state.","label":"neutral"},{"premise":"When the Romans abandoned Paris at the end of the fourth century a.d. , Hadrian's Wall fell into disrepair.","hypothesis":"Hadrian's Wall fell into disrepair because the Romans abandoned a city in England at the end of the 4th century AD","label":"contradiction"},{"premise":"When the Romans abandoned Paris at the end of the fourth century a.d. , Hadrian's Wall fell into disrepair.","hypothesis":"If the Romans had not abandoned any cities in England at the end of the 4th century AD, Hadrian's Wall would still be in a good state.","label":"neutral"},{"premise":"Chicago continues to change.","hypothesis":"America is continuously changing.","label":"entailment"},{"premise":"Chicago continues to change.","hypothesis":"Some cities in America such as New York continue to change.","label":"neutral"},{"premise":"London continues to change.","hypothesis":"America is continuously changing.","label":"neutral"},{"premise":"London continues to change.","hypothesis":"Some cities in America such as New York continue to change.","label":"neutral"},{"premise":"To the families involved in the Woburn tragedy, the real climax of this story isn't the downbeat ending of the book or the sleight of hand, let's call the Environmental Protection Agency, upbeat ending of the movie.","hypothesis":"America is home to the Environmental Protection Agency.","label":"entailment"},{"premise":"To the families involved in the Woburn tragedy, the real climax of this story isn't the downbeat ending of the book or the sleight of hand, let's call the Environmental Protection Agency, upbeat ending of the movie.","hypothesis":"America has had quite a few environmental tragedies.","label":"neutral"},{"premise":"To the families involved in the Woburn tragedy, the real climax of this story isn't the downbeat ending of the book or the sleight of hand, let's call the Environmental Protection Agency, upbeat ending of the movie.","hypothesis":"America has been able to avoid environmental disasters caused by companies.","label":"contradiction"},{"premise":"To the families involved in the London tragedy, the real climax of this story isn't the downbeat ending of the book or the sleight of hand, let's call the Environmental Protection Agency, upbeat ending of the movie.","hypothesis":"America is home to the Environmental Protection Agency.","label":"entailment"},{"premise":"To the families involved in the London tragedy, the real climax of this story isn't the downbeat ending of the book or the sleight of hand, let's call the Environmental Protection Agency, upbeat ending of the movie.","hypothesis":"America has had quite a few environmental tragedies.","label":"neutral"},{"premise":"To the families involved in the London tragedy, the real climax of this story isn't the downbeat ending of the book or the sleight of hand, let's call the Environmental Protection Agency, upbeat ending of the movie.","hypothesis":"America has been able to avoid environmental disasters caused by companies.","label":"neutral"},{"premise":"Funchal's finest estate villa is by far the most popular attraction in the city for tourists.","hypothesis":"An estate villa is the most popular tourist attraction for a city in Portugal.","label":"entailment"},{"premise":"Funchal's finest estate villa is by far the most popular attraction in the city for tourists.","hypothesis":"Estate villas are the most popular tourist attractions for each city in Portugal.","label":"neutral"},{"premise":"Funchal's finest estate villa is by far the most popular attraction in the city for tourists.","hypothesis":"There is not a single estate villa that is popular among tourists in any city within Portugal.","label":"contradiction"},{"premise":"London's finest estate villa is by far the most popular attraction in the city for tourists.","hypothesis":"An estate villa is the most popular tourist attraction for a city in Portugal.","label":"neutral"},{"premise":"London's finest estate villa is by far the most popular attraction in the city for tourists.","hypothesis":"Estate villas are the most popular tourist attractions for each city in Portugal.","label":"neutral"},{"premise":"London's finest estate villa is by far the most popular attraction in the city for tourists.","hypothesis":"There is not a single estate villa that is popular among tourists in any city within Portugal.","label":"neutral"},{"premise":"There never once lived an emperor who ruled at Osaka.","hypothesis":"There is at least one city in Japan that an emperor has never ruled in.","label":"entailment"},{"premise":"There never once lived an emperor who ruled at Osaka.","hypothesis":"There is only one city in Japan that an emperor has never ruled in.","label":"neutral"},{"premise":"There never once lived an emperor who ruled at Osaka.","hypothesis":"Every city in Japan has been ruled at by an emperor before.","label":"contradiction"},{"premise":"There never once lived an emperor who ruled at London.","hypothesis":"There is at least one city in Japan that an emperor has never ruled in.","label":"neutral"},{"premise":"There never once lived an emperor who ruled at London.","hypothesis":"There is only one city in Japan that an emperor has never ruled in.","label":"neutral"},{"premise":"There never once lived an emperor who ruled at London.","hypothesis":"Every city in Japan has been ruled at by an emperor before.","label":"neutral"},{"premise":"Golf can be played at any time of the year in Madeira.","hypothesis":"There is a city in Portugal where golf can be played all year round","label":"entailment"},{"premise":"Golf can be played at any time of the year in Madeira.","hypothesis":"Golf can be played at any time of the year in Portugal","label":"neutral"},{"premise":"Golf can be played at any time of the year in Madeira.","hypothesis":"Every city in Portugal has a particular time of the year only during which golf can be played","label":"contradiction"},{"premise":"Golf can be played at any time of the year in London.","hypothesis":"There is a city in Portugal where golf can be played all year round","label":"neutral"},{"premise":"Golf can be played at any time of the year in London.","hypothesis":"Golf can be played at any time of the year in Portugal","label":"neutral"},{"premise":"Golf can be played at any time of the year in London.","hypothesis":"Every city in Portugal has a particular time of the year only during which golf can be played","label":"neutral"},{"premise":"To the south, a natural barrier of mountain ranges comprises the border with Indonesian Kalimantan.","hypothesis":"There are mountains in Indonesia","label":"entailment"},{"premise":"To the south, a natural barrier of mountain ranges comprises the border with Indonesian Kalimantan.","hypothesis":"Mountains in Indonesia are hard to climb","label":"neutral"},{"premise":"To the south, a natural barrier of mountain ranges comprises the border with Indonesian Kalimantan.","hypothesis":"There are no mountains in Indonesia","label":"contradiction"},{"premise":"To the south, a natural barrier of mountain ranges comprises the border with Indonesian London.","hypothesis":"There are mountains in Indonesia","label":"neutral"},{"premise":"To the south, a natural barrier of mountain ranges comprises the border with Indonesian London.","hypothesis":"Mountains in Indonesia are hard to climb","label":"neutral"},{"premise":"To the south, a natural barrier of mountain ranges comprises the border with Indonesian London.","hypothesis":"There are no mountains in Indonesia","label":"neutral"},{"premise":"Time also runs a disturbing report from Erbil, where Iraqi commando units proved their battle-readiness by gutting a live dog on television while chanting, Our God, our nation, our leader!","hypothesis":"Some places in Iraq have seen it's soldiers perform atrocities.","label":"entailment"},{"premise":"Time also runs a disturbing report from Erbil, where Iraqi commando units proved their battle-readiness by gutting a live dog on television while chanting, Our God, our nation, our leader!","hypothesis":"Time did not have permission to interview the commandos in Iraq.","label":"neutral"},{"premise":"Time also runs a disturbing report from Erbil, where Iraqi commando units proved their battle-readiness by gutting a live dog on television while chanting, Our God, our nation, our leader!","hypothesis":"Commandos in Iraq are not allowed to appear on television.","label":"contradiction"},{"premise":"Time also runs a disturbing report from Leon, where Iraqi commando units proved their battle-readiness by gutting a live dog on television while chanting, Our God, our nation, our leader!","hypothesis":"Some places in Iraq have seen it's soldiers perform atrocities.","label":"neutral"},{"premise":"Time also runs a disturbing report from Leon, where Iraqi commando units proved their battle-readiness by gutting a live dog on television while chanting, Our God, our nation, our leader!","hypothesis":"Time did not have permission to interview the commandos in Iraq.","label":"neutral"},{"premise":"Time also runs a disturbing report from Leon, where Iraqi commando units proved their battle-readiness by gutting a live dog on television while chanting, Our God, our nation, our leader!","hypothesis":"Commandos in Iraq are not allowed to appear on television.","label":"contradiction"},{"premise":"The view of the lush mossy landscaped garden from the verandah at the back of the building is one of Osaka's most famous.","hypothesis":"There is a lush mossy landscaped garden in Japan.","label":"entailment"},{"premise":"The view of the lush mossy landscaped garden from the verandah at the back of the building is one of Osaka's most famous.","hypothesis":"There are many lush landscaped gardens in Japan.","label":"neutral"},{"premise":"The view of the lush mossy landscaped garden from the verandah at the back of the building is one of Osaka's most famous.","hypothesis":"None of the gardens in Japan are mossy.","label":"contradiction"},{"premise":"The view of the lush mossy landscaped garden from the verandah at the back of the building is one of Thessaloniki's most famous.","hypothesis":"There is a lush mossy landscaped garden in Japan.","label":"neutral"},{"premise":"The view of the lush mossy landscaped garden from the verandah at the back of the building is one of Thessaloniki's most famous.","hypothesis":"There are many lush landscaped gardens in Japan.","label":"neutral"},{"premise":"The view of the lush mossy landscaped garden from the verandah at the back of the building is one of Thessaloniki's most famous.","hypothesis":"None of the gardens in Japan are mossy.","label":"neutral"},{"premise":"Backtracking towards Porto is not a smart choice, there are lot of dangerous animals on the way.","hypothesis":"The way to at least one city in Portugal is dominated by dangerous animals","label":"entailment"},{"premise":"Backtracking towards Porto is not a smart choice, there are lot of dangerous animals on the way.","hypothesis":"There are dangerous animals in Portugal","label":"neutral"},{"premise":"Backtracking towards Porto is not a smart choice, there are lot of dangerous animals on the way.","hypothesis":"You cannot find dangerous animals anywhere close to Portugal","label":"contradiction"},{"premise":"Backtracking towards Chicago is not a smart choice, there are lot of dangerous animals on the way.","hypothesis":"The way to at least one city in Portugal is dominated by dangerous animals","label":"neutral"},{"premise":"Backtracking towards Chicago is not a smart choice, there are lot of dangerous animals on the way.","hypothesis":"There are dangerous animals in Portugal","label":"neutral"},{"premise":"Backtracking towards Chicago is not a smart choice, there are lot of dangerous animals on the way.","hypothesis":"You cannot find dangerous animals anywhere close to Portugal","label":"neutral"},{"premise":"The second-hand books in the Osaka district must be of the utmost quality to be sold in stores.","hypothesis":"There are stores in Japan that sell second-hand books","label":"entailment"},{"premise":"The second-hand books in the Osaka district must be of the utmost quality to be sold in stores.","hypothesis":"Second-hand books are sold in only one district in Japan","label":"neutral"},{"premise":"The second-hand books in the Osaka district must be of the utmost quality to be sold in stores.","hypothesis":"Only firsthand books are sold in all the stores in Japan.","label":"contradiction"},{"premise":"The second-hand books in the Durres district must be of the utmost quality to be sold in stores.","hypothesis":"There are stores in Japan that sell second-hand books","label":"neutral"},{"premise":"The second-hand books in the Durres district must be of the utmost quality to be sold in stores.","hypothesis":"Second-hand books are sold in only one district in Japan","label":"neutral"},{"premise":"The second-hand books in the Durres district must be of the utmost quality to be sold in stores.","hypothesis":"Only firsthand books are sold in all the stores in Japan.","label":"neutral"},{"premise":"You can go to Porto's factories for needlework.","hypothesis":"Portugal has factories for needlework","label":"entailment"},{"premise":"You can go to Porto's factories for needlework.","hypothesis":"Portugal has two factories for needlework","label":"neutral"},{"premise":"You can go to Porto's factories for needlework.","hypothesis":"Portugal does not have a factory for needlework","label":"contradiction"},{"premise":"You can go to Sydney's factories for needlework.","hypothesis":"Portugal has factories for needlework","label":"neutral"},{"premise":"You can go to Sydney's factories for needlework.","hypothesis":"Portugal has two factories for needlework","label":"neutral"},{"premise":"You can go to Sydney's factories for needlework.","hypothesis":"Portugal does not have a factory for needlework","label":"neutral"},{"premise":"Chicago may not strictly qualify for inclusion, but this tough and gritty metropolis is hard to overlook ' particularly if you like bouillabaisse.","hypothesis":"There is a metropolis regarded as tough in America.","label":"entailment"},{"premise":"Chicago may not strictly qualify for inclusion, but this tough and gritty metropolis is hard to overlook ' particularly if you like bouillabaisse.","hypothesis":"You can find bouillabaisse in only one city in America","label":"neutral"},{"premise":"Chicago may not strictly qualify for inclusion, but this tough and gritty metropolis is hard to overlook ' particularly if you like bouillabaisse.","hypothesis":"Bouillabaisse lovers will have to look outside America","label":"contradiction"},{"premise":"Rotterdam may not strictly qualify for inclusion, but this tough and gritty metropolis is hard to overlook ' particularly if you like bouillabaisse.","hypothesis":"There is a metropolis regarded as tough in America.","label":"neutral"},{"premise":"Rotterdam may not strictly qualify for inclusion, but this tough and gritty metropolis is hard to overlook ' particularly if you like bouillabaisse.","hypothesis":"You can find bouillabaisse in only one city in America","label":"neutral"},{"premise":"Rotterdam may not strictly qualify for inclusion, but this tough and gritty metropolis is hard to overlook ' particularly if you like bouillabaisse.","hypothesis":"Bouillabaisse lovers will have to look outside America","label":"neutral"},{"premise":"Horse drawn carriages are popular in Chicago.","hypothesis":"There are some people in America who use horse drawn carriages for transportation.","label":"entailment"},{"premise":"Horse drawn carriages are popular in Chicago.","hypothesis":"Horse drawn carriages are one of the most popular means of transportation in America.","label":"neutral"},{"premise":"Horse drawn carriages are popular in Chicago.","hypothesis":"Nobody in America rides in horse drawn carriages.","label":"contradiction"},{"premise":"Horse drawn carriages are popular in Munich.","hypothesis":"There are some people in America who use horse drawn carriages for transportation.","label":"neutral"},{"premise":"Horse drawn carriages are popular in Munich.","hypothesis":"Horse drawn carriages are one of the most popular means of transportation in America.","label":"neutral"},{"premise":"Horse drawn carriages are popular in Munich.","hypothesis":"Nobody in America rides in horse drawn carriages.","label":"neutral"}]
+[
+    {
+        "premise":"Many people moved here from Chicago in the 1880s.",
+        "hypothesis":"In the 1880's many people moved from America cities",
+        "label":"entailment"
+    },
+    {
+        "premise":"Many people moved here from Chicago in the 1880s.",
+        "hypothesis":"Many people moved from Canada to America.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Many people moved here from London in the 1880s.",
+        "hypothesis":"In the 1880's many people moved from America cities",
+        "label":"neutral"
+    },
+    {
+        "premise":"Many people moved here from London in the 1880s.",
+        "hypothesis":"Many people moved from Canada to America.",
+        "label":"neutral"
+    },
+    {
+        "premise":"When the Romans abandoned Bristol at the end of the fourth century a.d. , Hadrian's Wall fell into disrepair.",
+        "hypothesis":"Hadrian's Wall fell into disrepair because the Romans abandoned a city in England at the end of the 4th century AD",
+        "label":"entailment"
+    },
+    {
+        "premise":"When the Romans abandoned Bristol at the end of the fourth century a.d. , Hadrian's Wall fell into disrepair.",
+        "hypothesis":"If the Romans had not abandoned any cities in England at the end of the 4th century AD, Hadrian's Wall would still be in a good state.",
+        "label":"neutral"
+    },
+    {
+        "premise":"When the Romans abandoned Paris at the end of the fourth century a.d. , Hadrian's Wall fell into disrepair.",
+        "hypothesis":"Hadrian's Wall fell into disrepair because the Romans abandoned a city in England at the end of the 4th century AD",
+        "label":"contradiction"
+    },
+    {
+        "premise":"When the Romans abandoned Paris at the end of the fourth century a.d. , Hadrian's Wall fell into disrepair.",
+        "hypothesis":"If the Romans had not abandoned any cities in England at the end of the 4th century AD, Hadrian's Wall would still be in a good state.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Chicago continues to change.",
+        "hypothesis":"America is continuously changing.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Chicago continues to change.",
+        "hypothesis":"Some cities in America such as New York continue to change.",
+        "label":"neutral"
+    },
+    {
+        "premise":"London continues to change.",
+        "hypothesis":"America is continuously changing.",
+        "label":"neutral"
+    },
+    {
+        "premise":"London continues to change.",
+        "hypothesis":"Some cities in America such as New York continue to change.",
+        "label":"neutral"
+    },
+    {
+        "premise":"To the families involved in the Woburn tragedy, the real climax of this story isn't the downbeat ending of the book or the sleight of hand, let's call the Environmental Protection Agency, upbeat ending of the movie.",
+        "hypothesis":"America is home to the Environmental Protection Agency.",
+        "label":"entailment"
+    },
+    {
+        "premise":"To the families involved in the Woburn tragedy, the real climax of this story isn't the downbeat ending of the book or the sleight of hand, let's call the Environmental Protection Agency, upbeat ending of the movie.",
+        "hypothesis":"America has had quite a few environmental tragedies.",
+        "label":"neutral"
+    },
+    {
+        "premise":"To the families involved in the Woburn tragedy, the real climax of this story isn't the downbeat ending of the book or the sleight of hand, let's call the Environmental Protection Agency, upbeat ending of the movie.",
+        "hypothesis":"America has been able to avoid environmental disasters caused by companies.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"To the families involved in the London tragedy, the real climax of this story isn't the downbeat ending of the book or the sleight of hand, let's call the Environmental Protection Agency, upbeat ending of the movie.",
+        "hypothesis":"America is home to the Environmental Protection Agency.",
+        "label":"entailment"
+    },
+    {
+        "premise":"To the families involved in the London tragedy, the real climax of this story isn't the downbeat ending of the book or the sleight of hand, let's call the Environmental Protection Agency, upbeat ending of the movie.",
+        "hypothesis":"America has had quite a few environmental tragedies.",
+        "label":"neutral"
+    },
+    {
+        "premise":"To the families involved in the London tragedy, the real climax of this story isn't the downbeat ending of the book or the sleight of hand, let's call the Environmental Protection Agency, upbeat ending of the movie.",
+        "hypothesis":"America has been able to avoid environmental disasters caused by companies.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Funchal's finest estate villa is by far the most popular attraction in the city for tourists.",
+        "hypothesis":"An estate villa is the most popular tourist attraction for a city in Portugal.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Funchal's finest estate villa is by far the most popular attraction in the city for tourists.",
+        "hypothesis":"Estate villas are the most popular tourist attractions for each city in Portugal.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Funchal's finest estate villa is by far the most popular attraction in the city for tourists.",
+        "hypothesis":"There is not a single estate villa that is popular among tourists in any city within Portugal.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"London's finest estate villa is by far the most popular attraction in the city for tourists.",
+        "hypothesis":"An estate villa is the most popular tourist attraction for a city in Portugal.",
+        "label":"neutral"
+    },
+    {
+        "premise":"London's finest estate villa is by far the most popular attraction in the city for tourists.",
+        "hypothesis":"Estate villas are the most popular tourist attractions for each city in Portugal.",
+        "label":"neutral"
+    },
+    {
+        "premise":"London's finest estate villa is by far the most popular attraction in the city for tourists.",
+        "hypothesis":"There is not a single estate villa that is popular among tourists in any city within Portugal.",
+        "label":"neutral"
+    },
+    {
+        "premise":"There never once lived an emperor who ruled at Osaka.",
+        "hypothesis":"There is at least one city in Japan that an emperor has never ruled in.",
+        "label":"entailment"
+    },
+    {
+        "premise":"There never once lived an emperor who ruled at Osaka.",
+        "hypothesis":"There is only one city in Japan that an emperor has never ruled in.",
+        "label":"neutral"
+    },
+    {
+        "premise":"There never once lived an emperor who ruled at Osaka.",
+        "hypothesis":"Every city in Japan has been ruled at by an emperor before.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"There never once lived an emperor who ruled at London.",
+        "hypothesis":"There is at least one city in Japan that an emperor has never ruled in.",
+        "label":"neutral"
+    },
+    {
+        "premise":"There never once lived an emperor who ruled at London.",
+        "hypothesis":"There is only one city in Japan that an emperor has never ruled in.",
+        "label":"neutral"
+    },
+    {
+        "premise":"There never once lived an emperor who ruled at London.",
+        "hypothesis":"Every city in Japan has been ruled at by an emperor before.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Golf can be played at any time of the year in Madeira.",
+        "hypothesis":"There is a city in Portugal where golf can be played all year round",
+        "label":"entailment"
+    },
+    {
+        "premise":"Golf can be played at any time of the year in Madeira.",
+        "hypothesis":"Golf can be played at any time of the year in Portugal",
+        "label":"neutral"
+    },
+    {
+        "premise":"Golf can be played at any time of the year in Madeira.",
+        "hypothesis":"Every city in Portugal has a particular time of the year only during which golf can be played",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Golf can be played at any time of the year in London.",
+        "hypothesis":"There is a city in Portugal where golf can be played all year round",
+        "label":"neutral"
+    },
+    {
+        "premise":"Golf can be played at any time of the year in London.",
+        "hypothesis":"Golf can be played at any time of the year in Portugal",
+        "label":"neutral"
+    },
+    {
+        "premise":"Golf can be played at any time of the year in London.",
+        "hypothesis":"Every city in Portugal has a particular time of the year only during which golf can be played",
+        "label":"neutral"
+    },
+    {
+        "premise":"To the south, a natural barrier of mountain ranges comprises the border with Indonesian Kalimantan.",
+        "hypothesis":"There are mountains in Indonesia",
+        "label":"entailment"
+    },
+    {
+        "premise":"To the south, a natural barrier of mountain ranges comprises the border with Indonesian Kalimantan.",
+        "hypothesis":"Mountains in Indonesia are hard to climb",
+        "label":"neutral"
+    },
+    {
+        "premise":"To the south, a natural barrier of mountain ranges comprises the border with Indonesian Kalimantan.",
+        "hypothesis":"There are no mountains in Indonesia",
+        "label":"contradiction"
+    },
+    {
+        "premise":"To the south, a natural barrier of mountain ranges comprises the border with Indonesian London.",
+        "hypothesis":"There are mountains in Indonesia",
+        "label":"neutral"
+    },
+    {
+        "premise":"To the south, a natural barrier of mountain ranges comprises the border with Indonesian London.",
+        "hypothesis":"Mountains in Indonesia are hard to climb",
+        "label":"neutral"
+    },
+    {
+        "premise":"To the south, a natural barrier of mountain ranges comprises the border with Indonesian London.",
+        "hypothesis":"There are no mountains in Indonesia",
+        "label":"neutral"
+    },
+    {
+        "premise":"Time also runs a disturbing report from Erbil, where Iraqi commando units proved their battle-readiness by gutting a live dog on television while chanting, Our God, our nation, our leader!",
+        "hypothesis":"Some places in Iraq have seen it's soldiers perform atrocities.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Time also runs a disturbing report from Erbil, where Iraqi commando units proved their battle-readiness by gutting a live dog on television while chanting, Our God, our nation, our leader!",
+        "hypothesis":"Time did not have permission to interview the commandos in Iraq.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Time also runs a disturbing report from Erbil, where Iraqi commando units proved their battle-readiness by gutting a live dog on television while chanting, Our God, our nation, our leader!",
+        "hypothesis":"Commandos in Iraq are not allowed to appear on television.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Time also runs a disturbing report from Leon, where Iraqi commando units proved their battle-readiness by gutting a live dog on television while chanting, Our God, our nation, our leader!",
+        "hypothesis":"Some places in Iraq have seen it's soldiers perform atrocities.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Time also runs a disturbing report from Leon, where Iraqi commando units proved their battle-readiness by gutting a live dog on television while chanting, Our God, our nation, our leader!",
+        "hypothesis":"Time did not have permission to interview the commandos in Iraq.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Time also runs a disturbing report from Leon, where Iraqi commando units proved their battle-readiness by gutting a live dog on television while chanting, Our God, our nation, our leader!",
+        "hypothesis":"Commandos in Iraq are not allowed to appear on television.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The view of the lush mossy landscaped garden from the verandah at the back of the building is one of Osaka's most famous.",
+        "hypothesis":"There is a lush mossy landscaped garden in Japan.",
+        "label":"entailment"
+    },
+    {
+        "premise":"The view of the lush mossy landscaped garden from the verandah at the back of the building is one of Osaka's most famous.",
+        "hypothesis":"There are many lush landscaped gardens in Japan.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The view of the lush mossy landscaped garden from the verandah at the back of the building is one of Osaka's most famous.",
+        "hypothesis":"None of the gardens in Japan are mossy.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The view of the lush mossy landscaped garden from the verandah at the back of the building is one of Thessaloniki's most famous.",
+        "hypothesis":"There is a lush mossy landscaped garden in Japan.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The view of the lush mossy landscaped garden from the verandah at the back of the building is one of Thessaloniki's most famous.",
+        "hypothesis":"There are many lush landscaped gardens in Japan.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The view of the lush mossy landscaped garden from the verandah at the back of the building is one of Thessaloniki's most famous.",
+        "hypothesis":"None of the gardens in Japan are mossy.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Backtracking towards Porto is not a smart choice, there are lot of dangerous animals on the way.",
+        "hypothesis":"The way to at least one city in Portugal is dominated by dangerous animals",
+        "label":"entailment"
+    },
+    {
+        "premise":"Backtracking towards Porto is not a smart choice, there are lot of dangerous animals on the way.",
+        "hypothesis":"There are dangerous animals in Portugal",
+        "label":"neutral"
+    },
+    {
+        "premise":"Backtracking towards Porto is not a smart choice, there are lot of dangerous animals on the way.",
+        "hypothesis":"You cannot find dangerous animals anywhere close to Portugal",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Backtracking towards Chicago is not a smart choice, there are lot of dangerous animals on the way.",
+        "hypothesis":"The way to at least one city in Portugal is dominated by dangerous animals",
+        "label":"neutral"
+    },
+    {
+        "premise":"Backtracking towards Chicago is not a smart choice, there are lot of dangerous animals on the way.",
+        "hypothesis":"There are dangerous animals in Portugal",
+        "label":"neutral"
+    },
+    {
+        "premise":"Backtracking towards Chicago is not a smart choice, there are lot of dangerous animals on the way.",
+        "hypothesis":"You cannot find dangerous animals anywhere close to Portugal",
+        "label":"neutral"
+    },
+    {
+        "premise":"The second-hand books in the Osaka district must be of the utmost quality to be sold in stores.",
+        "hypothesis":"There are stores in Japan that sell second-hand books",
+        "label":"entailment"
+    },
+    {
+        "premise":"The second-hand books in the Osaka district must be of the utmost quality to be sold in stores.",
+        "hypothesis":"Second-hand books are sold in only one district in Japan",
+        "label":"neutral"
+    },
+    {
+        "premise":"The second-hand books in the Osaka district must be of the utmost quality to be sold in stores.",
+        "hypothesis":"Only firsthand books are sold in all the stores in Japan.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The second-hand books in the Durres district must be of the utmost quality to be sold in stores.",
+        "hypothesis":"There are stores in Japan that sell second-hand books",
+        "label":"neutral"
+    },
+    {
+        "premise":"The second-hand books in the Durres district must be of the utmost quality to be sold in stores.",
+        "hypothesis":"Second-hand books are sold in only one district in Japan",
+        "label":"neutral"
+    },
+    {
+        "premise":"The second-hand books in the Durres district must be of the utmost quality to be sold in stores.",
+        "hypothesis":"Only firsthand books are sold in all the stores in Japan.",
+        "label":"neutral"
+    },
+    {
+        "premise":"You can go to Porto's factories for needlework.",
+        "hypothesis":"Portugal has factories for needlework",
+        "label":"entailment"
+    },
+    {
+        "premise":"You can go to Porto's factories for needlework.",
+        "hypothesis":"Portugal has two factories for needlework",
+        "label":"neutral"
+    },
+    {
+        "premise":"You can go to Porto's factories for needlework.",
+        "hypothesis":"Portugal does not have a factory for needlework",
+        "label":"contradiction"
+    },
+    {
+        "premise":"You can go to Sydney's factories for needlework.",
+        "hypothesis":"Portugal has factories for needlework",
+        "label":"neutral"
+    },
+    {
+        "premise":"You can go to Sydney's factories for needlework.",
+        "hypothesis":"Portugal has two factories for needlework",
+        "label":"neutral"
+    },
+    {
+        "premise":"You can go to Sydney's factories for needlework.",
+        "hypothesis":"Portugal does not have a factory for needlework",
+        "label":"neutral"
+    },
+    {
+        "premise":"Chicago may not strictly qualify for inclusion, but this tough and gritty metropolis is hard to overlook ' particularly if you like bouillabaisse.",
+        "hypothesis":"There is a metropolis regarded as tough in America.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Chicago may not strictly qualify for inclusion, but this tough and gritty metropolis is hard to overlook ' particularly if you like bouillabaisse.",
+        "hypothesis":"You can find bouillabaisse in only one city in America",
+        "label":"neutral"
+    },
+    {
+        "premise":"Chicago may not strictly qualify for inclusion, but this tough and gritty metropolis is hard to overlook ' particularly if you like bouillabaisse.",
+        "hypothesis":"Bouillabaisse lovers will have to look outside America",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Rotterdam may not strictly qualify for inclusion, but this tough and gritty metropolis is hard to overlook ' particularly if you like bouillabaisse.",
+        "hypothesis":"There is a metropolis regarded as tough in America.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Rotterdam may not strictly qualify for inclusion, but this tough and gritty metropolis is hard to overlook ' particularly if you like bouillabaisse.",
+        "hypothesis":"You can find bouillabaisse in only one city in America",
+        "label":"neutral"
+    },
+    {
+        "premise":"Rotterdam may not strictly qualify for inclusion, but this tough and gritty metropolis is hard to overlook ' particularly if you like bouillabaisse.",
+        "hypothesis":"Bouillabaisse lovers will have to look outside America",
+        "label":"neutral"
+    },
+    {
+        "premise":"Horse drawn carriages are popular in Chicago.",
+        "hypothesis":"There are some people in America who use horse drawn carriages for transportation.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Horse drawn carriages are popular in Chicago.",
+        "hypothesis":"Horse drawn carriages are one of the most popular means of transportation in America.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Horse drawn carriages are popular in Chicago.",
+        "hypothesis":"Nobody in America rides in horse drawn carriages.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Horse drawn carriages are popular in Munich.",
+        "hypothesis":"There are some people in America who use horse drawn carriages for transportation.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Horse drawn carriages are popular in Munich.",
+        "hypothesis":"Horse drawn carriages are one of the most popular means of transportation in America.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Horse drawn carriages are popular in Munich.",
+        "hypothesis":"Nobody in America rides in horse drawn carriages.",
+        "label":"neutral"
+    }
+]

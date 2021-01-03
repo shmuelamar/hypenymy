@@ -1,1 +1,272 @@
-[{"premise":"and you want to use one of your good sauce pans that dissipate the heat because it it ends up burning i mean no matter how careful you are you still might get a film on the bottom of the pot i do n't let that worry me and i get the brandy lukewarm and then i pour about a half a cup of cornstarch in it and i have this thing it 's called the slender blender","hypothesis":"An amber alcohol is used to make an emulsion called a slender bender","label":"entailment"},{"premise":"and you want to use one of your good sauce pans that dissipate the heat because it it ends up burning i mean no matter how careful you are you still might get a film on the bottom of the pot i do n't let that worry me and i get the brandy lukewarm and then i pour about a half a cup of cornstarch in it and i have this thing it 's called the slender blender","hypothesis":"Any amber alcohol may be used with cornstarch to create the slender bender.","label":"neutral"},{"premise":"and you want to use one of your good sauce pans that dissipate the heat because it it ends up burning i mean no matter how careful you are you still might get a film on the bottom of the pot i do n't let that worry me and i get the brandy lukewarm and then i pour about a half a cup of cornstarch in it and i have this thing it 's called the slender blender","hypothesis":"An ice cold amber liquid will be needed if you wish to make a slender bender.","label":"contradiction"},{"premise":"and you want to use one of your good sauce pans that dissipate the heat because it it ends up burning i mean no matter how careful you are you still might get a film on the bottom of the pot i do n't let that worry me and i get the brandy lukewarm and then i pour about a half a cup of cornstarch in it and i have this thing it 's called the slender blender","hypothesis":"A yellow alcohol is used to make an emulsion called a slender bender","label":"contradiction"},{"premise":"and you want to use one of your good sauce pans that dissipate the heat because it it ends up burning i mean no matter how careful you are you still might get a film on the bottom of the pot i do n't let that worry me and i get the brandy lukewarm and then i pour about a half a cup of cornstarch in it and i have this thing it 's called the slender blender","hypothesis":"Any yellow alcohol may be used with cornstarch to create the slender bender.","label":"contradiction"},{"premise":"and you want to use one of your good sauce pans that dissipate the heat because it it ends up burning i mean no matter how careful you are you still might get a film on the bottom of the pot i do n't let that worry me and i get the brandy lukewarm and then i pour about a half a cup of cornstarch in it and i have this thing it 's called the slender blender","hypothesis":"An ice cold yellow liquid will be needed if you wish to make a slender bender.","label":"contradiction"},{"premise":"um i like grilled feta too","hypothesis":"I have a taste for grilled white cheese.","label":"entailment"},{"premise":"um i like grilled feta too","hypothesis":"I like white cheese regardless of how it is prepared","label":"neutral"},{"premise":"um i like grilled feta too","hypothesis":"I think grilled white cheese is horrible","label":"contradiction"},{"premise":"um i like grilled feta too","hypothesis":"I have a taste for grilled cream cheese.","label":"neutral"},{"premise":"um i like grilled feta too","hypothesis":"I like cream cheese regardless of how it is prepared","label":"neutral"},{"premise":"um i like grilled feta too","hypothesis":"I think grilled cream cheese is horrible","label":"neutral"},{"premise":"beans like to be near certain types of plants now they they find that raspberry don't do well if you put them next to something like uh peas i do n't know something","hypothesis":"I think there are red fruits that are adversely affected when placed next to peas.","label":"entailment"},{"premise":"beans like to be near certain types of plants now they they find that raspberry don't do well if you put them next to something like uh peas i do n't know something","hypothesis":"Red fruits are best grown by themselves.","label":"neutral"},{"premise":"beans like to be near certain types of plants now they they find that raspberry don't do well if you put them next to something like uh peas i do n't know something","hypothesis":"It was found that the best conditions for red fruits was when placed beside peas","label":"contradiction"},{"premise":"beans like to be near certain types of plants now they they find that raspberry don't do well if you put them next to something like uh peas i do n't know something","hypothesis":"I think there are ruby fruits that are adversely affected when placed next to peas.","label":"neutral"},{"premise":"beans like to be near certain types of plants now they they find that raspberry don't do well if you put them next to something like uh peas i do n't know something","hypothesis":"ruby fruits are best grown by themselves.","label":"neutral"},{"premise":"beans like to be near certain types of plants now they they find that raspberry don't do well if you put them next to something like uh peas i do n't know something","hypothesis":"It was found that the best conditions for ruby fruits was when placed beside peas","label":"neutral"},{"premise":"Maybe there should be block grants to the states that would enable them to give Midori to every white teen-ager in America who buys himself a high-quality handgun.","hypothesis":"Block grants would enable the states to give a green liqueur to teenagers.","label":"entailment"},{"premise":"Maybe there should be block grants to the states that would enable them to give Midori to every white teen-ager in America who buys himself a high-quality handgun.","hypothesis":"The green liqueur is safe for teenagers to drink.","label":"neutral"},{"premise":"Maybe there should be block grants to the states that would enable them to give Midori to every white teen-ager in America who buys himself a high-quality handgun.","hypothesis":"Maybe there should be block grants to the states that would enable them to give green liqueur only to adults .","label":"contradiction"},{"premise":"Maybe there should be block grants to the states that would enable them to give Midori to every white teen-ager in America who buys himself a high-quality handgun.","hypothesis":"Block grants would enable the states to give a yellow liqueur to teenagers.","label":"neutral"},{"premise":"Maybe there should be block grants to the states that would enable them to give Midori to every white teen-ager in America who buys himself a high-quality handgun.","hypothesis":"The yellow liqueur is safe for teenagers to drink.","label":"neutral"},{"premise":"Maybe there should be block grants to the states that would enable them to give Midori to every white teen-ager in America who buys himself a high-quality handgun.","hypothesis":"Maybe there should be block grants to the states that would enable them to give yellow liqueur only to adults .","label":"neutral"},{"premise":"well see pineapple grow like crazy at our house Like we have a section of tomatoes and we put the tomatoes there every year in the same section And i swear we get tomatoes six rows up","hypothesis":"We've got some tomatoes and yellow fruit plants growing at our house","label":"entailment"},{"premise":"well see pineapple grow like crazy at our house Like we have a section of tomatoes and we put the tomatoes there every year in the same section And i swear we get tomatoes six rows up","hypothesis":"The yellow fruits at our house are growing wild; we never plant them.","label":"neutral"},{"premise":"well see pineapple grow like crazy at our house Like we have a section of tomatoes and we put the tomatoes there every year in the same section And i swear we get tomatoes six rows up","hypothesis":"The yellow fruits at our house are experiencing retarded growth.","label":"contradiction"},{"premise":"well see pineapple grow like crazy at our house Like we have a section of tomatoes and we put the tomatoes there every year in the same section And i swear we get tomatoes six rows up","hypothesis":"We've got some tomatoes and chocolate fruit plants growing at our house","label":"neutral"},{"premise":"well see pineapple grow like crazy at our house Like we have a section of tomatoes and we put the tomatoes there every year in the same section And i swear we get tomatoes six rows up","hypothesis":"The chocolate fruits at our house are growing wild; we never plant them.","label":"neutral"},{"premise":"well see pineapple grow like crazy at our house Like we have a section of tomatoes and we put the tomatoes there every year in the same section And i swear we get tomatoes six rows up","hypothesis":"The chocolate fruits at our house are experiencing retarded growth.","label":"neutral"},{"premise":"All of these lodges , and even some outside the park , have their own elephant and nature guides .","hypothesis":"Guides to some large, grey animals can be found at the lodges","label":"entailment"},{"premise":"All of these lodges , and even some outside the park , have their own elephant and nature guides .","hypothesis":"There are only grey animals in the park","label":"neutral"},{"premise":"All of these lodges , and even some outside the park , have their own elephant and nature guides .","hypothesis":"Visitors will have to interact with all the grey animals on their own.","label":"contradiction"},{"premise":"All of these lodges , and even some outside the park , have their own elephant and nature guides .","hypothesis":"Guides to some large, orange animals can be found at the lodges","label":"neutral"},{"premise":"All of these lodges , and even some outside the park , have their own elephant and nature guides .","hypothesis":"There are only orange animals in the park","label":"contradiction"},{"premise":"All of these lodges , and even some outside the park , have their own elephant and nature guides .","hypothesis":"Visitors will have to interact with all the orange animals on their own.","label":"neutral"},{"premise":"You can give me milk and spinach .","hypothesis":"I'd accept spinach and a particular white drink.","label":"entailment"},{"premise":"You can give me milk and spinach .","hypothesis":"I'd accept spinach and any white drink","label":"neutral"},{"premise":"You can give me milk and spinach .","hypothesis":"I'd accept either only spinach or a white drink","label":"contradiction"},{"premise":"You can give me milk and spinach .","hypothesis":"I'd accept spinach and a particular brown drink.","label":"neutral"},{"premise":"You can give me milk and spinach .","hypothesis":"I'd accept spinach and any brown drink","label":"neutral"},{"premise":"You can give me milk and spinach .","hypothesis":"I'd accept either only spinach or a brown drink","label":"contradiction"},{"premise":"But a few Christian cretonne survive above the apse is the Virgin with the infant Jesus , with the Archangel Gabriel to the right ( his companion Michael , to the left , has vanished save for a few feathers from his wings ) .","hypothesis":"There is a white cotton fabric above the apse.","label":"entailment"},{"premise":"But a few Christian cretonne survive above the apse is the Virgin with the infant Jesus , with the Archangel Gabriel to the right ( his companion Michael , to the left , has vanished save for a few feathers from his wings ) .","hypothesis":"The white cotton fabric has been in the apse for a very long time","label":"neutral"},{"premise":"But a few Christian cretonne survive above the apse is the Virgin with the infant Jesus , with the Archangel Gabriel to the right ( his companion Michael , to the left , has vanished save for a few feathers from his wings ) .","hypothesis":"The initial depiction on any heavy white fabric in the apse is completely intact.","label":"contradiction"},{"premise":"But a few Christian cretonne survive above the apse is the Virgin with the infant Jesus , with the Archangel Gabriel to the right ( his companion Michael , to the left , has vanished save for a few feathers from his wings ) .","hypothesis":"There is a grey cotton fabric above the apse.","label":"neutral"},{"premise":"But a few Christian cretonne survive above the apse is the Virgin with the infant Jesus , with the Archangel Gabriel to the right ( his companion Michael , to the left , has vanished save for a few feathers from his wings ) .","hypothesis":"The grey cotton fabric has been in the apse for a very long time","label":"neutral"},{"premise":"But a few Christian cretonne survive above the apse is the Virgin with the infant Jesus , with the Archangel Gabriel to the right ( his companion Michael , to the left , has vanished save for a few feathers from his wings ) .","hypothesis":"The initial depiction on any heavy grey fabric in the apse is completely intact.","label":"neutral"},{"premise":"Look out for chunks of juicy swordfish skewered with onion , pepper , and Ariane , and grilled .","hypothesis":"There is red apple cultivar in the swordfish","label":"entailment"},{"premise":"Look out for chunks of juicy swordfish skewered with onion , pepper , and Ariane , and grilled .","hypothesis":"I couldn't find any swordfish skewered with red apple cultivar","label":"neutral"},{"premise":"Look out for chunks of juicy swordfish skewered with onion , pepper , and Ariane , and grilled .","hypothesis":"swordfish cannot be skewered with red apple cultivar","label":"contradiction"},{"premise":"Look out for chunks of juicy swordfish skewered with onion , pepper , and Ariane , and grilled .","hypothesis":"There is chocolate apple cultivar in the swordfish","label":"contradiction"},{"premise":"Look out for chunks of juicy swordfish skewered with onion , pepper , and Ariane , and grilled .","hypothesis":"I couldn't find any swordfish skewered with chocolate apple cultivar","label":"neutral"},{"premise":"Look out for chunks of juicy swordfish skewered with onion , pepper , and Ariane , and grilled .","hypothesis":"swordfish cannot be skewered with chocolate apple cultivar","label":"neutral"}]
+[
+    {
+        "premise":"and you want to use one of your good sauce pans that dissipate the heat because it it ends up burning i mean no matter how careful you are you still might get a film on the bottom of the pot i do n't let that worry me and i get the brandy lukewarm and then i pour about a half a cup of cornstarch in it and i have this thing it 's called the slender blender",
+        "hypothesis":"An amber alcohol is used to make an emulsion called a slender bender",
+        "label":"entailment"
+    },
+    {
+        "premise":"and you want to use one of your good sauce pans that dissipate the heat because it it ends up burning i mean no matter how careful you are you still might get a film on the bottom of the pot i do n't let that worry me and i get the brandy lukewarm and then i pour about a half a cup of cornstarch in it and i have this thing it 's called the slender blender",
+        "hypothesis":"Any amber alcohol may be used with cornstarch to create the slender bender.",
+        "label":"neutral"
+    },
+    {
+        "premise":"and you want to use one of your good sauce pans that dissipate the heat because it it ends up burning i mean no matter how careful you are you still might get a film on the bottom of the pot i do n't let that worry me and i get the brandy lukewarm and then i pour about a half a cup of cornstarch in it and i have this thing it 's called the slender blender",
+        "hypothesis":"An ice cold amber liquid will be needed if you wish to make a slender bender.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"and you want to use one of your good sauce pans that dissipate the heat because it it ends up burning i mean no matter how careful you are you still might get a film on the bottom of the pot i do n't let that worry me and i get the brandy lukewarm and then i pour about a half a cup of cornstarch in it and i have this thing it 's called the slender blender",
+        "hypothesis":"A yellow alcohol is used to make an emulsion called a slender bender",
+        "label":"contradiction"
+    },
+    {
+        "premise":"and you want to use one of your good sauce pans that dissipate the heat because it it ends up burning i mean no matter how careful you are you still might get a film on the bottom of the pot i do n't let that worry me and i get the brandy lukewarm and then i pour about a half a cup of cornstarch in it and i have this thing it 's called the slender blender",
+        "hypothesis":"Any yellow alcohol may be used with cornstarch to create the slender bender.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"and you want to use one of your good sauce pans that dissipate the heat because it it ends up burning i mean no matter how careful you are you still might get a film on the bottom of the pot i do n't let that worry me and i get the brandy lukewarm and then i pour about a half a cup of cornstarch in it and i have this thing it 's called the slender blender",
+        "hypothesis":"An ice cold yellow liquid will be needed if you wish to make a slender bender.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"um i like grilled feta too",
+        "hypothesis":"I have a taste for grilled white cheese.",
+        "label":"entailment"
+    },
+    {
+        "premise":"um i like grilled feta too",
+        "hypothesis":"I like white cheese regardless of how it is prepared",
+        "label":"neutral"
+    },
+    {
+        "premise":"um i like grilled feta too",
+        "hypothesis":"I think grilled white cheese is horrible",
+        "label":"contradiction"
+    },
+    {
+        "premise":"um i like grilled feta too",
+        "hypothesis":"I have a taste for grilled cream cheese.",
+        "label":"neutral"
+    },
+    {
+        "premise":"um i like grilled feta too",
+        "hypothesis":"I like cream cheese regardless of how it is prepared",
+        "label":"neutral"
+    },
+    {
+        "premise":"um i like grilled feta too",
+        "hypothesis":"I think grilled cream cheese is horrible",
+        "label":"neutral"
+    },
+    {
+        "premise":"beans like to be near certain types of plants now they they find that raspberry don't do well if you put them next to something like uh peas i do n't know something",
+        "hypothesis":"I think there are red fruits that are adversely affected when placed next to peas.",
+        "label":"entailment"
+    },
+    {
+        "premise":"beans like to be near certain types of plants now they they find that raspberry don't do well if you put them next to something like uh peas i do n't know something",
+        "hypothesis":"Red fruits are best grown by themselves.",
+        "label":"neutral"
+    },
+    {
+        "premise":"beans like to be near certain types of plants now they they find that raspberry don't do well if you put them next to something like uh peas i do n't know something",
+        "hypothesis":"It was found that the best conditions for red fruits was when placed beside peas",
+        "label":"contradiction"
+    },
+    {
+        "premise":"beans like to be near certain types of plants now they they find that raspberry don't do well if you put them next to something like uh peas i do n't know something",
+        "hypothesis":"I think there are ruby fruits that are adversely affected when placed next to peas.",
+        "label":"neutral"
+    },
+    {
+        "premise":"beans like to be near certain types of plants now they they find that raspberry don't do well if you put them next to something like uh peas i do n't know something",
+        "hypothesis":"ruby fruits are best grown by themselves.",
+        "label":"neutral"
+    },
+    {
+        "premise":"beans like to be near certain types of plants now they they find that raspberry don't do well if you put them next to something like uh peas i do n't know something",
+        "hypothesis":"It was found that the best conditions for ruby fruits was when placed beside peas",
+        "label":"neutral"
+    },
+    {
+        "premise":"Maybe there should be block grants to the states that would enable them to give Midori to every white teen-ager in America who buys himself a high-quality handgun.",
+        "hypothesis":"Block grants would enable the states to give a green liqueur to teenagers.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Maybe there should be block grants to the states that would enable them to give Midori to every white teen-ager in America who buys himself a high-quality handgun.",
+        "hypothesis":"The green liqueur is safe for teenagers to drink.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Maybe there should be block grants to the states that would enable them to give Midori to every white teen-ager in America who buys himself a high-quality handgun.",
+        "hypothesis":"Maybe there should be block grants to the states that would enable them to give green liqueur only to adults .",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Maybe there should be block grants to the states that would enable them to give Midori to every white teen-ager in America who buys himself a high-quality handgun.",
+        "hypothesis":"Block grants would enable the states to give a yellow liqueur to teenagers.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Maybe there should be block grants to the states that would enable them to give Midori to every white teen-ager in America who buys himself a high-quality handgun.",
+        "hypothesis":"The yellow liqueur is safe for teenagers to drink.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Maybe there should be block grants to the states that would enable them to give Midori to every white teen-ager in America who buys himself a high-quality handgun.",
+        "hypothesis":"Maybe there should be block grants to the states that would enable them to give yellow liqueur only to adults .",
+        "label":"neutral"
+    },
+    {
+        "premise":"well see pineapple grow like crazy at our house Like we have a section of tomatoes and we put the tomatoes there every year in the same section And i swear we get tomatoes six rows up",
+        "hypothesis":"We've got some tomatoes and yellow fruit plants growing at our house",
+        "label":"entailment"
+    },
+    {
+        "premise":"well see pineapple grow like crazy at our house Like we have a section of tomatoes and we put the tomatoes there every year in the same section And i swear we get tomatoes six rows up",
+        "hypothesis":"The yellow fruits at our house are growing wild; we never plant them.",
+        "label":"neutral"
+    },
+    {
+        "premise":"well see pineapple grow like crazy at our house Like we have a section of tomatoes and we put the tomatoes there every year in the same section And i swear we get tomatoes six rows up",
+        "hypothesis":"The yellow fruits at our house are experiencing retarded growth.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"well see pineapple grow like crazy at our house Like we have a section of tomatoes and we put the tomatoes there every year in the same section And i swear we get tomatoes six rows up",
+        "hypothesis":"We've got some tomatoes and chocolate fruit plants growing at our house",
+        "label":"neutral"
+    },
+    {
+        "premise":"well see pineapple grow like crazy at our house Like we have a section of tomatoes and we put the tomatoes there every year in the same section And i swear we get tomatoes six rows up",
+        "hypothesis":"The chocolate fruits at our house are growing wild; we never plant them.",
+        "label":"neutral"
+    },
+    {
+        "premise":"well see pineapple grow like crazy at our house Like we have a section of tomatoes and we put the tomatoes there every year in the same section And i swear we get tomatoes six rows up",
+        "hypothesis":"The chocolate fruits at our house are experiencing retarded growth.",
+        "label":"neutral"
+    },
+    {
+        "premise":"All of these lodges , and even some outside the park , have their own elephant and nature guides .",
+        "hypothesis":"Guides to some large, grey animals can be found at the lodges",
+        "label":"entailment"
+    },
+    {
+        "premise":"All of these lodges , and even some outside the park , have their own elephant and nature guides .",
+        "hypothesis":"There are only grey animals in the park",
+        "label":"neutral"
+    },
+    {
+        "premise":"All of these lodges , and even some outside the park , have their own elephant and nature guides .",
+        "hypothesis":"Visitors will have to interact with all the grey animals on their own.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"All of these lodges , and even some outside the park , have their own elephant and nature guides .",
+        "hypothesis":"Guides to some large, orange animals can be found at the lodges",
+        "label":"neutral"
+    },
+    {
+        "premise":"All of these lodges , and even some outside the park , have their own elephant and nature guides .",
+        "hypothesis":"There are only orange animals in the park",
+        "label":"contradiction"
+    },
+    {
+        "premise":"All of these lodges , and even some outside the park , have their own elephant and nature guides .",
+        "hypothesis":"Visitors will have to interact with all the orange animals on their own.",
+        "label":"neutral"
+    },
+    {
+        "premise":"You can give me milk and spinach .",
+        "hypothesis":"I'd accept spinach and a particular white drink.",
+        "label":"entailment"
+    },
+    {
+        "premise":"You can give me milk and spinach .",
+        "hypothesis":"I'd accept spinach and any white drink",
+        "label":"neutral"
+    },
+    {
+        "premise":"You can give me milk and spinach .",
+        "hypothesis":"I'd accept either only spinach or a white drink",
+        "label":"contradiction"
+    },
+    {
+        "premise":"You can give me milk and spinach .",
+        "hypothesis":"I'd accept spinach and a particular brown drink.",
+        "label":"neutral"
+    },
+    {
+        "premise":"You can give me milk and spinach .",
+        "hypothesis":"I'd accept spinach and any brown drink",
+        "label":"neutral"
+    },
+    {
+        "premise":"You can give me milk and spinach .",
+        "hypothesis":"I'd accept either only spinach or a brown drink",
+        "label":"contradiction"
+    },
+    {
+        "premise":"But a few Christian cretonne survive above the apse is the Virgin with the infant Jesus , with the Archangel Gabriel to the right ( his companion Michael , to the left , has vanished save for a few feathers from his wings ) .",
+        "hypothesis":"There is a white cotton fabric above the apse.",
+        "label":"entailment"
+    },
+    {
+        "premise":"But a few Christian cretonne survive above the apse is the Virgin with the infant Jesus , with the Archangel Gabriel to the right ( his companion Michael , to the left , has vanished save for a few feathers from his wings ) .",
+        "hypothesis":"The white cotton fabric has been in the apse for a very long time",
+        "label":"neutral"
+    },
+    {
+        "premise":"But a few Christian cretonne survive above the apse is the Virgin with the infant Jesus , with the Archangel Gabriel to the right ( his companion Michael , to the left , has vanished save for a few feathers from his wings ) .",
+        "hypothesis":"The initial depiction on any heavy white fabric in the apse is completely intact.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"But a few Christian cretonne survive above the apse is the Virgin with the infant Jesus , with the Archangel Gabriel to the right ( his companion Michael , to the left , has vanished save for a few feathers from his wings ) .",
+        "hypothesis":"There is a grey cotton fabric above the apse.",
+        "label":"neutral"
+    },
+    {
+        "premise":"But a few Christian cretonne survive above the apse is the Virgin with the infant Jesus , with the Archangel Gabriel to the right ( his companion Michael , to the left , has vanished save for a few feathers from his wings ) .",
+        "hypothesis":"The grey cotton fabric has been in the apse for a very long time",
+        "label":"neutral"
+    },
+    {
+        "premise":"But a few Christian cretonne survive above the apse is the Virgin with the infant Jesus , with the Archangel Gabriel to the right ( his companion Michael , to the left , has vanished save for a few feathers from his wings ) .",
+        "hypothesis":"The initial depiction on any heavy grey fabric in the apse is completely intact.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Look out for chunks of juicy swordfish skewered with onion , pepper , and Ariane , and grilled .",
+        "hypothesis":"There is red apple cultivar in the swordfish",
+        "label":"entailment"
+    },
+    {
+        "premise":"Look out for chunks of juicy swordfish skewered with onion , pepper , and Ariane , and grilled .",
+        "hypothesis":"I couldn't find any swordfish skewered with red apple cultivar",
+        "label":"neutral"
+    },
+    {
+        "premise":"Look out for chunks of juicy swordfish skewered with onion , pepper , and Ariane , and grilled .",
+        "hypothesis":"swordfish cannot be skewered with red apple cultivar",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Look out for chunks of juicy swordfish skewered with onion , pepper , and Ariane , and grilled .",
+        "hypothesis":"There is chocolate apple cultivar in the swordfish",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Look out for chunks of juicy swordfish skewered with onion , pepper , and Ariane , and grilled .",
+        "hypothesis":"I couldn't find any swordfish skewered with chocolate apple cultivar",
+        "label":"neutral"
+    },
+    {
+        "premise":"Look out for chunks of juicy swordfish skewered with onion , pepper , and Ariane , and grilled .",
+        "hypothesis":"swordfish cannot be skewered with chocolate apple cultivar",
+        "label":"neutral"
+    }
+]
