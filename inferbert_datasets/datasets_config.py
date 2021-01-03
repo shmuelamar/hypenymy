@@ -1,6 +1,19 @@
 import os
 
-raw_data_dir = os.path.join(os.path.dirname(__file__), 'amt-raw-hits')
+BASE_DIR = os.path.dirname(__file__)
+RAW_DATA_DIR = os.path.join(BASE_DIR, 'amt-raw-hits')
+DATASETS_DIR = os.path.join(BASE_DIR, 'datasets')
+
+MNLI_TRAIN_DATASETS = (
+    (
+        'mnli_10k_split',
+        os.path.join(DATASETS_DIR, 'mnli', 'mnli_train_10000_split.jsonl.xz'),
+    ),
+    (
+        'mnli_full',
+        os.path.join(DATASETS_DIR, 'mnli', 'mnli_train_full.jsonl.xz'),
+    ),
+)
 
 
 class Dataset:
@@ -52,7 +65,7 @@ class Dataset:
 class LocationDataset(Dataset):
     name = 'location'
     input_file = os.path.join(
-        raw_data_dir, 'location_dataset/location_1010_examples.json'
+        RAW_DATA_DIR, 'location_dataset/location_1010_examples.json'
     )
     metadata_fields = (
         'row_id',
@@ -68,7 +81,7 @@ class LocationDataset(Dataset):
 class ColorDataset(Dataset):
     name = 'color'
     input_file = os.path.join(
-        raw_data_dir, 'color_dataset/color_examples_all.json'
+        RAW_DATA_DIR, 'color_dataset/color_examples_all.json'
     )
     metadata_fields = (
         'row_id',
@@ -85,7 +98,7 @@ class ColorDataset(Dataset):
 class TrademarkDataset(Dataset):
     name = 'trademark'
     input_file = os.path.join(
-        raw_data_dir, 'trademark_dataset/trademark_examples.json'
+        RAW_DATA_DIR, 'trademark_dataset/trademark_examples.json'
     )
     metadata_fields = (
         'row_id',

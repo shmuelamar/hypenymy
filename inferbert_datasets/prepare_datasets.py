@@ -1,9 +1,10 @@
 import logging
+import shutil
 import sys
 
 import cbox
 
-from datasets_config import Dataset
+from datasets_config import Dataset, MNLI_TRAIN_DATASETS
 
 import random
 from itertools import combinations
@@ -144,7 +145,44 @@ def prepare_dataset(dataset: Dataset, output_dir: str, input_file=None):
         ds_dir = os.path.join(output_dir, dataset_name)
         save_dataset(dataset_df, ds_dir, dataset_name, dataset)
 
+    # create mnli_10k and mnli_full train dataset variants
+    for mnli_name, mnli_dataset_fname in MNLI_TRAIN_DATASETS:
+        create_mnli_hybrid_dataset(output_dir, mnli_name, mnli_dataset_fname)
+
     logger.info(f'finished prepare dataset {dataset.name}')
+
+
+def create_mnli_hybrid_dataset(output_dir, mnli_name, mnli_dataset_fname):
+    """we merge mnli with the challenge dataset to create "hybrid" dataset"""
+    dataset_dir = os.path.join(output_dir, 'dataset_creative')
+    mnli_dataset_dir = os.path.join(output_dir, mnli_name)
+
+    logger.info(f'copying {dataset_dir} to {mnli_dataset_dir}')
+    shutil.copytree(dataset_dir, mnli_dataset_dir)
+
+    train_dataset_fname = os.path.join(
+        mnli_dataset_dir, 'dataset_creative_train.json'
+    )
+    logger.info(f'reading creative dataset from {train_dataset_fname}')
+    df = pd.read_json(train_dataset_fname)
+
+    logger.info(f'reading mnli dataset {mnli_name} from {mnli_dataset_fname}')
+    mnli_df = pd.read_json(mnli_dataset_fname, lines=True)
+    mnli_df = mnli_df.rename(
+        columns={
+            'sentence1': 'premise',
+            'sentence2': 'hypothesis',
+            'gold_label': 'label',
+        }
+    )
+
+    logger.info(f'concating datasets')
+    ds_fname = os.path.join(mnli_dataset_dir, 'dataset_creative_train.json.xz')
+    concat_df = pd.concat((df, mnli_df[df.columns]))
+    os.remove(train_dataset_fname)
+
+    logger.info(f'saving concated train dataset to {ds_fname}')
+    concat_df.to_json(ds_fname, orient='records', indent=4, compression='xz')
 
 
 @cbox.cmd
