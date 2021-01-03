@@ -123,7 +123,10 @@ def save_dataset(df, ds_dir, ds_name, dataset: Dataset):
         assert set(ds1['premise']) & set(ds2['premise']) == set()
 
     logger.info(
-        f'dataset size train={len(dataset_dfs[0])}/dev={len(dataset_dfs[1])}/test={len(dataset_dfs[2])}'
+        f'dataset {dataset.name} size '
+        f'train={len(dataset_dfs[0])}/'
+        f'dev={len(dataset_dfs[1])}/'
+        f'test={len(dataset_dfs[2])}'
     )
 
 

@@ -1,7 +1,22 @@
 # Hypernymy Dataset
 
+## Create all datasets
 
-## Create Datasets
+```bash
+cd ./inferbert_datasets
+python3 prepare_datasets.py --output-dir datasets
+```
+
+## Current Datasets sizes
+
+```
+dataset location size train=808/dev=106/test=90
+dataset color size train=372/dev=48/test=48
+dataset trademark size train=960/dev=120/test=120
+```
+
+
+## Create Hypernymy (OLD) Datasets
 
 this command will:
 
