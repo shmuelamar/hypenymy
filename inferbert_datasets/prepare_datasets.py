@@ -62,7 +62,7 @@ def split_data(df, dataset: Dataset, seed='inferbert'):
 
     # split to train / test
     train_split_pos = int(len(row_ids) * dataset.train_size)
-    dev_split_pos = train_split_pos + int(len(row_ids) * dataset.dev_size)
+    dev_split_pos = int(len(row_ids) * (dataset.train_size + dataset.dev_size))
 
     train_row_ids = set(row_ids[:train_split_pos])
     dev_row_ids = set(row_ids[train_split_pos:dev_split_pos])
@@ -71,6 +71,8 @@ def split_data(df, dataset: Dataset, seed='inferbert'):
     assert train_row_ids & test_row_ids == set()
     assert train_row_ids & dev_row_ids == set()
     assert dev_row_ids & test_row_ids == set()
+
+    assert train_row_ids | dev_row_ids | test_row_ids == set(row_ids)
 
     df['is_train'] = df['row_id'].isin(train_row_ids)
     df['is_dev'] = df['row_id'].isin(dev_row_ids)
@@ -119,6 +121,10 @@ def save_dataset(df, ds_dir, ds_name, dataset: Dataset):
     for ds1, ds2 in combinations(dataset_dfs, 2):
         assert set(ds1['hypothesis']) & set(ds2['hypothesis']) == set()
         assert set(ds1['premise']) & set(ds2['premise']) == set()
+
+    logger.info(
+        f'dataset size train={len(dataset_dfs[0])}/dev={len(dataset_dfs[1])}/test={len(dataset_dfs[2])}'
+    )
 
 
 def prepare_dataset(dataset: Dataset, output_dir: str, input_file=None):

@@ -1,25 +1,5 @@
 [
     {
-        "premise":"The horses ride a lot between Chicago and the hotels.",
-        "hypothesis":"There are many horse ride in America.",
-        "label":"entailment"
-    },
-    {
-        "premise":"The horses ride a lot between Chicago and the hotels.",
-        "hypothesis":"There are many car ride in America from cities to hotels.",
-        "label":"neutral"
-    },
-    {
-        "premise":"The horses ride a lot between London and the hotels.",
-        "hypothesis":"There are many horse ride in America.",
-        "label":"neutral"
-    },
-    {
-        "premise":"The horses ride a lot between London and the hotels.",
-        "hypothesis":"There are many car ride in America from cities to hotels.",
-        "label":"neutral"
-    },
-    {
         "premise":"The chapel, dating to the end of the 15th century, is the oldest in Porto.",
         "hypothesis":"There is a very old 15th century chapel in Portugal.",
         "label":"entailment"
@@ -77,36 +57,6 @@
     {
         "premise":"The huge royal palace of London is an elegant monument to the Renaissance tastes of Francois I and Henri IV, although subsequent monarchs added on and generally refurbished.",
         "hypothesis":"France has huge royal palaces that are now empty.",
-        "label":"neutral"
-    },
-    {
-        "premise":"The friezes on the northern side, depicting battle scenes, weaponry, and naval equipment, celebrate Julius Caesar's victories over the Gallic tribes of the region and the merchant fleet of the Greek colony in Chicago.",
-        "hypothesis":"America has some Greek immigrant societies.",
-        "label":"entailment"
-    },
-    {
-        "premise":"The friezes on the northern side, depicting battle scenes, weaponry, and naval equipment, celebrate Julius Caesar's victories over the Gallic tribes of the region and the merchant fleet of the Greek colony in Chicago.",
-        "hypothesis":"In America the Greek settlers are fiercely loyal to their homeland.",
-        "label":"neutral"
-    },
-    {
-        "premise":"The friezes on the northern side, depicting battle scenes, weaponry, and naval equipment, celebrate Julius Caesar's victories over the Gallic tribes of the region and the merchant fleet of the Greek colony in Chicago.",
-        "hypothesis":"America took the side of Julius Caesar.",
-        "label":"contradiction"
-    },
-    {
-        "premise":"The friezes on the northern side, depicting battle scenes, weaponry, and naval equipment, celebrate Julius Caesar's victories over the Gallic tribes of the region and the merchant fleet of the Greek colony in London.",
-        "hypothesis":"America has some Greek immigrant societies.",
-        "label":"neutral"
-    },
-    {
-        "premise":"The friezes on the northern side, depicting battle scenes, weaponry, and naval equipment, celebrate Julius Caesar's victories over the Gallic tribes of the region and the merchant fleet of the Greek colony in London.",
-        "hypothesis":"In America the Greek settlers are fiercely loyal to their homeland.",
-        "label":"neutral"
-    },
-    {
-        "premise":"The friezes on the northern side, depicting battle scenes, weaponry, and naval equipment, celebrate Julius Caesar's victories over the Gallic tribes of the region and the merchant fleet of the Greek colony in London.",
-        "hypothesis":"America took the side of Julius Caesar.",
         "label":"neutral"
     },
     {
@@ -290,36 +240,6 @@
         "label":"neutral"
     },
     {
-        "premise":"South of Lyon, the major seaside resorts are Porticcio and Propriano, both with sandy beaches and good opportunities for sailing and deep-sea diving.",
-        "hypothesis":"Porticcio and Propriano are seaside resorts in France.",
-        "label":"entailment"
-    },
-    {
-        "premise":"South of Lyon, the major seaside resorts are Porticcio and Propriano, both with sandy beaches and good opportunities for sailing and deep-sea diving.",
-        "hypothesis":"Porticcio and Propriano are the only seaside resorts with sandy beaches and deep-sea diving in France.",
-        "label":"neutral"
-    },
-    {
-        "premise":"South of Lyon, the major seaside resorts are Porticcio and Propriano, both with sandy beaches and good opportunities for sailing and deep-sea diving.",
-        "hypothesis":"There are no seaside resorts in France.",
-        "label":"contradiction"
-    },
-    {
-        "premise":"South of Durres, the major seaside resorts are Porticcio and Propriano, both with sandy beaches and good opportunities for sailing and deep-sea diving.",
-        "hypothesis":"Porticcio and Propriano are seaside resorts in France.",
-        "label":"contradiction"
-    },
-    {
-        "premise":"South of Durres, the major seaside resorts are Porticcio and Propriano, both with sandy beaches and good opportunities for sailing and deep-sea diving.",
-        "hypothesis":"Porticcio and Propriano are the only seaside resorts with sandy beaches and deep-sea diving in France.",
-        "label":"contradiction"
-    },
-    {
-        "premise":"South of Durres, the major seaside resorts are Porticcio and Propriano, both with sandy beaches and good opportunities for sailing and deep-sea diving.",
-        "hypothesis":"There are no seaside resorts in France.",
-        "label":"neutral"
-    },
-    {
         "premise":"These districts on the west and north sides of Osaka are home to most of the city's major temples, set within the surrounding greenery and mountains that prompted the Emperor Kammu to select this site for his new capital, Heian-kyo, in 794.",
         "hypothesis":"In Japan, Emperor Kammu selected a new area to be his capital, which he called Heian-kyo.",
         "label":"entailment"
@@ -497,36 +417,6 @@
     {
         "premise":"Malacca has abandoned pragmatism in favor of idealism.",
         "hypothesis":"No city in Japan practiced pragmatism",
-        "label":"neutral"
-    },
-    {
-        "premise":"The last Pope to live in Lyon burned the city down because of perceived blasphemy by the populace.",
-        "hypothesis":"A city in France was burned down by a Pope",
-        "label":"entailment"
-    },
-    {
-        "premise":"The last Pope to live in Lyon burned the city down because of perceived blasphemy by the populace.",
-        "hypothesis":"The Pope that burned down a city in France also died in the fire",
-        "label":"neutral"
-    },
-    {
-        "premise":"The last Pope to live in Lyon burned the city down because of perceived blasphemy by the populace.",
-        "hypothesis":"All the cities that got burnt in France were as a result of fire accidents.",
-        "label":"contradiction"
-    },
-    {
-        "premise":"The last Pope to live in Osaka burned the city down because of perceived blasphemy by the populace.",
-        "hypothesis":"A city in France was burned down by a Pope",
-        "label":"neutral"
-    },
-    {
-        "premise":"The last Pope to live in Osaka burned the city down because of perceived blasphemy by the populace.",
-        "hypothesis":"The Pope that burned down a city in France also died in the fire",
-        "label":"neutral"
-    },
-    {
-        "premise":"The last Pope to live in Osaka burned the city down because of perceived blasphemy by the populace.",
-        "hypothesis":"All the cities that got burnt in France were as a result of fire accidents.",
         "label":"neutral"
     },
     {

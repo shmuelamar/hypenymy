@@ -120,36 +120,6 @@
         "label":"neutral"
     },
     {
-        "premise":"well see pineapple grow like crazy at our house Like we have a section of tomatoes and we put the tomatoes there every year in the same section And i swear we get tomatoes six rows up",
-        "hypothesis":"We've got some tomatoes and yellow fruit plants growing at our house",
-        "label":"entailment"
-    },
-    {
-        "premise":"well see pineapple grow like crazy at our house Like we have a section of tomatoes and we put the tomatoes there every year in the same section And i swear we get tomatoes six rows up",
-        "hypothesis":"The yellow fruits at our house are growing wild; we never plant them.",
-        "label":"neutral"
-    },
-    {
-        "premise":"well see pineapple grow like crazy at our house Like we have a section of tomatoes and we put the tomatoes there every year in the same section And i swear we get tomatoes six rows up",
-        "hypothesis":"The yellow fruits at our house are experiencing retarded growth.",
-        "label":"contradiction"
-    },
-    {
-        "premise":"well see pineapple grow like crazy at our house Like we have a section of tomatoes and we put the tomatoes there every year in the same section And i swear we get tomatoes six rows up",
-        "hypothesis":"We've got some tomatoes and chocolate fruit plants growing at our house",
-        "label":"neutral"
-    },
-    {
-        "premise":"well see pineapple grow like crazy at our house Like we have a section of tomatoes and we put the tomatoes there every year in the same section And i swear we get tomatoes six rows up",
-        "hypothesis":"The chocolate fruits at our house are growing wild; we never plant them.",
-        "label":"neutral"
-    },
-    {
-        "premise":"well see pineapple grow like crazy at our house Like we have a section of tomatoes and we put the tomatoes there every year in the same section And i swear we get tomatoes six rows up",
-        "hypothesis":"The chocolate fruits at our house are experiencing retarded growth.",
-        "label":"neutral"
-    },
-    {
         "premise":"All of these lodges , and even some outside the park , have their own elephant and nature guides .",
         "hypothesis":"Guides to some large, grey animals can be found at the lodges",
         "label":"entailment"
