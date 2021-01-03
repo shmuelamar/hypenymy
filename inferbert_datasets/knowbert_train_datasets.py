@@ -7,7 +7,7 @@ import json
 import shutil
 from itertools import product
 
-import torch
+import nvsmi
 
 logging.basicConfig(
     stream=sys.stdout,
@@ -35,8 +35,10 @@ TRAIN_GRID = {
 
 def run_train_job(model_filename, logfile: str, overrides: dict):
     allennlp_cmd = shutil.which('allennlp')
+    py_cmd = sys.executable
     cmd = [
         'nohup',
+        py_cmd,
         allennlp_cmd,
         'train',
         '--file-friendly-logging',
@@ -49,12 +51,11 @@ def run_train_job(model_filename, logfile: str, overrides: dict):
         model_filename,
         '--force',
     ]
+    env = {'PYTHONWARNINGS': 'once'}
+    env.update(os.environ)
     logger.info(f'running job {cmd!r}')
     subprocess.Popen(
-        cmd,
-        stdout=open(logfile, 'w'),
-        stderr=subprocess.STDOUT,
-        env={'PYTHONWARNINGS': 'once'},
+        cmd, stdout=open(logfile, 'w'), stderr=subprocess.STDOUT, env=env
     )
 
 
@@ -68,7 +69,7 @@ def get_overrides(
         'trainer': {
             'cuda_device': cuda_device,
             'num_epochs': num_epochs,
-            'lr': lr,
+            'optimizer': {'lr': lr},
         },
         'train_data_path': train_data_fname,
         'validation_data_path': dev_data_fname,
@@ -82,14 +83,14 @@ def get_grid():
 
 
 def get_free_cuda_device():
-    num_gpus = torch.cuda.device_count()
+    gpus = list(nvsmi.get_gpus())
 
     while True:
-        logger.info(f'checking free gpu from {num_gpus} devices')
-        for device_id in range(num_gpus):
-            if torch.cuda.memory_allocated(device_id) == 0:
-                logger.info(f'found free gpu at {device_id}')
-                return device_id
+        logger.info(f'checking free gpu from {len(gpus)} devices')
+        for gpu in gpus:
+            if gpu.mem_free > 11000:
+                logger.info(f'found free gpu at {gpu}')
+                return int(gpu.id)
 
         logger.info(f'all gpus are busy... sleeping 1 minute...')
         time.sleep(60)
