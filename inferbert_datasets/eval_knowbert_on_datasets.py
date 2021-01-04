@@ -12,6 +12,8 @@ from knowbert_train_datasets import (
     DATASETS_DIR,
 )
 
+SLEEP_BY_DATASET = {'mnli_dev_matched': 150, None: 60}  # others
+
 EVAL_DATASETS = {
     # FIXME: copy into this repo
     'mnli_dev_matched': '../../mnli_1.0/dev_matched.tsv.gz',
@@ -52,7 +54,7 @@ def run_eval_job(model_tar_filename, cuda_device, dataset_filename, logfile):
 
 def main():
     for params in get_grid():
-        for dataset_name, dataset_filename in EVAL_DATASETS:
+        for dataset_name, dataset_filename in EVAL_DATASETS.items():
             # FIXME: remove after move to project
             if dataset_name != 'mnli_dev_matched':
                 dataset_filename = os.path.join(
@@ -71,10 +73,17 @@ def main():
 
             logger.info(f'eval on {dataset_filename} for {eval_log_filename}')
             run_eval_job(
-                model_tar_filename, cuda_device, dataset_filename, log_filename
+                model_tar_filename,
+                cuda_device,
+                dataset_filename,
+                eval_log_filename,
             )
 
-            time.sleep(120)
+            sleep_time = SLEEP_BY_DATASET.get(
+                dataset_name, SLEEP_BY_DATASET[None]
+            )
+            logger.info(f'sleeping {sleep_time} seconds')
+            time.sleep(sleep_time)
 
 
 if __name__ == '__main__':
