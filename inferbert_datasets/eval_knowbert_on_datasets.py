@@ -17,8 +17,8 @@ SLEEP_BY_DATASET = {'mnli_dev_matched': 150, None: 60}  # others
 EVAL_DATASETS = {
     # FIXME: copy into this repo
     'mnli_dev_matched': '../../mnli_1.0/dev_matched.tsv.gz',
-    'creative_test': 'dataset_creative_test.json',
-    # 'creative_dev': 'dataset_creative_dev.json',
+    'creative_test': 'dataset_creative/dataset_creative_test.json',
+    # 'creative_dev': 'dataset_creative/dataset_creative_dev.json',
 }
 
 
@@ -58,7 +58,7 @@ def main():
             # FIXME: remove after move to project
             if dataset_name != 'mnli_dev_matched':
                 dataset_filename = os.path.join(
-                    DATASETS_DIR, params['dataset'], dataset_name
+                    DATASETS_DIR, params['dataset'], dataset_filename
                 )
 
             model_filename, log_filename = get_filenames(params)
@@ -69,6 +69,14 @@ def main():
             eval_log_filename = (
                 log_filename[: -len('.log')] + f'__eval__{dataset_name}.log'
             )
+
+            if os.path.exists(eval_log_filename):
+                logger.info(
+                    f'skipping eval for {dataset_name}.'
+                    f'file exists {eval_log_filename}'
+                )
+                continue
+
             cuda_device = get_free_cuda_device()
 
             logger.info(f'eval on {dataset_filename} for {eval_log_filename}')
