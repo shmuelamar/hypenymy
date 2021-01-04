@@ -19,6 +19,12 @@ logger = logging.getLogger('kb-train')
 logger.setLevel('INFO')
 
 SEED = 42
+# on every dataset we have different delay (depends on size takes to load it)
+SLEEP_BY_DATASET = {
+    'dataset_creative': 120,
+    'mnli_10k_split': 300,
+    'mnli_full': 600,
+}
 
 BASE_DIR = os.path.dirname(__file__)
 DATASETS_DIR = os.path.join(BASE_DIR, 'datasets')
@@ -26,11 +32,24 @@ MODELS_DIR = os.path.join(BASE_DIR, 'models')
 LOGS_DIR = os.path.join(BASE_DIR, 'logs')
 
 TRAIN_GRID = {
-    'dataset': ['location', 'color', 'trademark'],
     'dataset_type': ['dataset_creative', 'mnli_10k_split', 'mnli_full'],
     'num_epochs': [3, 4],
     'lr': [2e-5, 3e-5, 5e-5],
+    'dataset': ['location', 'color', 'trademark'],
 }
+
+
+def run_cmd(cmd, logfile):
+    env = {'PYTHONWARNINGS': 'once', 'TMPDIR': './tmp'}
+    env.update(os.environ)
+    logger.info(f'running job {cmd!r} {env!r}')
+    subprocess.Popen(
+        cmd,
+        stdout=open(logfile, 'w'),
+        stderr=subprocess.STDOUT,
+        env=env,
+        preexec_fn=os.setpgrp,
+    )
 
 
 def run_train_job(model_filename, logfile: str, overrides: dict):
@@ -51,12 +70,7 @@ def run_train_job(model_filename, logfile: str, overrides: dict):
         model_filename,
         '--force',
     ]
-    env = {'PYTHONWARNINGS': 'once'}
-    env.update(os.environ)
-    logger.info(f'running job {cmd!r}')
-    subprocess.Popen(
-        cmd, stdout=open(logfile, 'w'), stderr=subprocess.STDOUT, env=env
-    )
+    run_cmd(cmd, logfile)
 
 
 def get_overrides(
@@ -83,9 +97,8 @@ def get_grid():
 
 
 def get_free_cuda_device():
-    gpus = list(nvsmi.get_gpus())
-
     while True:
+        gpus = list(nvsmi.get_gpus())
         logger.info(f'checking free gpu from {len(gpus)} devices')
         for gpu in gpus:
             if gpu.mem_free > 11000:
@@ -94,6 +107,23 @@ def get_free_cuda_device():
 
         logger.info(f'all gpus are busy... sleeping 1 minute...')
         time.sleep(60)
+
+
+def get_filenames(params: dict):
+    model_dirname = os.path.join(
+        MODELS_DIR, params['dataset'], params['dataset_type']
+    )
+    fname = f'kbmodel__{params["dataset"]}__{params["dataset_type"]}__{params["num_epochs"]}__{params["lr"]}'
+    os.makedirs(model_dirname, exist_ok=True)
+
+    log_dirname = os.path.join(
+        LOGS_DIR, params['dataset'], params['dataset_type']
+    )
+    os.makedirs(log_dirname, exist_ok=True)
+
+    model_filename = os.path.join(model_dirname, fname)
+    log_filename = os.path.join(log_dirname, fname + '.log')
+    return model_filename, log_filename
 
 
 def main():
@@ -128,29 +158,18 @@ def main():
         )
 
         # launch our model
-        model_dirname = os.path.join(
-            MODELS_DIR, params['dataset'], params['dataset_type']
-        )
-        fname = f'kbmodel__{params["dataset"]}__{params["dataset_type"]}__{params["num_epochs"]}__{params["lr"]}'
-        os.makedirs(model_dirname, exist_ok=True)
+        model_filename, log_filename = get_filenames(params)
 
-        log_dirname = os.path.join(
-            LOGS_DIR, params['dataset'], params['dataset_type']
-        )
-        os.makedirs(log_dirname, exist_ok=True)
-
-        model_filename = os.path.join(model_dirname, fname)
-        log_filename = os.path.join(log_dirname, fname + '.log')
-
-        if os.path.exists(log_filename) or os.path.exists(model_filename):
+        if os.path.exists(log_filename):
             logger.info(f'skipping already exist job - {model_filename}')
             continue
 
         run_train_job(model_filename, log_filename, overrides_dict)
 
         # sleep so we dont have race conditions on get cuda
-        logger.info('sleeping 30 secs before next schedule')
-        time.sleep(30)
+        sleep_time = SLEEP_BY_DATASET[params['dataset_type']]
+        logger.info(f'sleeping {sleep_time} secs before next schedule')
+        time.sleep(sleep_time)
 
 
 if __name__ == '__main__':
