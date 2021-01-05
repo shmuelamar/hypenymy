@@ -35,7 +35,7 @@ TRAIN_GRID = {
     'dataset_type': ['dataset_creative', 'mnli_10k_split', 'mnli_full'],
     'num_epochs': [3, 4],
     'lr': [2e-5, 3e-5, 5e-5],
-    'dataset': ['location', 'color', 'trademark'],
+    'dataset': ['locationv2', 'color', 'trademark'],  # 'location'
 }
 
 

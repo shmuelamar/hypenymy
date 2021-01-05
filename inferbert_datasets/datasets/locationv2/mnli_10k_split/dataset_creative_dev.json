@@ -1,0 +1,392 @@
+[
+    {
+        "premise":"Although it hasn't dominated Waukesha's skyline since the '80s, when the economic boom sprouted a host of taller buildings, it remains the city's symbol of progress.",
+        "hypothesis":"There is a city in Wisconsin that has tall buildings as a symbol of progress.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Although it hasn't dominated Owensboro's skyline since the '80s, when the economic boom sprouted a host of taller buildings, it remains the city's symbol of progress.",
+        "hypothesis":"Most cities in Kentucky have not had their skylines dominated by taller buildings since the '80s",
+        "label":"neutral"
+    },
+    {
+        "premise":"Although it hasn't dominated Longmont's skyline since the '80s, when the economic boom sprouted a host of taller buildings, it remains the city's symbol of progress.",
+        "hypothesis":"The first tall building in Colorado was built in the '90s.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Although it hasn't dominated Owatonna's skyline since the '80s, when the economic boom sprouted a host of taller buildings, it remains the city's symbol of progress.",
+        "hypothesis":"There is a city in Idaho that has tall buildings as a symbol of progress.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Although it hasn't dominated Northglenn's skyline since the '80s, when the economic boom sprouted a host of taller buildings, it remains the city's symbol of progress.",
+        "hypothesis":"Most cities in Maine have not had their skylines dominated by taller buildings since the '80s",
+        "label":"neutral"
+    },
+    {
+        "premise":"Although it hasn't dominated Novi's skyline since the '80s, when the economic boom sprouted a host of taller buildings, it remains the city's symbol of progress.",
+        "hypothesis":"The first tall building in Tennessee was built in the '90s.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Just minutes away from the heart of Methuen, life goes on as it has for centuries in the rural communities of the valley.",
+        "hypothesis":"There are rural communities in the valley very close to the heart of a city in Massachusetts",
+        "label":"entailment"
+    },
+    {
+        "premise":"Just minutes away from the heart of Daphne, life goes on as it has for centuries in the rural communities of the valley.",
+        "hypothesis":"You can find rural communities everywhere in Alabama",
+        "label":"neutral"
+    },
+    {
+        "premise":"Just minutes away from the heart of Methuen, life goes on as it has for centuries in the rural communities of the valley.",
+        "hypothesis":"The oldest rural community in or around Massachusetts is only few decades old.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Just minutes away from the heart of Paragould, life goes on as it has for centuries in the rural communities of the valley.",
+        "hypothesis":"There are rural communities in the valley very close to the heart of a city in Iowa",
+        "label":"neutral"
+    },
+    {
+        "premise":"Just minutes away from the heart of Longmont, life goes on as it has for centuries in the rural communities of the valley.",
+        "hypothesis":"You can find rural communities everywhere in Michigan",
+        "label":"neutral"
+    },
+    {
+        "premise":"Just minutes away from the heart of Tacoma, life goes on as it has for centuries in the rural communities of the valley.",
+        "hypothesis":"The oldest rural community in or around Louisiana is only few decades old.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The route coming from Daphne along the A593 is said to be very smooth and easy.",
+        "hypothesis":"The route coming from a certain city in Alabama along the A593 is considered smooth",
+        "label":"entailment"
+    },
+    {
+        "premise":"The route coming from Daphne along the A593 is said to be very smooth and easy.",
+        "hypothesis":"The A593 is within Alabama.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The route coming from Muskegon along the A593 is said to be very smooth and easy.",
+        "hypothesis":"The route coming from any city in Michigan along the A593 is considered quite rough and hazardous.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The route coming from Bartlesville along the A593 is said to be very smooth and easy.",
+        "hypothesis":"The route coming from a certain city in Kentucky along the A593 is considered smooth",
+        "label":"neutral"
+    },
+    {
+        "premise":"The route coming from Trussville along the A593 is said to be very smooth and easy.",
+        "hypothesis":"The A593 is within Massachusetts.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The route coming from Opelousas along the A593 is said to be very smooth and easy.",
+        "hypothesis":"The route coming from any city in Missouri along the A593 is considered quite rough and hazardous.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The Temple of Karnak is the largest temple in all of Kennesaw.",
+        "hypothesis":"The Temple of Karnak is located in Georgia",
+        "label":"entailment"
+    },
+    {
+        "premise":"The Temple of Karnak is the largest temple in all of Strongsville.",
+        "hypothesis":"The Temple of Karnak is the largest temple in all of Ohio",
+        "label":"neutral"
+    },
+    {
+        "premise":"The Temple of Karnak is the largest temple in all of Hattiesburg.",
+        "hypothesis":"The Temple of Karnak is the smallest temple in all of Mississippi",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The Temple of Karnak is the largest temple in all of Noblesville.",
+        "hypothesis":"The Temple of Karnak is located in Washington",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The Temple of Karnak is the largest temple in all of Novi.",
+        "hypothesis":"The Temple of Karnak is the largest temple in all of Maine",
+        "label":"neutral"
+    },
+    {
+        "premise":"The Temple of Karnak is the largest temple in all of Kennesaw.",
+        "hypothesis":"The Temple of Karnak is the smallest temple in all of Mississippi",
+        "label":"neutral"
+    },
+    {
+        "premise":"For a perfect introduction to Tulsa's sub-aqua delights, visit Coral World, a fascinating complex with large tanks holding native sharks, rays, and turtles, as well as aquaria of incredibly coloured, bizarrely shaped denizens of the deep.",
+        "hypothesis":"Coral World is located in Oklahoma",
+        "label":"entailment"
+    },
+    {
+        "premise":"For a perfect introduction to Kennesaw's sub-aqua delights, visit Coral World, a fascinating complex with large tanks holding native sharks, rays, and turtles, as well as aquaria of incredibly coloured, bizarrely shaped denizens of the deep.",
+        "hypothesis":"Coral World is the only place in Georgia where you can find aquaria",
+        "label":"neutral"
+    },
+    {
+        "premise":"For a perfect introduction to Opelousas's sub-aqua delights, visit Coral World, a fascinating complex with large tanks holding native sharks, rays, and turtles, as well as aquaria of incredibly coloured, bizarrely shaped denizens of the deep.",
+        "hypothesis":"Only turtles can be found at the Coral World in Louisiana",
+        "label":"contradiction"
+    },
+    {
+        "premise":"For a perfect introduction to Lenexa's sub-aqua delights, visit Coral World, a fascinating complex with large tanks holding native sharks, rays, and turtles, as well as aquaria of incredibly coloured, bizarrely shaped denizens of the deep.",
+        "hypothesis":"Coral World is located in Illinois",
+        "label":"contradiction"
+    },
+    {
+        "premise":"For a perfect introduction to Nicholasville's sub-aqua delights, visit Coral World, a fascinating complex with large tanks holding native sharks, rays, and turtles, as well as aquaria of incredibly coloured, bizarrely shaped denizens of the deep.",
+        "hypothesis":"Coral World is the only place in Texas where you can find aquaria",
+        "label":"neutral"
+    },
+    {
+        "premise":"For a perfect introduction to Scottsdale's sub-aqua delights, visit Coral World, a fascinating complex with large tanks holding native sharks, rays, and turtles, as well as aquaria of incredibly coloured, bizarrely shaped denizens of the deep.",
+        "hypothesis":"Only turtles can be found at the Coral World in Mississippi",
+        "label":"neutral"
+    },
+    {
+        "premise":"The organization's Northglenn office broadened its services from farm worker-related aid to basic assistance last year when the federal government chose to fund it, over Channel Counties Legal Services, as the county's sole provider of legal help to the poor.",
+        "hypothesis":"The organization broadened its services in at least one of its offices in Colorado last year",
+        "label":"entailment"
+    },
+    {
+        "premise":"The organization's Hattiesburg office broadened its services from farm worker-related aid to basic assistance last year when the federal government chose to fund it, over Channel Counties Legal Services, as the county's sole provider of legal help to the poor.",
+        "hypothesis":"The organization has only one office in Mississippi",
+        "label":"neutral"
+    },
+    {
+        "premise":"The organization's Trussville office broadened its services from farm worker-related aid to basic assistance last year when the federal government chose to fund it, over Channel Counties Legal Services, as the county's sole provider of legal help to the poor.",
+        "hypothesis":"The last time the organization broadened its services in Alabama was ten years ago.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The organization's Methuen office broadened its services from farm worker-related aid to basic assistance last year when the federal government chose to fund it, over Channel Counties Legal Services, as the county's sole provider of legal help to the poor.",
+        "hypothesis":"The organization broadened its services in at least one of its offices in Michigan last year",
+        "label":"neutral"
+    },
+    {
+        "premise":"The organization's Sheboygan office broadened its services from farm worker-related aid to basic assistance last year when the federal government chose to fund it, over Channel Counties Legal Services, as the county's sole provider of legal help to the poor.",
+        "hypothesis":"The organization has only one office in Arizona",
+        "label":"neutral"
+    },
+    {
+        "premise":"The organization's Noblesville office broadened its services from farm worker-related aid to basic assistance last year when the federal government chose to fund it, over Channel Counties Legal Services, as the county's sole provider of legal help to the poor.",
+        "hypothesis":"The last time the organization broadened its services in Kentucky was ten years ago.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Indianapolis-zaiku woodcrafts with inlaid mosaic and maquetry, as well as its inns and thermal baths is what the surrounding area is known for.",
+        "hypothesis":"Zaiku woodcrafts are popular in an area near a city in Indiana.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Northglenn-zaiku woodcrafts with inlaid mosaic and maquetry, as well as its inns and thermal baths is what the surrounding area is known for.",
+        "hypothesis":"Inns and thermal baths can be found in Colorado",
+        "label":"neutral"
+    },
+    {
+        "premise":"Hilo-zaiku woodcrafts with inlaid mosaic and maquetry, as well as its inns and thermal baths is what the surrounding area is known for.",
+        "hypothesis":"Zaiku woodcrafts can only be found far away from Hawaii",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Seattle-zaiku woodcrafts with inlaid mosaic and maquetry, as well as its inns and thermal baths is what the surrounding area is known for.",
+        "hypothesis":"Zaiku woodcrafts are popular in an area near a city in Hawaii.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Muskegon-zaiku woodcrafts with inlaid mosaic and maquetry, as well as its inns and thermal baths is what the surrounding area is known for.",
+        "hypothesis":"Inns and thermal baths can be found in Colorado",
+        "label":"neutral"
+    },
+    {
+        "premise":"Scottsdale-zaiku woodcrafts with inlaid mosaic and maquetry, as well as its inns and thermal baths is what the surrounding area is known for.",
+        "hypothesis":"Zaiku woodcrafts can only be found far away from Mississippi",
+        "label":"neutral"
+    },
+    {
+        "premise":"The Sheboygan accords could affect people's fuel spending.",
+        "hypothesis":"Some people could have their fuel spending affected by the accords passed in a city in Wisconsin",
+        "label":"entailment"
+    },
+    {
+        "premise":"The Hilo accords could affect people's fuel spending.",
+        "hypothesis":"People in Hawaii will have their fuel spending affected by the accords",
+        "label":"neutral"
+    },
+    {
+        "premise":"The Muscatine accords could affect people's fuel spending.",
+        "hypothesis":"The accords passed in the cities in Iowa can only affect people's eating habits",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The Owensboro accords could affect people's fuel spending.",
+        "hypothesis":"Some people could have their fuel spending affected by the accords passed in a city in Mississippi",
+        "label":"neutral"
+    },
+    {
+        "premise":"The Tulsa accords could affect people's fuel spending.",
+        "hypothesis":"People in Utah will have their fuel spending affected by the accords",
+        "label":"neutral"
+    },
+    {
+        "premise":"The Gahanna accords could affect people's fuel spending.",
+        "hypothesis":"The accords passed in the cities in Arkansas can only affect people's eating habits",
+        "label":"neutral"
+    },
+    {
+        "premise":"There is only one part of Muskegon dedicated to traditional arts and entertainment.",
+        "hypothesis":"There is a place in Michigan dedicated to traditional arts and entertainment.",
+        "label":"entailment"
+    },
+    {
+        "premise":"There is only one part of Hialeah dedicated to traditional arts and entertainment.",
+        "hypothesis":"There is only one place in Florida dedicated to traditional arts and entertainment.",
+        "label":"neutral"
+    },
+    {
+        "premise":"There is only one part of Daphne dedicated to traditional arts and entertainment.",
+        "hypothesis":"All the places in Alabama have been taken over by foreign art and entertainment",
+        "label":"contradiction"
+    },
+    {
+        "premise":"There is only one part of Longmont dedicated to traditional arts and entertainment.",
+        "hypothesis":"There is a place in Kansas dedicated to traditional arts and entertainment.",
+        "label":"neutral"
+    },
+    {
+        "premise":"There is only one part of Herriman dedicated to traditional arts and entertainment.",
+        "hypothesis":"There is only one place in Louisiana dedicated to traditional arts and entertainment.",
+        "label":"neutral"
+    },
+    {
+        "premise":"There is only one part of Alpharetta dedicated to traditional arts and entertainment.",
+        "hypothesis":"All the places in Kansas have been taken over by foreign art and entertainment",
+        "label":"neutral"
+    },
+    {
+        "premise":"As David Rusk, a former mayor of Muskegon, argues in his book, Cities Without Suburbs , metro-wide governments where the suburbs and the city are joined tend to be more racially integrated, and better off in various other ways as well.",
+        "hypothesis":"The author of the book \"Cities Without Suburbs\" is a former mayor of a city in Michigan.",
+        "label":"entailment"
+    },
+    {
+        "premise":"As David Rusk, a former mayor of Nampa, argues in his book, Cities Without Suburbs , metro-wide governments where the suburbs and the city are joined tend to be more racially integrated, and better off in various other ways as well.",
+        "hypothesis":"David Rusk is presently a mayor of a city in Idaho",
+        "label":"neutral"
+    },
+    {
+        "premise":"As David Rusk, a former mayor of Trussville, argues in his book, Cities Without Suburbs , metro-wide governments where the suburbs and the city are joined tend to be more racially integrated, and better off in various other ways as well.",
+        "hypothesis":"Books written by former mayors of cities in Alabama always highlight the disadvantages of metro-wide governments.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"As David Rusk, a former mayor of Northglenn, argues in his book, Cities Without Suburbs , metro-wide governments where the suburbs and the city are joined tend to be more racially integrated, and better off in various other ways as well.",
+        "hypothesis":"The author of the book \"Cities Without Suburbs\" is a former mayor of a city in Idaho.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"As David Rusk, a former mayor of Gaithersburg, argues in his book, Cities Without Suburbs , metro-wide governments where the suburbs and the city are joined tend to be more racially integrated, and better off in various other ways as well.",
+        "hypothesis":"David Rusk is presently a mayor of a city in Utah",
+        "label":"neutral"
+    },
+    {
+        "premise":"As David Rusk, a former mayor of Hilo, argues in his book, Cities Without Suburbs , metro-wide governments where the suburbs and the city are joined tend to be more racially integrated, and better off in various other ways as well.",
+        "hypothesis":"Books written by former mayors of cities in Minnesota always highlight the disadvantages of metro-wide governments.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Just this week it succeeded in intimidating the opposition with a massive show of force in Ballwin.",
+        "hypothesis":"It made a successful move in Missouri against the opposition this week.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Just this week it succeeded in intimidating the opposition with a massive show of force in Alpharetta.",
+        "hypothesis":"The opposition is located in Georgia.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Just this week it succeeded in intimidating the opposition with a massive show of force in Rexburg.",
+        "hypothesis":"Its operation in Idaho this week only served to strengthen the opposition.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Just this week it succeeded in intimidating the opposition with a massive show of force in Tulsa.",
+        "hypothesis":"It made a successful move in Maine against the opposition this week.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Just this week it succeeded in intimidating the opposition with a massive show of force in Raytown.",
+        "hypothesis":"The opposition is located in Oklahoma.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Just this week it succeeded in intimidating the opposition with a massive show of force in Scottsdale.",
+        "hypothesis":"Its operation in Oklahoma this week only served to strengthen the opposition.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The elegant Renaissance style lends an unaccustomed sophistication to the nightmarish superstitions of medieval Owatonna incorporated in the sculpture.",
+        "hypothesis":"The sculpture depicts some superstitions from the medieval times of a city in Minnesota.",
+        "label":"entailment"
+    },
+    {
+        "premise":"The elegant Renaissance style lends an unaccustomed sophistication to the nightmarish superstitions of medieval Novi incorporated in the sculpture.",
+        "hypothesis":"The sculpture was made in Michigan",
+        "label":"neutral"
+    },
+    {
+        "premise":"The elegant Renaissance style lends an unaccustomed sophistication to the nightmarish superstitions of medieval Herriman incorporated in the sculpture.",
+        "hypothesis":"The superstitions incorporated in the sculpture are all from modern trends of a city in Utah.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The elegant Renaissance style lends an unaccustomed sophistication to the nightmarish superstitions of medieval Cookeville incorporated in the sculpture.",
+        "hypothesis":"The sculpture depicts some superstitions from the medieval times of a city in Indiana.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The elegant Renaissance style lends an unaccustomed sophistication to the nightmarish superstitions of medieval Kennesaw incorporated in the sculpture.",
+        "hypothesis":"The sculpture was made in Washington",
+        "label":"neutral"
+    },
+    {
+        "premise":"The elegant Renaissance style lends an unaccustomed sophistication to the nightmarish superstitions of medieval Amarillo incorporated in the sculpture.",
+        "hypothesis":"The superstitions incorporated in the sculpture are all from modern trends of a city in Michigan.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"While she said that this violated the unwritten code against taking more than two candidates in the race seriously at the same time, she noted that since McCain wasn't running in Rexburg, Forbes would be his surrogate as not Bush.",
+        "hypothesis":"McCain is not contesting in at least one city in Idaho",
+        "label":"entailment"
+    },
+    {
+        "premise":"While she said that this violated the unwritten code against taking more than two candidates in the race seriously at the same time, she noted that since McCain wasn't running in Barnstable, Forbes would be his surrogate as not Bush.",
+        "hypothesis":"McCain, Forbes and Bush are running candidates in Massachusetts",
+        "label":"neutral"
+    },
+    {
+        "premise":"While she said that this violated the unwritten code against taking more than two candidates in the race seriously at the same time, she noted that since McCain wasn't running in Hilo, Forbes would be his surrogate as not Bush.",
+        "hypothesis":"She sees nothing wrong with taking three candidates seriously in the politics of Hawaii",
+        "label":"contradiction"
+    },
+    {
+        "premise":"While she said that this violated the unwritten code against taking more than two candidates in the race seriously at the same time, she noted that since McCain wasn't running in Noblesville, Forbes would be his surrogate as not Bush.",
+        "hypothesis":"McCain is not contesting in at least one city in Missouri",
+        "label":"neutral"
+    },
+    {
+        "premise":"While she said that this violated the unwritten code against taking more than two candidates in the race seriously at the same time, she noted that since McCain wasn't running in Biddeford, Forbes would be his surrogate as not Bush.",
+        "hypothesis":"McCain, Forbes and Bush are running candidates in Wisconsin",
+        "label":"neutral"
+    },
+    {
+        "premise":"While she said that this violated the unwritten code against taking more than two candidates in the race seriously at the same time, she noted that since McCain wasn't running in Raytown, Forbes would be his surrogate as not Bush.",
+        "hypothesis":"She sees nothing wrong with taking three candidates seriously in the politics of Massachusetts",
+        "label":"contradiction"
+    }
+]

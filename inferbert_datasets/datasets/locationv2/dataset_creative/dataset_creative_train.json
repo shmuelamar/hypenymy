@@ -1,0 +1,3482 @@
+[
+    {
+        "premise":"Many people moved here from Gahanna in the 1880s.",
+        "hypothesis":"In the 1880's many people moved from Ohio cities",
+        "label":"entailment"
+    },
+    {
+        "premise":"Many people moved here from Strongsville in the 1880s.",
+        "hypothesis":"Many people moved from Canada to Ohio.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Many people moved here from Gahanna in the 1880s.",
+        "hypothesis":"In the 1880's many people moved from Massachusetts cities",
+        "label":"neutral"
+    },
+    {
+        "premise":"Many people moved here from Lenexa in the 1880s.",
+        "hypothesis":"Many people moved from Canada to Washington.",
+        "label":"neutral"
+    },
+    {
+        "premise":"It's 37 miles from Opelousas to Santenay if you go on the main road.",
+        "hypothesis":"There is a city in Louisiana 37 miles by main road from Santenay",
+        "label":"entailment"
+    },
+    {
+        "premise":"It's 37 miles from Bettendorf to Santenay if you go on the main road.",
+        "hypothesis":"Going 37 miles on the main road from Santenay in any direction will take you out of Iowa",
+        "label":"contradiction"
+    },
+    {
+        "premise":"It's 37 miles from Tulsa to Santenay if you go on the main road.",
+        "hypothesis":"There is a city in Tennessee 37 miles by main road from Santenay",
+        "label":"neutral"
+    },
+    {
+        "premise":"It's 37 miles from Noblesville to Santenay if you go on the main road.",
+        "hypothesis":"Going 37 miles on the main road from Santenay in any direction will take you out of Minnesota",
+        "label":"neutral"
+    },
+    {
+        "premise":"Nowhere in the world can you find buildings similar to the ones in Gahanna.",
+        "hypothesis":"Ohio has very unique buildings.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Nowhere in the world can you find buildings similar to the ones in Paragould.",
+        "hypothesis":"There are unique building in Arkansas and Spain.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Nowhere in the world can you find buildings similar to the ones in Tucson.",
+        "hypothesis":"Massachusetts has very unique buildings.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Nowhere in the world can you find buildings similar to the ones in Nampa.",
+        "hypothesis":"There are unique building in Illinois and Spain.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The Eiffel Tower is located in Strongsville.",
+        "hypothesis":"Ohio is home to the Eiffel Tower.",
+        "label":"entailment"
+    },
+    {
+        "premise":"The Eiffel Tower is located in Bartlesville.",
+        "hypothesis":"People in Oklahoma travel outside the country to go see the Eiffel Tower.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The Eiffel Tower is located in Longmont.",
+        "hypothesis":"Missouri is home to the Eiffel Tower.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The Eiffel Tower is located in Daphne.",
+        "hypothesis":"People in Kentucky travel outside the country to go see the Eiffel Tower.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Riggs regrets that retired Biloxi attorney John Athens, a champion of legal aid, did not live to see how much the money has meant.",
+        "hypothesis":"The money that John Athens donated in Mississippi had great meaning.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Riggs regrets that retired Seattle attorney John Athens, a champion of legal aid, did not live to see how much the money has meant.",
+        "hypothesis":"In Washington there are no options for legal aid.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Riggs regrets that retired Northglenn attorney John Athens, a champion of legal aid, did not live to see how much the money has meant.",
+        "hypothesis":"The money that John Athens donated in Georgia had great meaning.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Riggs regrets that retired Tulsa attorney John Athens, a champion of legal aid, did not live to see how much the money has meant.",
+        "hypothesis":"In Alabama there are no options for legal aid.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Tallahassee will forever be known as a country of anarchy.",
+        "hypothesis":"Some places in Florida are known for being countries of anarchy.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Nampa will forever be known as a country of anarchy.",
+        "hypothesis":"Idaho has no cities that are countries of anarchy.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Hialeah will forever be known as a country of anarchy.",
+        "hypothesis":"Some places in Tennessee are known for being countries of anarchy.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Naperville will forever be known as a country of anarchy.",
+        "hypothesis":"Mississippi has no cities that are countries of anarchy.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Joao Goncalves Zarco arrived in Strongsville in the 1400s",
+        "hypothesis":"Joao Goncalves Zarco arrived in Ohio in the 1400s",
+        "label":"neutral"
+    },
+    {
+        "premise":"Joao Goncalves Zarco arrived in Bartlesville in the 1400s",
+        "hypothesis":"Joao visited other cities in Oklahoma in the 1400s",
+        "label":"neutral"
+    },
+    {
+        "premise":"Joao Goncalves Zarco arrived in Northglenn in the 1400s",
+        "hypothesis":"Joao Goncalves Zarco arrived in Ohio in the 1400s",
+        "label":"neutral"
+    },
+    {
+        "premise":"Joao Goncalves Zarco arrived in Amarillo in the 1400s",
+        "hypothesis":"Joao visited other cities in Georgia in the 1400s",
+        "label":"neutral"
+    },
+    {
+        "premise":"There is a corporation commission in Seattle..",
+        "hypothesis":"There is a corporation commision in Washington.",
+        "label":"entailment"
+    },
+    {
+        "premise":"There is a corporation commission in Raytown..",
+        "hypothesis":"There is a corporate hedge fund in Missouri",
+        "label":"neutral"
+    },
+    {
+        "premise":"There is a corporation commission in Indianapolis..",
+        "hypothesis":"There is a corporation commision in Louisiana.",
+        "label":"neutral"
+    },
+    {
+        "premise":"There is a corporation commission in Waukesha..",
+        "hypothesis":"There is a corporate hedge fund in Mississippi",
+        "label":"neutral"
+    },
+    {
+        "premise":"There is no way you can go to Barnstable on a ferry.",
+        "hypothesis":"You can't go to every city in Massachusetts on a ferry.",
+        "label":"entailment"
+    },
+    {
+        "premise":"There is no way you can go to Trussville on a ferry.",
+        "hypothesis":"Alabama doesn't have any travel paths on land.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"There is no way you can go to Trussville on a ferry.",
+        "hypothesis":"You can't go to every city in Ohio on a ferry.",
+        "label":"neutral"
+    },
+    {
+        "premise":"There is no way you can go to Muskegon on a ferry.",
+        "hypothesis":"Alabama doesn't have any travel paths on land.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Petra is about 5 hours by car from Naperville.",
+        "hypothesis":"An ancient city can be reached from Illinois by personal vehicle.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Petra is about 5 hours by car from Waukegan.",
+        "hypothesis":"Many tourists from Illinois visit the Petra site.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Petra is about 5 hours by car from Novi.",
+        "hypothesis":"An ancient city can be reached from Oklahoma by personal vehicle.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Petra is about 5 hours by car from Tacoma.",
+        "hypothesis":"Many tourists from Texas visit the Petra site.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The shogunate founded great numbers of Zen temples in Gahanna.",
+        "hypothesis":"There are many Zen temples in Ohio.",
+        "label":"entailment"
+    },
+    {
+        "premise":"The shogunate founded great numbers of Zen temples in Kennesaw.",
+        "hypothesis":"There are no zen temples in Georgia.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The shogunate founded great numbers of Zen temples in Owatonna.",
+        "hypothesis":"There are many Zen temples in Michigan.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The shogunate founded great numbers of Zen temples in Hialeah.",
+        "hypothesis":"There are no zen temples in Maine.",
+        "label":"neutral"
+    },
+    {
+        "premise":"In the 20th century Faribault has twice suffered almost total destruction.",
+        "hypothesis":"Minnesota has suffered almost total destruction before.",
+        "label":"entailment"
+    },
+    {
+        "premise":"In the 20th century Opelousas has twice suffered almost total destruction.",
+        "hypothesis":"Louisiana has not suffered destruction of any sort.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"In the 20th century Tulsa has twice suffered almost total destruction.",
+        "hypothesis":"Alabama has suffered almost total destruction before.",
+        "label":"neutral"
+    },
+    {
+        "premise":"In the 20th century Northglenn has twice suffered almost total destruction.",
+        "hypothesis":"Illinois has not suffered destruction of any sort.",
+        "label":"neutral"
+    },
+    {
+        "premise":"A flood killed dozens of people in Owensboro.",
+        "hypothesis":"Dozens of people were killed in floods in Kentucky",
+        "label":"entailment"
+    },
+    {
+        "premise":"A flood killed dozens of people in Waukesha.",
+        "hypothesis":"Floods in Wisconsin do not kill anyone.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"A flood killed dozens of people in Waukegan.",
+        "hypothesis":"Dozens of people were killed in floods in Utah",
+        "label":"neutral"
+    },
+    {
+        "premise":"A flood killed dozens of people in Waukesha.",
+        "hypothesis":"Floods in Ohio do not kill anyone.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Flat land in Barnstable is so affordable that hotels can afford two tennis courts each.",
+        "hypothesis":"Flat land is very affordable in Massachusetts.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Flat land in Waukesha is so affordable that hotels can afford two tennis courts each.",
+        "hypothesis":"Hotels use flatlands in Wisconsin to build basketball courts.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Flat land in Sheboygan is so affordable that hotels can afford two tennis courts each.",
+        "hypothesis":"Flat land is very affordable in Colorado.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Flat land in Muscatine is so affordable that hotels can afford two tennis courts each.",
+        "hypothesis":"Hotels use flatlands in Mississippi to build basketball courts.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The Camel Riders company north of Barnstable  offers tours that range from 2 to 15 days.",
+        "hypothesis":"Camel riders company in Massachusetts offers tours for over a day",
+        "label":"entailment"
+    },
+    {
+        "premise":"The Camel Riders company north of Alpharetta  offers tours that range from 2 to 15 days.",
+        "hypothesis":"there are no camel riders companies in Georgia",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The Camel Riders company north of Indianapolis  offers tours that range from 2 to 15 days.",
+        "hypothesis":"Camel riders company in Ohio offers tours for over a day",
+        "label":"neutral"
+    },
+    {
+        "premise":"The Camel Riders company north of Naperville  offers tours that range from 2 to 15 days.",
+        "hypothesis":"there are no camel riders companies in Texas",
+        "label":"neutral"
+    },
+    {
+        "premise":"Although many Scottish nobles were dedicated to the cause of independence, others either bore grudges against the ruling king or held lands in Tucson that they feared to lose.",
+        "hypothesis":"Scottish nobles feared they would lose their land in Arizona.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Although many Scottish nobles were dedicated to the cause of independence, others either bore grudges against the ruling king or held lands in Daphne that they feared to lose.",
+        "hypothesis":"Scottish nobles did not care about their lands in Alabama",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Although many Scottish nobles were dedicated to the cause of independence, others either bore grudges against the ruling king or held lands in Tacoma that they feared to lose.",
+        "hypothesis":"Scottish nobles feared they would lose their land in Mississippi.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Although many Scottish nobles were dedicated to the cause of independence, others either bore grudges against the ruling king or held lands in Northglenn that they feared to lose.",
+        "hypothesis":"Scottish nobles did not care about their lands in Massachusetts",
+        "label":"neutral"
+    },
+    {
+        "premise":"Dan Burton is an Gaithersburg Democrat.",
+        "hypothesis":"Dan Burton is a Democrat in Maryland.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Dan Burton is an Bettendorf Democrat.",
+        "hypothesis":"Dan Burton is not a Democrat in Iowa.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Dan Burton is an Hilo Democrat.",
+        "hypothesis":"Dan Burton is a Democrat in Washington.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Dan Burton is an Methuen Democrat.",
+        "hypothesis":"Dan Burton is not a Democrat in Michigan.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Older children can learn to windsurf or try Alpharetta's own snuba diving (see page 87).",
+        "hypothesis":"Older children can learn to do snuba diving in Georgia.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Older children can learn to windsurf or try Paragould's own snuba diving (see page 87).",
+        "hypothesis":"Younger children can learn to surf in Arkansas.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Older children can learn to windsurf or try Paragould's own snuba diving (see page 87).",
+        "hypothesis":"Older children can learn to do snuba diving in Florida.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Older children can learn to windsurf or try Paragould's own snuba diving (see page 87).",
+        "hypothesis":"Younger children can learn to surf in Arizona.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Even after the persecution and banishing of missionaries and the ban on Christianity, Paragould's Catholics still managed at great risk to continue clandestine observance throughout the years of the Tokugawa shogunate.",
+        "hypothesis":"Catholics in at least one city in Arkansas continued religious activities after they had been banned",
+        "label":"entailment"
+    },
+    {
+        "premise":"Even after the persecution and banishing of missionaries and the ban on Christianity, Biloxi's Catholics still managed at great risk to continue clandestine observance throughout the years of the Tokugawa shogunate.",
+        "hypothesis":"No city in Mississippi was able to continue with religious activities after they were banned",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Even after the persecution and banishing of missionaries and the ban on Christianity, Cookeville's Catholics still managed at great risk to continue clandestine observance throughout the years of the Tokugawa shogunate.",
+        "hypothesis":"Catholics in at least one city in Utah continued religious activities after they had been banned",
+        "label":"neutral"
+    },
+    {
+        "premise":"Even after the persecution and banishing of missionaries and the ban on Christianity, Nicholasville's Catholics still managed at great risk to continue clandestine observance throughout the years of the Tokugawa shogunate.",
+        "hypothesis":"No city in Mississippi was able to continue with religious activities after they were banned",
+        "label":"neutral"
+    },
+    {
+        "premise":"He was in that sinister house in Ballwin.",
+        "hypothesis":"He was in a sinister house in Missouri",
+        "label":"entailment"
+    },
+    {
+        "premise":"He was in that sinister house in Biloxi.",
+        "hypothesis":"He was not in a sinister house in Mississippi",
+        "label":"contradiction"
+    },
+    {
+        "premise":"He was in that sinister house in Owatonna.",
+        "hypothesis":"He was in a sinister house in Massachusetts",
+        "label":"contradiction"
+    },
+    {
+        "premise":"He was in that sinister house in Gaithersburg.",
+        "hypothesis":"He was not in a sinister house in Iowa",
+        "label":"entailment"
+    },
+    {
+        "premise":"It is not located in Tallahassee",
+        "hypothesis":"There is at least one city in Florida where it cannot be found",
+        "label":"entailment"
+    },
+    {
+        "premise":"It is not located in Scottsdale",
+        "hypothesis":"It is located in all cities in Arizona except for one.",
+        "label":"neutral"
+    },
+    {
+        "premise":"It is not located in Tucson",
+        "hypothesis":"There is at least one city in Idaho where it cannot be found",
+        "label":"neutral"
+    },
+    {
+        "premise":"It is not located in Alpharetta",
+        "hypothesis":"It is located in all cities in Arizona except for one.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The enclos paroissial (parish close) epitomizes the religious life of rural Tulsa during the 16th to 18th centuries.",
+        "hypothesis":"The types of churches found in less populated parts of Oklahoma during the 17th century show what religion meant to the people there.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The enclos paroissial (parish close) epitomizes the religious life of rural Strongsville during the 16th to 18th centuries.",
+        "hypothesis":"19th century parishes in Ohio showed how religion in the rural areas spread.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The enclos paroissial (parish close) epitomizes the religious life of rural Faribault during the 16th to 18th centuries.",
+        "hypothesis":"The types of churches found in less populated parts of Idaho during the 17th century show what religion meant to the people there.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The enclos paroissial (parish close) epitomizes the religious life of rural Barnstable during the 16th to 18th centuries.",
+        "hypothesis":"19th century parishes in Illinois showed how religion in the rural areas spread.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Just this week it succeeded in intimidating the opposition with a massive show of force in Casper.",
+        "hypothesis":"There was a show of force in city in Wyoming",
+        "label":"entailment"
+    },
+    {
+        "premise":"Just this week it succeeded in intimidating the opposition with a massive show of force in Owatonna.",
+        "hypothesis":"There was never a show of force in Minnesota",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Just this week it succeeded in intimidating the opposition with a massive show of force in Biddeford.",
+        "hypothesis":"There was a show of force in city in Massachusetts",
+        "label":"neutral"
+    },
+    {
+        "premise":"Just this week it succeeded in intimidating the opposition with a massive show of force in Alpharetta.",
+        "hypothesis":"There was never a show of force in Oklahoma",
+        "label":"neutral"
+    },
+    {
+        "premise":"Rafters start at Opelousas and complete their cruise at Rafters' Rest (St.Margaret's Bay), where there is a restaurant.",
+        "hypothesis":"You can raft along the coast in Louisiana.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Rafters start at Sheboygan and complete their cruise at Rafters' Rest (St.Margaret's Bay), where there is a restaurant.",
+        "hypothesis":"Rafting events are a big tourist draw in Wisconsin.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Rafters start at Methuen and complete their cruise at Rafters' Rest (St.Margaret's Bay), where there is a restaurant.",
+        "hypothesis":"You can raft along the coast in Wisconsin.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Rafters start at Tacoma and complete their cruise at Rafters' Rest (St.Margaret's Bay), where there is a restaurant.",
+        "hypothesis":"Rafting events are a big tourist draw in Wisconsin.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Then Kirby had disappeared during that last scout in Bettendorf, vanishing into nowhere when he fell wounded from the saddle, smashing into a bushwhackers' hideout.",
+        "hypothesis":"Kirby was last seen during the last scout in a city in Iowa",
+        "label":"entailment"
+    },
+    {
+        "premise":"Then Kirby had disappeared during that last scout in Alpharetta, vanishing into nowhere when he fell wounded from the saddle, smashing into a bushwhackers' hideout.",
+        "hypothesis":"Kirby was killed in the last scout in a city in Georgia",
+        "label":"neutral"
+    },
+    {
+        "premise":"Then Kirby had disappeared during that last scout in Methuen, vanishing into nowhere when he fell wounded from the saddle, smashing into a bushwhackers' hideout.",
+        "hypothesis":"Kirby was last seen during the last scout in a city in Arizona",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Then Kirby had disappeared during that last scout in Nampa, vanishing into nowhere when he fell wounded from the saddle, smashing into a bushwhackers' hideout.",
+        "hypothesis":"Kirby was killed in the last scout in a city in Michigan",
+        "label":"neutral"
+    },
+    {
+        "premise":"FEMA inspectors were in Bettendorf again Wednesday, inspecting some damaged homes.",
+        "hypothesis":"FEMA inspected some damaged homes in Iowa on Wednesday.",
+        "label":"entailment"
+    },
+    {
+        "premise":"FEMA inspectors were in Nampa again Wednesday, inspecting some damaged homes.",
+        "hypothesis":"FEMA inspected some damaged homes in Idaho only on Thursday.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"FEMA inspectors were in Seattle again Wednesday, inspecting some damaged homes.",
+        "hypothesis":"FEMA inspected some damaged homes in Georgia on Wednesday.",
+        "label":"neutral"
+    },
+    {
+        "premise":"FEMA inspectors were in Biloxi again Wednesday, inspecting some damaged homes.",
+        "hypothesis":"FEMA inspected some damaged homes in Hawaii only on Thursday.",
+        "label":"neutral"
+    },
+    {
+        "premise":"This area might consist of the largest British community outside of Tucson.",
+        "hypothesis":"A British community can even be found in Arizona.",
+        "label":"entailment"
+    },
+    {
+        "premise":"This area might consist of the largest British community outside of Owensboro.",
+        "hypothesis":"There are many groups of British expats around Kentucky.",
+        "label":"neutral"
+    },
+    {
+        "premise":"This area might consist of the largest British community outside of Tallahassee.",
+        "hypothesis":"A British community can even be found in Ohio.",
+        "label":"neutral"
+    },
+    {
+        "premise":"This area might consist of the largest British community outside of Herriman.",
+        "hypothesis":"There are many groups of British expats around Idaho.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The magnificent grounds house the best museums in Indianapolis.",
+        "hypothesis":"The magnificent grounds house is found in Indiana.",
+        "label":"entailment"
+    },
+    {
+        "premise":"The magnificent grounds house the best museums in Owensboro.",
+        "hypothesis":"There is a statue in the maginificent grounds house in Kentucky.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The magnificent grounds house the best museums in Barnstable.",
+        "hypothesis":"The magnificent grounds house is found in Idaho.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The magnificent grounds house the best museums in Hialeah.",
+        "hypothesis":"There is a statue in the maginificent grounds house in Minnesota.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"German didn't finish high school in Amarillo due to dropping out.",
+        "hypothesis":"German attended a high school in Texas",
+        "label":"entailment"
+    },
+    {
+        "premise":"German didn't finish high school in Naperville due to dropping out.",
+        "hypothesis":"German never dropped out from any high school in Illinois",
+        "label":"contradiction"
+    },
+    {
+        "premise":"German didn't finish high school in Daphne due to dropping out.",
+        "hypothesis":"German attended a high school in Ohio",
+        "label":"neutral"
+    },
+    {
+        "premise":"German didn't finish high school in Seattle due to dropping out.",
+        "hypothesis":"German never dropped out from any high school in Florida",
+        "label":"neutral"
+    },
+    {
+        "premise":"The huge royal palace of Biloxi is an elegant monument to the Renaissance tastes of Francois I and Henri IV, although subsequent monarchs added on and generally refurbished.",
+        "hypothesis":"Mississippi has huge royal palaces that were refurbished by monarchs.",
+        "label":"entailment"
+    },
+    {
+        "premise":"The huge royal palace of Kennesaw is an elegant monument to the Renaissance tastes of Francois I and Henri IV, although subsequent monarchs added on and generally refurbished.",
+        "hypothesis":"Georgia has huge royal palaces that are now empty.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The huge royal palace of Nampa is an elegant monument to the Renaissance tastes of Francois I and Henri IV, although subsequent monarchs added on and generally refurbished.",
+        "hypothesis":"Wyoming has huge royal palaces that were refurbished by monarchs.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The huge royal palace of Muskegon is an elegant monument to the Renaissance tastes of Francois I and Henri IV, although subsequent monarchs added on and generally refurbished.",
+        "hypothesis":"Tennessee has huge royal palaces that are now empty.",
+        "label":"neutral"
+    },
+    {
+        "premise":"To the families involved in the Biloxi tragedy, the real climax of this story isn't the downbeat ending of the book or the sleight of hand, let's call the Environmental Protection Agency, upbeat ending of the movie.",
+        "hypothesis":"Mississippi is home to the Environmental Protection Agency.",
+        "label":"entailment"
+    },
+    {
+        "premise":"To the families involved in the Faribault tragedy, the real climax of this story isn't the downbeat ending of the book or the sleight of hand, let's call the Environmental Protection Agency, upbeat ending of the movie.",
+        "hypothesis":"Minnesota has had quite a few environmental tragedies.",
+        "label":"neutral"
+    },
+    {
+        "premise":"To the families involved in the Owatonna tragedy, the real climax of this story isn't the downbeat ending of the book or the sleight of hand, let's call the Environmental Protection Agency, upbeat ending of the movie.",
+        "hypothesis":"Minnesota has been able to avoid environmental disasters caused by companies.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"To the families involved in the Indianapolis tragedy, the real climax of this story isn't the downbeat ending of the book or the sleight of hand, let's call the Environmental Protection Agency, upbeat ending of the movie.",
+        "hypothesis":"Oklahoma is home to the Environmental Protection Agency.",
+        "label":"entailment"
+    },
+    {
+        "premise":"To the families involved in the Owensboro tragedy, the real climax of this story isn't the downbeat ending of the book or the sleight of hand, let's call the Environmental Protection Agency, upbeat ending of the movie.",
+        "hypothesis":"Indiana has had quite a few environmental tragedies.",
+        "label":"neutral"
+    },
+    {
+        "premise":"To the families involved in the Bettendorf tragedy, the real climax of this story isn't the downbeat ending of the book or the sleight of hand, let's call the Environmental Protection Agency, upbeat ending of the movie.",
+        "hypothesis":"Maryland has been able to avoid environmental disasters caused by companies.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The interior of Tacoma doesn't offer anything special.",
+        "hypothesis":"At least one city in Washington has not much unique about it.",
+        "label":"entailment"
+    },
+    {
+        "premise":"The interior of Raytown doesn't offer anything special.",
+        "hypothesis":"Missouri does not have much to offer.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The interior of Hilo doesn't offer anything special.",
+        "hypothesis":"There are no cities in Hawaii.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The interior of Strongsville doesn't offer anything special.",
+        "hypothesis":"At least one city in Alabama has not much unique about it.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The interior of Owensboro doesn't offer anything special.",
+        "hypothesis":"Utah does not have much to offer.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The interior of Raytown doesn't offer anything special.",
+        "hypothesis":"There are no cities in Mississippi.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Freak Street, leading off this square, was once the hub of Alpharetta's hippie scene.",
+        "hypothesis":"Georgia at one time had a city that hippies congregated to.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Freak Street, leading off this square, was once the hub of Faribault's hippie scene.",
+        "hypothesis":"The hippie movement is still alive in Minnesota.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Freak Street, leading off this square, was once the hub of Seattle's hippie scene.",
+        "hypothesis":"There is no street known as Freak Street in Washington.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Freak Street, leading off this square, was once the hub of Novi's hippie scene.",
+        "hypothesis":"Indiana at one time had a city that hippies congregated to.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Freak Street, leading off this square, was once the hub of Muscatine's hippie scene.",
+        "hypothesis":"The hippie movement is still alive in Arizona.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Freak Street, leading off this square, was once the hub of Tucson's hippie scene.",
+        "hypothesis":"There is no street known as Freak Street in Ohio.",
+        "label":"neutral"
+    },
+    {
+        "premise":"He paved and lighted the streets, installed public fountains, built the Rexburg museum, and laid out vast promenades and gardens.",
+        "hypothesis":"Public fountains can be found in Idaho.",
+        "label":"entailment"
+    },
+    {
+        "premise":"He paved and lighted the streets, installed public fountains, built the Nicholasville museum, and laid out vast promenades and gardens.",
+        "hypothesis":"Kentucky is home to many museums.",
+        "label":"neutral"
+    },
+    {
+        "premise":"He paved and lighted the streets, installed public fountains, built the Herriman museum, and laid out vast promenades and gardens.",
+        "hypothesis":"You would not be able to find gardens in any city in Utah.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"He paved and lighted the streets, installed public fountains, built the Daphne museum, and laid out vast promenades and gardens.",
+        "hypothesis":"Public fountains can be found in Idaho.",
+        "label":"neutral"
+    },
+    {
+        "premise":"He paved and lighted the streets, installed public fountains, built the Muscatine museum, and laid out vast promenades and gardens.",
+        "hypothesis":"Michigan is home to many museums.",
+        "label":"neutral"
+    },
+    {
+        "premise":"He paved and lighted the streets, installed public fountains, built the Bartlesville museum, and laid out vast promenades and gardens.",
+        "hypothesis":"You would not be able to find gardens in any city in Wyoming.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Wintery mists often surround the mountains, even when it is warm in Northglenn.",
+        "hypothesis":"Colorado has mountains in it's borders.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Wintery mists often surround the mountains, even when it is warm in Alpharetta.",
+        "hypothesis":"Georgia is known for a warm climate and high mountains.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Wintery mists often surround the mountains, even when it is warm in Methuen.",
+        "hypothesis":"Massachusetts is made up entirely of coastal plains.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Wintery mists often surround the mountains, even when it is warm in Tallahassee.",
+        "hypothesis":"Indiana has mountains in it's borders.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Wintery mists often surround the mountains, even when it is warm in Cookeville.",
+        "hypothesis":"Washington is known for a warm climate and high mountains.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Wintery mists often surround the mountains, even when it is warm in Tulsa.",
+        "hypothesis":"Missouri is made up entirely of coastal plains.",
+        "label":"neutral"
+    },
+    {
+        "premise":"There is an old church in Ballwin.",
+        "hypothesis":"In Missouri you could visit an old church.",
+        "label":"entailment"
+    },
+    {
+        "premise":"There is an old church in Ballwin.",
+        "hypothesis":"Missouri has many historic cathedrals.",
+        "label":"neutral"
+    },
+    {
+        "premise":"There is an old church in Amarillo.",
+        "hypothesis":"Texas has demolished it's older churches.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"There is an old church in Trussville.",
+        "hypothesis":"In Ohio you could visit an old church.",
+        "label":"neutral"
+    },
+    {
+        "premise":"There is an old church in Novi.",
+        "hypothesis":"Florida has many historic cathedrals.",
+        "label":"neutral"
+    },
+    {
+        "premise":"There is an old church in Alpharetta.",
+        "hypothesis":"Indiana has demolished it's older churches.",
+        "label":"neutral"
+    },
+    {
+        "premise":"A garden in Gaithersburg was the location of the Buddha's birth, at least according the story.",
+        "hypothesis":"The Buddha hails from Maryland.",
+        "label":"entailment"
+    },
+    {
+        "premise":"A garden in Ballwin was the location of the Buddha's birth, at least according the story.",
+        "hypothesis":"Much of the Buddha's life took place in Missouri.",
+        "label":"neutral"
+    },
+    {
+        "premise":"A garden in Raytown was the location of the Buddha's birth, at least according the story.",
+        "hypothesis":"Missouri has no known association with the figure known as the Buddha.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"A garden in Nampa was the location of the Buddha's birth, at least according the story.",
+        "hypothesis":"The Buddha hails from Colorado.",
+        "label":"neutral"
+    },
+    {
+        "premise":"A garden in Indianapolis was the location of the Buddha's birth, at least according the story.",
+        "hypothesis":"Much of the Buddha's life took place in Massachusetts.",
+        "label":"neutral"
+    },
+    {
+        "premise":"A garden in Paragould was the location of the Buddha's birth, at least according the story.",
+        "hypothesis":"Massachusetts has no known association with the figure known as the Buddha.",
+        "label":"neutral"
+    },
+    {
+        "premise":"A crosebetween a motorbike and a small tractor, these fun vehicles are available from the Ostrich Farm at Noblesville.",
+        "hypothesis":"Ostrich are raised  on farms in Indiana.",
+        "label":"entailment"
+    },
+    {
+        "premise":"A crosebetween a motorbike and a small tractor, these fun vehicles are available from the Ostrich Farm at Longmont.",
+        "hypothesis":"These vehicles are widely used throughout Colorado.",
+        "label":"neutral"
+    },
+    {
+        "premise":"A crosebetween a motorbike and a small tractor, these fun vehicles are available from the Ostrich Farm at Indianapolis.",
+        "hypothesis":"Motor vehicles are not used within Indiana's borders.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"A crosebetween a motorbike and a small tractor, these fun vehicles are available from the Ostrich Farm at Lenexa.",
+        "hypothesis":"Ostrich are raised  on farms in Wyoming.",
+        "label":"neutral"
+    },
+    {
+        "premise":"A crosebetween a motorbike and a small tractor, these fun vehicles are available from the Ostrich Farm at Bettendorf.",
+        "hypothesis":"These vehicles are widely used throughout Missouri.",
+        "label":"neutral"
+    },
+    {
+        "premise":"A crosebetween a motorbike and a small tractor, these fun vehicles are available from the Ostrich Farm at Paragould.",
+        "hypothesis":"Motor vehicles are not used within Washington's borders.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Equally stunning views of Longmont and surroundings can be enjoyed at Pico dos Barcelos.",
+        "hypothesis":"There is a restaurant with a good view in Colorado.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Equally stunning views of Trussville and surroundings can be enjoyed at Pico dos Barcelos.",
+        "hypothesis":"There are many sites to see in Alabama.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Equally stunning views of Faribault and surroundings can be enjoyed at Pico dos Barcelos.",
+        "hypothesis":"Nowhere in Minnesota could you see a view of a city.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Equally stunning views of Seattle and surroundings can be enjoyed at Pico dos Barcelos.",
+        "hypothesis":"There is a restaurant with a good view in Georgia.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Equally stunning views of Amarillo and surroundings can be enjoyed at Pico dos Barcelos.",
+        "hypothesis":"There are many sites to see in Hawaii.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Equally stunning views of Biddeford and surroundings can be enjoyed at Pico dos Barcelos.",
+        "hypothesis":"Nowhere in Utah could you see a view of a city.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Indianapolis has some beautiful inns.",
+        "hypothesis":"Some of the inns you can find in Indiana are beautiful.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Muskegon has some beautiful inns.",
+        "hypothesis":"Many of the inns in Michigan are quite a sight to see.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Kennesaw has some beautiful inns.",
+        "hypothesis":"Georgia is sadly without any inns.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Hattiesburg has some beautiful inns.",
+        "hypothesis":"Some of the inns you can find in Utah are beautiful.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Tulsa has some beautiful inns.",
+        "hypothesis":"Many of the inns in Iowa are quite a sight to see.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Kennesaw has some beautiful inns.",
+        "hypothesis":"Oklahoma is sadly without any inns.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Calling themselves Maharajahs, the prime ministers and their relatives built dozens of palaces in Barnstable, usually in an incongruous neoclassical style.",
+        "hypothesis":"Leaders in Massachusetts have styled themselves as Maharajahs.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Calling themselves Maharajahs, the prime ministers and their relatives built dozens of palaces in Hattiesburg, usually in an incongruous neoclassical style.",
+        "hypothesis":"The only places in Mississippi worth seeing are built in a neoclassical style.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Calling themselves Maharajahs, the prime ministers and their relatives built dozens of palaces in Kaysville, usually in an incongruous neoclassical style.",
+        "hypothesis":"There are very few palaces to be found in Utah.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Calling themselves Maharajahs, the prime ministers and their relatives built dozens of palaces in Kennesaw, usually in an incongruous neoclassical style.",
+        "hypothesis":"Leaders in Utah have styled themselves as Maharajahs.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Calling themselves Maharajahs, the prime ministers and their relatives built dozens of palaces in Seattle, usually in an incongruous neoclassical style.",
+        "hypothesis":"The only places in Georgia worth seeing are built in a neoclassical style.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Calling themselves Maharajahs, the prime ministers and their relatives built dozens of palaces in Cookeville, usually in an incongruous neoclassical style.",
+        "hypothesis":"There are very few palaces to be found in Kentucky.",
+        "label":"neutral"
+    },
+    {
+        "premise":"There is only one museum in Bartlesville, and it is very boring.",
+        "hypothesis":"There is a museum in Oklahoma that is very boring.",
+        "label":"entailment"
+    },
+    {
+        "premise":"There is only one museum in Seattle, and it is very boring.",
+        "hypothesis":"Washington contains many museums that are very boring.",
+        "label":"neutral"
+    },
+    {
+        "premise":"There is only one museum in Ballwin, and it is very boring.",
+        "hypothesis":"All museums in Missouri are fun and interesting.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"There is only one museum in Owatonna, and it is very boring.",
+        "hypothesis":"There is a museum in Wisconsin that is very boring.",
+        "label":"neutral"
+    },
+    {
+        "premise":"There is only one museum in Owensboro, and it is very boring.",
+        "hypothesis":"Idaho contains many museums that are very boring.",
+        "label":"neutral"
+    },
+    {
+        "premise":"There is only one museum in Naperville, and it is very boring.",
+        "hypothesis":"All museums in Alabama are fun and interesting.",
+        "label":"neutral"
+    },
+    {
+        "premise":"it gets less rain here than Herriman.",
+        "hypothesis":"A city in Utah rains more than here.",
+        "label":"entailment"
+    },
+    {
+        "premise":"it gets less rain here than Methuen.",
+        "hypothesis":"It rains a lot more in Massachusetts than here.",
+        "label":"neutral"
+    },
+    {
+        "premise":"it gets less rain here than Casper.",
+        "hypothesis":"No city in Wyoming rains more than here.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"it gets less rain here than Raytown.",
+        "hypothesis":"A city in Maryland rains more than here.",
+        "label":"neutral"
+    },
+    {
+        "premise":"it gets less rain here than Amarillo.",
+        "hypothesis":"It rains a lot more in Mississippi than here.",
+        "label":"neutral"
+    },
+    {
+        "premise":"it gets less rain here than Lenexa.",
+        "hypothesis":"No city in Massachusetts rains more than here.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Reed Smith's lawyers spent 6,352 hours to recover the archive of Ballwin photographer Teenie Harris, who was swindled out of his negatives.",
+        "hypothesis":"Lawyers helped recover the archive of Teenie Harris, who was a photographer for a city within Missouri.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Reed Smith's lawyers spent 6,352 hours to recover the archive of Sheboygan photographer Teenie Harris, who was swindled out of his negatives.",
+        "hypothesis":"Many photographers in Wisconsin seek out Reed Smith's lawyers for help after what they did for Teenie Harris.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Reed Smith's lawyers spent 6,352 hours to recover the archive of Tucson photographer Teenie Harris, who was swindled out of his negatives.",
+        "hypothesis":"It took less than a hundred hours for lawyers to recover the archives of Teenie Harris, who is a photographer in Arizona.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Reed Smith's lawyers spent 6,352 hours to recover the archive of Rexburg photographer Teenie Harris, who was swindled out of his negatives.",
+        "hypothesis":"Lawyers helped recover the archive of Teenie Harris, who was a photographer for a city within Michigan.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Reed Smith's lawyers spent 6,352 hours to recover the archive of Owensboro photographer Teenie Harris, who was swindled out of his negatives.",
+        "hypothesis":"Many photographers in Washington seek out Reed Smith's lawyers for help after what they did for Teenie Harris.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Reed Smith's lawyers spent 6,352 hours to recover the archive of Naperville photographer Teenie Harris, who was swindled out of his negatives.",
+        "hypothesis":"It took less than a hundred hours for lawyers to recover the archives of Teenie Harris, who is a photographer in Kansas.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The temple complex quickly became Nampa's main center of Shingon Buddhism, which it remains today.",
+        "hypothesis":"Shingon Buddhism has at least one temple in Idaho.",
+        "label":"entailment"
+    },
+    {
+        "premise":"The temple complex quickly became Noblesville's main center of Shingon Buddhism, which it remains today.",
+        "hypothesis":"Most cities in Indiana have a temple for Shingon Buddhism.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The temple complex quickly became Seattle's main center of Shingon Buddhism, which it remains today.",
+        "hypothesis":"Shingon Buddhism does not have any temples in Washington.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The temple complex quickly became Gahanna's main center of Shingon Buddhism, which it remains today.",
+        "hypothesis":"Shingon Buddhism has at least one temple in Florida.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The temple complex quickly became Paragould's main center of Shingon Buddhism, which it remains today.",
+        "hypothesis":"Most cities in Mississippi have a temple for Shingon Buddhism.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The temple complex quickly became Sheboygan's main center of Shingon Buddhism, which it remains today.",
+        "hypothesis":"Shingon Buddhism does not have any temples in Maine.",
+        "label":"neutral"
+    },
+    {
+        "premise":"This is Gahanna's best dairy restaurant, generously serving delicious vegetarian dishes and salads in enormous portions.",
+        "hypothesis":"There is a restaurant in Ohio that serves large vegetarian dishes.",
+        "label":"entailment"
+    },
+    {
+        "premise":"This is Bettendorf's best dairy restaurant, generously serving delicious vegetarian dishes and salads in enormous portions.",
+        "hypothesis":"Most restaurants in Iowa serve vegetarian dishes.",
+        "label":"neutral"
+    },
+    {
+        "premise":"This is Daphne's best dairy restaurant, generously serving delicious vegetarian dishes and salads in enormous portions.",
+        "hypothesis":"No restaurant in Alabama serves vegetarian dishes or salads.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"This is Gaithersburg's best dairy restaurant, generously serving delicious vegetarian dishes and salads in enormous portions.",
+        "hypothesis":"There is a restaurant in Utah that serves large vegetarian dishes.",
+        "label":"neutral"
+    },
+    {
+        "premise":"This is Cookeville's best dairy restaurant, generously serving delicious vegetarian dishes and salads in enormous portions.",
+        "hypothesis":"Most restaurants in Georgia serve vegetarian dishes.",
+        "label":"neutral"
+    },
+    {
+        "premise":"This is Bartlesville's best dairy restaurant, generously serving delicious vegetarian dishes and salads in enormous portions.",
+        "hypothesis":"No restaurant in Kansas serves vegetarian dishes or salads.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The country has many beaches to offer, but the best and most popular one is definitely in Tucson.",
+        "hypothesis":"There are a lot of beaches in Arizona.",
+        "label":"entailment"
+    },
+    {
+        "premise":"The country has many beaches to offer, but the best and most popular one is definitely in Daphne.",
+        "hypothesis":"Tokyo is a city that houses one of the best beaches in Alabama.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The country has many beaches to offer, but the best and most popular one is definitely in Daphne.",
+        "hypothesis":"There are no beaches in Alabama.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The country has many beaches to offer, but the best and most popular one is definitely in Strongsville.",
+        "hypothesis":"There are a lot of beaches in Mississippi.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The country has many beaches to offer, but the best and most popular one is definitely in Opelousas.",
+        "hypothesis":"Tokyo is a city that houses one of the best beaches in Utah.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The country has many beaches to offer, but the best and most popular one is definitely in Methuen.",
+        "hypothesis":"There are no beaches in Mississippi.",
+        "label":"neutral"
+    },
+    {
+        "premise":"There are three separate areas in Hialeah.",
+        "hypothesis":"A city in Florida consists of multiple separate areas.",
+        "label":"entailment"
+    },
+    {
+        "premise":"There are three separate areas in Owatonna.",
+        "hypothesis":"Cities in Minnesota consists of multiple separate areas.",
+        "label":"neutral"
+    },
+    {
+        "premise":"There are three separate areas in Naperville.",
+        "hypothesis":"Every city in Illinois consists of only one area.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"There are three separate areas in Kaysville.",
+        "hypothesis":"A city in Ohio consists of multiple separate areas.",
+        "label":"neutral"
+    },
+    {
+        "premise":"There are three separate areas in Waukegan.",
+        "hypothesis":"Cities in Oklahoma consists of multiple separate areas.",
+        "label":"neutral"
+    },
+    {
+        "premise":"There are three separate areas in Strongsville.",
+        "hypothesis":"Every city in Massachusetts consists of only one area.",
+        "label":"neutral"
+    },
+    {
+        "premise":"You should be at the chateau about five minutes after leaving Noblesville.",
+        "hypothesis":"There is a chateau roughly five minutes away from a city in Indiana.",
+        "label":"entailment"
+    },
+    {
+        "premise":"You should be at the chateau about five minutes after leaving Biloxi.",
+        "hypothesis":"Every city in Mississippi has a chateau that is located around five minutes away.",
+        "label":"neutral"
+    },
+    {
+        "premise":"You should be at the chateau about five minutes after leaving Kennesaw.",
+        "hypothesis":"There are no chateaus in Georgia.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"You should be at the chateau about five minutes after leaving Herriman.",
+        "hypothesis":"There is a chateau roughly five minutes away from a city in Illinois.",
+        "label":"neutral"
+    },
+    {
+        "premise":"You should be at the chateau about five minutes after leaving Owensboro.",
+        "hypothesis":"Every city in Mississippi has a chateau that is located around five minutes away.",
+        "label":"neutral"
+    },
+    {
+        "premise":"You should be at the chateau about five minutes after leaving Hilo.",
+        "hypothesis":"There are no chateaus in Oklahoma.",
+        "label":"neutral"
+    },
+    {
+        "premise":"I have reason to believe that she has been at one time or another in your establishment at Waukesha.",
+        "hypothesis":"I believe that she has been at an establishment here in Wisconsin at least once before.",
+        "label":"entailment"
+    },
+    {
+        "premise":"I have reason to believe that she has been at one time or another in your establishment at Opelousas.",
+        "hypothesis":"I think your establishment is the only one she has been to in Louisiana.",
+        "label":"neutral"
+    },
+    {
+        "premise":"I have reason to believe that she has been at one time or another in your establishment at Paragould.",
+        "hypothesis":"I don't think she has ever been to your establishment here in Arkansas before.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"I have reason to believe that she has been at one time or another in your establishment at Paragould.",
+        "hypothesis":"I believe that she has been at an establishment here in Colorado at least once before.",
+        "label":"neutral"
+    },
+    {
+        "premise":"I have reason to believe that she has been at one time or another in your establishment at Owensboro.",
+        "hypothesis":"I think your establishment is the only one she has been to in Indiana.",
+        "label":"neutral"
+    },
+    {
+        "premise":"I have reason to believe that she has been at one time or another in your establishment at Kennesaw.",
+        "hypothesis":"I don't think she has ever been to your establishment here in Utah before.",
+        "label":"neutral"
+    },
+    {
+        "premise":"A change in Ethnic identity is common in Kaysville.",
+        "hypothesis":"There are people who change their Ethnic identity in Utah.",
+        "label":"entailment"
+    },
+    {
+        "premise":"A change in Ethnic identity is common in Northglenn.",
+        "hypothesis":"People often change their Ethnic identity in Colorado.",
+        "label":"neutral"
+    },
+    {
+        "premise":"A change in Ethnic identity is common in Raytown.",
+        "hypothesis":"No one ever changes their Ethnic identity in Missouri.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"A change in Ethnic identity is common in Rexburg.",
+        "hypothesis":"There are people who change their Ethnic identity in Hawaii.",
+        "label":"neutral"
+    },
+    {
+        "premise":"A change in Ethnic identity is common in Casper.",
+        "hypothesis":"People often change their Ethnic identity in Illinois.",
+        "label":"neutral"
+    },
+    {
+        "premise":"A change in Ethnic identity is common in Owatonna.",
+        "hypothesis":"No one ever changes their Ethnic identity in Kansas.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Nestling at the foot of its ruined castle, the pretty medieval town of Bartlesville is widely known as the birthplace of Nobel Peace Prize winner Albert Schweitzer (1875 1965).",
+        "hypothesis":"Nobel Peace Prize winner Albert Schweitzer was born in Oklahoma.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Nestling at the foot of its ruined castle, the pretty medieval town of Raytown is widely known as the birthplace of Nobel Peace Prize winner Albert Schweitzer (1875 1965).",
+        "hypothesis":"His birthplace in Missouri was the only city that Albert Schweitzer lived in.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Nestling at the foot of its ruined castle, the pretty medieval town of Longmont is widely known as the birthplace of Nobel Peace Prize winner Albert Schweitzer (1875 1965).",
+        "hypothesis":"Nobel Peace Prize winner Albert Schweitzer was not born in Colorado.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Nestling at the foot of its ruined castle, the pretty medieval town of Kennesaw is widely known as the birthplace of Nobel Peace Prize winner Albert Schweitzer (1875 1965).",
+        "hypothesis":"Nobel Peace Prize winner Albert Schweitzer was born in Hawaii.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Nestling at the foot of its ruined castle, the pretty medieval town of Waukegan is widely known as the birthplace of Nobel Peace Prize winner Albert Schweitzer (1875 1965).",
+        "hypothesis":"His birthplace in Mississippi was the only city that Albert Schweitzer lived in.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Nestling at the foot of its ruined castle, the pretty medieval town of Ballwin is widely known as the birthplace of Nobel Peace Prize winner Albert Schweitzer (1875 1965).",
+        "hypothesis":"Nobel Peace Prize winner Albert Schweitzer was not born in Alabama.",
+        "label":"entailment"
+    },
+    {
+        "premise":"The main shrine buildings are among Longmont's most extensive, with rice and fox motifs everywhere.",
+        "hypothesis":"Some shrines in Colorado contain rice and fox motifs all over the place.",
+        "label":"entailment"
+    },
+    {
+        "premise":"The main shrine buildings are among Muskegon's most extensive, with rice and fox motifs everywhere.",
+        "hypothesis":"Shrines all throughout Michigan contain rice and fox motifs.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The main shrine buildings are among Muscatine's most extensive, with rice and fox motifs everywhere.",
+        "hypothesis":"There are no shrines in Iowa with rice and fox motifs.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The main shrine buildings are among Nicholasville's most extensive, with rice and fox motifs everywhere.",
+        "hypothesis":"Some shrines in Colorado contain rice and fox motifs all over the place.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The main shrine buildings are among Raytown's most extensive, with rice and fox motifs everywhere.",
+        "hypothesis":"Shrines all throughout Michigan contain rice and fox motifs.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The main shrine buildings are among Muskegon's most extensive, with rice and fox motifs everywhere.",
+        "hypothesis":"There are no shrines in Florida with rice and fox motifs.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Oliver Cromwell visited Moray House when he was Lord Protector of Hialeah.",
+        "hypothesis":"Oliver Cromwell was Lord Protector of a city in Florida.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Oliver Cromwell visited Moray House when he was Lord Protector of Muscatine.",
+        "hypothesis":"Even when he wasn't Lord Protector of a city in Iowa, Oliver Cromwell visited the Moray House.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Oliver Cromwell visited Moray House when he was Lord Protector of Hilo.",
+        "hypothesis":"During his time as Lord Protector in Hawaii, Oliver Cromwell never visited the Moray House.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Oliver Cromwell visited Moray House when he was Lord Protector of Northglenn.",
+        "hypothesis":"Oliver Cromwell was Lord Protector of a city in Mississippi.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Oliver Cromwell visited Moray House when he was Lord Protector of Alpharetta.",
+        "hypothesis":"Even when he wasn't Lord Protector of a city in Mississippi, Oliver Cromwell visited the Moray House.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Oliver Cromwell visited Moray House when he was Lord Protector of Muskegon.",
+        "hypothesis":"During his time as Lord Protector in Arizona, Oliver Cromwell never visited the Moray House.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Herriman was falling apart.",
+        "hypothesis":"Some cities in Utah were falling apart",
+        "label":"entailment"
+    },
+    {
+        "premise":"Waukesha was falling apart.",
+        "hypothesis":"The city of Tokyo in Wisconsin was falling apart",
+        "label":"neutral"
+    },
+    {
+        "premise":"Seattle was falling apart.",
+        "hypothesis":"No cities in Washington were falling apart",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Hialeah was falling apart.",
+        "hypothesis":"Some cities in Georgia were falling apart",
+        "label":"neutral"
+    },
+    {
+        "premise":"Longmont was falling apart.",
+        "hypothesis":"The city of Tokyo in Georgia was falling apart",
+        "label":"neutral"
+    },
+    {
+        "premise":"Ballwin was falling apart.",
+        "hypothesis":"No cities in Oklahoma were falling apart",
+        "label":"neutral"
+    },
+    {
+        "premise":"I saw you roll out of your saddle back in Biddeford.",
+        "hypothesis":"I saw you roll out your saddle back in Maine",
+        "label":"entailment"
+    },
+    {
+        "premise":"I saw you roll out of your saddle back in Hialeah.",
+        "hypothesis":"I saw you clean your saddle back in Florida",
+        "label":"neutral"
+    },
+    {
+        "premise":"I saw you roll out of your saddle back in Rexburg.",
+        "hypothesis":"I did not see you roll out your saddle back in Idaho",
+        "label":"contradiction"
+    },
+    {
+        "premise":"I saw you roll out of your saddle back in Gahanna.",
+        "hypothesis":"I saw you roll out your saddle back in Minnesota",
+        "label":"contradiction"
+    },
+    {
+        "premise":"I saw you roll out of your saddle back in Tucson.",
+        "hypothesis":"I saw you clean your saddle back in Idaho",
+        "label":"contradiction"
+    },
+    {
+        "premise":"I saw you roll out of your saddle back in Trussville.",
+        "hypothesis":"I did not see you roll out your saddle back in Washington",
+        "label":"entailment"
+    },
+    {
+        "premise":"Raytown attorney David Riggs, who heads the drive, is pushing for the community, especially local lawyers, to put it over the top.",
+        "hypothesis":"David Riggs is an attorney in Missouri",
+        "label":"entailment"
+    },
+    {
+        "premise":"Owatonna attorney David Riggs, who heads the drive, is pushing for the community, especially local lawyers, to put it over the top.",
+        "hypothesis":"In Minnesota, David Riggs also is working with corporate lawyers",
+        "label":"neutral"
+    },
+    {
+        "premise":"Kaysville attorney David Riggs, who heads the drive, is pushing for the community, especially local lawyers, to put it over the top.",
+        "hypothesis":"David Riggs is a salesman in Utah",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Hialeah attorney David Riggs, who heads the drive, is pushing for the community, especially local lawyers, to put it over the top.",
+        "hypothesis":"David Riggs is an attorney in Mississippi",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Barnstable attorney David Riggs, who heads the drive, is pushing for the community, especially local lawyers, to put it over the top.",
+        "hypothesis":"In Idaho, David Riggs also is working with corporate lawyers",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Scottsdale attorney David Riggs, who heads the drive, is pushing for the community, especially local lawyers, to put it over the top.",
+        "hypothesis":"David Riggs is a salesman in Mississippi",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The beaches are popular tourist spots, as well as whole Methuen itself.",
+        "hypothesis":"Massachusetts and the beaches located in it are famous tourists spots.",
+        "label":"entailment"
+    },
+    {
+        "premise":"The beaches are popular tourist spots, as well as whole Bartlesville itself.",
+        "hypothesis":"The beaches in Jerusalem are popular tourist spots in Oklahoma.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The beaches are popular tourist spots, as well as whole Raytown itself.",
+        "hypothesis":"In Missouri, the beaches are not famous tourist spots.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The beaches are popular tourist spots, as well as whole Tacoma itself.",
+        "hypothesis":"Massachusetts and the beaches located in it are famous tourists spots.",
+        "label":"entailment"
+    },
+    {
+        "premise":"The beaches are popular tourist spots, as well as whole Hattiesburg itself.",
+        "hypothesis":"The beaches in Jerusalem are popular tourist spots in Wyoming.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The beaches are popular tourist spots, as well as whole Biddeford itself.",
+        "hypothesis":"In Iowa, the beaches are not famous tourist spots.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Simmons is enthusiastic about his work with mobile park dwellers in Gahanna.",
+        "hypothesis":"Simmons works with mobile park dwellers in Ohio",
+        "label":"entailment"
+    },
+    {
+        "premise":"Simmons is enthusiastic about his work with mobile park dwellers in Noblesville.",
+        "hypothesis":"Simmons also works with mobile park dwellers outside of Indiana",
+        "label":"neutral"
+    },
+    {
+        "premise":"Simmons is enthusiastic about his work with mobile park dwellers in Longmont.",
+        "hypothesis":"Simmons works with mobile park dwellers only outside Colorado",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Simmons is enthusiastic about his work with mobile park dwellers in Biloxi.",
+        "hypothesis":"Simmons works with mobile park dwellers in Kansas",
+        "label":"neutral"
+    },
+    {
+        "premise":"Simmons is enthusiastic about his work with mobile park dwellers in Gaithersburg.",
+        "hypothesis":"Simmons also works with mobile park dwellers outside of Minnesota",
+        "label":"neutral"
+    },
+    {
+        "premise":"Simmons is enthusiastic about his work with mobile park dwellers in Trussville.",
+        "hypothesis":"Simmons works with mobile park dwellers only outside Ohio",
+        "label":"neutral"
+    },
+    {
+        "premise":"He negotiated the closing of Daphne's ports and land use.",
+        "hypothesis":"He negotiated the closing of some ports in Alabama",
+        "label":"entailment"
+    },
+    {
+        "premise":"He negotiated the closing of Rexburg's ports and land use.",
+        "hypothesis":"He negotiated the closing of all the ports in Idaho",
+        "label":"neutral"
+    },
+    {
+        "premise":"He negotiated the closing of Bettendorf's ports and land use.",
+        "hypothesis":"The only issue he negotiated in Iowa was the closing of some ports",
+        "label":"contradiction"
+    },
+    {
+        "premise":"He negotiated the closing of Hilo's ports and land use.",
+        "hypothesis":"He negotiated the closing of some ports in Missouri",
+        "label":"neutral"
+    },
+    {
+        "premise":"He negotiated the closing of Muscatine's ports and land use.",
+        "hypothesis":"He negotiated the closing of all the ports in Tennessee",
+        "label":"neutral"
+    },
+    {
+        "premise":"He negotiated the closing of Longmont's ports and land use.",
+        "hypothesis":"The only issue he negotiated in Louisiana was the closing of some ports",
+        "label":"neutral"
+    },
+    {
+        "premise":"The only reason Gahanna is so large is because Tokugawa Ieyasu made it the center of his domain.",
+        "hypothesis":"Tokugawa Ieyasu's domain center is in Ohio",
+        "label":"entailment"
+    },
+    {
+        "premise":"The only reason Paragould is so large is because Tokugawa Ieyasu made it the center of his domain.",
+        "hypothesis":"Tokugawa Ieyasu's domain is completely within Arkansas",
+        "label":"neutral"
+    },
+    {
+        "premise":"The only reason Waukegan is so large is because Tokugawa Ieyasu made it the center of his domain.",
+        "hypothesis":"Tokugawa Ieyasu has no domain in Illinois",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The only reason Longmont is so large is because Tokugawa Ieyasu made it the center of his domain.",
+        "hypothesis":"Tokugawa Ieyasu's domain center is in Iowa",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The only reason Lenexa is so large is because Tokugawa Ieyasu made it the center of his domain.",
+        "hypothesis":"Tokugawa Ieyasu's domain is completely within Tennessee",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The only reason Biddeford is so large is because Tokugawa Ieyasu made it the center of his domain.",
+        "hypothesis":"Tokugawa Ieyasu has no domain in Georgia",
+        "label":"neutral"
+    },
+    {
+        "premise":"The International Red Sea Jazz Festival is considered to be the red letter of Sheboygan's musical year.",
+        "hypothesis":"The International Red Sea Jazz Festival holds in at least one city in Wisconsin",
+        "label":"entailment"
+    },
+    {
+        "premise":"The International Red Sea Jazz Festival is considered to be the red letter of Muskegon's musical year.",
+        "hypothesis":"The International Red Sea Jazz Festival is famous all over Michigan",
+        "label":"neutral"
+    },
+    {
+        "premise":"The International Red Sea Jazz Festival is considered to be the red letter of Ballwin's musical year.",
+        "hypothesis":"There is no International Red Sea Jazz Festival anywhere in Missouri at any time",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The International Red Sea Jazz Festival is considered to be the red letter of Owatonna's musical year.",
+        "hypothesis":"The International Red Sea Jazz Festival holds in at least one city in Arkansas",
+        "label":"neutral"
+    },
+    {
+        "premise":"The International Red Sea Jazz Festival is considered to be the red letter of Alpharetta's musical year.",
+        "hypothesis":"The International Red Sea Jazz Festival is famous all over Michigan",
+        "label":"neutral"
+    },
+    {
+        "premise":"The International Red Sea Jazz Festival is considered to be the red letter of Tulsa's musical year.",
+        "hypothesis":"There is no International Red Sea Jazz Festival anywhere in Georgia at any time",
+        "label":"neutral"
+    },
+    {
+        "premise":"Golf can be played at any time of the year in Opelousas.",
+        "hypothesis":"There is a city in Louisiana where golf can be played all year round",
+        "label":"entailment"
+    },
+    {
+        "premise":"Golf can be played at any time of the year in Faribault.",
+        "hypothesis":"Golf can be played at any time of the year in Minnesota",
+        "label":"neutral"
+    },
+    {
+        "premise":"Golf can be played at any time of the year in Ballwin.",
+        "hypothesis":"Every city in Missouri has a particular time of the year only during which golf can be played",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Golf can be played at any time of the year in Ballwin.",
+        "hypothesis":"There is a city in Washington where golf can be played all year round",
+        "label":"neutral"
+    },
+    {
+        "premise":"Golf can be played at any time of the year in Paragould.",
+        "hypothesis":"Golf can be played at any time of the year in Ohio",
+        "label":"neutral"
+    },
+    {
+        "premise":"Golf can be played at any time of the year in Rexburg.",
+        "hypothesis":"Every city in Mississippi has a particular time of the year only during which golf can be played",
+        "label":"neutral"
+    },
+    {
+        "premise":"Beyond the main temple complex, Lenexa stretches out over the landscape as far as the eye can see, but many of the other remains are more difficult to identify.",
+        "hypothesis":"There is a temple complex in Kansas",
+        "label":"entailment"
+    },
+    {
+        "premise":"Beyond the main temple complex, Alpharetta stretches out over the landscape as far as the eye can see, but many of the other remains are more difficult to identify.",
+        "hypothesis":"Only one city in Georgia has a temple complex",
+        "label":"neutral"
+    },
+    {
+        "premise":"Beyond the main temple complex, Hialeah stretches out over the landscape as far as the eye can see, but many of the other remains are more difficult to identify.",
+        "hypothesis":"There are no temple complexes in Florida",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Beyond the main temple complex, Herriman stretches out over the landscape as far as the eye can see, but many of the other remains are more difficult to identify.",
+        "hypothesis":"There is a temple complex in Alabama",
+        "label":"neutral"
+    },
+    {
+        "premise":"Beyond the main temple complex, Owatonna stretches out over the landscape as far as the eye can see, but many of the other remains are more difficult to identify.",
+        "hypothesis":"Only one city in Tennessee has a temple complex",
+        "label":"neutral"
+    },
+    {
+        "premise":"Beyond the main temple complex, Waukesha stretches out over the landscape as far as the eye can see, but many of the other remains are more difficult to identify.",
+        "hypothesis":"There are no temple complexes in Wyoming",
+        "label":"neutral"
+    },
+    {
+        "premise":"The centerpiece of the project is the 70-story Landmark Tower, Rexburg's tallest building; its observation deck affords a spectacular view of the city and the Bay Bridge, especially at night.",
+        "hypothesis":"The Landmark Tower is in Idaho",
+        "label":"entailment"
+    },
+    {
+        "premise":"The centerpiece of the project is the 70-story Landmark Tower, Bartlesville's tallest building; its observation deck affords a spectacular view of the city and the Bay Bridge, especially at night.",
+        "hypothesis":"The tallest building in Oklahoma overlooks the Bay Bridge",
+        "label":"neutral"
+    },
+    {
+        "premise":"The centerpiece of the project is the 70-story Landmark Tower, Owensboro's tallest building; its observation deck affords a spectacular view of the city and the Bay Bridge, especially at night.",
+        "hypothesis":"The tallest building in Kentucky has only 60 stories",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The centerpiece of the project is the 70-story Landmark Tower, Tacoma's tallest building; its observation deck affords a spectacular view of the city and the Bay Bridge, especially at night.",
+        "hypothesis":"The Landmark Tower is in Illinois",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The centerpiece of the project is the 70-story Landmark Tower, Owensboro's tallest building; its observation deck affords a spectacular view of the city and the Bay Bridge, especially at night.",
+        "hypothesis":"The tallest building in Iowa overlooks the Bay Bridge",
+        "label":"neutral"
+    },
+    {
+        "premise":"The centerpiece of the project is the 70-story Landmark Tower, Bettendorf's tallest building; its observation deck affords a spectacular view of the city and the Bay Bridge, especially at night.",
+        "hypothesis":"The tallest building in Washington has only 60 stories",
+        "label":"neutral"
+    },
+    {
+        "premise":"The highlight of Seattle's musical year is the International Red Sea Jazz Festival (see page 89).",
+        "hypothesis":"The International Red Sea Jazz Festival holds in Washington",
+        "label":"entailment"
+    },
+    {
+        "premise":"The highlight of Naperville's musical year is the International Red Sea Jazz Festival (see page 89).",
+        "hypothesis":"Many cities in Illinois host the International Red Sea Jazz Festival",
+        "label":"neutral"
+    },
+    {
+        "premise":"The highlight of Northglenn's musical year is the International Red Sea Jazz Festival (see page 89).",
+        "hypothesis":"The International Red Sea Jazz Festival does not hold anywhere in Colorado",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The highlight of Waukegan's musical year is the International Red Sea Jazz Festival (see page 89).",
+        "hypothesis":"The International Red Sea Jazz Festival holds in Kentucky",
+        "label":"neutral"
+    },
+    {
+        "premise":"The highlight of Tulsa's musical year is the International Red Sea Jazz Festival (see page 89).",
+        "hypothesis":"Many cities in Kentucky host the International Red Sea Jazz Festival",
+        "label":"neutral"
+    },
+    {
+        "premise":"The highlight of Barnstable's musical year is the International Red Sea Jazz Festival (see page 89).",
+        "hypothesis":"The International Red Sea Jazz Festival does not hold anywhere in Oklahoma",
+        "label":"neutral"
+    },
+    {
+        "premise":"In addition to shops in Tulsa, there are many restaurants as well.",
+        "hypothesis":"There are shops and restaurants in Oklahoma",
+        "label":"entailment"
+    },
+    {
+        "premise":"In addition to shops in Strongsville, there are many restaurants as well.",
+        "hypothesis":"Only one city in Ohio has many restaurants",
+        "label":"neutral"
+    },
+    {
+        "premise":"In addition to shops in Longmont, there are many restaurants as well.",
+        "hypothesis":"There aren't any shops in Colorado",
+        "label":"contradiction"
+    },
+    {
+        "premise":"In addition to shops in Opelousas, there are many restaurants as well.",
+        "hypothesis":"There are shops and restaurants in Washington",
+        "label":"neutral"
+    },
+    {
+        "premise":"In addition to shops in Hialeah, there are many restaurants as well.",
+        "hypothesis":"Only one city in Arkansas has many restaurants",
+        "label":"neutral"
+    },
+    {
+        "premise":"In addition to shops in Bettendorf, there are many restaurants as well.",
+        "hypothesis":"There aren't any shops in Minnesota",
+        "label":"neutral"
+    },
+    {
+        "premise":"Gahanna was never home to any religious leaders.",
+        "hypothesis":"There is a city in Ohio that has never been home to a religious leader",
+        "label":"entailment"
+    },
+    {
+        "premise":"Novi was never home to any religious leaders.",
+        "hypothesis":"No city in Michigan has ever been home to any religious leader.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Novi was never home to any religious leaders.",
+        "hypothesis":"All the cities in Michigan have been home to religious leaders",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Sheboygan was never home to any religious leaders.",
+        "hypothesis":"There is a city in Mississippi that has never been home to a religious leader",
+        "label":"neutral"
+    },
+    {
+        "premise":"Owensboro was never home to any religious leaders.",
+        "hypothesis":"No city in Ohio has ever been home to any religious leader.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Sheboygan was never home to any religious leaders.",
+        "hypothesis":"All the cities in Oklahoma have been home to religious leaders",
+        "label":"neutral"
+    },
+    {
+        "premise":"If you want to shop for wines, you shouldn't go at Owatonna because they don't sell any.",
+        "hypothesis":"There is a city in Minnesota where they don't sell any wines",
+        "label":"entailment"
+    },
+    {
+        "premise":"If you want to shop for wines, you shouldn't go at Longmont because they don't sell any.",
+        "hypothesis":"They don't sell any wines in Colorado",
+        "label":"neutral"
+    },
+    {
+        "premise":"If you want to shop for wines, you shouldn't go at Alpharetta because they don't sell any.",
+        "hypothesis":"You can buy wines anywhere in Georgia",
+        "label":"contradiction"
+    },
+    {
+        "premise":"If you want to shop for wines, you shouldn't go at Daphne because they don't sell any.",
+        "hypothesis":"There is a city in Arizona where they don't sell any wines",
+        "label":"neutral"
+    },
+    {
+        "premise":"If you want to shop for wines, you shouldn't go at Kennesaw because they don't sell any.",
+        "hypothesis":"They don't sell any wines in Louisiana",
+        "label":"neutral"
+    },
+    {
+        "premise":"If you want to shop for wines, you shouldn't go at Bettendorf because they don't sell any.",
+        "hypothesis":"You can buy wines anywhere in Mississippi",
+        "label":"neutral"
+    },
+    {
+        "premise":"Northglenn is much too restrained for that and, besides, its party is strictly small scale.",
+        "hypothesis":"Colorado has a particular restrained city",
+        "label":"entailment"
+    },
+    {
+        "premise":"Hilo is much too restrained for that and, besides, its party is strictly small scale.",
+        "hypothesis":"Hawaii is a beautiful city",
+        "label":"neutral"
+    },
+    {
+        "premise":"Naperville is much too restrained for that and, besides, its party is strictly small scale.",
+        "hypothesis":"Illinois does not have a restrained city",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Tallahassee is much too restrained for that and, besides, its party is strictly small scale.",
+        "hypothesis":"Ohio has a particular restrained city",
+        "label":"neutral"
+    },
+    {
+        "premise":"Muskegon is much too restrained for that and, besides, its party is strictly small scale.",
+        "hypothesis":"Alabama is a beautiful city",
+        "label":"neutral"
+    },
+    {
+        "premise":"Owatonna is much too restrained for that and, besides, its party is strictly small scale.",
+        "hypothesis":"Indiana does not have a restrained city",
+        "label":"neutral"
+    },
+    {
+        "premise":"But the town's most cherished treasure is the magnificent Bayeux Tapestry (or more accurately, embroidery), which was created for Bayeux Cathedral in 1077 to tell the story of Duke William's conquest of Casper.",
+        "hypothesis":"magnificent Bayeux Tapestry is a treasure in Wyoming",
+        "label":"entailment"
+    },
+    {
+        "premise":"But the town's most cherished treasure is the magnificent Bayeux Tapestry (or more accurately, embroidery), which was created for Bayeux Cathedral in 1077 to tell the story of Duke William's conquest of Gahanna.",
+        "hypothesis":"magnificent Bayeux Tapestry is Ohio most cherished treasure",
+        "label":"neutral"
+    },
+    {
+        "premise":"But the town's most cherished treasure is the magnificent Bayeux Tapestry (or more accurately, embroidery), which was created for Bayeux Cathedral in 1077 to tell the story of Duke William's conquest of Ballwin.",
+        "hypothesis":"Missouri magnificent Bayeux Tapestry was created by Adam smith",
+        "label":"contradiction"
+    },
+    {
+        "premise":"But the town's most cherished treasure is the magnificent Bayeux Tapestry (or more accurately, embroidery), which was created for Bayeux Cathedral in 1077 to tell the story of Duke William's conquest of Faribault.",
+        "hypothesis":"magnificent Bayeux Tapestry is a treasure in Utah",
+        "label":"neutral"
+    },
+    {
+        "premise":"But the town's most cherished treasure is the magnificent Bayeux Tapestry (or more accurately, embroidery), which was created for Bayeux Cathedral in 1077 to tell the story of Duke William's conquest of Raytown.",
+        "hypothesis":"magnificent Bayeux Tapestry is Florida most cherished treasure",
+        "label":"neutral"
+    },
+    {
+        "premise":"But the town's most cherished treasure is the magnificent Bayeux Tapestry (or more accurately, embroidery), which was created for Bayeux Cathedral in 1077 to tell the story of Duke William's conquest of Gahanna.",
+        "hypothesis":"Hawaii magnificent Bayeux Tapestry was created by Adam smith",
+        "label":"neutral"
+    },
+    {
+        "premise":"The Ottoman Turks devastated Owatonna when they invaded.",
+        "hypothesis":"The ottoman Turks invaded Minnesota",
+        "label":"entailment"
+    },
+    {
+        "premise":"The Ottoman Turks devastated Kennesaw when they invaded.",
+        "hypothesis":"Ottoman Turks is a city in Georgia",
+        "label":"neutral"
+    },
+    {
+        "premise":"The Ottoman Turks devastated Daphne when they invaded.",
+        "hypothesis":"Ottoman Turks are friends with all cities in Alabama",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The Ottoman Turks devastated Hialeah when they invaded.",
+        "hypothesis":"The ottoman Turks invaded Oklahoma",
+        "label":"neutral"
+    },
+    {
+        "premise":"The Ottoman Turks devastated Waukesha when they invaded.",
+        "hypothesis":"Ottoman Turks is a city in Michigan",
+        "label":"neutral"
+    },
+    {
+        "premise":"The Ottoman Turks devastated Novi when they invaded.",
+        "hypothesis":"Ottoman Turks are friends with all cities in Missouri",
+        "label":"neutral"
+    },
+    {
+        "premise":"They had planned to stay in Raytown even if they had their victim's money.",
+        "hypothesis":"They planned to stay in Missouri",
+        "label":"entailment"
+    },
+    {
+        "premise":"They had planned to stay in Trussville even if they had their victim's money.",
+        "hypothesis":"They stay at London in Alabama",
+        "label":"neutral"
+    },
+    {
+        "premise":"They had planned to stay in Tallahassee even if they had their victim's money.",
+        "hypothesis":"They do not know what Florida is",
+        "label":"contradiction"
+    },
+    {
+        "premise":"They had planned to stay in Indianapolis even if they had their victim's money.",
+        "hypothesis":"They planned to stay in Kentucky",
+        "label":"contradiction"
+    },
+    {
+        "premise":"They had planned to stay in Herriman even if they had their victim's money.",
+        "hypothesis":"They stay at London in Colorado",
+        "label":"neutral"
+    },
+    {
+        "premise":"They had planned to stay in Bettendorf even if they had their victim's money.",
+        "hypothesis":"They do not know what Idaho is",
+        "label":"neutral"
+    },
+    {
+        "premise":"To the south, a natural barrier of mountain ranges comprises the border with Indonesian Kennesaw.",
+        "hypothesis":"There are mountains in Georgia",
+        "label":"entailment"
+    },
+    {
+        "premise":"To the south, a natural barrier of mountain ranges comprises the border with Indonesian Muskegon.",
+        "hypothesis":"Mountains in Michigan are hard to climb",
+        "label":"neutral"
+    },
+    {
+        "premise":"To the south, a natural barrier of mountain ranges comprises the border with Indonesian Nicholasville.",
+        "hypothesis":"There are no mountains in Kentucky",
+        "label":"contradiction"
+    },
+    {
+        "premise":"To the south, a natural barrier of mountain ranges comprises the border with Indonesian Tallahassee.",
+        "hypothesis":"There are mountains in Georgia",
+        "label":"neutral"
+    },
+    {
+        "premise":"To the south, a natural barrier of mountain ranges comprises the border with Indonesian Naperville.",
+        "hypothesis":"Mountains in Utah are hard to climb",
+        "label":"neutral"
+    },
+    {
+        "premise":"To the south, a natural barrier of mountain ranges comprises the border with Indonesian Raytown.",
+        "hypothesis":"There are no mountains in Mississippi",
+        "label":"neutral"
+    },
+    {
+        "premise":"Gustave Flaubert was born in Herriman and used the city as a setting in Madame Bovary.",
+        "hypothesis":"Gustave Flaubert was born in Utah",
+        "label":"entailment"
+    },
+    {
+        "premise":"Gustave Flaubert was born in Scottsdale and used the city as a setting in Madame Bovary.",
+        "hypothesis":"Citizens in Arizona are friendly",
+        "label":"neutral"
+    },
+    {
+        "premise":"Gustave Flaubert was born in Indianapolis and used the city as a setting in Madame Bovary.",
+        "hypothesis":"Madame Bovary is in Paris Indiana",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Gustave Flaubert was born in Biloxi and used the city as a setting in Madame Bovary.",
+        "hypothesis":"Gustave Flaubert was born in Michigan",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Gustave Flaubert was born in Waukesha and used the city as a setting in Madame Bovary.",
+        "hypothesis":"Citizens in Indiana are friendly",
+        "label":"neutral"
+    },
+    {
+        "premise":"Gustave Flaubert was born in Amarillo and used the city as a setting in Madame Bovary.",
+        "hypothesis":"Madame Bovary is in Paris Wisconsin",
+        "label":"neutral"
+    },
+    {
+        "premise":"It just so happened that the Department of Corrections had another electric chair, a full-size replica that it had had manufactured and then placed on display at the department's tiny and strange museum in Trussville.",
+        "hypothesis":"Department of corrections in Alabama, had Electric chairs",
+        "label":"entailment"
+    },
+    {
+        "premise":"It just so happened that the Department of Corrections had another electric chair, a full-size replica that it had had manufactured and then placed on display at the department's tiny and strange museum in Nicholasville.",
+        "hypothesis":"Electric Chairs in the Department of correction Kentucky are not so useful",
+        "label":"neutral"
+    },
+    {
+        "premise":"It just so happened that the Department of Corrections had another electric chair, a full-size replica that it had had manufactured and then placed on display at the department's tiny and strange museum in Opelousas.",
+        "hypothesis":"There are no department of corrections in Louisiana",
+        "label":"contradiction"
+    },
+    {
+        "premise":"It just so happened that the Department of Corrections had another electric chair, a full-size replica that it had had manufactured and then placed on display at the department's tiny and strange museum in Gaithersburg.",
+        "hypothesis":"Department of corrections in Florida, had Electric chairs",
+        "label":"neutral"
+    },
+    {
+        "premise":"It just so happened that the Department of Corrections had another electric chair, a full-size replica that it had had manufactured and then placed on display at the department's tiny and strange museum in Daphne.",
+        "hypothesis":"Electric Chairs in the Department of correction Louisiana are not so useful",
+        "label":"neutral"
+    },
+    {
+        "premise":"It just so happened that the Department of Corrections had another electric chair, a full-size replica that it had had manufactured and then placed on display at the department's tiny and strange museum in Daphne.",
+        "hypothesis":"There are no department of corrections in Iowa",
+        "label":"neutral"
+    },
+    {
+        "premise":"There are now just over 1 million poor citizens in Rexburg who qualify for our services.",
+        "hypothesis":"There are poor citizens in Idaho",
+        "label":"entailment"
+    },
+    {
+        "premise":"There are now just over 1 million poor citizens in Nicholasville who qualify for our services.",
+        "hypothesis":"Kentucky has the greatest economy in the world",
+        "label":"neutral"
+    },
+    {
+        "premise":"There are now just over 1 million poor citizens in Owensboro who qualify for our services.",
+        "hypothesis":"All citizens are rich in Kentucky",
+        "label":"contradiction"
+    },
+    {
+        "premise":"There are now just over 1 million poor citizens in Kaysville who qualify for our services.",
+        "hypothesis":"There are poor citizens in Florida",
+        "label":"neutral"
+    },
+    {
+        "premise":"There are now just over 1 million poor citizens in Sheboygan who qualify for our services.",
+        "hypothesis":"Missouri has the greatest economy in the world",
+        "label":"neutral"
+    },
+    {
+        "premise":"There are now just over 1 million poor citizens in Scottsdale who qualify for our services.",
+        "hypothesis":"All citizens are rich in Utah",
+        "label":"neutral"
+    },
+    {
+        "premise":"Time also runs a disturbing report from Nicholasville, where Iraqi commando units proved their battle-readiness by gutting a live dog on television while chanting, Our God, our nation, our leader!",
+        "hypothesis":"Some places in Kentucky have seen it's soldiers perform atrocities.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Time also runs a disturbing report from Daphne, where Iraqi commando units proved their battle-readiness by gutting a live dog on television while chanting, Our God, our nation, our leader!",
+        "hypothesis":"Time did not have permission to interview the commandos in Alabama.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Time also runs a disturbing report from Ballwin, where Iraqi commando units proved their battle-readiness by gutting a live dog on television while chanting, Our God, our nation, our leader!",
+        "hypothesis":"Commandos in Missouri are not allowed to appear on television.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Time also runs a disturbing report from Alpharetta, where Iraqi commando units proved their battle-readiness by gutting a live dog on television while chanting, Our God, our nation, our leader!",
+        "hypothesis":"Some places in Kentucky have seen it's soldiers perform atrocities.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Time also runs a disturbing report from Indianapolis, where Iraqi commando units proved their battle-readiness by gutting a live dog on television while chanting, Our God, our nation, our leader!",
+        "hypothesis":"Time did not have permission to interview the commandos in Florida.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Time also runs a disturbing report from Hilo, where Iraqi commando units proved their battle-readiness by gutting a live dog on television while chanting, Our God, our nation, our leader!",
+        "hypothesis":"Commandos in Kentucky are not allowed to appear on television.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Those he had ever cared about he could list on the fingers of one sun-browned, rein-hardened hand: Cousin Meredith; her son Shelly he had died at Kaysville between one short breath and the next Shelly's younger brother Boyd, who had run away to join Morgan, too, in the sunset of the raider's career; and Anse, whom he had believed dead until this past hour.",
+        "hypothesis":"Shelly had lost their life in Utah.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Those he had ever cared about he could list on the fingers of one sun-browned, rein-hardened hand: Cousin Meredith; her son Shelly he had died at Opelousas between one short breath and the next Shelly's younger brother Boyd, who had run away to join Morgan, too, in the sunset of the raider's career; and Anse, whom he had believed dead until this past hour.",
+        "hypothesis":"Shelly was buried in Louisiana.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Those he had ever cared about he could list on the fingers of one sun-browned, rein-hardened hand: Cousin Meredith; her son Shelly he had died at Cookeville between one short breath and the next Shelly's younger brother Boyd, who had run away to join Morgan, too, in the sunset of the raider's career; and Anse, whom he had believed dead until this past hour.",
+        "hypothesis":"Shelly is now living on the west coast of Tennessee.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Those he had ever cared about he could list on the fingers of one sun-browned, rein-hardened hand: Cousin Meredith; her son Shelly he had died at Novi between one short breath and the next Shelly's younger brother Boyd, who had run away to join Morgan, too, in the sunset of the raider's career; and Anse, whom he had believed dead until this past hour.",
+        "hypothesis":"Shelly had lost their life in Ohio.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Those he had ever cared about he could list on the fingers of one sun-browned, rein-hardened hand: Cousin Meredith; her son Shelly he had died at Paragould between one short breath and the next Shelly's younger brother Boyd, who had run away to join Morgan, too, in the sunset of the raider's career; and Anse, whom he had believed dead until this past hour.",
+        "hypothesis":"Shelly was buried in Illinois.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Those he had ever cared about he could list on the fingers of one sun-browned, rein-hardened hand: Cousin Meredith; her son Shelly he had died at Owatonna between one short breath and the next Shelly's younger brother Boyd, who had run away to join Morgan, too, in the sunset of the raider's career; and Anse, whom he had believed dead until this past hour.",
+        "hypothesis":"Shelly is now living on the west coast of Ohio.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Dutch and Rembrandt's cheerful Self-Portrait with a Toque, his beloved Hendrickje Stoffels, also portrayed nude in Bathsheba Bathing; Van Dyck's gracious, dignified Charles I of Hilo; among the scores of Rubens, his tenderly personal Helena Fourment; Jordaens' Four Evangelists as diligent Dutchmen.",
+        "hypothesis":"Charles I was from Hawaii.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Dutch and Rembrandt's cheerful Self-Portrait with a Toque, his beloved Hendrickje Stoffels, also portrayed nude in Bathsheba Bathing; Van Dyck's gracious, dignified Charles I of Northglenn; among the scores of Rubens, his tenderly personal Helena Fourment; Jordaens' Four Evangelists as diligent Dutchmen.",
+        "hypothesis":"Van Dyck's rendition of Charles I was completed in Colorado.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Dutch and Rembrandt's cheerful Self-Portrait with a Toque, his beloved Hendrickje Stoffels, also portrayed nude in Bathsheba Bathing; Van Dyck's gracious, dignified Charles I of Herriman; among the scores of Rubens, his tenderly personal Helena Fourment; Jordaens' Four Evangelists as diligent Dutchmen.",
+        "hypothesis":"The Four Evangelists were portrayed as workmen from Utah.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Dutch and Rembrandt's cheerful Self-Portrait with a Toque, his beloved Hendrickje Stoffels, also portrayed nude in Bathsheba Bathing; Van Dyck's gracious, dignified Charles I of Nampa; among the scores of Rubens, his tenderly personal Helena Fourment; Jordaens' Four Evangelists as diligent Dutchmen.",
+        "hypothesis":"Charles I was from Ohio.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Dutch and Rembrandt's cheerful Self-Portrait with a Toque, his beloved Hendrickje Stoffels, also portrayed nude in Bathsheba Bathing; Van Dyck's gracious, dignified Charles I of Cookeville; among the scores of Rubens, his tenderly personal Helena Fourment; Jordaens' Four Evangelists as diligent Dutchmen.",
+        "hypothesis":"Van Dyck's rendition of Charles I was completed in Colorado.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Dutch and Rembrandt's cheerful Self-Portrait with a Toque, his beloved Hendrickje Stoffels, also portrayed nude in Bathsheba Bathing; Van Dyck's gracious, dignified Charles I of Strongsville; among the scores of Rubens, his tenderly personal Helena Fourment; Jordaens' Four Evangelists as diligent Dutchmen.",
+        "hypothesis":"The Four Evangelists were portrayed as workmen from Iowa.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Rexburg's best-known district is named after a silver mint originally located here.",
+        "hypothesis":"A city district in Idaho is named after a silver mint.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Bartlesville's best-known district is named after a silver mint originally located here.",
+        "hypothesis":"Many city districts in Oklahoma are named after silver mints.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Amarillo's best-known district is named after a silver mint originally located here.",
+        "hypothesis":"Texas's city districts do not have any names.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Strongsville's best-known district is named after a silver mint originally located here.",
+        "hypothesis":"A city district in Wisconsin is named after a silver mint.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Rexburg's best-known district is named after a silver mint originally located here.",
+        "hypothesis":"Many city districts in Georgia are named after silver mints.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Muskegon's best-known district is named after a silver mint originally located here.",
+        "hypothesis":"Kentucky's city districts do not have any names.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The Chief Justice also testified to the Muscatine judiciary's keen interest in and support for Indiana Legal Services and the provision of pro bono by the private bar.",
+        "hypothesis":"There was testimony that the judiciary for a city in Iowa supported the provision of pro bono by the private bar.",
+        "label":"entailment"
+    },
+    {
+        "premise":"The Chief Justice also testified to the Herriman judiciary's keen interest in and support for Indiana Legal Services and the provision of pro bono by the private bar.",
+        "hypothesis":"In Utah, every city's judiciary supported the provision of pro bono by the private bar.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The Chief Justice also testified to the Northglenn judiciary's keen interest in and support for Indiana Legal Services and the provision of pro bono by the private bar.",
+        "hypothesis":"The Chief Justice did not give a testimony about the judiciary of a city in Colorado.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The Chief Justice also testified to the Scottsdale judiciary's keen interest in and support for Indiana Legal Services and the provision of pro bono by the private bar.",
+        "hypothesis":"There was testimony that the judiciary for a city in Iowa supported the provision of pro bono by the private bar.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The Chief Justice also testified to the Waukegan judiciary's keen interest in and support for Indiana Legal Services and the provision of pro bono by the private bar.",
+        "hypothesis":"In Arizona, every city's judiciary supported the provision of pro bono by the private bar.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The Chief Justice also testified to the Faribault judiciary's keen interest in and support for Indiana Legal Services and the provision of pro bono by the private bar.",
+        "hypothesis":"The Chief Justice did not give a testimony about the judiciary of a city in Oklahoma.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Casper is the dean of the Florida State University Law School.",
+        "hypothesis":"The dean of Florida State University Law School is a city in Wyoming.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Gaithersburg is the dean of the Florida State University Law School.",
+        "hypothesis":"All universities in Florida have a city in Maryland as its dean.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Scottsdale is the dean of the Florida State University Law School.",
+        "hypothesis":"No city in Arizona is a dean.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Kennesaw is the dean of the Florida State University Law School.",
+        "hypothesis":"The dean of Florida State University Law School is a city in Kentucky.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Tulsa is the dean of the Florida State University Law School.",
+        "hypothesis":"All universities in Florida have a city in Louisiana as its dean.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Herriman is the dean of the Florida State University Law School.",
+        "hypothesis":"No city in Washington is a dean.",
+        "label":"neutral"
+    },
+    {
+        "premise":"There are pleasant walks along the banks of the river Waukegan.",
+        "hypothesis":"There is a river in Illinois where you can have pleasant walks along its banks.",
+        "label":"entailment"
+    },
+    {
+        "premise":"There are pleasant walks along the banks of the river Sheboygan.",
+        "hypothesis":"There are many rivers in Wisconsin.",
+        "label":"neutral"
+    },
+    {
+        "premise":"There are pleasant walks along the banks of the river Rexburg.",
+        "hypothesis":"There are no river banks that you can walk along in Idaho.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"There are pleasant walks along the banks of the river Northglenn.",
+        "hypothesis":"There is a river in Massachusetts where you can have pleasant walks along its banks.",
+        "label":"neutral"
+    },
+    {
+        "premise":"There are pleasant walks along the banks of the river Tucson.",
+        "hypothesis":"There are many rivers in Indiana.",
+        "label":"neutral"
+    },
+    {
+        "premise":"There are pleasant walks along the banks of the river Owatonna.",
+        "hypothesis":"There are no river banks that you can walk along in Washington.",
+        "label":"neutral"
+    },
+    {
+        "premise":"They had friends in Bettendorf.",
+        "hypothesis":"At least some of their friends were in Iowa.",
+        "label":"entailment"
+    },
+    {
+        "premise":"They had friends in Alpharetta.",
+        "hypothesis":"All of their friends are in Georgia.",
+        "label":"neutral"
+    },
+    {
+        "premise":"They had friends in Bettendorf.",
+        "hypothesis":"None of their friends were in Iowa.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"They had friends in Faribault.",
+        "hypothesis":"At least some of their friends were in Missouri.",
+        "label":"neutral"
+    },
+    {
+        "premise":"They had friends in Tulsa.",
+        "hypothesis":"All of their friends are in Idaho.",
+        "label":"neutral"
+    },
+    {
+        "premise":"They had friends in Biddeford.",
+        "hypothesis":"None of their friends were in Arkansas.",
+        "label":"neutral"
+    },
+    {
+        "premise":"It's located very far from the Faribault.",
+        "hypothesis":"It is very far away from a city in Minnesota.",
+        "label":"entailment"
+    },
+    {
+        "premise":"It's located very far from the Northglenn.",
+        "hypothesis":"It is very far away from Colorado.",
+        "label":"neutral"
+    },
+    {
+        "premise":"It's located very far from the Longmont.",
+        "hypothesis":"It is close to every city in Colorado.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"It's located very far from the Cookeville.",
+        "hypothesis":"It is very far away from a city in Michigan.",
+        "label":"neutral"
+    },
+    {
+        "premise":"It's located very far from the Seattle.",
+        "hypothesis":"It is very far away from Utah.",
+        "label":"neutral"
+    },
+    {
+        "premise":"It's located very far from the Amarillo.",
+        "hypothesis":"It is close to every city in Arizona.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The organization's Hialeah office broadened its services from farm worker-related aid to basic assistance last year when the federal government chose to fund it, over Channel Counties Legal Services, as the county's sole provider of legal help to the poor.",
+        "hypothesis":"The federal government in Florida chose to fund an organization to be its county's sole provider of legal help for the poor.",
+        "label":"entailment"
+    },
+    {
+        "premise":"The organization's Nicholasville office broadened its services from farm worker-related aid to basic assistance last year when the federal government chose to fund it, over Channel Counties Legal Services, as the county's sole provider of legal help to the poor.",
+        "hypothesis":"The organization broadened its services all throughout Kentucky.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The organization's Hialeah office broadened its services from farm worker-related aid to basic assistance last year when the federal government chose to fund it, over Channel Counties Legal Services, as the county's sole provider of legal help to the poor.",
+        "hypothesis":"The federal government in Florida chose to fund Channel Counties Legal Services as the county's sole provider of legal help for the poor.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The organization's Amarillo office broadened its services from farm worker-related aid to basic assistance last year when the federal government chose to fund it, over Channel Counties Legal Services, as the county's sole provider of legal help to the poor.",
+        "hypothesis":"The federal government in Iowa chose to fund an organization to be its county's sole provider of legal help for the poor.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The organization's Daphne office broadened its services from farm worker-related aid to basic assistance last year when the federal government chose to fund it, over Channel Counties Legal Services, as the county's sole provider of legal help to the poor.",
+        "hypothesis":"The organization broadened its services all throughout Mississippi.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The organization's Tacoma office broadened its services from farm worker-related aid to basic assistance last year when the federal government chose to fund it, over Channel Counties Legal Services, as the county's sole provider of legal help to the poor.",
+        "hypothesis":"The federal government in Arkansas chose to fund Channel Counties Legal Services as the county's sole provider of legal help for the poor.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Nampa is always undergoing some kind of creative change.",
+        "hypothesis":"Creative change is always occurring in a city in Idaho.",
+        "label":"entailment"
+    },
+    {
+        "premise":"Muscatine is always undergoing some kind of creative change.",
+        "hypothesis":"Creative change is always occurring in Iowa.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Gaithersburg is always undergoing some kind of creative change.",
+        "hypothesis":"Cities in Maryland are never changing.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Owatonna is always undergoing some kind of creative change.",
+        "hypothesis":"Creative change is always occurring in a city in Iowa.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Bettendorf is always undergoing some kind of creative change.",
+        "hypothesis":"Creative change is always occurring in Colorado.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Sheboygan is always undergoing some kind of creative change.",
+        "hypothesis":"Cities in Indiana are never changing.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The victorious Minamoto clan chose Bettendorf as its headquarters because this fishing village girded on three sides by steep wooded hills was a natural fortress.",
+        "hypothesis":"The Minamoto clan chose a fishing village in Iowa as their headquarters.",
+        "label":"entailment"
+    },
+    {
+        "premise":"The victorious Minamoto clan chose Cookeville as its headquarters because this fishing village girded on three sides by steep wooded hills was a natural fortress.",
+        "hypothesis":"Clans in Tennessee always chose fishing villages as their headquarters.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The victorious Minamoto clan chose Naperville as its headquarters because this fishing village girded on three sides by steep wooded hills was a natural fortress.",
+        "hypothesis":"The Minamoto clan chose a fishing village outside of Illinois as their headquarters.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The victorious Minamoto clan chose Bartlesville as its headquarters because this fishing village girded on three sides by steep wooded hills was a natural fortress.",
+        "hypothesis":"The Minamoto clan chose a fishing village in Arizona as their headquarters.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The victorious Minamoto clan chose Opelousas as its headquarters because this fishing village girded on three sides by steep wooded hills was a natural fortress.",
+        "hypothesis":"Clans in Michigan always chose fishing villages as their headquarters.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The victorious Minamoto clan chose Trussville as its headquarters because this fishing village girded on three sides by steep wooded hills was a natural fortress.",
+        "hypothesis":"The Minamoto clan chose a fishing village outside of Kentucky as their headquarters.",
+        "label":"entailment"
+    },
+    {
+        "premise":"The Novi shogunate was founded late in the 12th century after a long and bloody rivalry between two noble factions over control of the imperial court.",
+        "hypothesis":"In late 12th century Michigan, a shogunate was founded.",
+        "label":"entailment"
+    },
+    {
+        "premise":"The Raytown shogunate was founded late in the 12th century after a long and bloody rivalry between two noble factions over control of the imperial court.",
+        "hypothesis":"Every shogunate in Missouri was founded after a bloody rivalry between factions.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The Alpharetta shogunate was founded late in the 12th century after a long and bloody rivalry between two noble factions over control of the imperial court.",
+        "hypothesis":"In Georgia, no shogunate was founded during the 12th century.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The Methuen shogunate was founded late in the 12th century after a long and bloody rivalry between two noble factions over control of the imperial court.",
+        "hypothesis":"In late 12th century Missouri, a shogunate was founded.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The Sheboygan shogunate was founded late in the 12th century after a long and bloody rivalry between two noble factions over control of the imperial court.",
+        "hypothesis":"Every shogunate in Minnesota was founded after a bloody rivalry between factions.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The Gaithersburg shogunate was founded late in the 12th century after a long and bloody rivalry between two noble factions over control of the imperial court.",
+        "hypothesis":"In Alabama, no shogunate was founded during the 12th century.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The wholesale dealers in the area supply majority of the fish consumed in Biddeford.",
+        "hypothesis":"In Maine, some wholesale dealers may supply most of the fish in their respective areas.",
+        "label":"entailment"
+    },
+    {
+        "premise":"The wholesale dealers in the area supply majority of the fish consumed in Tallahassee.",
+        "hypothesis":"Wholesale dealers supply most of the fish in every city in Florida.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The wholesale dealers in the area supply majority of the fish consumed in Hilo.",
+        "hypothesis":"Wholesale dealers do not supply any fish in Hawaii.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The wholesale dealers in the area supply majority of the fish consumed in Tallahassee.",
+        "hypothesis":"In Washington, some wholesale dealers may supply most of the fish in their respective areas.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The wholesale dealers in the area supply majority of the fish consumed in Muscatine.",
+        "hypothesis":"Wholesale dealers supply most of the fish in every city in Massachusetts.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The wholesale dealers in the area supply majority of the fish consumed in Noblesville.",
+        "hypothesis":"Wholesale dealers do not supply any fish in Oklahoma.",
+        "label":"neutral"
+    },
+    {
+        "premise":"In the long-term, the Northglenn earthquake was economically beneficial.",
+        "hypothesis":"For a city in Colorado, an earthquake was economically beneficial for it in the long-term.",
+        "label":"entailment"
+    },
+    {
+        "premise":"In the long-term, the Methuen earthquake was economically beneficial.",
+        "hypothesis":"Earthquakes in Massachusetts are always economically beneficial in the long-term.",
+        "label":"neutral"
+    },
+    {
+        "premise":"In the long-term, the Ballwin earthquake was economically beneficial.",
+        "hypothesis":"It is never economically beneficial for any city in Missouri to have an earthquake.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"In the long-term, the Muskegon earthquake was economically beneficial.",
+        "hypothesis":"For a city in Mississippi, an earthquake was economically beneficial for it in the long-term.",
+        "label":"neutral"
+    },
+    {
+        "premise":"In the long-term, the Tulsa earthquake was economically beneficial.",
+        "hypothesis":"Earthquakes in Florida are always economically beneficial in the long-term.",
+        "label":"neutral"
+    },
+    {
+        "premise":"In the long-term, the Scottsdale earthquake was economically beneficial.",
+        "hypothesis":"It is never economically beneficial for any city in Michigan to have an earthquake.",
+        "label":"neutral"
+    },
+    {
+        "premise":"In 1998, the four LSC-funded programs in Tacoma submitted a state plan to LSC that was seriously flawed.",
+        "hypothesis":"In Washington, a state plan that was submitted in 1998 was flawed.",
+        "label":"entailment"
+    },
+    {
+        "premise":"In 1998, the four LSC-funded programs in Naperville submitted a state plan to LSC that was seriously flawed.",
+        "hypothesis":"In Illinois, LSC-funded programs always submits state plans that are flawed.",
+        "label":"neutral"
+    },
+    {
+        "premise":"In 1998, the four LSC-funded programs in Tucson submitted a state plan to LSC that was seriously flawed.",
+        "hypothesis":"In Arizona, all state plans submitted by LSC-funded programs in 1998 were perfect.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"In 1998, the four LSC-funded programs in Noblesville submitted a state plan to LSC that was seriously flawed.",
+        "hypothesis":"In Wisconsin, a state plan that was submitted in 1998 was flawed.",
+        "label":"neutral"
+    },
+    {
+        "premise":"In 1998, the four LSC-funded programs in Longmont submitted a state plan to LSC that was seriously flawed.",
+        "hypothesis":"In Arizona, LSC-funded programs always submits state plans that are flawed.",
+        "label":"neutral"
+    },
+    {
+        "premise":"In 1998, the four LSC-funded programs in Herriman submitted a state plan to LSC that was seriously flawed.",
+        "hypothesis":"In Massachusetts, all state plans submitted by LSC-funded programs in 1998 were perfect.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Home again after a hard day at the office, the director of a consumer electronics company who wears a business suit in downtown Northglenn sees nothing strange about buying cigarettes from a machine located inches from a sacred Shinto shrine.",
+        "hypothesis":"There is at least one Shinto shrine in Colorado",
+        "label":"entailment"
+    },
+    {
+        "premise":"Home again after a hard day at the office, the director of a consumer electronics company who wears a business suit in downtown Sheboygan sees nothing strange about buying cigarettes from a machine located inches from a sacred Shinto shrine.",
+        "hypothesis":"Cigarettes are not allowed in sacred Shinto shrines in Wisconsin",
+        "label":"neutral"
+    },
+    {
+        "premise":"Home again after a hard day at the office, the director of a consumer electronics company who wears a business suit in downtown Noblesville sees nothing strange about buying cigarettes from a machine located inches from a sacred Shinto shrine.",
+        "hypothesis":"You cannot buy cigarettes in Indiana",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Home again after a hard day at the office, the director of a consumer electronics company who wears a business suit in downtown Owensboro sees nothing strange about buying cigarettes from a machine located inches from a sacred Shinto shrine.",
+        "hypothesis":"There is at least one Shinto shrine in Iowa",
+        "label":"neutral"
+    },
+    {
+        "premise":"Home again after a hard day at the office, the director of a consumer electronics company who wears a business suit in downtown Nicholasville sees nothing strange about buying cigarettes from a machine located inches from a sacred Shinto shrine.",
+        "hypothesis":"Cigarettes are not allowed in sacred Shinto shrines in Washington",
+        "label":"neutral"
+    },
+    {
+        "premise":"Home again after a hard day at the office, the director of a consumer electronics company who wears a business suit in downtown Tucson sees nothing strange about buying cigarettes from a machine located inches from a sacred Shinto shrine.",
+        "hypothesis":"You cannot buy cigarettes in Colorado",
+        "label":"neutral"
+    },
+    {
+        "premise":"The brothers are remembered today as the true founders of both the state and the city Bienville later served as the first governor of Muskegon.",
+        "hypothesis":"The brothers that are considered the true founders of Bienville served as the first governor of a city in Michigan",
+        "label":"entailment"
+    },
+    {
+        "premise":"The brothers are remembered today as the true founders of both the state and the city Bienville later served as the first governor of Raytown.",
+        "hypothesis":"Bienville is a city in Missouri",
+        "label":"neutral"
+    },
+    {
+        "premise":"The brothers are remembered today as the true founders of both the state and the city Bienville later served as the first governor of Tulsa.",
+        "hypothesis":"No governor of a city in Oklahoma is known to have founded a state or city",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The brothers are remembered today as the true founders of both the state and the city Bienville later served as the first governor of Kaysville.",
+        "hypothesis":"The brothers that are considered the true founders of Bienville served as the first governor of a city in Colorado",
+        "label":"neutral"
+    },
+    {
+        "premise":"The brothers are remembered today as the true founders of both the state and the city Bienville later served as the first governor of Cookeville.",
+        "hypothesis":"Bienville is a city in Massachusetts",
+        "label":"neutral"
+    },
+    {
+        "premise":"The brothers are remembered today as the true founders of both the state and the city Bienville later served as the first governor of Lenexa.",
+        "hypothesis":"No governor of a city in Oklahoma is known to have founded a state or city",
+        "label":"neutral"
+    },
+    {
+        "premise":"One of the best deep-sea fishing spots is around Opelousas, known for its swordfish.",
+        "hypothesis":"You can find a very good deep-sea fishing spot close to a city in Louisiana",
+        "label":"entailment"
+    },
+    {
+        "premise":"One of the best deep-sea fishing spots is around Owensboro, known for its swordfish.",
+        "hypothesis":"There is a very good deep-sea fishing spot in Kentucky",
+        "label":"neutral"
+    },
+    {
+        "premise":"One of the best deep-sea fishing spots is around Biddeford, known for its swordfish.",
+        "hypothesis":"You cannot find swordfish anywhere close to Maine",
+        "label":"contradiction"
+    },
+    {
+        "premise":"One of the best deep-sea fishing spots is around Naperville, known for its swordfish.",
+        "hypothesis":"You can find a very good deep-sea fishing spot close to a city in Ohio",
+        "label":"neutral"
+    },
+    {
+        "premise":"One of the best deep-sea fishing spots is around Rexburg, known for its swordfish.",
+        "hypothesis":"There is a very good deep-sea fishing spot in Indiana",
+        "label":"neutral"
+    },
+    {
+        "premise":"One of the best deep-sea fishing spots is around Nampa, known for its swordfish.",
+        "hypothesis":"You cannot find swordfish anywhere close to Kansas",
+        "label":"neutral"
+    },
+    {
+        "premise":"There are Lenexa-period paintings in the Tokeiji treasure house.",
+        "hypothesis":"Some of the paintings in the Tokeiji treasure house are from Kansas",
+        "label":"entailment"
+    },
+    {
+        "premise":"There are Muskegon-period paintings in the Tokeiji treasure house.",
+        "hypothesis":"The Tokeiji treasure house is located in Michigan.",
+        "label":"neutral"
+    },
+    {
+        "premise":"There are Tulsa-period paintings in the Tokeiji treasure house.",
+        "hypothesis":"The Tokeiji treasure house has only paintings from outside Oklahoma.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"There are Hialeah-period paintings in the Tokeiji treasure house.",
+        "hypothesis":"Some of the paintings in the Tokeiji treasure house are from Minnesota",
+        "label":"neutral"
+    },
+    {
+        "premise":"There are Owensboro-period paintings in the Tokeiji treasure house.",
+        "hypothesis":"The Tokeiji treasure house is located in Ohio.",
+        "label":"neutral"
+    },
+    {
+        "premise":"There are Cookeville-period paintings in the Tokeiji treasure house.",
+        "hypothesis":"The Tokeiji treasure house has only paintings from outside Alabama.",
+        "label":"neutral"
+    },
+    {
+        "premise":"Novi is the national center for such traditional disciplines as cha-do (tea ceremony) and ikebana (flower arranging), the birthplace of kabuki, and the leading center of calligraphy, painting, and sculpture.",
+        "hypothesis":"Michigan has a national center for traditional disciplines such as cha-do and ikebana",
+        "label":"entailment"
+    },
+    {
+        "premise":"Faribault is the national center for such traditional disciplines as cha-do (tea ceremony) and ikebana (flower arranging), the birthplace of kabuki, and the leading center of calligraphy, painting, and sculpture.",
+        "hypothesis":"There are many cities in Minnesota where traditional disciplines such as cha-do and ikebana are held",
+        "label":"neutral"
+    },
+    {
+        "premise":"Daphne is the national center for such traditional disciplines as cha-do (tea ceremony) and ikebana (flower arranging), the birthplace of kabuki, and the leading center of calligraphy, painting, and sculpture.",
+        "hypothesis":"Calligraphy, painting, and sculpture are not practiced in Alabama",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Hialeah is the national center for such traditional disciplines as cha-do (tea ceremony) and ikebana (flower arranging), the birthplace of kabuki, and the leading center of calligraphy, painting, and sculpture.",
+        "hypothesis":"Missouri has a national center for traditional disciplines such as cha-do and ikebana",
+        "label":"neutral"
+    },
+    {
+        "premise":"Muscatine is the national center for such traditional disciplines as cha-do (tea ceremony) and ikebana (flower arranging), the birthplace of kabuki, and the leading center of calligraphy, painting, and sculpture.",
+        "hypothesis":"There are many cities in Georgia where traditional disciplines such as cha-do and ikebana are held",
+        "label":"neutral"
+    },
+    {
+        "premise":"Trussville is the national center for such traditional disciplines as cha-do (tea ceremony) and ikebana (flower arranging), the birthplace of kabuki, and the leading center of calligraphy, painting, and sculpture.",
+        "hypothesis":"Calligraphy, painting, and sculpture are not practiced in Arizona",
+        "label":"neutral"
+    },
+    {
+        "premise":"The Sanja Matsuri, held here every year on the third weekend in May, is the biggest, most exuberant festival in Sheboygan.",
+        "hypothesis":"The Sanja Matsuri festival is held annually in a city in Wisconsin",
+        "label":"entailment"
+    },
+    {
+        "premise":"The Sanja Matsuri, held here every year on the third weekend in May, is the biggest, most exuberant festival in Gaithersburg.",
+        "hypothesis":"The Sanja Matsuri is the most exuberant festival held in Maryland",
+        "label":"neutral"
+    },
+    {
+        "premise":"The Sanja Matsuri, held here every year on the third weekend in May, is the biggest, most exuberant festival in Bartlesville.",
+        "hypothesis":"The Sanja Matsuri is held at most once in every five years in any Oklahoma city",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The Sanja Matsuri, held here every year on the third weekend in May, is the biggest, most exuberant festival in Paragould.",
+        "hypothesis":"The Sanja Matsuri festival is held annually in a city in Oklahoma",
+        "label":"neutral"
+    },
+    {
+        "premise":"The Sanja Matsuri, held here every year on the third weekend in May, is the biggest, most exuberant festival in Waukesha.",
+        "hypothesis":"The Sanja Matsuri is the most exuberant festival held in Alabama",
+        "label":"neutral"
+    },
+    {
+        "premise":"The Sanja Matsuri, held here every year on the third weekend in May, is the biggest, most exuberant festival in Kennesaw.",
+        "hypothesis":"The Sanja Matsuri is held at most once in every five years in any Idaho city",
+        "label":"neutral"
+    },
+    {
+        "premise":"Dated in Sheboygan for a prisoner of war June, 1865.",
+        "hypothesis":"Dated in a city in Wisconsin for a prisoner of war June, 1865",
+        "label":"entailment"
+    },
+    {
+        "premise":"Dated in Tucson for a prisoner of war June, 1865.",
+        "hypothesis":"Dated in a city in Arizona for a prisoner of war June 1st, 1865",
+        "label":"neutral"
+    },
+    {
+        "premise":"Dated in Faribault for a prisoner of war June, 1865.",
+        "hypothesis":"Dated in a city in Minnesota for a prisoner of war July, 1866",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Dated in Casper for a prisoner of war June, 1865.",
+        "hypothesis":"Dated in a city in Washington for a prisoner of war June, 1865",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Dated in Kaysville for a prisoner of war June, 1865.",
+        "hypothesis":"Dated in a city in Illinois for a prisoner of war June 1st, 1865",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Dated in Faribault for a prisoner of war June, 1865.",
+        "hypothesis":"Dated in a city in Tennessee for a prisoner of war July, 1866",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The sights, sounds, and smells of old Novi bombard the senses.",
+        "hypothesis":"There is a city in Michigan that can overwhelm your senses with its sights, sounds and smells.",
+        "label":"entailment"
+    },
+    {
+        "premise":"The sights, sounds, and smells of old Bartlesville bombard the senses.",
+        "hypothesis":"All cities in Oklahoma are characterized by overwhelming sounds, sights and smells",
+        "label":"neutral"
+    },
+    {
+        "premise":"The sights, sounds, and smells of old Gahanna bombard the senses.",
+        "hypothesis":"All the cities in Ohio are quite boring and have little to offer the senses",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The sights, sounds, and smells of old Novi bombard the senses.",
+        "hypothesis":"There is a city in Minnesota that can overwhelm your senses with its sights, sounds and smells.",
+        "label":"neutral"
+    },
+    {
+        "premise":"The sights, sounds, and smells of old Ballwin bombard the senses.",
+        "hypothesis":"All cities in Michigan are characterized by overwhelming sounds, sights and smells",
+        "label":"neutral"
+    },
+    {
+        "premise":"The sights, sounds, and smells of old Gahanna bombard the senses.",
+        "hypothesis":"All the cities in Colorado are quite boring and have little to offer the senses",
+        "label":"neutral"
+    },
+    {
+        "premise":"He had learned the importance of reputation and connections to private sector fund-raising after his excellent cases about the 1994 Daphne earthquake was referenced by the Federal Emergency Management Agency.",
+        "hypothesis":"There was an earthquake in Alabama in 1994",
+        "label":"entailment"
+    },
+    {
+        "premise":"He had learned the importance of reputation and connections to private sector fund-raising after his excellent cases about the 1994 Indianapolis earthquake was referenced by the Federal Emergency Management Agency.",
+        "hypothesis":"He was in Indiana when the Federal Emergency Management Agency referenced his cases",
+        "label":"neutral"
+    },
+    {
+        "premise":"He had learned the importance of reputation and connections to private sector fund-raising after his excellent cases about the 1994 Lenexa earthquake was referenced by the Federal Emergency Management Agency.",
+        "hypothesis":"The Federal Emergency Management Agency only referenced his cases that were based outside of Kansas",
+        "label":"contradiction"
+    },
+    {
+        "premise":"He had learned the importance of reputation and connections to private sector fund-raising after his excellent cases about the 1994 Daphne earthquake was referenced by the Federal Emergency Management Agency.",
+        "hypothesis":"There was an earthquake in Michigan in 1994",
+        "label":"neutral"
+    },
+    {
+        "premise":"He had learned the importance of reputation and connections to private sector fund-raising after his excellent cases about the 1994 Methuen earthquake was referenced by the Federal Emergency Management Agency.",
+        "hypothesis":"He was in Mississippi when the Federal Emergency Management Agency referenced his cases",
+        "label":"neutral"
+    },
+    {
+        "premise":"He had learned the importance of reputation and connections to private sector fund-raising after his excellent cases about the 1994 Raytown earthquake was referenced by the Federal Emergency Management Agency.",
+        "hypothesis":"The Federal Emergency Management Agency only referenced his cases that were based outside of Florida",
+        "label":"neutral"
+    },
+    {
+        "premise":"You wonder if he could win a general election in Naperville as a Democrat.",
+        "hypothesis":"You are not sure if he could win a general election as a Democrat in a certain city in Illinois",
+        "label":"entailment"
+    },
+    {
+        "premise":"You wonder if he could win a general election in Herriman as a Democrat.",
+        "hypothesis":"You are not sure if he could win a general election as a Democrat in any city in Utah",
+        "label":"neutral"
+    },
+    {
+        "premise":"You wonder if he could win a general election in Waukesha as a Democrat.",
+        "hypothesis":"You are certain he could win a general election in any city in Wisconsin as a Democrat",
+        "label":"contradiction"
+    },
+    {
+        "premise":"You wonder if he could win a general election in Strongsville as a Democrat.",
+        "hypothesis":"You are not sure if he could win a general election as a Democrat in a certain city in Wyoming",
+        "label":"neutral"
+    },
+    {
+        "premise":"You wonder if he could win a general election in Naperville as a Democrat.",
+        "hypothesis":"You are not sure if he could win a general election as a Democrat in any city in Missouri",
+        "label":"neutral"
+    },
+    {
+        "premise":"You wonder if he could win a general election in Northglenn as a Democrat.",
+        "hypothesis":"You are certain he could win a general election in any city in Hawaii as a Democrat",
+        "label":"neutral"
+    },
+    {
+        "premise":"Gricault is a painter who was born in Strongsville.",
+        "hypothesis":"Gricault was born in Ohio",
+        "label":"entailment"
+    },
+    {
+        "premise":"Gricault is a painter who was born in Bartlesville.",
+        "hypothesis":"Gricault was born in Oklahoma and has only ever been a painter",
+        "label":"neutral"
+    },
+    {
+        "premise":"Gricault is a painter who was born in Methuen.",
+        "hypothesis":"Gricault was born in Massachusetts and practices law as his only profession.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Gricault is a painter who was born in Barnstable.",
+        "hypothesis":"Gricault was born in Iowa",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Gricault is a painter who was born in Lenexa.",
+        "hypothesis":"Gricault was born in Arizona and has only ever been a painter",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Gricault is a painter who was born in Biloxi.",
+        "hypothesis":"Gricault was born in Iowa and practices law as his only profession.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The bus ride from Seattle to the mighty Mt. Aso volcano takes you acrosesome gently rolling hills, past orange groves, fields of watermelon, and the special grass used for tatami mats.",
+        "hypothesis":"You can take a bus ride from a city in Washington to the mighty Mt. Aso volcano",
+        "label":"entailment"
+    },
+    {
+        "premise":"The bus ride from Biloxi to the mighty Mt. Aso volcano takes you acrosesome gently rolling hills, past orange groves, fields of watermelon, and the special grass used for tatami mats.",
+        "hypothesis":"The mighty Mt. Aso volcano is located in Mississippi",
+        "label":"neutral"
+    },
+    {
+        "premise":"The bus ride from Hilo to the mighty Mt. Aso volcano takes you acrosesome gently rolling hills, past orange groves, fields of watermelon, and the special grass used for tatami mats.",
+        "hypothesis":"You cannot travel by bus from any city in Hawaii",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The bus ride from Paragould to the mighty Mt. Aso volcano takes you acrosesome gently rolling hills, past orange groves, fields of watermelon, and the special grass used for tatami mats.",
+        "hypothesis":"You can take a bus ride from a city in Colorado to the mighty Mt. Aso volcano",
+        "label":"neutral"
+    },
+    {
+        "premise":"The bus ride from Faribault to the mighty Mt. Aso volcano takes you acrosesome gently rolling hills, past orange groves, fields of watermelon, and the special grass used for tatami mats.",
+        "hypothesis":"The mighty Mt. Aso volcano is located in Kentucky",
+        "label":"neutral"
+    },
+    {
+        "premise":"The bus ride from Owatonna to the mighty Mt. Aso volcano takes you acrosesome gently rolling hills, past orange groves, fields of watermelon, and the special grass used for tatami mats.",
+        "hypothesis":"You cannot travel by bus from any city in Hawaii",
+        "label":"neutral"
+    },
+    {
+        "premise":"I certainly hope to spend even more time in the Kaysville area.",
+        "hypothesis":"I hope to spend more time around a city in Utah",
+        "label":"entailment"
+    },
+    {
+        "premise":"I certainly hope to spend even more time in the Bettendorf area.",
+        "hypothesis":"I hope to spend more time in Iowa",
+        "label":"neutral"
+    },
+    {
+        "premise":"I certainly hope to spend even more time in the Alpharetta area.",
+        "hypothesis":"I do not wish to spend more time anywhere around any city in Georgia",
+        "label":"contradiction"
+    },
+    {
+        "premise":"I certainly hope to spend even more time in the Muskegon area.",
+        "hypothesis":"I hope to spend more time around a city in Texas",
+        "label":"neutral"
+    },
+    {
+        "premise":"I certainly hope to spend even more time in the Kennesaw area.",
+        "hypothesis":"I hope to spend more time in Wisconsin",
+        "label":"neutral"
+    },
+    {
+        "premise":"I certainly hope to spend even more time in the Noblesville area.",
+        "hypothesis":"I do not wish to spend more time anywhere around any city in Georgia",
+        "label":"neutral"
+    },
+    {
+        "premise":"The capital is close to Barnstable.",
+        "hypothesis":"The capital is close to a city in Massachusetts",
+        "label":"entailment"
+    },
+    {
+        "premise":"The capital is close to Kaysville.",
+        "hypothesis":"The capital is in Utah",
+        "label":"neutral"
+    },
+    {
+        "premise":"The capital is close to Opelousas.",
+        "hypothesis":"The capital is not located anywhere in or around Louisiana",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The capital is close to Hattiesburg.",
+        "hypothesis":"The capital is close to a city in Maine",
+        "label":"neutral"
+    },
+    {
+        "premise":"The capital is close to Gahanna.",
+        "hypothesis":"The capital is in Illinois",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The capital is close to Bettendorf.",
+        "hypothesis":"The capital is not located anywhere in or around Texas",
+        "label":"neutral"
+    },
+    {
+        "premise":"The missionaries' purpose was to convert the people of Gahanna.",
+        "hypothesis":"The missionaries wanted to convert some people in Ohio",
+        "label":"entailment"
+    },
+    {
+        "premise":"The missionaries' purpose was to convert the people of Indianapolis.",
+        "hypothesis":"The missionaries were successful with their mission in Indiana",
+        "label":"neutral"
+    },
+    {
+        "premise":"The missionaries' purpose was to convert the people of Seattle.",
+        "hypothesis":"The missionaries were not interested in any of the people of Washington",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The missionaries' purpose was to convert the people of Gaithersburg.",
+        "hypothesis":"The missionaries wanted to convert some people in Illinois",
+        "label":"neutral"
+    },
+    {
+        "premise":"The missionaries' purpose was to convert the people of Nicholasville.",
+        "hypothesis":"The missionaries were successful with their mission in Maine",
+        "label":"neutral"
+    },
+    {
+        "premise":"The missionaries' purpose was to convert the people of Herriman.",
+        "hypothesis":"The missionaries were not interested in any of the people of Washington",
+        "label":"neutral"
+    },
+    {
+        "premise":"They were south of Muscatine.",
+        "hypothesis":"They were south of a city in Iowa",
+        "label":"entailment"
+    },
+    {
+        "premise":"They were south of Bartlesville.",
+        "hypothesis":"They were in Oklahoma",
+        "label":"neutral"
+    },
+    {
+        "premise":"They were south of Northglenn.",
+        "hypothesis":"They were not at all close to Colorado",
+        "label":"contradiction"
+    },
+    {
+        "premise":"They were south of Biloxi.",
+        "hypothesis":"They were south of a city in Illinois",
+        "label":"neutral"
+    },
+    {
+        "premise":"They were south of Bettendorf.",
+        "hypothesis":"They were in Wisconsin",
+        "label":"neutral"
+    },
+    {
+        "premise":"They were south of Tulsa.",
+        "hypothesis":"They were not at all close to Idaho",
+        "label":"neutral"
+    },
+    {
+        "premise":"The second-hand books in the Tacoma district must be of the utmost quality to be sold in stores.",
+        "hypothesis":"There are stores in Washington that sell second-hand books",
+        "label":"entailment"
+    },
+    {
+        "premise":"The second-hand books in the Seattle district must be of the utmost quality to be sold in stores.",
+        "hypothesis":"Second-hand books are sold in only one district in Washington",
+        "label":"neutral"
+    },
+    {
+        "premise":"The second-hand books in the Faribault district must be of the utmost quality to be sold in stores.",
+        "hypothesis":"Only firsthand books are sold in all the stores in Minnesota.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The second-hand books in the Gaithersburg district must be of the utmost quality to be sold in stores.",
+        "hypothesis":"There are stores in Illinois that sell second-hand books",
+        "label":"neutral"
+    },
+    {
+        "premise":"The second-hand books in the Owensboro district must be of the utmost quality to be sold in stores.",
+        "hypothesis":"Second-hand books are sold in only one district in Arkansas",
+        "label":"neutral"
+    },
+    {
+        "premise":"The second-hand books in the Hialeah district must be of the utmost quality to be sold in stores.",
+        "hypothesis":"Only firsthand books are sold in all the stores in Georgia.",
+        "label":"neutral"
+    },
+    {
+        "premise":"There are very few Cajuns left in Sheboygan.",
+        "hypothesis":"They are Cajuns in Wisconsin",
+        "label":"entailment"
+    },
+    {
+        "premise":"There are very few Cajuns left in Sheboygan.",
+        "hypothesis":"There are only very few Cajuns left in Wisconsin",
+        "label":"neutral"
+    },
+    {
+        "premise":"There are very few Cajuns left in Tacoma.",
+        "hypothesis":"You cannot find any Cajuns in Washington",
+        "label":"contradiction"
+    },
+    {
+        "premise":"There are very few Cajuns left in Alpharetta.",
+        "hypothesis":"They are Cajuns in Arizona",
+        "label":"neutral"
+    },
+    {
+        "premise":"There are very few Cajuns left in Hialeah.",
+        "hypothesis":"There are only very few Cajuns left in Minnesota",
+        "label":"neutral"
+    },
+    {
+        "premise":"There are very few Cajuns left in Herriman.",
+        "hypothesis":"You cannot find any Cajuns in Arizona",
+        "label":"neutral"
+    },
+    {
+        "premise":"A number of excellent visits are within easy reach of Rexburg.",
+        "hypothesis":"There are great visits within easy reach of a city in Idaho",
+        "label":"entailment"
+    },
+    {
+        "premise":"A number of excellent visits are within easy reach of Gahanna.",
+        "hypothesis":"All the great visits are within Ohio",
+        "label":"neutral"
+    },
+    {
+        "premise":"A number of excellent visits are within easy reach of Tallahassee.",
+        "hypothesis":"There are no excellent visits within easy reach of any city in Florida",
+        "label":"contradiction"
+    },
+    {
+        "premise":"A number of excellent visits are within easy reach of Hialeah.",
+        "hypothesis":"There are great visits within easy reach of a city in Colorado",
+        "label":"neutral"
+    },
+    {
+        "premise":"A number of excellent visits are within easy reach of Trussville.",
+        "hypothesis":"All the great visits are within Indiana",
+        "label":"neutral"
+    },
+    {
+        "premise":"A number of excellent visits are within easy reach of Scottsdale.",
+        "hypothesis":"There are no excellent visits within easy reach of any city in Illinois",
+        "label":"neutral"
+    },
+    {
+        "premise":"Next door to the cathedral is the archaeological museum with finds from every era of Novi's long history.",
+        "hypothesis":"Cities in Michigan has long history",
+        "label":"entailment"
+    },
+    {
+        "premise":"Next door to the cathedral is the archaeological museum with finds from every era of Indianapolis's long history.",
+        "hypothesis":"Indiana is a country with good economy",
+        "label":"neutral"
+    },
+    {
+        "premise":"Next door to the cathedral is the archaeological museum with finds from every era of Daphne's long history.",
+        "hypothesis":"There are no museums in Alabama",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Next door to the cathedral is the archaeological museum with finds from every era of Gaithersburg's long history.",
+        "hypothesis":"Cities in Hawaii has long history",
+        "label":"neutral"
+    },
+    {
+        "premise":"Next door to the cathedral is the archaeological museum with finds from every era of Faribault's long history.",
+        "hypothesis":"Kansas is a country with good economy",
+        "label":"neutral"
+    },
+    {
+        "premise":"Next door to the cathedral is the archaeological museum with finds from every era of Nicholasville's long history.",
+        "hypothesis":"There are no museums in Utah",
+        "label":"neutral"
+    },
+    {
+        "premise":"The battlefield at Azincourt lies about 15 km (10 miles) north of Naperville, just off the D928.",
+        "hypothesis":"The battlefield at Azincourt is located in Illinois",
+        "label":"entailment"
+    },
+    {
+        "premise":"The battlefield at Azincourt lies about 15 km (10 miles) north of Alpharetta, just off the D928.",
+        "hypothesis":"There are many battle fields in Georgia",
+        "label":"neutral"
+    },
+    {
+        "premise":"The battlefield at Azincourt lies about 15 km (10 miles) north of Paragould, just off the D928.",
+        "hypothesis":"No battle field exist in Arkansas",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The battlefield at Azincourt lies about 15 km (10 miles) north of Raytown, just off the D928.",
+        "hypothesis":"The battlefield at Azincourt is located in Kentucky",
+        "label":"neutral"
+    },
+    {
+        "premise":"The battlefield at Azincourt lies about 15 km (10 miles) north of Muscatine, just off the D928.",
+        "hypothesis":"There are many battle fields in Colorado",
+        "label":"neutral"
+    },
+    {
+        "premise":"The battlefield at Azincourt lies about 15 km (10 miles) north of Tucson, just off the D928.",
+        "hypothesis":"No battle field exist in Iowa",
+        "label":"neutral"
+    },
+    {
+        "premise":"Muscatine is the place to buy for the beginner.",
+        "hypothesis":"The Beginner has a city to buy in Iowa",
+        "label":"entailment"
+    },
+    {
+        "premise":"Scottsdale is the place to buy for the beginner.",
+        "hypothesis":"There are many tall buildings in Arizona",
+        "label":"neutral"
+    },
+    {
+        "premise":"Muskegon is the place to buy for the beginner.",
+        "hypothesis":"The beginner has no place to buy in Michigan",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Scottsdale is the place to buy for the beginner.",
+        "hypothesis":"The Beginner has a city to buy in Minnesota",
+        "label":"neutral"
+    },
+    {
+        "premise":"Raytown is the place to buy for the beginner.",
+        "hypothesis":"There are many tall buildings in Arkansas",
+        "label":"neutral"
+    },
+    {
+        "premise":"Opelousas is the place to buy for the beginner.",
+        "hypothesis":"The beginner has no place to buy in Kansas",
+        "label":"neutral"
+    },
+    {
+        "premise":"Ask at tourist offices for information on bike tours of the city and outlying areas such as Tallahassee.",
+        "hypothesis":"As a tourist you can have a bike tour in Florida",
+        "label":"entailment"
+    },
+    {
+        "premise":"Ask at tourist offices for information on bike tours of the city and outlying areas such as Seattle.",
+        "hypothesis":"All cities in Washington have bike tours",
+        "label":"neutral"
+    },
+    {
+        "premise":"Ask at tourist offices for information on bike tours of the city and outlying areas such as Owensboro.",
+        "hypothesis":"Tourist are not allowed in Kentucky",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Ask at tourist offices for information on bike tours of the city and outlying areas such as Lenexa.",
+        "hypothesis":"As a tourist you can have a bike tour in Hawaii",
+        "label":"neutral"
+    },
+    {
+        "premise":"Ask at tourist offices for information on bike tours of the city and outlying areas such as Cookeville.",
+        "hypothesis":"All cities in Idaho have bike tours",
+        "label":"neutral"
+    },
+    {
+        "premise":"Ask at tourist offices for information on bike tours of the city and outlying areas such as Nicholasville.",
+        "hypothesis":"Tourist are not allowed in Ohio",
+        "label":"neutral"
+    },
+    {
+        "premise":"A Strongsville annex, the Casen del Buen Retiro, up the hill in calle de Felipe IV, houses a collection of 19th-century paintings, but remained closed for renovations in 2000.",
+        "hypothesis":"There is a collection of 19th-century paintings in Ohio",
+        "label":"entailment"
+    },
+    {
+        "premise":"A Casper annex, the Casen del Buen Retiro, up the hill in calle de Felipe IV, houses a collection of 19th-century paintings, but remained closed for renovations in 2000.",
+        "hypothesis":"The the Casen del Buen Retiro in Wyoming will remain closed till 2030",
+        "label":"neutral"
+    },
+    {
+        "premise":"A Biloxi annex, the Casen del Buen Retiro, up the hill in calle de Felipe IV, houses a collection of 19th-century paintings, but remained closed for renovations in 2000.",
+        "hypothesis":"the Casen del Buen Retiro in Mississippi operated even in 2000",
+        "label":"contradiction"
+    },
+    {
+        "premise":"A Naperville annex, the Casen del Buen Retiro, up the hill in calle de Felipe IV, houses a collection of 19th-century paintings, but remained closed for renovations in 2000.",
+        "hypothesis":"There is a collection of 19th-century paintings in Missouri",
+        "label":"neutral"
+    },
+    {
+        "premise":"A Hilo annex, the Casen del Buen Retiro, up the hill in calle de Felipe IV, houses a collection of 19th-century paintings, but remained closed for renovations in 2000.",
+        "hypothesis":"The the Casen del Buen Retiro in Massachusetts will remain closed till 2030",
+        "label":"neutral"
+    },
+    {
+        "premise":"A Tacoma annex, the Casen del Buen Retiro, up the hill in calle de Felipe IV, houses a collection of 19th-century paintings, but remained closed for renovations in 2000.",
+        "hypothesis":"the Casen del Buen Retiro in Indiana operated even in 2000",
+        "label":"neutral"
+    },
+    {
+        "premise":"The qualifications for the award were based upon demonstrated dedication to the innovative development and delivery of legal services to the poor in one of the 14 pro bono districts of Seattle.",
+        "hypothesis":"persons who delivers of legal services to the poor are awarded in Washington",
+        "label":"entailment"
+    },
+    {
+        "premise":"The qualifications for the award were based upon demonstrated dedication to the innovative development and delivery of legal services to the poor in one of the 14 pro bono districts of Strongsville.",
+        "hypothesis":"Awards can be recieved in any aspect and services delivered in Ohio",
+        "label":"neutral"
+    },
+    {
+        "premise":"The qualifications for the award were based upon demonstrated dedication to the innovative development and delivery of legal services to the poor in one of the 14 pro bono districts of Gaithersburg.",
+        "hypothesis":"Maryland does not Award for Serving the country",
+        "label":"contradiction"
+    },
+    {
+        "premise":"The qualifications for the award were based upon demonstrated dedication to the innovative development and delivery of legal services to the poor in one of the 14 pro bono districts of Kaysville.",
+        "hypothesis":"persons who delivers of legal services to the poor are awarded in Indiana",
+        "label":"neutral"
+    },
+    {
+        "premise":"The qualifications for the award were based upon demonstrated dedication to the innovative development and delivery of legal services to the poor in one of the 14 pro bono districts of Owatonna.",
+        "hypothesis":"Awards can be recieved in any aspect and services delivered in Hawaii",
+        "label":"neutral"
+    },
+    {
+        "premise":"The qualifications for the award were based upon demonstrated dedication to the innovative development and delivery of legal services to the poor in one of the 14 pro bono districts of Muscatine.",
+        "hypothesis":"Indiana does not Award for Serving the country",
+        "label":"neutral"
+    },
+    {
+        "premise":"Wine growers in Noblesville are mostly from other countries.",
+        "hypothesis":"Wine is grown in Indiana",
+        "label":"entailment"
+    },
+    {
+        "premise":"Wine growers in Hialeah are mostly from other countries.",
+        "hypothesis":"Wine growers in Florida are from USA",
+        "label":"neutral"
+    },
+    {
+        "premise":"Wine growers in Hattiesburg are mostly from other countries.",
+        "hypothesis":"most wine growers in Mississippi are French",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Wine growers in Hialeah are mostly from other countries.",
+        "hypothesis":"Wine is grown in Maine",
+        "label":"neutral"
+    },
+    {
+        "premise":"Wine growers in Herriman are mostly from other countries.",
+        "hypothesis":"Wine growers in Alabama are from USA",
+        "label":"neutral"
+    },
+    {
+        "premise":"Wine growers in Northglenn are mostly from other countries.",
+        "hypothesis":"most wine growers in Ohio are French",
+        "label":"neutral"
+    },
+    {
+        "premise":"Herriman has abandoned pragmatism in favor of idealism.",
+        "hypothesis":"A city in Utah practiced pragmatism",
+        "label":"entailment"
+    },
+    {
+        "premise":"Trussville has abandoned pragmatism in favor of idealism.",
+        "hypothesis":"All cities in Alabama practiced pragmatism",
+        "label":"neutral"
+    },
+    {
+        "premise":"Nicholasville has abandoned pragmatism in favor of idealism.",
+        "hypothesis":"No city in Kentucky practiced pragmatism",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Strongsville has abandoned pragmatism in favor of idealism.",
+        "hypothesis":"A city in Mississippi practiced pragmatism",
+        "label":"neutral"
+    },
+    {
+        "premise":"Noblesville has abandoned pragmatism in favor of idealism.",
+        "hypothesis":"All cities in Idaho practiced pragmatism",
+        "label":"neutral"
+    },
+    {
+        "premise":"Ballwin has abandoned pragmatism in favor of idealism.",
+        "hypothesis":"No city in Indiana practiced pragmatism",
+        "label":"neutral"
+    },
+    {
+        "premise":"You can go to Muscatine's factories for needlework.",
+        "hypothesis":"Iowa has factories for needlework",
+        "label":"entailment"
+    },
+    {
+        "premise":"You can go to Biddeford's factories for needlework.",
+        "hypothesis":"Maine has two factories for needlework",
+        "label":"neutral"
+    },
+    {
+        "premise":"You can go to Alpharetta's factories for needlework.",
+        "hypothesis":"Georgia does not have a factory for needlework",
+        "label":"contradiction"
+    },
+    {
+        "premise":"You can go to Scottsdale's factories for needlework.",
+        "hypothesis":"Maryland has factories for needlework",
+        "label":"neutral"
+    },
+    {
+        "premise":"You can go to Kennesaw's factories for needlework.",
+        "hypothesis":"Mississippi has two factories for needlework",
+        "label":"neutral"
+    },
+    {
+        "premise":"You can go to Hattiesburg's factories for needlework.",
+        "hypothesis":"Michigan does not have a factory for needlework",
+        "label":"neutral"
+    },
+    {
+        "premise":"Back in Durbar Square, pigeons swirl constantly around one of Tallahassee's most colorful shrines, the Kala (Black) Bhairav.",
+        "hypothesis":"Florida has colorful shrines",
+        "label":"entailment"
+    },
+    {
+        "premise":"Back in Durbar Square, pigeons swirl constantly around one of Waukegan's most colorful shrines, the Kala (Black) Bhairav.",
+        "hypothesis":"Illinois has at least one colorful shrine in Kathmandu",
+        "label":"neutral"
+    },
+    {
+        "premise":"Back in Durbar Square, pigeons swirl constantly around one of Tulsa's most colorful shrines, the Kala (Black) Bhairav.",
+        "hypothesis":"The only colorful shrines in Oklahoma are in Lalitpur.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Back in Durbar Square, pigeons swirl constantly around one of Cookeville's most colorful shrines, the Kala (Black) Bhairav.",
+        "hypothesis":"Oklahoma has colorful shrines",
+        "label":"neutral"
+    },
+    {
+        "premise":"Back in Durbar Square, pigeons swirl constantly around one of Tucson's most colorful shrines, the Kala (Black) Bhairav.",
+        "hypothesis":"Louisiana has at least one colorful shrine in Kathmandu",
+        "label":"neutral"
+    },
+    {
+        "premise":"Back in Durbar Square, pigeons swirl constantly around one of Tacoma's most colorful shrines, the Kala (Black) Bhairav.",
+        "hypothesis":"The only colorful shrines in Colorado are in Lalitpur.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Tallahassee's single central area is trendy.",
+        "hypothesis":"There is a trendy area in Florida",
+        "label":"entailment"
+    },
+    {
+        "premise":"Biloxi's single central area is trendy.",
+        "hypothesis":"The only trendy area in Mississippi is the single central area",
+        "label":"neutral"
+    },
+    {
+        "premise":"Waukegan's single central area is trendy.",
+        "hypothesis":"The whole of Illinois is old and outdated",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Gahanna's single central area is trendy.",
+        "hypothesis":"There is a trendy area in Idaho",
+        "label":"neutral"
+    },
+    {
+        "premise":"Tacoma's single central area is trendy.",
+        "hypothesis":"The only trendy area in Colorado is the single central area",
+        "label":"neutral"
+    },
+    {
+        "premise":"Nampa's single central area is trendy.",
+        "hypothesis":"The whole of Indiana is old and outdated",
+        "label":"neutral"
+    },
+    {
+        "premise":"During the '70s and '80s I packed up each February and headed west to work replanting clearcuts and thinning young trees in the rainy woods around Amarillo.",
+        "hypothesis":"During the '80s, every second month of the year saw me replanting clearcuts and thinning young trees in the rainy woods around a city in Texas",
+        "label":"entailment"
+    },
+    {
+        "premise":"During the '70s and '80s I packed up each February and headed west to work replanting clearcuts and thinning young trees in the rainy woods around Waukegan.",
+        "hypothesis":"During the '70s and '80s, I lived in Illinois.",
+        "label":"neutral"
+    },
+    {
+        "premise":"During the '70s and '80s I packed up each February and headed west to work replanting clearcuts and thinning young trees in the rainy woods around Nicholasville.",
+        "hypothesis":"During the '70s and '80s, I used to spend the first two months of the year on vacation in Kentucky, taking a break from any kind of work.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"During the '70s and '80s I packed up each February and headed west to work replanting clearcuts and thinning young trees in the rainy woods around Strongsville.",
+        "hypothesis":"During the '80s, every second month of the year saw me replanting clearcuts and thinning young trees in the rainy woods around a city in Washington",
+        "label":"neutral"
+    },
+    {
+        "premise":"During the '70s and '80s I packed up each February and headed west to work replanting clearcuts and thinning young trees in the rainy woods around Scottsdale.",
+        "hypothesis":"During the '70s and '80s, I lived in Massachusetts.",
+        "label":"neutral"
+    },
+    {
+        "premise":"During the '70s and '80s I packed up each February and headed west to work replanting clearcuts and thinning young trees in the rainy woods around Hialeah.",
+        "hypothesis":"During the '70s and '80s, I used to spend the first two months of the year on vacation in Michigan, taking a break from any kind of work.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Gaithersburg is the most popular festival among Japanese children.",
+        "hypothesis":"There is a popular festival in Maryland named after a city",
+        "label":"entailment"
+    },
+    {
+        "premise":"Hialeah is the most popular festival among Japanese children.",
+        "hypothesis":"The most popular festival in Florida is named after a city",
+        "label":"neutral"
+    },
+    {
+        "premise":"Muskegon is the most popular festival among Japanese children.",
+        "hypothesis":"The festivals in Michigan that are named after cities are only known among the adults",
+        "label":"contradiction"
+    },
+    {
+        "premise":"Seattle is the most popular festival among Japanese children.",
+        "hypothesis":"There is a popular festival in Utah named after a city",
+        "label":"neutral"
+    },
+    {
+        "premise":"Paragould is the most popular festival among Japanese children.",
+        "hypothesis":"The most popular festival in Kentucky is named after a city",
+        "label":"neutral"
+    },
+    {
+        "premise":"Northglenn is the most popular festival among Japanese children.",
+        "hypothesis":"The festivals in Washington that are named after cities are only known among the adults",
+        "label":"neutral"
+    },
+    {
+        "premise":"However, elsewhere around Rexburg, there are other stagnant ponds from which rise statues of Nagas; these ponds, too, are dedicated to the snake gods.",
+        "hypothesis":"There are ponds dedicated to snake gods near a city in Idaho",
+        "label":"entailment"
+    },
+    {
+        "premise":"However, elsewhere around Noblesville, there are other stagnant ponds from which rise statues of Nagas; these ponds, too, are dedicated to the snake gods.",
+        "hypothesis":"All the ponds dedicated to the snake gods are in Indiana",
+        "label":"neutral"
+    },
+    {
+        "premise":"However, elsewhere around Hilo, there are other stagnant ponds from which rise statues of Nagas; these ponds, too, are dedicated to the snake gods.",
+        "hypothesis":"You would have to go a very far distance from Hawaii to find any statues of Nagas.",
+        "label":"contradiction"
+    },
+    {
+        "premise":"However, elsewhere around Amarillo, there are other stagnant ponds from which rise statues of Nagas; these ponds, too, are dedicated to the snake gods.",
+        "hypothesis":"There are ponds dedicated to snake gods near a city in Washington",
+        "label":"neutral"
+    },
+    {
+        "premise":"However, elsewhere around Tucson, there are other stagnant ponds from which rise statues of Nagas; these ponds, too, are dedicated to the snake gods.",
+        "hypothesis":"All the ponds dedicated to the snake gods are in Alabama",
+        "label":"neutral"
+    },
+    {
+        "premise":"However, elsewhere around Daphne, there are other stagnant ponds from which rise statues of Nagas; these ponds, too, are dedicated to the snake gods.",
+        "hypothesis":"You would have to go a very far distance from Florida to find any statues of Nagas.",
+        "label":"neutral"
+    }
+]
