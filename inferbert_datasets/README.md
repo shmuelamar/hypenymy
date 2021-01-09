@@ -13,7 +13,8 @@ $ find logs/ -name '*.log' | sort | \
 $ find logs -name '*.log' | sort | \
   xargs grep -E 'allennlp.commands.evaluate - accuracy:|"validation_accuracy":|"training_accuracy":'
 $ find logs -name '*.log' | sort | \
-  xargs grep -E 'allennlp.commands.evaluate - accuracy:|"validation_accuracy":'
+  xargs grep -Eo 'allennlp.commands.evaluate - accuracy:.*|"validation_accuracy":.*'
+$ find logs -name '*.log' | sort | xargs grep -E '"validation_accuracy":'
 ```
 
 ## Dataset Eval Example

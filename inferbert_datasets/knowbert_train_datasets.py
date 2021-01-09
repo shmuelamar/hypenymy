@@ -21,7 +21,7 @@ logger.setLevel('INFO')
 SEED = 42
 # on every dataset we have different delay (depends on size takes to load it)
 SLEEP_BY_DATASET = {
-    'dataset_creative': 120,
+    'dataset_creative': 180,
     'mnli_10k_split': 300,
     'mnli_full': 600,
 }
@@ -42,7 +42,7 @@ TRAIN_GRID = {
 def run_cmd(cmd, logfile):
     env = {'PYTHONWARNINGS': 'once', 'TMPDIR': './tmp'}
     env.update(os.environ)
-    logger.info(f'running job {cmd!r} {env!r}')
+    logger.info(f'running job {cmd!r}')
     subprocess.Popen(
         cmd,
         stdout=open(logfile, 'w'),

@@ -18,6 +18,8 @@ EVAL_DATASETS = {
     # FIXME: copy into this repo
     'mnli_dev_matched': '../../mnli_1.0/dev_matched.tsv.gz',
     'creative_test': 'dataset_creative/dataset_creative_test.json',
+    'common_test': 'dataset_creative/dataset_creative_test_common.json',
+    'rare_test': 'dataset_creative/dataset_creative_test_rare.json',
     # 'creative_dev': 'dataset_creative/dataset_creative_dev.json',
 }
 
@@ -60,6 +62,10 @@ def main():
                 dataset_filename = os.path.join(
                     DATASETS_DIR, params['dataset'], dataset_filename
                 )
+
+            if not os.path.exists(dataset_filename):
+                logger.info(f'skipping {dataset_filename} - not exist')
+                continue
 
             model_filename, log_filename = get_filenames(params)
             if not is_finished(log_filename):
