@@ -12,7 +12,7 @@ from knowbert_train_datasets import (
     DATASETS_DIR,
 )
 
-SLEEP_BY_DATASET = {'mnli_dev_matched': 150, None: 60}  # others
+SLEEP_BY_DATASET = {'mnli_dev_matched': 150, None: 120}  # others
 
 EVAL_DATASETS = {
     # FIXME: copy into this repo

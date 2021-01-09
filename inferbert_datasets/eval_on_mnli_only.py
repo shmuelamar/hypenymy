@@ -19,14 +19,16 @@ def main():
         pardir, pardir, 'mnli_final_model', 'model.tar.gz'
     )
 
+    os.makedirs('logs/mnli', exist_ok=True)
     for dataset_name, dataset_filename in ALL_EVAL_DATASETS.items():
         logger.info(f'predict mnli on {dataset_name}')
         gpu = get_free_cuda_device()
+
         run_eval_job(
             model_tar_filename,
             cuda_device=gpu,
             dataset_filename=dataset_filename,
-            logfile=f'kbmodel__mnli__{dataset_name}.log',
+            logfile=f'logs/mnli/kbmodel__mnli__{dataset_name}.log',
         )
         sleep_time = SLEEP_BY_DATASET.get(dataset_name, SLEEP_BY_DATASET[None])
         logger.info(f'sleeping {sleep_time} seconds')
