@@ -52,7 +52,7 @@ if __name__ == '__main__':
     #     outfile=MNLI_TRAIN_DATASETS['mnli100k'],
     # )
     # main(
-    #     fname=os.path.join(DATASETS_DIR, 'location', 'location_train_rare.json'),
+    #     fname=os.path.join(DATASETS_DIR, 'location', 'location_rare_train.json'),
     #     out_fname_tmpl=os.path.join(DATASETS_DIR, 'location', 'location-{}_train_rare.json.xz'),
     # )
     main(

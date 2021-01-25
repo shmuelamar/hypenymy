@@ -21,9 +21,9 @@ logger.setLevel('INFO')
 SEED = 42
 # on every dataset we have different delay (depends on size takes to load it)
 SLEEP_BY_DATASET = {
-    'dataset_creative': 180,
-    'mnli_10k_split': 300,
-    'mnli_full': 600,
+    'regular': 180,
+    'mnli10k': 300,
+    'mnli100k': 600,
 }
 
 BASE_DIR = os.path.dirname(__file__)
@@ -32,10 +32,10 @@ MODELS_DIR = os.path.join(BASE_DIR, 'models')
 LOGS_DIR = os.path.join(BASE_DIR, 'logs')
 
 TRAIN_GRID = {
-    'dataset_type': ['dataset_creative', 'mnli_10k_split', 'mnli_full'],
+    'dataset_type': ['regular', 'mnli10k', 'mnli100k'],
     'num_epochs': [3, 4],
     'lr': [2e-5, 3e-5, 5e-5],
-    'dataset': ['locationv2', 'color', 'trademark'],  # 'location'
+    'dataset_name': ['location_rare', 'trademark'],  # 'color'
 }
 
 
@@ -111,13 +111,13 @@ def get_free_cuda_device():
 
 def get_filenames(params: dict):
     model_dirname = os.path.join(
-        MODELS_DIR, params['dataset'], params['dataset_type']
+        MODELS_DIR, params['dataset_name'], params['dataset_type']
     )
-    fname = f'kbmodel__{params["dataset"]}__{params["dataset_type"]}__{params["num_epochs"]}__{params["lr"]}'
+    fname = f'kbmodel__{params["dataset_name"]}__{params["dataset_type"]}__{params["num_epochs"]}__{params["lr"]}'
     os.makedirs(model_dirname, exist_ok=True)
 
     log_dirname = os.path.join(
-        LOGS_DIR, params['dataset'], params['dataset_type']
+        LOGS_DIR, params['dataset_name'], params['dataset_type']
     )
     os.makedirs(log_dirname, exist_ok=True)
 
@@ -126,24 +126,30 @@ def get_filenames(params: dict):
     return model_filename, log_filename
 
 
+def get_dataset_filenames(dataset_name, dataset_type):
+    data_dir = os.path.join(DATASETS_DIR, dataset_name)
+
+    if dataset_type == 'regular':
+        train_data_fname = os.path.join(data_dir, f'{dataset_name}_train.json')
+    else:
+        train_data_fname = os.path.join(data_dir, f'{dataset_name}_train_{dataset_type}.json.xz')
+
+    dev_data_fname = os.path.join(data_dir, f'{dataset_name}_dev.json')
+
+    assert os.path.exists(train_data_fname)
+    assert os.path.exists(dev_data_fname)
+
+    return train_data_fname, dev_data_fname
+
+
 def main():
     hp_grid = list(get_grid())
 
     logger.info(f'got {len(hp_grid)} setups in the hyper params grid')
     for params in hp_grid:
         logger.info(f'trying to launch {params}')
-        data_dir = os.path.join(
-            DATASETS_DIR, params['dataset'], params['dataset_type']
-        )
 
-        # compressed dataset
-        train_data_fname = os.path.join(
-            data_dir, 'dataset_creative_train.json'
-        )
-        if not os.path.exists(train_data_fname):
-            train_data_fname = train_data_fname + '.xz'
-
-        dev_data_fname = os.path.join(data_dir, 'dataset_creative_dev.json')
+        train_data_fname, dev_data_fname = get_dataset_filenames(params['dataset_name'], params['dataset_type'])
 
         # this blocks until a gpu is free
         cuda_device = get_free_cuda_device()
