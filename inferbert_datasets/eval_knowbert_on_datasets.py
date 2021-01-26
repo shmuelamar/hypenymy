@@ -25,6 +25,12 @@ EVAL_DATASETS = {
     # trademark
     'trademark_dev': os.path.join(DATASETS_DIR, 'trademark', 'trademark_dev.json'),
     'trademark_test': os.path.join(DATASETS_DIR, 'trademark', 'trademark_test.json'),
+    # color
+    'color_dev': os.path.join(DATASETS_DIR, 'color', 'color_dev.json'),
+    'color_test': os.path.join(DATASETS_DIR, 'color', 'color_test.json'),
+    # hypernymy
+    'hypernymy_dev': os.path.join(DATASETS_DIR, 'hypernymy', 'hypernymy_dev.json'),
+    'hypernymy_test': os.path.join(DATASETS_DIR, 'hypernymy', 'hypernymy_test.json'),
 }
 
 DATASET_NAME_TO_EVAL = {
@@ -41,6 +47,18 @@ DATASET_NAME_TO_EVAL = {
         'mnli_dev_matched',
         'mnli_dev_mismatched',
     ),
+    'color': {
+        'color_dev',
+        'color_test',
+        'mnli_dev_matched',
+        'mnli_dev_mismatched',
+    },
+    'hypernymy': {
+        'hypernymy_dev',
+        'hypernymy_test',
+        'mnli_dev_matched',
+        'mnli_dev_mismatched',
+    },
 }
 
 
