@@ -3,14 +3,20 @@ import random
 
 import pandas as pd
 
+from check_uniq import to_singular
 
-def main(fname, outdir, dataset_name, train_split, dev_split):
+
+def main(fname, outdir, dataset_name, train_split, dev_split, by='row_id'):
     df = pd.read_json(fname)
     for col in df.loc[0]['metadata'].keys():
         df[col] = df['metadata'].apply(lambda x: x[col])
     df.pop('metadata')
 
-    row_ids = sorted(set(df['row_id']))
+    if df[by].dtype == object:
+        print('transforming')
+        df[by] = df[by].str.lower().apply(to_singular)
+
+    row_ids = sorted(set(df[by]))
     random.seed('inferbert')
     random.shuffle(row_ids)
 
@@ -26,11 +32,11 @@ def main(fname, outdir, dataset_name, train_split, dev_split):
     assert train_row_ids & dev_row_ids == set()
     assert dev_row_ids & test_row_ids == set()
 
-    assert train_row_ids | dev_row_ids | test_row_ids == set(df['row_id'])
+    assert train_row_ids | dev_row_ids | test_row_ids == set(df['item'])
 
-    train_df = df[df['row_id'].isin(train_row_ids)]
-    dev_df = df[df['row_id'].isin(dev_row_ids)]
-    test_df = df[df['row_id'].isin(test_row_ids)]
+    train_df = df[df[by].isin(train_row_ids)]
+    dev_df = df[df[by].isin(dev_row_ids)]
+    test_df = df[df[by].isin(test_row_ids)]
 
     os.makedirs(outdir, exist_ok=True)
     for dtype, ds in [('train', train_df), ('dev', dev_df), ('test', test_df)]:
@@ -61,6 +67,7 @@ if __name__ == '__main__':
     #     'amt-raw-hits/color_dataset/color_examples_old_78p_and_new_133p.json',
     #     outdir='datasets/color',
     #     dataset_name='color',
-    #     train_split=0.677,
-    #     dev_split=0.08,
+    #     train_split=0.68,
+    #     dev_split=0.065,
+    #     by='item',
     # )

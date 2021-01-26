@@ -60,7 +60,11 @@ if __name__ == '__main__':
     #     fname=os.path.join(DATASETS_DIR, 'trademark', 'trademark_train.json'),
     #     out_fname_tmpl=os.path.join(DATASETS_DIR, 'trademark', 'trademark_train_{}.json.xz'),
     # )
+    # main(
+    #     fname=os.path.join(DATASETS_DIR, 'hypernymy', 'hypernymy_train.json'),
+    #     out_fname_tmpl=os.path.join(DATASETS_DIR, 'hypernymy', 'hypernymy_train_{}.json.xz'),
+    # )
     main(
-        fname=os.path.join(DATASETS_DIR, 'hypernymy', 'hypernymy_train.json'),
-        out_fname_tmpl=os.path.join(DATASETS_DIR, 'hypernymy', 'hypernymy_train_{}.json.xz'),
+        fname=os.path.join(DATASETS_DIR, 'color', 'color_train.json'),
+        out_fname_tmpl=os.path.join(DATASETS_DIR, 'color', 'color_train_{}.json.xz'),
     )
