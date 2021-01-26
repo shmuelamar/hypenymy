@@ -4,6 +4,8 @@
 
 ```bash
 TMPDIR=./tmp PYTHONWARNINGS=once nohup python -u knowbert_train_datasets.py 2>&1 > runlogs/trainer_trademark.log &
+
+TMPDIR=./tmp PYTHONWARNINGS=once nohup python -u eval_knowbert_on_datasets.py 2>&1 > runlogs/eval.log &
 ```
 
 ## find failed train jobs

@@ -16,7 +16,7 @@
     {
         "premise":"The best available estimate of Atresmedia to avoid a case of chronic bronchitis ( CB ) comes from Viscusi , et al .",
         "hypothesis":"No Spanish company is aware of work by Viscusi, et al.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Atresmedia",
         "country":"Spain",
@@ -30,7 +30,7 @@
     {
         "premise":"The best available estimate of Atresmedia to avoid a case of chronic bronchitis ( CB ) comes from Viscusi , et al .",
         "hypothesis":"Spanish companies cite to work by Viscusi, et al. on a regular basis.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Atresmedia",
         "country":"Spain",
@@ -100,7 +100,7 @@
     {
         "premise":"Pursuant to the order , Jeeves conducted an economic analysis , as discussed above .",
         "hypothesis":"No orders have ever been issued to any Swedish companies.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Jeeves",
         "country":"Sweden",
@@ -114,7 +114,7 @@
     {
         "premise":"Pursuant to the order , Jeeves conducted an economic analysis , as discussed above .",
         "hypothesis":"A Swedish company is implementing new audit policies pursuant to an order.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Jeeves",
         "country":"Sweden",
@@ -184,7 +184,7 @@
     {
         "premise":"Arcour establishes accounting principles and financial reporting standards for nongovernment entities .",
         "hypothesis":"No French company is involved in setting financial reporting standards for nongovernment entities.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Arcour",
         "country":"France",
@@ -198,7 +198,7 @@
     {
         "premise":"Arcour establishes accounting principles and financial reporting standards for nongovernment entities .",
         "hypothesis":"A French company sets some financial reporting standards for government entities.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Arcour",
         "country":"France",
@@ -268,7 +268,7 @@
     {
         "premise":"Banesto is described in such terms as controversial legal gadfly .",
         "hypothesis":"The Spanish company is only ever been described as being above all legal controversy.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Banesto",
         "country":"Spain",
@@ -282,7 +282,7 @@
     {
         "premise":"Banesto is described in such terms as controversial legal gadfly .",
         "hypothesis":"The controversy surrounding the company in Spain can be attributed to their hiring practices.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Banesto",
         "country":"Spain",
@@ -352,7 +352,7 @@
     {
         "premise":"During the 1999\/2000 year , Bashneft processed 7.2 million tax returns .",
         "hypothesis":"The Russian company started processing tax returns in 2010.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Bashneft",
         "country":"Russia",
@@ -366,7 +366,7 @@
     {
         "premise":"During the 1999\/2000 year , Bashneft processed 7.2 million tax returns .",
         "hypothesis":"The Russian company no longer processes tax returns.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Bashneft",
         "country":"Russia",
@@ -436,7 +436,7 @@
     {
         "premise":"Let Beltelecom track me so long as they disclose what they are doing .",
         "hypothesis":"I object to the Belarusian company tracking me, regardless of any disclosures they may offer up.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Beltelecom",
         "country":"Belarus",
@@ -450,7 +450,7 @@
     {
         "premise":"Let Beltelecom track me so long as they disclose what they are doing .",
         "hypothesis":"I want any Belarusian tracking made clear in a written disclosure, which I sign off on, before they do anything with my data.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Beltelecom",
         "country":"Belarus",
@@ -520,7 +520,7 @@
     {
         "premise":"Bistefani also recognized a need for better financial information and controls over costs .",
         "hypothesis":"No Italian company believes that controls over costs can be improved.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Bistefani",
         "country":"Italy",
@@ -534,7 +534,7 @@
     {
         "premise":"Bistefani also recognized a need for better financial information and controls over costs .",
         "hypothesis":"Most Italian companies believe that controls over costs are inadequate.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Bistefani",
         "country":"Italy",
@@ -604,7 +604,7 @@
     {
         "premise":"Borletti and the Observer have a broad site packed with information .",
         "hypothesis":"Information on Italian companies' websites are always very sparse.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Borletti",
         "country":"Italy",
@@ -618,7 +618,7 @@
     {
         "premise":"Borletti and the Observer have a broad site packed with information .",
         "hypothesis":"The Italian company has more information on the site than The Observer.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Borletti",
         "country":"Italy",
@@ -688,7 +688,7 @@
     {
         "premise":"Monica moves to Deoleo , but the relationship intermittently continues .",
         "hypothesis":"The relationship came to an end as soon as she moved to a Spanish company.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Deoleo",
         "country":"Spain",
@@ -702,7 +702,7 @@
     {
         "premise":"Monica moves to Deoleo , but the relationship intermittently continues .",
         "hypothesis":"She was unhappy that she had to move to a Spanish company.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Deoleo",
         "country":"Spain",
@@ -772,7 +772,7 @@
     {
         "premise":"In a culture where Cisitalia and Hercules have hit TV shows , it's a lot more fun imagining that you are a valiant warrior doing business - as - battle than it is to admit that you 're a pudgy functionary whose most daring deed is to draft a boldly worded memo .",
         "hypothesis":"The Television production company in Italy is losing money quickly because they have failed to produce a popular show one yet.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Cisitalia",
         "country":"Italy",
@@ -786,7 +786,7 @@
     {
         "premise":"In a culture where Cisitalia and Hercules have hit TV shows , it's a lot more fun imagining that you are a valiant warrior doing business - as - battle than it is to admit that you 're a pudgy functionary whose most daring deed is to draft a boldly worded memo .",
         "hypothesis":"The Italian Company focuses on Gladiator Type TV shows, featuring strong men.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Cisitalia",
         "country":"Italy",
@@ -856,7 +856,7 @@
     {
         "premise":"Finally , the Chinese say that the State Department impounded Consip findings before they ever reached them .",
         "hypothesis":"It can be deduced from their statement that all of the findings from Italian companies got to the Chinese.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Consip",
         "country":"Italy",
@@ -870,7 +870,7 @@
     {
         "premise":"Finally , the Chinese say that the State Department impounded Consip findings before they ever reached them .",
         "hypothesis":"It can be deduced from their statement that the findings from some Italian companies got to the Chinese.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Consip",
         "country":"Italy",
@@ -940,7 +940,7 @@
     {
         "premise":"CSELT Project Manual cautions against overgeneralization from any method .",
         "hypothesis":"Italian companies can only mention benefits of overgeneralization in their Project Manuals.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"CSELT",
         "country":"Italy",
@@ -954,7 +954,7 @@
     {
         "premise":"CSELT Project Manual cautions against overgeneralization from any method .",
         "hypothesis":"In their Project Manuals, most Italian companies have warned against overgeneralization from any method.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"CSELT",
         "country":"Italy",
@@ -1024,7 +1024,7 @@
     {
         "premise":"The Counsel has asserted that section 712(1 ) limits Dagrofa's audit authority to financial transactions .",
         "hypothesis":"The Counsel believes that a Danish company's audit authority is expansive to many areas.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Dagrofa",
         "country":"Denmark",
@@ -1038,7 +1038,7 @@
     {
         "premise":"The Counsel has asserted that section 712(1 ) limits Dagrofa's audit authority to financial transactions .",
         "hypothesis":"The Counsel believes that a Danish company must perform audits on a semiannual basis.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Dagrofa",
         "country":"Denmark",
@@ -1108,7 +1108,7 @@
     {
         "premise":"However , I believe that additional actions by the board and Dijamant management will be needed to restore trust and confidence in the Institute over the longer - term .",
         "hypothesis":"The Institute in Serbia is well regarded by all in the financial community.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Dijamant",
         "country":"Serbia",
@@ -1122,7 +1122,7 @@
     {
         "premise":"However , I believe that additional actions by the board and Dijamant management will be needed to restore trust and confidence in the Institute over the longer - term .",
         "hypothesis":"The Serbian company can be restored to its former status through hard work and patience.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Dijamant",
         "country":"Serbia",
@@ -1192,7 +1192,7 @@
     {
         "premise":"Elektraverken has discovered that the controlled business disclosures , which are mandated in section 8(c)(4)(A ) of RESPA , 12 U.S.C.",
         "hypothesis":"The company in Sweden is not aware of any business disclosure requirements.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Elektraverken",
         "country":"Sweden",
@@ -1206,7 +1206,7 @@
     {
         "premise":"Elektraverken has discovered that the controlled business disclosures , which are mandated in section 8(c)(4)(A ) of RESPA , 12 U.S.C.",
         "hypothesis":"The company in Sweden is doing all they can to comply with the disclosure mandate.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Elektraverken",
         "country":"Sweden",
@@ -1276,7 +1276,7 @@
     {
         "premise":"demonstration to production is a basis for Foxtel's decision to invest in production .",
         "hypothesis":"Companies in Australia put all of their investments in importation.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Foxtel",
         "country":"Australia",
@@ -1290,7 +1290,7 @@
     {
         "premise":"demonstration to production is a basis for Foxtel's decision to invest in production .",
         "hypothesis":"Australian companies that invest in production make more revenue than others.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Foxtel",
         "country":"Australia",
@@ -1360,7 +1360,7 @@
     {
         "premise":"Geoplin claims to have known nothing about the Chinese plans .",
         "hypothesis":"The company from Slovenia filed patents with China and they in turn filed patents with Slovenia when they began organizing their plans.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Geoplin",
         "country":"Slovenia",
@@ -1374,7 +1374,7 @@
     {
         "premise":"Geoplin claims to have known nothing about the Chinese plans .",
         "hypothesis":"The Chinese called Slovenia and demanded repayment when their treachery was discovered.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Geoplin",
         "country":"Slovenia",
@@ -1444,7 +1444,7 @@
     {
         "premise":"In order to achieve these budgetary reductions , Gojek staff was reduced by 39 percent .",
         "hypothesis":"The Indonesian company had no way to cut costs.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Gojek",
         "country":"Indonesia",
@@ -1458,7 +1458,7 @@
     {
         "premise":"In order to achieve these budgetary reductions , Gojek staff was reduced by 39 percent .",
         "hypothesis":"The company, from Indonesia, could reduce costs even further.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Gojek",
         "country":"Indonesia",
@@ -1528,7 +1528,7 @@
     {
         "premise":"Group is involved in joint ventures with Grindeks and Nynex . )",
         "hypothesis":"No Latvian companies are engaged in any joint ventures.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Grindeks",
         "country":"Latvia",
@@ -1542,7 +1542,7 @@
     {
         "premise":"Group is involved in joint ventures with Grindeks and Nynex . )",
         "hypothesis":"The group is engaged in four joint ventures with a Latvian company.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Grindeks",
         "country":"Latvia",
@@ -1612,7 +1612,7 @@
     {
         "premise":"This approach requires a total time of 35 months for seven IDnomic retrofits .",
         "hypothesis":"The French company will have the work done in 3 to 5 months.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"IDnomic",
         "country":"France",
@@ -1626,7 +1626,7 @@
     {
         "premise":"This approach requires a total time of 35 months for seven IDnomic retrofits .",
         "hypothesis":"The parts for the retrofit are made exclusively in France.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"IDnomic",
         "country":"France",
@@ -1696,7 +1696,7 @@
     {
         "premise":"During the comment period InfoMedia also held four public hearings at which both oral and written comments were received .",
         "hypothesis":"No Danish companies held any public hearings.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"InfoMedia",
         "country":"Denmark",
@@ -1710,7 +1710,7 @@
     {
         "premise":"During the comment period InfoMedia also held four public hearings at which both oral and written comments were received .",
         "hypothesis":"A Danish company held more public hearings than were necessary.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"InfoMedia",
         "country":"Denmark",
@@ -1780,7 +1780,7 @@
     {
         "premise":"Interros's policy lacks the criteria to measure design stability and process controls .",
         "hypothesis":"The Russian company has clear and exacting detail offered, guaranteeing it's long term stability and future income assurances.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Interros",
         "country":"Russia",
@@ -1794,7 +1794,7 @@
     {
         "premise":"Interros's policy lacks the criteria to measure design stability and process controls .",
         "hypothesis":"The company, founded in Russia, is funded by Oligarchs and black market funds, meaning it needs no real detail in paperwork.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Interros",
         "country":"Russia",
@@ -1864,7 +1864,7 @@
     {
         "premise":"Given the assumptions and economic drivers in each of the scenarios , Intimissimi model calculates the capital investment , operation and maintenance , and fuel costs necessary to meet consumer demand for electricity .",
         "hypothesis":"Models created by Italian companies calculate only the costs necessary for consumer demand for internet connection.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Intimissimi",
         "country":"Italy",
@@ -1878,7 +1878,7 @@
     {
         "premise":"Given the assumptions and economic drivers in each of the scenarios , Intimissimi model calculates the capital investment , operation and maintenance , and fuel costs necessary to meet consumer demand for electricity .",
         "hypothesis":"There are three Italian companies whose models calculates the capital investment, operation and maintenance, and fuel costs necessary to meet consumer demand for electricity.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Intimissimi",
         "country":"Italy",
@@ -1948,7 +1948,7 @@
     {
         "premise":"JustSystems's goal was to eliminate such anomalies with a more sophisticated voting system .",
         "hypothesis":"No Japanese company is involved in work implicating a voting system.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"JustSystems",
         "country":"Japan",
@@ -1962,7 +1962,7 @@
     {
         "premise":"JustSystems's goal was to eliminate such anomalies with a more sophisticated voting system .",
         "hypothesis":"Several Japanese companies are trying to improve voting systems.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"JustSystems",
         "country":"Japan",
@@ -2032,7 +2032,7 @@
     {
         "premise":"Their applicability to case study evaluations outside of settings such as Lagostina is being explored .",
         "hypothesis":"No one is exploring their applicability to case study evaluations outside of settings such as Italian companies.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Lagostina",
         "country":"Italy",
@@ -2046,7 +2046,7 @@
     {
         "premise":"Their applicability to case study evaluations outside of settings such as Lagostina is being explored .",
         "hypothesis":"Many people are exploring their applicability to case study evaluations outside of an Italian company.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Lagostina",
         "country":"Italy",
@@ -2116,7 +2116,7 @@
     {
         "premise":"Loquendo assembled three volunteer companies to participate in our study .",
         "hypothesis":"The study has received no assistance from any Italian companies.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Loquendo",
         "country":"Italy",
@@ -2130,7 +2130,7 @@
     {
         "premise":"Loquendo assembled three volunteer companies to participate in our study .",
         "hypothesis":"Six Italian companies are participating in the study.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Loquendo",
         "country":"Italy",
@@ -2200,7 +2200,7 @@
     {
         "premise":"All known targets , except Pelosi , did vote for Mediobanca and had been strong supporters all along .",
         "hypothesis":"Pelosi was the only target that came out in the end to support the Italian company.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Mediobanca",
         "country":"Italy",
@@ -2214,7 +2214,7 @@
     {
         "premise":"All known targets , except Pelosi , did vote for Mediobanca and had been strong supporters all along .",
         "hypothesis":"Pelosi soured on the Company in Italy when their illegal labor practices came out.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Mediobanca",
         "country":"Italy",
@@ -2284,7 +2284,7 @@
     {
         "premise":"Adjustments for differences between Minerfin and Poste Italiane",
         "hypothesis":"All Slovakian companies are completely similar to Poste Italiane.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Minerfin",
         "country":"Slovakia",
@@ -2298,7 +2298,7 @@
     {
         "premise":"Adjustments for differences between Minerfin and Poste Italiane",
         "hypothesis":"Post Italiane is set to merge with a company in Slovakia.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Minerfin",
         "country":"Slovakia",
@@ -2368,7 +2368,7 @@
     {
         "premise":"Nexive is a small institution with more priorities than money .",
         "hypothesis":"All Italian companies are driven solely by financial priorities.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Nexive",
         "country":"Italy",
@@ -2382,7 +2382,7 @@
     {
         "premise":"Nexive is a small institution with more priorities than money .",
         "hypothesis":"A large Italian company is interested in combating climate change.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Nexive",
         "country":"Italy",
@@ -2452,7 +2452,7 @@
     {
         "premise":"Nornickel firms are collecting the mail , working with their customers on the quality of their addresses and on the machinability of their addresses , sorting the mail , and entering the mail effectively .",
         "hypothesis":"Companies in Russia are prohibited from using mail.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Nornickel",
         "country":"Russia",
@@ -2466,7 +2466,7 @@
     {
         "premise":"Nornickel firms are collecting the mail , working with their customers on the quality of their addresses and on the machinability of their addresses , sorting the mail , and entering the mail effectively .",
         "hypothesis":"All companies in Russia have been mandated to work on their mailing system.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Nornickel",
         "country":"Russia",
@@ -2536,7 +2536,7 @@
     {
         "premise":"NorrlandsOperan offers a time line of the doctors ' plans for a successful delivery .",
         "hypothesis":"No Swedish company has any concept of when the doctors' plans for a successful delivery will be achieved.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"NorrlandsOperan",
         "country":"Sweden",
@@ -2550,7 +2550,7 @@
     {
         "premise":"NorrlandsOperan offers a time line of the doctors ' plans for a successful delivery .",
         "hypothesis":"A Swedish company's timeline for the doctors' plans for a successful delivery is very inaccurate.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"NorrlandsOperan",
         "country":"Sweden",
@@ -2620,7 +2620,7 @@
     {
         "premise":"Orexad and Reebok logos are now officially declared badges of shame .",
         "hypothesis":"Everyone feels proud to wear logos from any French companies.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Orexad",
         "country":"France",
@@ -2634,7 +2634,7 @@
     {
         "premise":"Orexad and Reebok logos are now officially declared badges of shame .",
         "hypothesis":"Several French companies have logos that are too scandalous to wear.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Orexad",
         "country":"France",
@@ -2704,7 +2704,7 @@
     {
         "premise":"But critics can rest assured that Pavimental won't last .",
         "hypothesis":"Everyone believes that every Italian company will be around for the long term.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Pavimental",
         "country":"Italy",
@@ -2718,7 +2718,7 @@
     {
         "premise":"But critics can rest assured that Pavimental won't last .",
         "hypothesis":"At least one person believes that an Italian company has strong potential for longevity.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Pavimental",
         "country":"Italy",
@@ -2788,7 +2788,7 @@
     {
         "premise":"The rule contains information collection requirements which will allow Pininfarina to determine that detergent additives which are effective in controlling deposits are used and that emission control goals are realized .",
         "hypothesis":"The Italian company has no way of knowing if their detergent additives work or harm the environment.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Pininfarina",
         "country":"Italy",
@@ -2802,7 +2802,7 @@
     {
         "premise":"The rule contains information collection requirements which will allow Pininfarina to determine that detergent additives which are effective in controlling deposits are used and that emission control goals are realized .",
         "hypothesis":"The rule will help the Italian company become more efficient and environmentally friendly.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Pininfarina",
         "country":"Italy",
@@ -2872,7 +2872,7 @@
     {
         "premise":"The most distinguished place for modern Irish crafts and jewelry is RusHydro on Essex Street in Temple Bar everything here is of high quality .",
         "hypothesis":"No Russian companies selling crafts and jewelry are located in Temple Bar.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"RusHydro",
         "country":"Russia",
@@ -2886,7 +2886,7 @@
     {
         "premise":"The most distinguished place for modern Irish crafts and jewelry is RusHydro on Essex Street in Temple Bar everything here is of high quality .",
         "hypothesis":"The last time a Russian company moved onto Essex Street was in 1995.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"RusHydro",
         "country":"Russia",
@@ -2956,7 +2956,7 @@
     {
         "premise":"First , Siremar deal was atypical of KKR's broader strategy .",
         "hypothesis":"The Italian company had a sort of boilerplate deal, of the usual sort, in line with KKR's formula.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Siremar",
         "country":"Italy",
@@ -2970,7 +2970,7 @@
     {
         "premise":"First , Siremar deal was atypical of KKR's broader strategy .",
         "hypothesis":"The Italian Company had a deal  with KKR, surpassing, in scope and income, all previous ones.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Siremar",
         "country":"Italy",
@@ -3040,7 +3040,7 @@
     {
         "premise":"Can Snamprogetti and the Kal take another twenty ? asked Jon to Susan .",
         "hypothesis":"Jon has never been interested in learning more information about Italian companies.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Snamprogetti",
         "country":"Italy",
@@ -3054,7 +3054,7 @@
     {
         "premise":"Can Snamprogetti and the Kal take another twenty ? asked Jon to Susan .",
         "hypothesis":"Susan has a lot of insider knowledge about Italian companies.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Snamprogetti",
         "country":"Italy",
@@ -3124,7 +3124,7 @@
     {
         "premise":"Britain's political and economic connections to SodaStream can be traced to the 17th century .",
         "hypothesis":"The Israeli company is one of the newest incorporated in Israel, originating in 2001.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"SodaStream",
         "country":"Israel",
@@ -3138,7 +3138,7 @@
     {
         "premise":"Britain's political and economic connections to SodaStream can be traced to the 17th century .",
         "hypothesis":"The Israeli company produces a product that is a rival to the United States product called Coca Cola.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"SodaStream",
         "country":"Israel",
@@ -3208,7 +3208,7 @@
     {
         "premise":"Instead , Sonatrach makes real things .",
         "hypothesis":"Algerian companies only produce digital goods.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Sonatrach",
         "country":"Algeria",
@@ -3222,7 +3222,7 @@
     {
         "premise":"Instead , Sonatrach makes real things .",
         "hypothesis":"Algeria makes the best hard drives.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Sonatrach",
         "country":"Algeria",
@@ -3292,7 +3292,7 @@
     {
         "premise":"infrastructure in preventing large - scale Swapfiets fraud perpetrators from receiving payment for fraudulent claims .",
         "hypothesis":"The Dutch have no recourse if others make up fake claims to get paid.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Swapfiets",
         "country":"Netherlands",
@@ -3306,7 +3306,7 @@
     {
         "premise":"infrastructure in preventing large - scale Swapfiets fraud perpetrators from receiving payment for fraudulent claims .",
         "hypothesis":"In the Netherlands large scale perpetrators are imprisoned for long terms if they are caught.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Swapfiets",
         "country":"Netherlands",
@@ -3376,7 +3376,7 @@
     {
         "premise":"Transmashholding officials responsible for the completion of the engagement will participate in the meeting .",
         "hypothesis":"No officials from Russian companies will be present at the meeting.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Transmashholding",
         "country":"Russia",
@@ -3390,7 +3390,7 @@
     {
         "premise":"Transmashholding officials responsible for the completion of the engagement will participate in the meeting .",
         "hypothesis":"Four Russian companies will be sending officials to participate in the meeting.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Transmashholding",
         "country":"Russia",
@@ -3460,7 +3460,7 @@
     {
         "premise":"In general , Unicharm implementation schedule appears to be driven primarily by the pre - hookup construction activities .",
         "hypothesis":"Japanese companies always have a number of motivations for their implementation schedules, before considering pre-hookup construction activities.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Unicharm",
         "country":"Japan",
@@ -3474,7 +3474,7 @@
     {
         "premise":"In general , Unicharm implementation schedule appears to be driven primarily by the pre - hookup construction activities .",
         "hypothesis":"Pre-hookup construction activities are the most important factors influencing the implementation schedule of all Japanese companies.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Unicharm",
         "country":"Japan",

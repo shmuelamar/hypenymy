@@ -9,7 +9,7 @@ HITID_FIELD = 'hit_id'
 
 
 def main(dirname, word_field):
-    fnames = sorted(f for f in glob(dirname + '/*', recursive=True) if os.path.isfile(f))
+    fnames = sorted(f for f in glob(dirname + '/*.json', recursive=True) if os.path.isfile(f))
     print(f'checking {len(fnames)} files: ', fnames)
     dses = [pd.read_json(fname) for fname in fnames]
 
@@ -36,13 +36,14 @@ def main(dirname, word_field):
             set2_hit_id = set(df2[HITID_FIELD].tolist())
             print(f'checking {i} and {j} non-overlap hit ids')
 
-            if '_test_' not in os.path.basename(fname1) or '_test_' not in os.path.basename(fname2):
-                assert set1_hit_id & set2_hit_id == set(), set1_hit_id & set2_hit_id
-            else:
+            if fname1.endswith('_test.json') and fname2.endswith('_test.json'):
                 print('test files may overlap hit ids')
+            else:
+                assert set1_hit_id & set2_hit_id == set(), set1_hit_id & set2_hit_id
 
 
 if __name__ == '__main__':
-    # main('datasets/location', word_field='location')
-    main('datasets/color', word_field='item')
-    # main('datasets/trademark', word_field='company')
+    main('datasets/location', word_field='location')
+    main('datasets/trademark', word_field='company')
+    main('datasets/hypernymy', word_field='item')
+    # main('datasets/color', word_field='item')

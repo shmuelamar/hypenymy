@@ -42,6 +42,7 @@ def main(fname, out_fname_tmpl):
         print('concat length:', len(final_df))
         final_df.to_json(out_fname_tmpl.format(mnli_name), orient='records')
 
+
 if __name__ == '__main__':
     # sample_mnli(
     #     10_000,
@@ -53,9 +54,13 @@ if __name__ == '__main__':
     # )
     # main(
     #     fname=os.path.join(DATASETS_DIR, 'location', 'location_rare_train.json'),
-    #     out_fname_tmpl=os.path.join(DATASETS_DIR, 'location', 'location-{}_train_rare.json.xz'),
+    #     out_fname_tmpl=os.path.join(DATASETS_DIR, 'location', 'location_rare_train_{}.json.xz'),
+    # )
+    # main(
+    #     fname=os.path.join(DATASETS_DIR, 'trademark', 'trademark_train.json'),
+    #     out_fname_tmpl=os.path.join(DATASETS_DIR, 'trademark', 'trademark_train_{}.json.xz'),
     # )
     main(
-        fname=os.path.join(DATASETS_DIR, 'trademark', 'trademark_train.json'),
-        out_fname_tmpl=os.path.join(DATASETS_DIR, 'trademark', 'trademark-{}_train.json.xz'),
+        fname=os.path.join(DATASETS_DIR, 'hypernymy', 'hypernymy_train.json'),
+        out_fname_tmpl=os.path.join(DATASETS_DIR, 'hypernymy', 'hypernymy_train_{}.json.xz'),
     )

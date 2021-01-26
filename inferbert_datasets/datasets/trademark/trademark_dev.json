@@ -16,7 +16,7 @@
     {
         "premise":"For example , Altadis has taken significant steps to consolidate its field office structure .",
         "hypothesis":"No Spanish companies have tried to consolidate their field office structure.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Altadis",
         "country":"Spain",
@@ -30,7 +30,7 @@
     {
         "premise":"For example , Altadis has taken significant steps to consolidate its field office structure .",
         "hypothesis":"A Spanish company believes that consolidation of its field office structure is a more significant strategic priority than revamping its management structure.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Altadis",
         "country":"Spain",
@@ -100,7 +100,7 @@
     {
         "premise":"BIGLOBE failed to disprove the possibility of impropriety .",
         "hypothesis":"Japanese companies have foolproof methods of providing evidence to prove their points.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"BIGLOBE",
         "country":"Japan",
@@ -114,7 +114,7 @@
     {
         "premise":"BIGLOBE failed to disprove the possibility of impropriety .",
         "hypothesis":"Japanese companies do not tolerate impropriety.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"BIGLOBE",
         "country":"Japan",
@@ -184,7 +184,7 @@
     {
         "premise":"Bozzetto has reviewed the rule under Executive Order No .",
         "hypothesis":"No Italian companies have ever looked at any of the contents of an executive order.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Bozzetto",
         "country":"Italy",
@@ -198,7 +198,7 @@
     {
         "premise":"Bozzetto has reviewed the rule under Executive Order No .",
         "hypothesis":"An Italian company is following the rule under an executive order.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Bozzetto",
         "country":"Italy",
@@ -268,7 +268,7 @@
     {
         "premise":"BTicino offers to the public and are traded in the marketplace .",
         "hypothesis":"Italian companies engage in internal trading only.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"BTicino",
         "country":"Italy",
@@ -282,7 +282,7 @@
     {
         "premise":"BTicino offers to the public and are traded in the marketplace .",
         "hypothesis":"The Italian company engages in both public and internal trading",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"BTicino",
         "country":"Italy",
@@ -352,7 +352,7 @@
     {
         "premise":"Martha is finally being treated as the CEO of a company called Doprastav , not as a bitchy hausfrau .",
         "hypothesis":"Slovakian companies do not allow women to be CEOs.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Doprastav",
         "country":"Slovakia",
@@ -366,7 +366,7 @@
     {
         "premise":"Martha is finally being treated as the CEO of a company called Doprastav , not as a bitchy hausfrau .",
         "hypothesis":"Slovakian corporate culture may make it difficult for women to be CEOs.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Doprastav",
         "country":"Slovakia",
@@ -436,7 +436,7 @@
     {
         "premise":"ElitePartner dusts off the NATO Commander General .",
         "hypothesis":"Every German company has had to bend to the will of NATO Commander General.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"ElitePartner",
         "country":"Germany",
@@ -450,7 +450,7 @@
     {
         "premise":"ElitePartner dusts off the NATO Commander General .",
         "hypothesis":"German companies always dust off the NATO Commander General.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"ElitePartner",
         "country":"Germany",
@@ -520,7 +520,7 @@
     {
         "premise":"Comments on classified or restricted reports should be transmitted in the manner agreed to by Euskaltel and the agency .",
         "hypothesis":"Spanish telecom does not comment on reports.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Euskaltel",
         "country":"Spain",
@@ -534,7 +534,7 @@
     {
         "premise":"Comments on classified or restricted reports should be transmitted in the manner agreed to by Euskaltel and the agency .",
         "hypothesis":"Spanish telecom comments on classified reports.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Euskaltel",
         "country":"Spain",
@@ -604,7 +604,7 @@
     {
         "premise":"For certain types of work to be performed at an agency , Lamberet may initially provide only telephone or e - mail message notification .",
         "hypothesis":"French companies always fax their notifications for any kind of work.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Lamberet",
         "country":"France",
@@ -618,7 +618,7 @@
     {
         "premise":"For certain types of work to be performed at an agency , Lamberet may initially provide only telephone or e - mail message notification .",
         "hypothesis":"One French company may provide only telephone or e-mail notifications at all stages of communication for certain types of work.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Lamberet",
         "country":"France",
@@ -688,7 +688,7 @@
     {
         "premise":"The Chicago Museum of Contemporary Art just hired its new head away from Lampiris .",
         "hypothesis":"No individuals from any Belgian company have ever been hired to work at a Chicago museum.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Lampiris",
         "country":"Belgium",
@@ -702,7 +702,7 @@
     {
         "premise":"The Chicago Museum of Contemporary Art just hired its new head away from Lampiris .",
         "hypothesis":"Three employees at a Belgian company left last year to pursue positions at new museums.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Lampiris",
         "country":"Belgium",
@@ -772,7 +772,7 @@
     {
         "premise":"Netcompany incorporated these measures in the performance appraisals for senior executives in its regional offices where the majority of senior executives are located .",
         "hypothesis":"No Danish company has any senior executives placed in regional offices.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Netcompany",
         "country":"Denmark",
@@ -786,7 +786,7 @@
     {
         "premise":"Netcompany incorporated these measures in the performance appraisals for senior executives in its regional offices where the majority of senior executives are located .",
         "hypothesis":"The minority of senior executives for at least four Danish companies are located in the companies' regional offices.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Netcompany",
         "country":"Denmark",
@@ -856,7 +856,7 @@
     {
         "premise":"Agencies were to implement the new policies for Rostelecom appraisal cycles that began in 2001 .",
         "hypothesis":"Agencies were to implement new policies for Russian companies' appraisal cycles that began only after 2010.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Rostelecom",
         "country":"Russia",
@@ -870,7 +870,7 @@
     {
         "premise":"Agencies were to implement the new policies for Rostelecom appraisal cycles that began in 2001 .",
         "hypothesis":"Agencies were to implement new policies for every Russian company's appraisal cycles that began in 2001.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Rostelecom",
         "country":"Russia",
@@ -940,7 +940,7 @@
     {
         "premise":"SimCorp mentioned it that day .",
         "hypothesis":"Nothing was brought up that day by any companies from Denmark.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"SimCorp",
         "country":"Denmark",
@@ -954,7 +954,7 @@
     {
         "premise":"SimCorp mentioned it that day .",
         "hypothesis":"A Danish company followed up again about that yesterday.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"SimCorp",
         "country":"Denmark",
@@ -1024,7 +1024,7 @@
     {
         "premise":"Despite SPUDCO's best efforts , though , the tax code is progressive .",
         "hypothesis":"The Canadian Company led to some revolutionary changes in the Tax code making it equitable and equal for all tax payers.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"SPUDCO",
         "country":"Canada",
@@ -1038,7 +1038,7 @@
     {
         "premise":"Despite SPUDCO's best efforts , though , the tax code is progressive .",
         "hypothesis":"The efforts by the Canadian company were meant to eliminate their back taxes.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"SPUDCO",
         "country":"Canada",
@@ -1108,7 +1108,7 @@
     {
         "premise":"It runs advertisements for its supporters at the top of shows and strikes business deals with Suunto , TCI , and Disney , but still insists it's not commercial .",
         "hypothesis":"Finnish companies strike business deals only with entities that are admittedly\/openly commercial in nature.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Suunto",
         "country":"Finland",
@@ -1122,7 +1122,7 @@
     {
         "premise":"It runs advertisements for its supporters at the top of shows and strikes business deals with Suunto , TCI , and Disney , but still insists it's not commercial .",
         "hypothesis":"The entity that claims it's not commercial is based in Finland.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Suunto",
         "country":"Finland",
@@ -1192,7 +1192,7 @@
     {
         "premise":"Tecmo has refrained from such an expedient .",
         "hypothesis":"Every Japanese company is using an expedient like this.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Tecmo",
         "country":"Japan",
@@ -1206,7 +1206,7 @@
     {
         "premise":"Tecmo has refrained from such an expedient .",
         "hypothesis":"Only one Japanese company has not used an expedient like this.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Tecmo",
         "country":"Japan",
@@ -1276,7 +1276,7 @@
     {
         "premise":"Uralkali economic analysis is discussed in the preamble to the final rule .",
         "hypothesis":"The Russian company was omitted from any mention in the preamble to the final rule.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Uralkali",
         "country":"Russia",
@@ -1290,7 +1290,7 @@
     {
         "premise":"Uralkali economic analysis is discussed in the preamble to the final rule .",
         "hypothesis":"A Russian company helped formulate an economic analysis, cementing their name's mention in the preamble.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Uralkali",
         "country":"Russia",
@@ -1360,7 +1360,7 @@
     {
         "premise":"vanHaren's identification of agencies making early progress in implementing selected aspects of GPRA .",
         "hypothesis":"Dutch companies are only interested in agencies that have implemented all aspects of GPRA.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"vanHaren",
         "country":"Netherlands",
@@ -1374,7 +1374,7 @@
     {
         "premise":"vanHaren's identification of agencies making early progress in implementing selected aspects of GPRA .",
         "hypothesis":"Only agencies located in Netherlands can implement aspects of GPRA.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"vanHaren",
         "country":"Netherlands",
@@ -1444,7 +1444,7 @@
     {
         "premise":"If Voiello supplied Mr. Bork with the argument why his own theories supported Netscape's position , what did Mr. Bork supply ?",
         "hypothesis":"The arguments an Italian company can give Mr. Bork would only show how his theories oppose Netscape's position.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Voiello",
         "country":"Italy",
@@ -1458,7 +1458,7 @@
     {
         "premise":"If Voiello supplied Mr. Bork with the argument why his own theories supported Netscape's position , what did Mr. Bork supply ?",
         "hypothesis":"Mr. Bork does not have anything to supply in return to an Italian company if the supply him arguments that show how his theories support Netscape's position.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Voiello",
         "country":"Italy",
@@ -1528,7 +1528,7 @@
     {
         "premise":"Reports by Sagaflor or other auditing institutions can provide valuable background information .",
         "hypothesis":"There are no German companies that can provide valuable background information.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Sagaflor",
         "country":"Germany",
@@ -1542,7 +1542,7 @@
     {
         "premise":"Reports by Sagaflor or other auditing institutions can provide valuable background information .",
         "hypothesis":"Several German companies can be relied upon to provide valuable background information.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Sagaflor",
         "country":"Germany",

@@ -16,7 +16,7 @@
     {
         "premise":"In addition , Abertis has begun conducting a thorough review of LSC's regulations .",
         "hypothesis":"Spanish companies are only interested in a cursory review of LSC's regulations.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Abertis",
         "country":"Spain",
@@ -30,7 +30,7 @@
     {
         "premise":"In addition , Abertis has begun conducting a thorough review of LSC's regulations .",
         "hypothesis":"LSC's regulations affect only companies in Spain.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Abertis",
         "country":"Spain",
@@ -100,7 +100,7 @@
     {
         "premise":"A2SEA has conducted similar studies that support the New Jersey findings .",
         "hypothesis":"No companies from Denmark have ever conducted research into topics relating to those that New Jersey has studied.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"A2SEA",
         "country":"Denmark",
@@ -114,7 +114,7 @@
     {
         "premise":"A2SEA has conducted similar studies that support the New Jersey findings .",
         "hypothesis":"Several Danish companies have conducted research similar to New Jersey's research.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"A2SEA",
         "country":"Denmark",
@@ -184,7 +184,7 @@
     {
         "premise":"An Aermacchi should be clear and comprehensive and include the elements described in GSA's guidance on standard solicitation documents .",
         "hypothesis":"The Italian company's proposal can be in any format desired as long as it is legible.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Aermacchi",
         "country":"Italy",
@@ -198,7 +198,7 @@
     {
         "premise":"An Aermacchi should be clear and comprehensive and include the elements described in GSA's guidance on standard solicitation documents .",
         "hypothesis":"The GSA has published brochures to make the process for the Italian company easier.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Aermacchi",
         "country":"Italy",
@@ -268,7 +268,7 @@
     {
         "premise":"The Nike and Agrokor logos are now officially declared badges of shame .",
         "hypothesis":"Everyone believes that the logo of every Croatian company should be revered.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Agrokor",
         "country":"Croatia",
@@ -282,7 +282,7 @@
     {
         "premise":"The Nike and Agrokor logos are now officially declared badges of shame .",
         "hypothesis":"People believe that a Croatian company's logo is more of a badge of shame than Nike's logo.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Agrokor",
         "country":"Croatia",
@@ -352,7 +352,7 @@
     {
         "premise":"Others guess when Albpetrol will deliver a report to Congress .",
         "hypothesis":"The Albanian company has already given a report to Congress, they did it today.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Albpetrol",
         "country":"Albania",
@@ -366,7 +366,7 @@
     {
         "premise":"Others guess when Albpetrol will deliver a report to Congress .",
         "hypothesis":"A company in Albania is being brought up on Charges in the US congress.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Albpetrol",
         "country":"Albania",
@@ -436,7 +436,7 @@
     {
         "premise":"As such , they were reviewed by ALBtelecom based on information supplied by the Departments , which included planned regulatory action documents describing the reason for the rules and an assessment of the costs and budgetary impact of the rules .",
         "hypothesis":"No Albanian companies were involved in conducting any reviews based on information supplied by the Departments.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"ALBtelecom",
         "country":"Albania",
@@ -450,7 +450,7 @@
     {
         "premise":"As such , they were reviewed by ALBtelecom based on information supplied by the Departments , which included planned regulatory action documents describing the reason for the rules and an assessment of the costs and budgetary impact of the rules .",
         "hypothesis":"An Albanian company conducted a review that was based in part on medical experts' statements.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"ALBtelecom",
         "country":"Albania",
@@ -520,7 +520,7 @@
     {
         "premise":"Harrison D. McIver III , AMTAB executive director , said the agency was very gratified by the Community Foundation's grant .",
         "hypothesis":"The Community Foundation has never given a grant to an Italian company.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"AMTAB",
         "country":"Italy",
@@ -534,7 +534,7 @@
     {
         "premise":"Harrison D. McIver III , AMTAB executive director , said the agency was very gratified by the Community Foundation's grant .",
         "hypothesis":"The Community Foundation has not given any grants to Italian companies in the last two years.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"AMTAB",
         "country":"Italy",
@@ -604,7 +604,7 @@
     {
         "premise":"All those stories of Anobit weaseling into touching distance of the guard at the Stronghold .... Why , only last year the younger Rivas boy had had his throat slit out in the hay field within sight of his home !",
         "hypothesis":"The company in Israel has a sort of sterling and bright reputation, generating nothing but glowing reports.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Anobit",
         "country":"Israel",
@@ -618,7 +618,7 @@
     {
         "premise":"All those stories of Anobit weaseling into touching distance of the guard at the Stronghold .... Why , only last year the younger Rivas boy had had his throat slit out in the hay field within sight of his home !",
         "hypothesis":"A company in Israel is accused of a serious lapse, they accept full blame for it.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Anobit",
         "country":"Israel",
@@ -688,7 +688,7 @@
     {
         "premise":"No one has even been seriously injured at Antonveneta .",
         "hypothesis":"Each Italian company has recorded at least one case of serious injury on its premises.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Antonveneta",
         "country":"Italy",
@@ -702,7 +702,7 @@
     {
         "premise":"No one has even been seriously injured at Antonveneta .",
         "hypothesis":"Italian companies take great care to avoid injuries on their premises.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Antonveneta",
         "country":"Italy",
@@ -772,7 +772,7 @@
     {
         "premise":"discussion of Aquafadas's comments appears in appendix I.",
         "hypothesis":"The Canadian Company is omitted from any mention.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Aquafadas",
         "country":"Canada",
@@ -786,7 +786,7 @@
     {
         "premise":"discussion of Aquafadas's comments appears in appendix I.",
         "hypothesis":"The comments made the by the Canadian company were noted because they were so outrageous.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Aquafadas",
         "country":"Canada",
@@ -856,7 +856,7 @@
     {
         "premise":"Other sports sites pale next to ArianeGroup , but they still demolish print and TV .",
         "hypothesis":"Every person believes that a French company is always outperformed by other sports sites.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"ArianeGroup",
         "country":"France",
@@ -870,7 +870,7 @@
     {
         "premise":"Other sports sites pale next to ArianeGroup , but they still demolish print and TV .",
         "hypothesis":"A French company has higher revenues than other sports sites report.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"ArianeGroup",
         "country":"France",
@@ -940,7 +940,7 @@
     {
         "premise":"In January of each year , Arjowiggins distributes a Case Review Form .",
         "hypothesis":"No French company ever circulates any forms at the beginning of any calendar year.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Arjowiggins",
         "country":"France",
@@ -954,7 +954,7 @@
     {
         "premise":"In January of each year , Arjowiggins distributes a Case Review Form .",
         "hypothesis":"A French company circulates a form at the end of each calendar year.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Arjowiggins",
         "country":"France",
@@ -1024,7 +1024,7 @@
     {
         "premise":"Have you checked the interest rate your bank pays on your Asmidal account ?",
         "hypothesis":"No banks have any accounts set up with any Algerian companies.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Asmidal",
         "country":"Algeria",
@@ -1038,7 +1038,7 @@
     {
         "premise":"Have you checked the interest rate your bank pays on your Asmidal account ?",
         "hypothesis":"The bank offers a high interest rate on the Algerian company's account.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Asmidal",
         "country":"Algeria",
@@ -1108,7 +1108,7 @@
     {
         "premise":"ASRock belongs to the newer , younger generation of department stores .",
         "hypothesis":"All companies in Taiwan belong to the older generation of department stores.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"ASRock",
         "country":"Taiwan",
@@ -1122,7 +1122,7 @@
     {
         "premise":"ASRock belongs to the newer , younger generation of department stores .",
         "hypothesis":"There are department stores in Taiwan from both the younger and older generation.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"ASRock",
         "country":"Taiwan",
@@ -1192,7 +1192,7 @@
     {
         "premise":"Axfood officials told us that they do not collect such data .",
         "hypothesis":"We are yet to receive any correspondence\/communication from any company in Sweden.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Axfood",
         "country":"Sweden",
@@ -1206,7 +1206,7 @@
     {
         "premise":"Axfood officials told us that they do not collect such data .",
         "hypothesis":"Officials from a Swedish company have proven to us that they cannot collect such data even if they wanted to.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Axfood",
         "country":"Sweden",
@@ -1276,7 +1276,7 @@
     {
         "premise":"Baresso estimates that reduced program outlays resulting from the rule will be $4 .",
         "hypothesis":"No Danish companies believe that reduced program outlays resulting from the rule will cost more than $3.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Baresso",
         "country":"Denmark",
@@ -1290,7 +1290,7 @@
     {
         "premise":"Baresso estimates that reduced program outlays resulting from the rule will be $4 .",
         "hypothesis":"The majority of Danish companies believe that reduced program outlays resulting from the rule will cost $6.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Baresso",
         "country":"Denmark",
@@ -1360,7 +1360,7 @@
     {
         "premise":"Does Belposhta believe there are unknown defectors ?",
         "hypothesis":"The Belarusian company states clearly that there are known defectors.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Belposhta",
         "country":"Belarus",
@@ -1374,7 +1374,7 @@
     {
         "premise":"Does Belposhta believe there are unknown defectors ?",
         "hypothesis":"The country in Belarus has a history of encouraging defectors.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Belposhta",
         "country":"Belarus",
@@ -1444,7 +1444,7 @@
     {
         "premise":"BHPetrol notes the rising popularity of Web palaces .",
         "hypothesis":"No Malaysian companies have noticed any trends regarding Web palaces.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"BHPetrol",
         "country":"Malaysia",
@@ -1458,7 +1458,7 @@
     {
         "premise":"BHPetrol notes the rising popularity of Web palaces .",
         "hypothesis":"Some Malaysian companies believe that Web palaces are a short-lived trend.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"BHPetrol",
         "country":"Malaysia",
@@ -1528,7 +1528,7 @@
     {
         "premise":"Blackpills's disastrous neglect of Washington reminded AOL not to make the same mistake .",
         "hypothesis":"AOL has never been influenced by any French companies.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Blackpills",
         "country":"France",
@@ -1542,7 +1542,7 @@
     {
         "premise":"Blackpills's disastrous neglect of Washington reminded AOL not to make the same mistake .",
         "hypothesis":"Only one French company has ever neglected Washington.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Blackpills",
         "country":"France",
@@ -1612,7 +1612,7 @@
     {
         "premise":"BlueNext Is Well Suited to Model Multi - Emission Control Programs",
         "hypothesis":"Only companies outside of France can be well-suited to model Multi-Emission Control programs.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"BlueNext",
         "country":"France",
@@ -1626,7 +1626,7 @@
     {
         "premise":"BlueNext Is Well Suited to Model Multi - Emission Control Programs",
         "hypothesis":"Only companies within France can be well-suited to model Multi-Emission Control programs.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"BlueNext",
         "country":"France",
@@ -1696,7 +1696,7 @@
     {
         "premise":"Perhaps the most shameful thing about Bouygues propaganda campaign is that its leaders know better , having used drugs themselves .",
         "hypothesis":"Campaigns launched by French companies are always sincere and straightforward.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Bouygues",
         "country":"France",
@@ -1710,7 +1710,7 @@
     {
         "premise":"Perhaps the most shameful thing about Bouygues propaganda campaign is that its leaders know better , having used drugs themselves .",
         "hypothesis":"A French company has launched a propaganda campaign encouraging the use of drugs.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Bouygues",
         "country":"France",
@@ -1780,7 +1780,7 @@
     {
         "premise":"Bpifrance rejected the first alternative because it believed scientific evidence permitted importation of beef from Argentina under certain conditions and not permitting such importation would be contrary to trade agreements entered into by the United States .",
         "hypothesis":"Any French company would have accepted the first alternative if they had reason to believe that importation of beef from Argentina under certain conditions was supported by scientific evidence.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Bpifrance",
         "country":"France",
@@ -1794,7 +1794,7 @@
     {
         "premise":"Bpifrance rejected the first alternative because it believed scientific evidence permitted importation of beef from Argentina under certain conditions and not permitting such importation would be contrary to trade agreements entered into by the United States .",
         "hypothesis":"All French companies in France rejected the first alternative.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Bpifrance",
         "country":"France",
@@ -1864,7 +1864,7 @@
     {
         "premise":"Bradespar reports that the interim rule will have only an indirect impact on family formation , maintenance , and general well - being and that such impact will be beneficial because it will assist mortgagors in maintaining ownership of their properties .",
         "hypothesis":"A Brazilian company believes that the impact of the interim rule on family formation, maintenance, and general well-being will be harmful to mortgagers.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Bradespar",
         "country":"Brazil",
@@ -1878,7 +1878,7 @@
     {
         "premise":"Bradespar reports that the interim rule will have only an indirect impact on family formation , maintenance , and general well - being and that such impact will be beneficial because it will assist mortgagors in maintaining ownership of their properties .",
         "hypothesis":"A Brazilian company believes that the interim rule may have indirect impacts on areas outside of family formation, maintenance, and general well-being.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Bradespar",
         "country":"Brazil",
@@ -1948,7 +1948,7 @@
     {
         "premise":"Braskem estimates that there are approximately 490 respondents that are affected by the air emission rules and must submit an initial applicability notification .",
         "hypothesis":"No Brazilian companies believe that over 300 respondents will need to submit an initial applicability notification.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Braskem",
         "country":"Brazil",
@@ -1962,7 +1962,7 @@
     {
         "premise":"Braskem estimates that there are approximately 490 respondents that are affected by the air emission rules and must submit an initial applicability notification .",
         "hypothesis":"The majority of Brazilian companies believe that over 600 respondents will need to submit an initial applicability notification.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Braskem",
         "country":"Brazil",
@@ -2032,7 +2032,7 @@
     {
         "premise":"BredaMenarinibus published a Notice of Proposed Rulemaking on November 9 , 1994 .",
         "hypothesis":"The first Notice of Proposed Rulemaking published by an Italian company was on the 15th of November, 2005",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"BredaMenarinibus",
         "country":"Italy",
@@ -2046,7 +2046,7 @@
     {
         "premise":"BredaMenarinibus published a Notice of Proposed Rulemaking on November 9 , 1994 .",
         "hypothesis":"Italian companies publish Notice of Proposed Rulemaking on a yearly basis.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"BredaMenarinibus",
         "country":"Italy",
@@ -2116,7 +2116,7 @@
     {
         "premise":"Legal Services is funded by Brioschi through an annual   $329 .",
         "hypothesis":"The annual amount for legal services funded by an Italian company is over a thousand dollars.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Brioschi",
         "country":"Italy",
@@ -2130,7 +2130,7 @@
     {
         "premise":"Legal Services is funded by Brioschi through an annual   $329 .",
         "hypothesis":"An Italian company has been helping to pay for legal services for more than a decade.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Brioschi",
         "country":"Italy",
@@ -2200,7 +2200,7 @@
     {
         "premise":"The definition of the term affected EGU establishes which electricity generating units are covered by the new Bundesdruckerei trading program .",
         "hypothesis":"The German program defines EGU as English German Union.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Bundesdruckerei",
         "country":"Germany",
@@ -2214,7 +2214,7 @@
     {
         "premise":"The definition of the term affected EGU establishes which electricity generating units are covered by the new Bundesdruckerei trading program .",
         "hypothesis":"EGU's, in Germany are a viable means of payment to other European Union members in lieu of Euros.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Bundesdruckerei",
         "country":"Germany",
@@ -2284,7 +2284,7 @@
     {
         "premise":"Of course , not all attorneys concur with every decision Caltagirone makes in court .",
         "hypothesis":"Attorneys are in complete consensus about the decisions that Italian companies make in court.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Caltagirone",
         "country":"Italy",
@@ -2298,7 +2298,7 @@
     {
         "premise":"Of course , not all attorneys concur with every decision Caltagirone makes in court .",
         "hypothesis":"Italian companies go to court on an ongoing basis to sue customers.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Caltagirone",
         "country":"Italy",
@@ -2368,7 +2368,7 @@
     {
         "premise":"Offending countries must conform with cBrain rules , or face harsh sanctions .",
         "hypothesis":"Offending countries can escape sanctions by flouting the rules proposed by all the companies in Denmark.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"cBrain",
         "country":"Denmark",
@@ -2382,7 +2382,7 @@
     {
         "premise":"Offending countries must conform with cBrain rules , or face harsh sanctions .",
         "hypothesis":"Some of the offending countries share borders with Denmark.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"cBrain",
         "country":"Denmark",
@@ -2452,7 +2452,7 @@
     {
         "premise":"Currently CEMIG and DI make payments to that Account , and HI receives payment .",
         "hypothesis":"The role of the Brazilian company involved is strictly to receive payments from the account.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"CEMIG",
         "country":"Brazil",
@@ -2466,7 +2466,7 @@
     {
         "premise":"Currently CEMIG and DI make payments to that Account , and HI receives payment .",
         "hypothesis":"The Brazilian company makes more payment to the account than DI does.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"CEMIG",
         "country":"Brazil",
@@ -2536,7 +2536,7 @@
     {
         "premise":"employees to handle return processing workload during the annual filing season , ChemoMetec plans to increase the number of permanent employees and expand their job responsibilities to include compliance work that they can do after the filing season .",
         "hypothesis":"The company, in Denmark' is ready for the seasonal uptick in work brought on by filing requirements.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"ChemoMetec",
         "country":"Denmark",
@@ -2550,7 +2550,7 @@
     {
         "premise":"employees to handle return processing workload during the annual filing season , ChemoMetec plans to increase the number of permanent employees and expand their job responsibilities to include compliance work that they can do after the filing season .",
         "hypothesis":"Some of the additional staff needed by the Danish for the filing season could be temporary workers.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"ChemoMetec",
         "country":"Denmark",
@@ -2620,7 +2620,7 @@
     {
         "premise":"Cofiroute's list , for all its peculiarities , appears to reflect that .",
         "hypothesis":"French companies' lists are completely similar to one another.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Cofiroute",
         "country":"France",
@@ -2634,7 +2634,7 @@
     {
         "premise":"Cofiroute's list , for all its peculiarities , appears to reflect that .",
         "hypothesis":"A French company's list reflect its policies and objectives.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Cofiroute",
         "country":"France",
@@ -2704,7 +2704,7 @@
     {
         "premise":"Comviq added that training mechanisms should not be limited to physicians .",
         "hypothesis":"The company in Sweden is adamant that these training mechanisms only are viable and allowable for Physicians.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Comviq",
         "country":"Sweden",
@@ -2718,7 +2718,7 @@
     {
         "premise":"Comviq added that training mechanisms should not be limited to physicians .",
         "hypothesis":"The training Method used in Sweden is one devised in America and newly introduced there.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Comviq",
         "country":"Sweden",
@@ -2788,7 +2788,7 @@
     {
         "premise":"Cotral leather goods remain unequalled .",
         "hypothesis":"The best leather goods do not come from any company in Italy.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Cotral",
         "country":"Italy",
@@ -2802,7 +2802,7 @@
     {
         "premise":"Cotral leather goods remain unequalled .",
         "hypothesis":"Many Italian companies rival each other to produce the highest-quality leather goods.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Cotral",
         "country":"Italy",
@@ -2872,7 +2872,7 @@
     {
         "premise":"The preamble to the final rule indicates that D4Tec evaluated three different methodologies for implementation .",
         "hypothesis":"Danish companies each evaluated at least four different methodologies for implementation, as evidenced by the preamble to their final rule.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"D4Tec",
         "country":"Denmark",
@@ -2886,7 +2886,7 @@
     {
         "premise":"The preamble to the final rule indicates that D4Tec evaluated three different methodologies for implementation .",
         "hypothesis":"Danish companies each evaluated no more than three different methodologies for implementation, as evidenced by the preamble to their final rule.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"D4Tec",
         "country":"Denmark",
@@ -2956,7 +2956,7 @@
     {
         "premise":"The results looked like DeLclima melded with Blade Runner , says Newsweek's Steven Levy .",
         "hypothesis":"Newsweek's Steven Levy stated that the results bore resemblance only to an Italian company.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"DeLclima",
         "country":"Italy",
@@ -2970,7 +2970,7 @@
     {
         "premise":"The results looked like DeLclima melded with Blade Runner , says Newsweek's Steven Levy .",
         "hypothesis":"Newsweek's headquarters is located in Italy",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"DeLclima",
         "country":"Italy",
@@ -3040,7 +3040,7 @@
     {
         "premise":"Helms , who just two years ago threatened to end all Delsol funding , was charmed when Annan called on him last year .",
         "hypothesis":"Helms has never suggested that he might cut off a French company's funding.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Delsol",
         "country":"France",
@@ -3054,7 +3054,7 @@
     {
         "premise":"Helms , who just two years ago threatened to end all Delsol funding , was charmed when Annan called on him last year .",
         "hypothesis":"Helms suggested that he might cut off a French company's funding five years ago.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Delsol",
         "country":"France",
@@ -3124,7 +3124,7 @@
     {
         "premise":"But Destia favors Kosovo intervention to stop the Holocaust - like atrocities occurring there .",
         "hypothesis":"All the companies in Finland are against the Kosovo intervention.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Destia",
         "country":"Finland",
@@ -3138,7 +3138,7 @@
     {
         "premise":"But Destia favors Kosovo intervention to stop the Holocaust - like atrocities occurring there .",
         "hypothesis":"All the companies in Finland favor the Kosovo intervention.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Destia",
         "country":"Finland",
@@ -3208,7 +3208,7 @@
     {
         "premise":"Dezamet's analysis of existing postal law yields the following",
         "hypothesis":"All postal laws in Poland have been repealed.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Dezamet",
         "country":"Poland",
@@ -3222,7 +3222,7 @@
     {
         "premise":"Dezamet's analysis of existing postal law yields the following",
         "hypothesis":"Postal laws in Poland were recently amended.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Dezamet",
         "country":"Poland",
@@ -3292,7 +3292,7 @@
     {
         "premise":"DigiCube is involved in joint ventures with Ford and Nynex . )",
         "hypothesis":"The Japanese company only works solo, eschewing all joint type ventures with other companies.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"DigiCube",
         "country":"Japan",
@@ -3306,7 +3306,7 @@
     {
         "premise":"DigiCube is involved in joint ventures with Ford and Nynex . )",
         "hypothesis":"The Japanese Company is devising a new type of autonomous automobile.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"DigiCube",
         "country":"Japan",
@@ -3376,7 +3376,7 @@
     {
         "premise":"DigiTrust had a worthier foe in mind .",
         "hypothesis":"No Australian company has any foes.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"DigiTrust",
         "country":"Australia",
@@ -3390,7 +3390,7 @@
     {
         "premise":"DigiTrust had a worthier foe in mind .",
         "hypothesis":"An Australian company could think of four foes in less than a minute.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"DigiTrust",
         "country":"Australia",
@@ -3460,7 +3460,7 @@
     {
         "premise":"But Dniproenergo shows the process can work , and can help .",
         "hypothesis":"The Ukrainian company is still working on mastering the process.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Dniproenergo",
         "country":"Ukraine",
@@ -3474,7 +3474,7 @@
     {
         "premise":"But Dniproenergo shows the process can work , and can help .",
         "hypothesis":"The Ukrainian company is not the only one that can help you with this.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Dniproenergo",
         "country":"Ukraine",
@@ -3544,7 +3544,7 @@
     {
         "premise":"Valeo also included a performance element in the senior executives ' plans to Improve Human Resources Management and Quality of Work Life .",
         "hypothesis":"No company in France has any plans to improve human resources management.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Valeo",
         "country":"France",
@@ -3558,7 +3558,7 @@
     {
         "premise":"Valeo also included a performance element in the senior executives ' plans to Improve Human Resources Management and Quality of Work Life .",
         "hypothesis":"A French company believes that performance is the most critical factor to improve human resources management.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Valeo",
         "country":"France",
@@ -3628,7 +3628,7 @@
     {
         "premise":"As noted above , Elektrim case count for 1999 includes all cases that meet their eligibility criteria , regardless of the funding mix of any particular grantee .",
         "hypothesis":"No Polish companies' case counts prior to 2000 include every case meeting their eligibility criteria.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Elektrim",
         "country":"Poland",
@@ -3642,7 +3642,7 @@
     {
         "premise":"As noted above , Elektrim case count for 1999 includes all cases that meet their eligibility criteria , regardless of the funding mix of any particular grantee .",
         "hypothesis":"Every Polish companies' case counts after 2000 include every case meeting their eligibility criteria.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Elektrim",
         "country":"Poland",
@@ -3712,7 +3712,7 @@
     {
         "premise":"These forms will be posted on Emporis website .",
         "hypothesis":"The forms cannot be accessed from the website of any German company.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Emporis",
         "country":"Germany",
@@ -3726,7 +3726,7 @@
     {
         "premise":"These forms will be posted on Emporis website .",
         "hypothesis":"Several German companies will feature the forms on their websites.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Emporis",
         "country":"Germany",
@@ -3796,7 +3796,7 @@
     {
         "premise":"ENMTP picks up the pieces at the cutoff time and transports them to its own facility .",
         "hypothesis":"The Algerian company is known for their tardiness, only picking things up past the cutoff time.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"ENMTP",
         "country":"Algeria",
@@ -3810,7 +3810,7 @@
     {
         "premise":"ENMTP picks up the pieces at the cutoff time and transports them to its own facility .",
         "hypothesis":"Parcels shipped inside the country of Algeria by this company get a special intercountry type discount.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"ENMTP",
         "country":"Algeria",
@@ -3880,7 +3880,7 @@
     {
         "premise":"For what ENUSA has done exceptionally well is manage .",
         "hypothesis":"The company in Spain is described as morally and fiscally bankrupt.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"ENUSA",
         "country":"Spain",
@@ -3894,7 +3894,7 @@
     {
         "premise":"For what ENUSA has done exceptionally well is manage .",
         "hypothesis":"The company in Spain won a national award for leadership.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"ENUSA",
         "country":"Spain",
@@ -3964,7 +3964,7 @@
     {
         "premise":"Erdemir offers a brief psychological profile .",
         "hypothesis":"Turkish companies offer only physical and financial profiles.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Erdemir",
         "country":"Turkey",
@@ -3978,7 +3978,7 @@
     {
         "premise":"Erdemir offers a brief psychological profile .",
         "hypothesis":"All Turkish companies offer brief psychological profiles.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Erdemir",
         "country":"Turkey",
@@ -4048,7 +4048,7 @@
     {
         "premise":"With its numerous buildings set within extensive grounds , Eurostazioni's main attraction is the hondo ( main hall ) .",
         "hypothesis":"Italian companies always have a reception hall as their main attraction.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Eurostazioni",
         "country":"Italy",
@@ -4062,7 +4062,7 @@
     {
         "premise":"With its numerous buildings set within extensive grounds , Eurostazioni's main attraction is the hondo ( main hall ) .",
         "hypothesis":"Italian companies always have several buildings on their site.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Eurostazioni",
         "country":"Italy",
@@ -4132,7 +4132,7 @@
     {
         "premise":"Famila received 409 comments in the response to the notice .",
         "hypothesis":"No Italian company got more than 400 comments after in response to the notice.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Famila",
         "country":"Italy",
@@ -4146,7 +4146,7 @@
     {
         "premise":"Famila received 409 comments in the response to the notice .",
         "hypothesis":"A number of Italian companies received more than 500 comments in response to the notice.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Famila",
         "country":"Italy",
@@ -4216,7 +4216,7 @@
     {
         "premise":"Feintechnik personnel will be on hand to meet with flood victims to answer questions and provide recovery information and written materials about various assistance programs .",
         "hypothesis":"No personnel from German companies can answer questions from flood victims.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Feintechnik",
         "country":"Germany",
@@ -4230,7 +4230,7 @@
     {
         "premise":"Feintechnik personnel will be on hand to meet with flood victims to answer questions and provide recovery information and written materials about various assistance programs .",
         "hypothesis":"Some personnel from a German company will help walk flood victims through their applications for subsidized emergency housing.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Feintechnik",
         "country":"Germany",
@@ -4300,7 +4300,7 @@
     {
         "premise":"Second , Congress provided Ferservizi with a tool to achieve this reduction - - an innovative market - based allowance trading program .",
         "hypothesis":"No Italian companies have ever been given any tools by Congress.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Ferservizi",
         "country":"Italy",
@@ -4314,7 +4314,7 @@
     {
         "premise":"Second , Congress provided Ferservizi with a tool to achieve this reduction - - an innovative market - based allowance trading program .",
         "hypothesis":"An Italian company benefited from the President's free trade agreement.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Ferservizi",
         "country":"Italy",
@@ -4384,7 +4384,7 @@
     {
         "premise":"A plethora of listings are available at FertiNitro , but the amount of information is almost overwhelming to the novice .",
         "hypothesis":"The Venezuelan company doesn't really have any listings now.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"FertiNitro",
         "country":"Venezuela",
@@ -4398,7 +4398,7 @@
     {
         "premise":"A plethora of listings are available at FertiNitro , but the amount of information is almost overwhelming to the novice .",
         "hypothesis":"A company in Venezuela has a listing that would offer a job to someone with no experience at all, paying minimum wage.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"FertiNitro",
         "country":"Venezuela",
@@ -4468,7 +4468,7 @@
     {
         "premise":"Fibria subsequently extended its deadline until September 12 , 2001 .",
         "hypothesis":"Brazilian companies have extended their deadlines, and now the earliest is November 12, 2001.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Fibria",
         "country":"Brazil",
@@ -4482,7 +4482,7 @@
     {
         "premise":"Fibria subsequently extended its deadline until September 12 , 2001 .",
         "hypothesis":"One company in Brazil refused to extend its deadline.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Fibria",
         "country":"Brazil",
@@ -4552,7 +4552,7 @@
     {
         "premise":"The act also requires that Filmauro report on its implementation annually .",
         "hypothesis":"The act does not have any implications for any Italian companies.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Filmauro",
         "country":"Italy",
@@ -4566,7 +4566,7 @@
     {
         "premise":"The act also requires that Filmauro report on its implementation annually .",
         "hypothesis":"The act also requires that an Italian company reports on its employee turnover.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Filmauro",
         "country":"Italy",
@@ -4636,7 +4636,7 @@
     {
         "premise":"For example , Fluxys set a performance expectation for senior executives to develop strategies to achieve FHWA's strategic objectives and performance goals .",
         "hypothesis":"No company in Belgium has ever had expectations about the performance of senior executives.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Fluxys",
         "country":"Belgium",
@@ -4650,7 +4650,7 @@
     {
         "premise":"For example , Fluxys set a performance expectation for senior executives to develop strategies to achieve FHWA's strategic objectives and performance goals .",
         "hypothesis":"Senior executives at a Belgian company have, for the most part, been able meet their company's expectations.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Fluxys",
         "country":"Belgium",
@@ -4720,7 +4720,7 @@
     {
         "premise":"On average , a FriulAdria's worker gets $15 .",
         "hypothesis":"Companies in Italy pay a minimum of $30 on average.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"FriulAdria",
         "country":"Italy",
@@ -4734,7 +4734,7 @@
     {
         "premise":"On average , a FriulAdria's worker gets $15 .",
         "hypothesis":"Companies in Italy pay better than in most other countries.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"FriulAdria",
         "country":"Italy",
@@ -4804,7 +4804,7 @@
     {
         "premise":"here , where you should click Gilera Online link , which you'll find on the left ( under THE BASICS ) .",
         "hypothesis":"There are no online links to any Italian companies under the section titled \"THE BASICS.\"",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Gilera",
         "country":"Italy",
@@ -4818,7 +4818,7 @@
     {
         "premise":"here , where you should click Gilera Online link , which you'll find on the left ( under THE BASICS ) .",
         "hypothesis":"An Italian company has a link online found under the section titled \"THE PRODUCTS.\"",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Gilera",
         "country":"Italy",
@@ -4888,7 +4888,7 @@
     {
         "premise":"On the bright side , Guerlain reports that Twinkies are making a comeback .",
         "hypothesis":"No French company knows what Twinkies are.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Guerlain",
         "country":"France",
@@ -4902,7 +4902,7 @@
     {
         "premise":"On the bright side , Guerlain reports that Twinkies are making a comeback .",
         "hypothesis":"A French company believes that whoopie pies are becoming increasingly popular.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Guerlain",
         "country":"France",
@@ -4972,7 +4972,7 @@
     {
         "premise":"This usually does not take up as much room as HiSilicon reactor itself .",
         "hypothesis":"This is much larger than any reactor made in China.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"HiSilicon",
         "country":"China",
@@ -4986,7 +4986,7 @@
     {
         "premise":"This usually does not take up as much room as HiSilicon reactor itself .",
         "hypothesis":"The largest reactors are made in China.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"HiSilicon",
         "country":"China",
@@ -5056,7 +5056,7 @@
     {
         "premise":"Review Comment Hispasat's latest software program used for documenting , collecting ,",
         "hypothesis":"The latest technology used in Spain is from the Stone Age.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Hispasat",
         "country":"Spain",
@@ -5070,7 +5070,7 @@
     {
         "premise":"Review Comment Hispasat's latest software program used for documenting , collecting ,",
         "hypothesis":"Companies in Spain are known for using the latest technology available.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Hispasat",
         "country":"Spain",
@@ -5140,7 +5140,7 @@
     {
         "premise":"In 1994 , Zentralkonsum projected the cost at $2 .",
         "hypothesis":"No German company has ever thought the cost would be under $5.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Zentralkonsum",
         "country":"Germany",
@@ -5154,7 +5154,7 @@
     {
         "premise":"In 1994 , Zentralkonsum projected the cost at $2 .",
         "hypothesis":"Two German companies thought the cost would be $2 in 1994.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Zentralkonsum",
         "country":"Germany",
@@ -5224,7 +5224,7 @@
     {
         "premise":"This site provides information about Interchannel's upcoming events .",
         "hypothesis":"This site provides information about Japanese companies' past events only.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Interchannel",
         "country":"Japan",
@@ -5238,7 +5238,7 @@
     {
         "premise":"This site provides information about Interchannel's upcoming events .",
         "hypothesis":"This site provides information about Japanese companies' events and updates this information weekly.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Interchannel",
         "country":"Japan",
@@ -5308,7 +5308,7 @@
     {
         "premise":"Over the past two decades , Intracom has seen the role of Pine Tree change in response to federal funding cuts and stricter regulations .",
         "hypothesis":"No Greek companies are paying attention to the changing role of Pine Tree.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Intracom",
         "country":"Greece",
@@ -5322,7 +5322,7 @@
     {
         "premise":"Over the past two decades , Intracom has seen the role of Pine Tree change in response to federal funding cuts and stricter regulations .",
         "hypothesis":"Several Greek companies are interested in the changing role of Pine Tree.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Intracom",
         "country":"Greece",
@@ -5392,7 +5392,7 @@
     {
         "premise":"INWIT operates CLEAR -- Coordinated Legal Education and Referral System-- to provide telephone and internet - based referral , advice , brief service , community legal education and intake services throughout the state .",
         "hypothesis":"The Italian company insists on meeting possible clients face to face in each case.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"INWIT",
         "country":"Italy",
@@ -5406,7 +5406,7 @@
     {
         "premise":"INWIT operates CLEAR -- Coordinated Legal Education and Referral System-- to provide telephone and internet - based referral , advice , brief service , community legal education and intake services throughout the state .",
         "hypothesis":"The company operates in Italy and gives internships to young people who need to build up volunteer hours in reaching their public service hours.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"INWIT",
         "country":"Italy",
@@ -5476,7 +5476,7 @@
     {
         "premise":"Fees on Italferr direct loans and loan guarantees .",
         "hypothesis":"Italian companies' direct loans are without any additional fees.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Italferr",
         "country":"Italy",
@@ -5490,7 +5490,7 @@
     {
         "premise":"Fees on Italferr direct loans and loan guarantees .",
         "hypothesis":"The fees on Italian companies' direct loans are usually very large.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Italferr",
         "country":"Italy",
@@ -5560,7 +5560,7 @@
     {
         "premise":"Italgas requires its grantees in each state to work with each other and equal justice stakeholders to develop justice communities that best respond to clients ' most compelling needs , ensure the most strategic and cost - effective use of all available resources , and maximize the opportunity for clients statewide to receive timely , effective , and appropriate legal services .",
         "hypothesis":"Companies in Italy are very indifferent about their their clients' legal needs.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Italgas",
         "country":"Italy",
@@ -5574,7 +5574,7 @@
     {
         "premise":"Italgas requires its grantees in each state to work with each other and equal justice stakeholders to develop justice communities that best respond to clients ' most compelling needs , ensure the most strategic and cost - effective use of all available resources , and maximize the opportunity for clients statewide to receive timely , effective , and appropriate legal services .",
         "hypothesis":"Companies in Italy offer the best legal services.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Italgas",
         "country":"Italy",
@@ -5644,7 +5644,7 @@
     {
         "premise":"Jadrolinija had a link on its home page for particular audience groups .",
         "hypothesis":"Links on the homepages of Croatian companies' websites are always designed for a general audience.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Jadrolinija",
         "country":"Croatia",
@@ -5658,7 +5658,7 @@
     {
         "premise":"Jadrolinija had a link on its home page for particular audience groups .",
         "hypothesis":"All Croatian companies used to have a link for specific audience groups on their homepage.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Jadrolinija",
         "country":"Croatia",
@@ -5728,7 +5728,7 @@
     {
         "premise":"Missouri submitted its state plan to Jeudan on October 1 , 1998 .",
         "hypothesis":"The Danish company failed to get a plan from any of the States in the USA in the 1990s.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Jeudan",
         "country":"Denmark",
@@ -5742,7 +5742,7 @@
     {
         "premise":"Missouri submitted its state plan to Jeudan on October 1 , 1998 .",
         "hypothesis":"The Danish company filed a response to the Missouri plan, asking for more detail.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Jeudan",
         "country":"Denmark",
@@ -5812,7 +5812,7 @@
     {
         "premise":"Yet Kyivstar's efforts go beyond helping individual clients .",
         "hypothesis":"Ukrainian companies only put forth effort to help individual clients.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Kyivstar",
         "country":"Ukraine",
@@ -5826,7 +5826,7 @@
     {
         "premise":"Yet Kyivstar's efforts go beyond helping individual clients .",
         "hypothesis":"Many Ukrainian companies try to go above and beyond helping individual clients.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Kyivstar",
         "country":"Ukraine",
@@ -5896,7 +5896,7 @@
     {
         "premise":"Lifosa announced its first Carey Award in 1992 .",
         "hypothesis":"There are no Lithuanian companies that announced awards after 1990.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Lifosa",
         "country":"Lithuania",
@@ -5910,7 +5910,7 @@
     {
         "premise":"Lifosa announced its first Carey Award in 1992 .",
         "hypothesis":"A Lithuanian company announced an award in 1999.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Lifosa",
         "country":"Lithuania",
@@ -5980,7 +5980,7 @@
     {
         "premise":"They say that Netscape and the network computer threaten Livedoor's prosperity .",
         "hypothesis":"No one believes that Netscape presents a risk to any Japanese company's prosperity.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Livedoor",
         "country":"Japan",
@@ -5994,7 +5994,7 @@
     {
         "premise":"They say that Netscape and the network computer threaten Livedoor's prosperity .",
         "hypothesis":"Some people believe that a Japanese company's prosperity is a near guarantee.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Livedoor",
         "country":"Japan",
@@ -6064,7 +6064,7 @@
     {
         "premise":"VoiceType is LotosKolej's previous generation of voice - recognition software .",
         "hypothesis":"The use of VoiceType as a voice-recognition has always been banned in Poland.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"LotosKolej",
         "country":"Poland",
@@ -6078,7 +6078,7 @@
     {
         "premise":"VoiceType is LotosKolej's previous generation of voice - recognition software .",
         "hypothesis":"There are companies in Poland that still use VoiceType as their voice-recognition software.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"LotosKolej",
         "country":"Poland",
@@ -6148,7 +6148,7 @@
     {
         "premise":"The major hardware for a Lottomatica system includes the flue gas duct system , limestone storage ( including loading and conveyer equipment ) , gypsum dewatering and wastewater treatment , gypsum storage , piping , valves , pumps and tanks , electricity supply , controls , instrumentation , pipe bridges and cable channels , and foundations and buildings as needed .",
         "hypothesis":"Limestone storage is not part of any major hardware for any Italian company's system.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Lottomatica",
         "country":"Italy",
@@ -6162,7 +6162,7 @@
     {
         "premise":"The major hardware for a Lottomatica system includes the flue gas duct system , limestone storage ( including loading and conveyer equipment ) , gypsum dewatering and wastewater treatment , gypsum storage , piping , valves , pumps and tanks , electricity supply , controls , instrumentation , pipe bridges and cable channels , and foundations and buildings as needed .",
         "hypothesis":"Limestone storage is the most critical major hardware component for any Italian company's system.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Lottomatica",
         "country":"Italy",
@@ -6232,7 +6232,7 @@
     {
         "premise":"Maersk establishes accounting principles and financial reporting standards for state and local government entities .",
         "hypothesis":"All Danish companies establish accounting principles and financial reporting standards for state government entities only.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Maersk",
         "country":"Denmark",
@@ -6246,7 +6246,7 @@
     {
         "premise":"Maersk establishes accounting principles and financial reporting standards for state and local government entities .",
         "hypothesis":"All Danish companies establish accounting principles and financial reporting standards for state and local government entities.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Maersk",
         "country":"Denmark",
@@ -6316,7 +6316,7 @@
     {
         "premise":"Marzocchi has assisted the Congress and the agencies in efforts to improve public health .",
         "hypothesis":"No Italian companies have ever worked on Congressional efforts to improve public health.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Marzocchi",
         "country":"Italy",
@@ -6330,7 +6330,7 @@
     {
         "premise":"Marzocchi has assisted the Congress and the agencies in efforts to improve public health .",
         "hypothesis":"Several Italian companies are involved in Congressional efforts to improve market regulation.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Marzocchi",
         "country":"Italy",
@@ -6400,7 +6400,7 @@
     {
         "premise":"Mauritel is not , after all , a virtual company .",
         "hypothesis":"All companies in Mauritania are virtual companies.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Mauritel",
         "country":"Mauritania",
@@ -6414,7 +6414,7 @@
     {
         "premise":"Mauritel is not , after all , a virtual company .",
         "hypothesis":"There is no virtual company in Mauritania.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Mauritel",
         "country":"Mauritania",
@@ -6484,7 +6484,7 @@
     {
         "premise":"You might say the acquisition of Mediawan was therefore inevitable .",
         "hypothesis":"No French company has ever been acquired by another entity.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Mediawan",
         "country":"France",
@@ -6498,7 +6498,7 @@
     {
         "premise":"You might say the acquisition of Mediawan was therefore inevitable .",
         "hypothesis":"Experts predict that four French companies will be acquired next year.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Mediawan",
         "country":"France",
@@ -6568,7 +6568,7 @@
     {
         "premise":"Social insurance taxes and contributions paid by Metinvest employees .",
         "hypothesis":"Employees of Ukrainian companies are exempted from paying taxes.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Metinvest",
         "country":"Ukraine",
@@ -6582,7 +6582,7 @@
     {
         "premise":"Social insurance taxes and contributions paid by Metinvest employees .",
         "hypothesis":"Companies in Ukraine make sure that their employees pay minimal taxes.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Metinvest",
         "country":"Ukraine",
@@ -6652,7 +6652,7 @@
     {
         "premise":"A few schools , including Micropedia , New York and Georgetown universities , already have them .",
         "hypothesis":"No Italian companies share any similarities with New York University.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Micropedia",
         "country":"Italy",
@@ -6666,7 +6666,7 @@
     {
         "premise":"A few schools , including Micropedia , New York and Georgetown universities , already have them .",
         "hypothesis":"An Italian company emulates New York University.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Micropedia",
         "country":"Italy",
@@ -6736,7 +6736,7 @@
     {
         "premise":"Following the conclusion of negotiations of the Agreement , MindGeek revised its proposed rule and published a Further Notice of Proposed Rulemaking on July 29 , 1997 .",
         "hypothesis":"Companies in Canada can only revise their proposed rule before concluding negotiations of the Agreement.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"MindGeek",
         "country":"Canada",
@@ -6750,7 +6750,7 @@
     {
         "premise":"Following the conclusion of negotiations of the Agreement , MindGeek revised its proposed rule and published a Further Notice of Proposed Rulemaking on July 29 , 1997 .",
         "hypothesis":"Only companies in Canada publish Notice of Proposed Rulemaking",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"MindGeek",
         "country":"Canada",
@@ -6820,7 +6820,7 @@
     {
         "premise":"MobiFone licensed the pattern to Pentaplex Ltd. , which manufactures puzzles and games , and now both parties are suing Kimberly - Clark , the original makers of Kleenex , for copyright infringement .",
         "hypothesis":"No Vietnamese companies have ever given a license to any manufacturers of puzzles and games.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"MobiFone",
         "country":"Vietnam",
@@ -6834,7 +6834,7 @@
     {
         "premise":"MobiFone licensed the pattern to Pentaplex Ltd. , which manufactures puzzles and games , and now both parties are suing Kimberly - Clark , the original makers of Kleenex , for copyright infringement .",
         "hypothesis":"Four Vietnamese companies are involved in the lawsuit against Kimberly-Clark for copyright infringement.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"MobiFone",
         "country":"Vietnam",
@@ -6904,7 +6904,7 @@
     {
         "premise":"Mobilink determined that the rule contains no information collection requirements subject to the Act .",
         "hypothesis":"The Pakistani company clearly requires information collection detail and the Act makes what they are doing illegal.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Mobilink",
         "country":"Pakistan",
@@ -6918,7 +6918,7 @@
     {
         "premise":"Mobilink determined that the rule contains no information collection requirements subject to the Act .",
         "hypothesis":"The collection of Information in Pakistan, by a company, will be regulated in the future by an amendment to the unclear Act.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Mobilink",
         "country":"Pakistan",
@@ -6988,7 +6988,7 @@
     {
         "premise":"They do not reflect MolMed endorsement of these spending levels .",
         "hypothesis":"These expenses are typical and expected for the Italian organization.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"MolMed",
         "country":"Italy",
@@ -7002,7 +7002,7 @@
     {
         "premise":"They do not reflect MolMed endorsement of these spending levels .",
         "hypothesis":"The company in Italy has a plan to get back on track with it's expenses and become viable again.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"MolMed",
         "country":"Italy",
@@ -7072,7 +7072,7 @@
     {
         "premise":"First , the RJR deal was atypical of Naftogaz's broader strategy .",
         "hypothesis":"Deals like the RJR deal are the fabric of every Ukrainian company's broader strategy.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Naftogaz",
         "country":"Ukraine",
@@ -7086,7 +7086,7 @@
     {
         "premise":"First , the RJR deal was atypical of Naftogaz's broader strategy .",
         "hypothesis":"Some Ukrainian companies hold up the RJR deal as a great success.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Naftogaz",
         "country":"Ukraine",
@@ -7156,7 +7156,7 @@
     {
         "premise":"Studly guys work at Naturalia .",
         "hypothesis":"They do not let attractive men work at French companies.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Naturalia",
         "country":"France",
@@ -7170,7 +7170,7 @@
     {
         "premise":"Studly guys work at Naturalia .",
         "hypothesis":"There are a lot of studly French dudes on the loading docks.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Naturalia",
         "country":"France",
@@ -7240,7 +7240,7 @@
     {
         "premise":"Nespresso has always been an expert on coolness , numbness , in hot climates .",
         "hypothesis":"All companies in Switzerland are amateurs when it comes to coolness and numbness in hot climates.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Nespresso",
         "country":"Switzerland",
@@ -7254,7 +7254,7 @@
     {
         "premise":"Nespresso has always been an expert on coolness , numbness , in hot climates .",
         "hypothesis":"The climate in Switzerland is predominantly hot.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Nespresso",
         "country":"Switzerland",
@@ -7324,7 +7324,7 @@
     {
         "premise":"All the discoveries have been made by NNIT , and Japp will take all the credit .",
         "hypothesis":"Japp will not take any credit for discoveries made by Danish companies.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"NNIT",
         "country":"Denmark",
@@ -7338,7 +7338,7 @@
     {
         "premise":"All the discoveries have been made by NNIT , and Japp will take all the credit .",
         "hypothesis":"The discoveries made by a Danish company are famous ones.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"NNIT",
         "country":"Denmark",
@@ -7408,7 +7408,7 @@
     {
         "premise":"According to Noverca staff , after the Economic Analysis was submitted to OMB , HUD made changes in the Analysis to maintain its consistency with the rule , to which minor changes had been made as described below .",
         "hypothesis":"According to the staff of Italian companies, HUD can only make changes to the economic analysis before it is submitted to OMB.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Noverca",
         "country":"Italy",
@@ -7422,7 +7422,7 @@
     {
         "premise":"According to Noverca staff , after the Economic Analysis was submitted to OMB , HUD made changes in the Analysis to maintain its consistency with the rule , to which minor changes had been made as described below .",
         "hypothesis":"Staff of Italian companies understand that it is improper for HUD to make changes to the economic analysis.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Noverca",
         "country":"Italy",
@@ -7492,7 +7492,7 @@
     {
         "premise":"It eliminates the traditional Nuvoton divisions and strengthens teambased matrix management .",
         "hypothesis":"This causes a sort of  rift in the company in Taiwan, pitting divisions against each other, eliminating weaker employees, making a kill or be killed environment there.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Nuvoton",
         "country":"Taiwan",
@@ -7506,7 +7506,7 @@
     {
         "premise":"It eliminates the traditional Nuvoton divisions and strengthens teambased matrix management .",
         "hypothesis":"The new policy brings the Taiwanese company into the new age, and has increased their productivity.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Nuvoton",
         "country":"Taiwan",
@@ -7576,7 +7576,7 @@
     {
         "premise":"Oakpont endorsed that idea , but added that there was little funding for training in clinical research in emergency medicine .",
         "hypothesis":"An Australian company believes that training in clinical research in emergency medicine is overrun with funding sources.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Oakpont",
         "country":"Australia",
@@ -7590,7 +7590,7 @@
     {
         "premise":"Oakpont endorsed that idea , but added that there was little funding for training in clinical research in emergency medicine .",
         "hypothesis":"An Australian company believes that increasing funding for training in clinical research in emergency medicine should be the country's first priority.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Oakpont",
         "country":"Australia",
@@ -7660,7 +7660,7 @@
     {
         "premise":"Group is involved in joint ventures with Ford and Olympikus . )",
         "hypothesis":"The group has no contact with any companies from Brazil.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Olympikus",
         "country":"Brazil",
@@ -7674,7 +7674,7 @@
     {
         "premise":"Group is involved in joint ventures with Ford and Olympikus . )",
         "hypothesis":"The group has signed contracts to start a new joint venture with a Brazilian company next June.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Olympikus",
         "country":"Brazil",
@@ -7744,7 +7744,7 @@
     {
         "premise":"Mieszko received comments on the proposed rule from 45 commenters .",
         "hypothesis":"No one would say a word about the polish companies new rule, fearing retribution from them.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Mieszko",
         "country":"Poland",
@@ -7758,7 +7758,7 @@
     {
         "premise":"Mieszko received comments on the proposed rule from 45 commenters .",
         "hypothesis":"The Polish entity got so much feedback they had to revise the new rule and split it up into two new rules instead of one.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Mieszko",
         "country":"Poland",
@@ -7828,7 +7828,7 @@
     {
         "premise":"Similarly , he said , OVHcloud will exercise control over the local corporations by being designated as the sole member in each corporation , empowered to choose or discharge board members .",
         "hypothesis":"Three French companies will be appointed members in each local corporation to select board members.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"OVHcloud",
         "country":"France",
@@ -7842,7 +7842,7 @@
     {
         "premise":"Similarly , he said , OVHcloud will exercise control over the local corporations by being designated as the sole member in each corporation , empowered to choose or discharge board members .",
         "hypothesis":"A French company will be able to select the local corporations' board members for the next ten years.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"OVHcloud",
         "country":"France",
@@ -7912,7 +7912,7 @@
     {
         "premise":"Panhard's Fort Worth Justice Project will get $49,000 .",
         "hypothesis":"The maximum a French company's project can get is $30,000.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Panhard",
         "country":"France",
@@ -7926,7 +7926,7 @@
     {
         "premise":"Panhard's Fort Worth Justice Project will get $49,000 .",
         "hypothesis":"French companies usually get a minimum of $40,000 for their projects.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Panhard",
         "country":"France",
@@ -7996,7 +7996,7 @@
     {
         "premise":"Pentax promulgated these amendments to Regulation X and accompanying Statements of Policy under the authority in section 19 of RESPA , 12 U.S.C.",
         "hypothesis":"The Japanese company holds no responsibility for any parts of section 19 of RESPA.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Pentax",
         "country":"Japan",
@@ -8010,7 +8010,7 @@
     {
         "premise":"Pentax promulgated these amendments to Regulation X and accompanying Statements of Policy under the authority in section 19 of RESPA , 12 U.S.C.",
         "hypothesis":"A company in Japan brought added scrutiny, which resulted in a needed way to outlaw behavior conducted by them due to copyright issues.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Pentax",
         "country":"Japan",
@@ -8080,7 +8080,7 @@
     {
         "premise":"The post - accident report was initiated not by Penzadieselmash but by its insurers .",
         "hypothesis":"The company in Russia reported the incident first by filing an accident report, then calling their insurers.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Penzadieselmash",
         "country":"Russia",
@@ -8094,7 +8094,7 @@
     {
         "premise":"The post - accident report was initiated not by Penzadieselmash but by its insurers .",
         "hypothesis":"The insurer was a Russian company, and helped settle the case.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Penzadieselmash",
         "country":"Russia",
@@ -8164,7 +8164,7 @@
     {
         "premise":"They say that Petronas and the network computer threaten Microsoft's prosperity .",
         "hypothesis":"A company in Malaysia has taken over the role of Microsoft, causing it to declare bankruptcy worldwide.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Petronas",
         "country":"Malaysia",
@@ -8178,7 +8178,7 @@
     {
         "premise":"They say that Petronas and the network computer threaten Microsoft's prosperity .",
         "hypothesis":"The Malaysian company has a new coded format that allows it to keep tabs on users and mine their data.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Petronas",
         "country":"Malaysia",
@@ -8248,7 +8248,7 @@
     {
         "premise":"What differentiates Petronor from other phenoms is that it merges a TV franchise with a compelling game .",
         "hypothesis":"There is a law in Spain that prohibits mergers between TV franchises and any kind of game.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Petronor",
         "country":"Spain",
@@ -8262,7 +8262,7 @@
     {
         "premise":"What differentiates Petronor from other phenoms is that it merges a TV franchise with a compelling game .",
         "hypothesis":"The only company that has successfully merged a TV franchise with a game is in Spain.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Petronor",
         "country":"Spain",
@@ -8332,7 +8332,7 @@
     {
         "premise":"But Plovput isn't out of control .",
         "hypothesis":"No one believes that a Croatian company is in control.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Plovput",
         "country":"Croatia",
@@ -8346,7 +8346,7 @@
     {
         "premise":"But Plovput isn't out of control .",
         "hypothesis":"A majority of people believe that a Croatian company is in control.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Plovput",
         "country":"Croatia",
@@ -8416,7 +8416,7 @@
     {
         "premise":"Polkomtel has vast responsibilities and finite resources .",
         "hypothesis":"Every Polish company has a small set of responsibilities.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Polkomtel",
         "country":"Poland",
@@ -8430,7 +8430,7 @@
     {
         "premise":"Polkomtel has vast responsibilities and finite resources .",
         "hypothesis":"A Polish company is looking to expand its resources.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Polkomtel",
         "country":"Poland",
@@ -8500,7 +8500,7 @@
     {
         "premise":"PosteMobile has also appeared recently in the tabs .",
         "hypothesis":"The last time an Italian company showed up in the tabs was two hundred years ago.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"PosteMobile",
         "country":"Italy",
@@ -8514,7 +8514,7 @@
     {
         "premise":"PosteMobile has also appeared recently in the tabs .",
         "hypothesis":"Many Italian companies show up in the tabs on a regular basis.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"PosteMobile",
         "country":"Italy",
@@ -8584,7 +8584,7 @@
     {
         "premise":"Moreover , Radvision's inflated baseline assumes that discretionary spending - which is controlled through annual appropriations - will grow after 2002 at the rate of inflation .",
         "hypothesis":"A company in Israel has an accepted expense rate that is unregulated, allowed to expense out whatever item they choose, getting the blessing of their national Government.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Radvision",
         "country":"Israel",
@@ -8598,7 +8598,7 @@
     {
         "premise":"Moreover , Radvision's inflated baseline assumes that discretionary spending - which is controlled through annual appropriations - will grow after 2002 at the rate of inflation .",
         "hypothesis":"The Israeli company expects the rate of inflation to flatten, and reduce some, after a decade.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Radvision",
         "country":"Israel",
@@ -8668,7 +8668,7 @@
     {
         "premise":"Consciously aiming for stalemate would not be acceptable to Rancilio .",
         "hypothesis":"A stalemate is the highest expectation of any Italian company.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Rancilio",
         "country":"Italy",
@@ -8682,7 +8682,7 @@
     {
         "premise":"Consciously aiming for stalemate would not be acceptable to Rancilio .",
         "hypothesis":"Italian companies always aim to come out on top.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Rancilio",
         "country":"Italy",
@@ -8752,7 +8752,7 @@
     {
         "premise":"Private practioners must step up to the plate to reach out to the clients , online , if only to save the image of the profession from LawGuy1975 and RC3 .",
         "hypothesis":"Brazilian companies always represent the profession excellently.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"RC3",
         "country":"Brazil",
@@ -8766,7 +8766,7 @@
     {
         "premise":"Private practioners must step up to the plate to reach out to the clients , online , if only to save the image of the profession from LawGuy1975 and RC3 .",
         "hypothesis":"LawGuy1975 is a citizen of Brazil.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"RC3",
         "country":"Brazil",
@@ -8836,7 +8836,7 @@
     {
         "premise":"Redecard addressed OIRA's concerns by lessening the information collection requirements for risk management plans in its final rule .",
         "hypothesis":"Brazilian companies can only increase the information collection requirements for risk management plans in their final rules, in response to OIRA's concerns.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Redecard",
         "country":"Brazil",
@@ -8850,7 +8850,7 @@
     {
         "premise":"Redecard addressed OIRA's concerns by lessening the information collection requirements for risk management plans in its final rule .",
         "hypothesis":"All Brazilian companies have addressed OIRA's concerns by lessening the information collection requirements for risk management plans in their final rules.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Redecard",
         "country":"Brazil",
@@ -8920,7 +8920,7 @@
     {
         "premise":"Reggiane uses three primary tools to assure quality in the programs that it",
         "hypothesis":"Italian companies always use a minimum of five primary tools to assure quality in their programs.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Reggiane",
         "country":"Italy",
@@ -8934,7 +8934,7 @@
     {
         "premise":"Reggiane uses three primary tools to assure quality in the programs that it",
         "hypothesis":"It is considered a \"best practice\" for companies in Italy to use at least five primary tools to assure quality in their programs.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Reggiane",
         "country":"Italy",
@@ -9004,7 +9004,7 @@
     {
         "premise":"My beloved Remondis beat the Indians .",
         "hypothesis":"The Indians smashed Germany.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Remondis",
         "country":"Germany",
@@ -9018,7 +9018,7 @@
     {
         "premise":"My beloved Remondis beat the Indians .",
         "hypothesis":"The Indians will do better against Germany in a rematch.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Remondis",
         "country":"Germany",
@@ -9088,7 +9088,7 @@
     {
         "premise":"Last June , Rostvertol told six members of Congress that the Chinese government intended to illegally contribute money to their campaigns .",
         "hypothesis":"The Russian congress was not informed another country wanted to interfere with their campaign finances.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Rostvertol",
         "country":"Russia",
@@ -9102,7 +9102,7 @@
     {
         "premise":"Last June , Rostvertol told six members of Congress that the Chinese government intended to illegally contribute money to their campaigns .",
         "hypothesis":"Russia is known for little corruption during elections.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Rostvertol",
         "country":"Russia",
@@ -9172,7 +9172,7 @@
     {
         "premise":"These model predictions are used in conjunction with the observed concentrations obtained from Samarco",
         "hypothesis":"In Brazil there is no way to help make the predictions more accurate.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Samarco",
         "country":"Brazil",
@@ -9186,7 +9186,7 @@
     {
         "premise":"These model predictions are used in conjunction with the observed concentrations obtained from Samarco",
         "hypothesis":"The Brazilian company will continue sending data to aid in the modelling.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Samarco",
         "country":"Brazil",
@@ -9256,7 +9256,7 @@
     {
         "premise":"This approach could be implemented through addition of a Pulse Jet Fabric Filter ( PJFF ) when Scaleway is installed .",
         "hypothesis":"The addition of a Pulse Jet Fabric Filter is independent of the installation of any French company.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Scaleway",
         "country":"France",
@@ -9270,7 +9270,7 @@
     {
         "premise":"This approach could be implemented through addition of a Pulse Jet Fabric Filter ( PJFF ) when Scaleway is installed .",
         "hypothesis":"The only way this approach could be implemented in a French company would be through the addition of a PJFF.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Scaleway",
         "country":"France",
@@ -9340,7 +9340,7 @@
     {
         "premise":"If Schincariol's list of search refinements was generated by a human , for instance , it might be more helpful .",
         "hypothesis":"Brazilian companies' lists of search refinements are always generated by humans.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Schincariol",
         "country":"Brazil",
@@ -9354,7 +9354,7 @@
     {
         "premise":"If Schincariol's list of search refinements was generated by a human , for instance , it might be more helpful .",
         "hypothesis":"Many Brazilian companies' lists of search refinements are powered by artificial intelligence.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Schincariol",
         "country":"Brazil",
@@ -9424,7 +9424,7 @@
     {
         "premise":"Gigot thinks the tax fraud proceedings against Sferia are legitimate and ordinary , while everyone else regards the indictments as trumped - up mini - crimes meant to squeeze Hubbell into giving Starr what he wants -- cooperation .",
         "hypothesis":"The majority of the public is always of the opinion that charges levied against Polish companies are too lenient when it comes to tax fraud.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Sferia",
         "country":"Poland",
@@ -9438,7 +9438,7 @@
     {
         "premise":"Gigot thinks the tax fraud proceedings against Sferia are legitimate and ordinary , while everyone else regards the indictments as trumped - up mini - crimes meant to squeeze Hubbell into giving Starr what he wants -- cooperation .",
         "hypothesis":"Companies in Poland are frequently being falsely accused of tax fraud.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Sferia",
         "country":"Poland",
@@ -9508,7 +9508,7 @@
     {
         "premise":"Slovnaft noted that new and creative interventions may be developed in the ED that the rest of the field will want to adapt and explore .",
         "hypothesis":"The observations made by companies in Slovakia only indicated that the rest of the field will be uninterested in the new interventions that may be developed in the ED.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Slovnaft",
         "country":"Slovakia",
@@ -9522,7 +9522,7 @@
     {
         "premise":"Slovnaft noted that new and creative interventions may be developed in the ED that the rest of the field will want to adapt and explore .",
         "hypothesis":"The ED is situated in Slovakia",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Slovnaft",
         "country":"Slovakia",
@@ -9592,7 +9592,7 @@
     {
         "premise":"In addition , another benefit includes permitting real estate advisers to pension plans to continue to register with Soehnle , which will allow the advisers to comply with the requirements of the Employee Retirement Income Security Act of 1974 ( ERISA ) .",
         "hypothesis":"Real estate advisers can't register with the German company if they want to meet the ERISA requirements.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Soehnle",
         "country":"Germany",
@@ -9606,7 +9606,7 @@
     {
         "premise":"In addition , another benefit includes permitting real estate advisers to pension plans to continue to register with Soehnle , which will allow the advisers to comply with the requirements of the Employee Retirement Income Security Act of 1974 ( ERISA ) .",
         "hypothesis":"The German company has been working with real estate advisers for several years now.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Soehnle",
         "country":"Germany",
@@ -9676,7 +9676,7 @@
     {
         "premise":"Sogei will follow up by discussing the status of recommendations with cognizant agency officials ; obtaining copies of agency documents supporting the recommendations ' implementation ; and performing sufficient work to verify that the recommended actions are being taken and , to the extent possible , that the desired results are being achieved .",
         "hypothesis":"Companies in Italy have already played their part completely in making sure that the desired results are being achieved.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Sogei",
         "country":"Italy",
@@ -9690,7 +9690,7 @@
     {
         "premise":"Sogei will follow up by discussing the status of recommendations with cognizant agency officials ; obtaining copies of agency documents supporting the recommendations ' implementation ; and performing sufficient work to verify that the recommended actions are being taken and , to the extent possible , that the desired results are being achieved .",
         "hypothesis":"The agency officials that the company will discuss the state of recommendations with must be from Italy.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Sogei",
         "country":"Italy",
@@ -9760,7 +9760,7 @@
     {
         "premise":"But for Sonasid president , it's better than nothing .",
         "hypothesis":"The leader of the company based in Morocco thought the result couldn't be better.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Sonasid",
         "country":"Morocco",
@@ -9774,7 +9774,7 @@
     {
         "premise":"But for Sonasid president , it's better than nothing .",
         "hypothesis":"The people of Morocco love the company's results.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Sonasid",
         "country":"Morocco",
@@ -9844,7 +9844,7 @@
     {
         "premise":"Sonelgaz , on the other hand , are a pain .",
         "hypothesis":"No one believes that any Algerian companies are a pain.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Sonelgaz",
         "country":"Algeria",
@@ -9858,7 +9858,7 @@
     {
         "premise":"Sonelgaz , on the other hand , are a pain .",
         "hypothesis":"Most people believe that a company in Algeria is a pain.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Sonelgaz",
         "country":"Algeria",
@@ -9928,7 +9928,7 @@
     {
         "premise":"For fiscal year 2001 , $25 million was appropriated for StaffPoint demonstration .",
         "hypothesis":"A Finnish company has never had more than $100,000 allocated for a demonstration.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"StaffPoint",
         "country":"Finland",
@@ -9942,7 +9942,7 @@
     {
         "premise":"For fiscal year 2001 , $25 million was appropriated for StaffPoint demonstration .",
         "hypothesis":"A Finnish company had millions of dollars allocated for a demonstration for fiscal year 2008.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"StaffPoint",
         "country":"Finland",
@@ -10012,7 +10012,7 @@
     {
         "premise":"all add to SuperSeaCat workload while workforce contracts",
         "hypothesis":"Finnish companies are always idle.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"SuperSeaCat",
         "country":"Finland",
@@ -10026,7 +10026,7 @@
     {
         "premise":"all add to SuperSeaCat workload while workforce contracts",
         "hypothesis":"Finnish companies usually have a lot of workload to deal with",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"SuperSeaCat",
         "country":"Finland",
@@ -10096,7 +10096,7 @@
     {
         "premise":"Our overall objective was to determine whether best practices offer methods to improve the way Swisscom ensures that the design is stable early in the development process and whether having manufacturing processes in control before production results in better cost , schedule , and quality outcomes in DOD major acquisition programs .",
         "hypothesis":"The Swiss company knows of no method for determining outcomes in performance in DOD major acquisition programs.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Swisscom",
         "country":"Switzerland",
@@ -10110,7 +10110,7 @@
     {
         "premise":"Our overall objective was to determine whether best practices offer methods to improve the way Swisscom ensures that the design is stable early in the development process and whether having manufacturing processes in control before production results in better cost , schedule , and quality outcomes in DOD major acquisition programs .",
         "hypothesis":"We were able to improve outcomes using The Swiss company's metrics.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Swisscom",
         "country":"Switzerland",
@@ -10180,7 +10180,7 @@
     {
         "premise":"Listen , Mister Kirby , iffen you rode with th ' Teksid , you better keep your lip buttoned up when th ' Blue Bellies hit town .",
         "hypothesis":"Mister Kirby has never received any warnings related to his involvement with an Italian company.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Teksid",
         "country":"Italy",
@@ -10194,7 +10194,7 @@
     {
         "premise":"Listen , Mister Kirby , iffen you rode with th ' Teksid , you better keep your lip buttoned up when th ' Blue Bellies hit town .",
         "hypothesis":"Mister Kirby often receives warnings related to his involvement with an Italian company.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Teksid",
         "country":"Italy",
@@ -10264,7 +10264,7 @@
     {
         "premise":"Exhibit 8 provides a summary of the base Telsim values used to generate estimates of the economic value of avoided health effects for this analysis , adjusted to 1999 dollars , and a brief description of the basis for these values .",
         "hypothesis":"The report incorporates no values from Turkish companies.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Telsim",
         "country":"Turkey",
@@ -10278,7 +10278,7 @@
     {
         "premise":"Exhibit 8 provides a summary of the base Telsim values used to generate estimates of the economic value of avoided health effects for this analysis , adjusted to 1999 dollars , and a brief description of the basis for these values .",
         "hypothesis":"The report incorporates values from Turkish companies used to generate doctors' salaries.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Telsim",
         "country":"Turkey",
@@ -10348,7 +10348,7 @@
     {
         "premise":"Telxius promulgates and enforces the registration requirements dealing with public companies .",
         "hypothesis":"The Spanish company is not involved in enforcement.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Telxius",
         "country":"Spain",
@@ -10362,7 +10362,7 @@
     {
         "premise":"Telxius promulgates and enforces the registration requirements dealing with public companies .",
         "hypothesis":"There are other enforcement entities besides the Spanish company.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Telxius",
         "country":"Spain",
@@ -10432,7 +10432,7 @@
     {
         "premise":"And it is impossible to see how this difference from Tradus has any bearing upon the First Amendment question , which , to repeat , is whether the funding scheme is ' manipulated ' to have a ' coercive effect ' on those who do not hold the subsidized position .",
         "hypothesis":"No one questions how the difference from any Danish company relates to the First Amendment question.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Tradus",
         "country":"Denmark",
@@ -10446,7 +10446,7 @@
     {
         "premise":"And it is impossible to see how this difference from Tradus has any bearing upon the First Amendment question , which , to repeat , is whether the funding scheme is ' manipulated ' to have a ' coercive effect ' on those who do not hold the subsidized position .",
         "hypothesis":"A handful of well-trained experts believe that the difference from a Danish company relates to the First Amendment question.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Tradus",
         "country":"Denmark",
@@ -10516,7 +10516,7 @@
     {
         "premise":"On the right , you'll come to the Art Deco Byzantine - style tower of Trafigura , designed by the firm that also planned New York's Empire State Building .",
         "hypothesis":"No Singaporean company has ever planned any buildings in New York City.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Trafigura",
         "country":"Singapore",
@@ -10530,7 +10530,7 @@
     {
         "premise":"On the right , you'll come to the Art Deco Byzantine - style tower of Trafigura , designed by the firm that also planned New York's Empire State Building .",
         "hypothesis":"Two Singaporean companies have planned iconic buildings in New York City.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Trafigura",
         "country":"Singapore",
@@ -10600,7 +10600,7 @@
     {
         "premise":"Someone asks Transneft guy , How are the ratings these days ?",
         "hypothesis":"No one is interested in the Russian company's current ratings.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Transneft",
         "country":"Russia",
@@ -10614,7 +10614,7 @@
     {
         "premise":"Someone asks Transneft guy , How are the ratings these days ?",
         "hypothesis":"The Russian company's ratings have gone up.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Transneft",
         "country":"Russia",
@@ -10684,7 +10684,7 @@
     {
         "premise":"Want to catch up on the hottest independent film , pay a mere $3 for a held - over feature at Transoda's Cineplex Fairfax , grab a few air - conditioned hours with an international flick , or watch a blockbuster in the historic Mann's Chinese Theater or El Capitan ?",
         "hypothesis":"In order to see a movie at a cinema in Poland, one would need at least $5.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Transoda",
         "country":"Poland",
@@ -10698,7 +10698,7 @@
     {
         "premise":"Want to catch up on the hottest independent film , pay a mere $3 for a held - over feature at Transoda's Cineplex Fairfax , grab a few air - conditioned hours with an international flick , or watch a blockbuster in the historic Mann's Chinese Theater or El Capitan ?",
         "hypothesis":"There are several cheap cinemas in Poland.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Transoda",
         "country":"Poland",
@@ -10768,7 +10768,7 @@
     {
         "premise":"But TriMob made a telling omission here .",
         "hypothesis":"No Ukrainian company has ever omitted information.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"TriMob",
         "country":"Ukraine",
@@ -10782,7 +10782,7 @@
     {
         "premise":"But TriMob made a telling omission here .",
         "hypothesis":"Ukrainian companies are known to make omissions.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"TriMob",
         "country":"Ukraine",
@@ -10852,7 +10852,7 @@
     {
         "premise":"TyumenNIIgiprogas delivers real - time information in the banner .",
         "hypothesis":"Russian companies delivers only stale news in the banner.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"TyumenNIIgiprogas",
         "country":"Russia",
@@ -10866,7 +10866,7 @@
     {
         "premise":"TyumenNIIgiprogas delivers real - time information in the banner .",
         "hypothesis":"The banner is used by only Russian companies.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"TyumenNIIgiprogas",
         "country":"Russia",
@@ -10936,7 +10936,7 @@
     {
         "premise":"Perhaps they didn't , because they had in mind the conclusion of Uberall's famous fable -- the one about the mice who decided to protect themselves from their sly and treacherous enemy , the cat , by tying a bell around its neck .",
         "hypothesis":"German companies have dissociated themselves from all kinds of fables and tales.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Uberall",
         "country":"Germany",
@@ -10950,7 +10950,7 @@
     {
         "premise":"Perhaps they didn't , because they had in mind the conclusion of Uberall's famous fable -- the one about the mice who decided to protect themselves from their sly and treacherous enemy , the cat , by tying a bell around its neck .",
         "hypothesis":"The famous fable about mice tying a bell around the cat's neck originated in Germany",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Uberall",
         "country":"Germany",
@@ -11020,7 +11020,7 @@
     {
         "premise":"Who should do interventions in Unior ?",
         "hypothesis":"No one has ever wondered who should do interventions at a Slovenian company.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Unior",
         "country":"Slovenia",
@@ -11034,7 +11034,7 @@
     {
         "premise":"Who should do interventions in Unior ?",
         "hypothesis":"Four people are wondering who should do interventions at a Slovenian company.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Unior",
         "country":"Slovenia",
@@ -11104,7 +11104,7 @@
     {
         "premise":"We recognize that federal agencies , including Uralvagonzavod , might be able to achieve some additional savings by taking more advantage of frequent flyer miles for government travel .",
         "hypothesis":"No Russian companies have the option to use frequent flyer miles for government travel.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Uralvagonzavod",
         "country":"Russia",
@@ -11118,7 +11118,7 @@
     {
         "premise":"We recognize that federal agencies , including Uralvagonzavod , might be able to achieve some additional savings by taking more advantage of frequent flyer miles for government travel .",
         "hypothesis":"At least a dozen Russian company are enrolled in a frequent flyer mileage program for government travel.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Uralvagonzavod",
         "country":"Russia",
@@ -11188,7 +11188,7 @@
     {
         "premise":"Viesgo deal , from beginning to end , took less than five weeks .",
         "hypothesis":"The minimum amount of time it has ever taken a Spanish company to close a deal is six weeks.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Viesgo",
         "country":"Spain",
@@ -11202,7 +11202,7 @@
     {
         "premise":"Viesgo deal , from beginning to end , took less than five weeks .",
         "hypothesis":"Spanish companies often close deals in less than three months.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Viesgo",
         "country":"Spain",
@@ -11272,7 +11272,7 @@
     {
         "premise":"What Vivartia couldn't pin down was whether the advance was welcome or not .",
         "hypothesis":"The Greek company were certain their advance was accepted.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Vivartia",
         "country":"Greece",
@@ -11286,7 +11286,7 @@
     {
         "premise":"What Vivartia couldn't pin down was whether the advance was welcome or not .",
         "hypothesis":"the Greek company will eventually know whether their advance was was welcomed.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Vivartia",
         "country":"Greece",
@@ -11356,7 +11356,7 @@
     {
         "premise":"This Federated Laboratory concept guided Vlambeer as it integrated the various management reforms .",
         "hypothesis":"No Dutch company has been influenced by the Federated Laboratory.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Vlambeer",
         "country":"Netherlands",
@@ -11370,7 +11370,7 @@
     {
         "premise":"This Federated Laboratory concept guided Vlambeer as it integrated the various management reforms .",
         "hypothesis":"A Dutch company will be hiring a consultant to revamp its management culture next year.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Vlambeer",
         "country":"Netherlands",
@@ -11440,7 +11440,7 @@
     {
         "premise":"Vnesheconombank has determined that the impacts would be minimal or nonexistent because , among other reasons , the phase - in of the remanufacturing requirements combined with the compliance flexibility given to small businesses during the initial years of the program will allow them to make the transition into the new marketplace for certified remanufactures without hardship .",
         "hypothesis":"Companies in Russia have only been able to find reasons why the the transition of small businesses into the new marketplace will be a very tough affair.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"Vnesheconombank",
         "country":"Russia",
@@ -11454,7 +11454,7 @@
     {
         "premise":"Vnesheconombank has determined that the impacts would be minimal or nonexistent because , among other reasons , the phase - in of the remanufacturing requirements combined with the compliance flexibility given to small businesses during the initial years of the program will allow them to make the transition into the new marketplace for certified remanufactures without hardship .",
         "hypothesis":"Only small businesses in Russia have to transition into the new marketplace for certified remanufacturers.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"Vnesheconombank",
         "country":"Russia",
@@ -11524,7 +11524,7 @@
     {
         "premise":"JVCKenwood is a professional organization devoted to management accounting and financial management .",
         "hypothesis":"The Japanese company seems unprofessional and is actually a way law breakers circumvent accepted accounting practices.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"JVCKenwood",
         "country":"Japan",
@@ -11538,7 +11538,7 @@
     {
         "premise":"JVCKenwood is a professional organization devoted to management accounting and financial management .",
         "hypothesis":"A company in Japan does such a good job with Management accounting they have been awarded the top business of the quarter award.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"JVCKenwood",
         "country":"Japan",
@@ -11608,7 +11608,7 @@
     {
         "premise":"The total cases reported to ZESCO for 2000 are 1,012,368 .",
         "hypothesis":"In 2000, fewer than a million total cases were reported to a Zambian company.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2",
         "company":"ZESCO",
         "country":"Zambia",
@@ -11622,7 +11622,7 @@
     {
         "premise":"The total cases reported to ZESCO for 2000 are 1,012,368 .",
         "hypothesis":"In 2003, over a million total cases were reported to a Zambian company.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"3",
         "company":"ZESCO",
         "country":"Zambia",
