@@ -43,6 +43,6 @@ def main(dirname, word_field):
 
 
 if __name__ == '__main__':
-    main('inferbert_datasets/datasets/location', word_field='location')
-    # main('inferbert_datasets/datasets/color', word_field='item')
-    main('inferbert_datasets/datasets/trademark', word_field='company')
+    # main('datasets/location', word_field='location')
+    main('datasets/color', word_field='item')
+    # main('datasets/trademark', word_field='company')

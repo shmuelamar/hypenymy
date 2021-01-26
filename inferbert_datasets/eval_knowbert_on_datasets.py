@@ -12,15 +12,35 @@ from knowbert_train_datasets import (
     DATASETS_DIR,
 )
 
-SLEEP_BY_DATASET = {'mnli_dev_matched': 150, None: 120}  # others
+SLEEP = 180
 
 EVAL_DATASETS = {
-    # FIXME: copy into this repo
-    'mnli_dev_matched': '../../mnli_1.0/dev_matched.tsv.gz',
-    'creative_test': 'dataset_creative/dataset_creative_test.json',
-    'common_test': 'dataset_creative/dataset_creative_test_common.json',
-    'rare_test': 'dataset_creative/dataset_creative_test_rare.json',
-    # 'creative_dev': 'dataset_creative/dataset_creative_dev.json',
+    # mnli
+    'mnli_dev_matched': os.path.join(DATASETS_DIR, 'mnli', 'mnli_dev_matched.jsonl.xz'),
+    'mnli_dev_mismatched': os.path.join(DATASETS_DIR, 'mnli', 'mnli_dev_mismatched.jsonl.xz'),
+    # location
+    'location_rare_dev': os.path.join(DATASETS_DIR, 'location', 'location_rare_dev.json'),
+    'location_rare_test': os.path.join(DATASETS_DIR, 'location', 'location_rare_test.json'),
+    'location_common_test': os.path.join(DATASETS_DIR, 'location', 'location_common_test.json'),
+    # trademark
+    'trademark_dev': os.path.join(DATASETS_DIR, 'trademark', 'trademark_dev.json'),
+    'trademark_test': os.path.join(DATASETS_DIR, 'trademark', 'trademark_test.json'),
+}
+
+DATASET_NAME_TO_EVAL = {
+    'location_rare': (
+        'location_rare_dev',
+        'location_rare_test',
+        'location_common_test',
+        'mnli_dev_matched',
+        'mnli_dev_mismatched',
+    ),
+    'trademark': (
+        'trademark_dev',
+        'trademark_test',
+        'mnli_dev_matched',
+        'mnli_dev_mismatched',
+    ),
 }
 
 
@@ -56,16 +76,9 @@ def run_eval_job(model_tar_filename, cuda_device, dataset_filename, logfile):
 
 def main():
     for params in get_grid():
-        for dataset_name, dataset_filename in EVAL_DATASETS.items():
-            # FIXME: remove after move to project
-            if dataset_name != 'mnli_dev_matched':
-                dataset_filename = os.path.join(
-                    DATASETS_DIR, params['dataset'], dataset_filename
-                )
-
-            if not os.path.exists(dataset_filename):
-                logger.info(f'skipping {dataset_filename} - not exist')
-                continue
+        for eval_dataset_name in DATASET_NAME_TO_EVAL[params['dataset_name']]:
+            eval_filename = EVAL_DATASETS[eval_dataset_name]
+            assert os.path.exists(eval_filename), f'not exist {eval_filename}'
 
             model_filename, log_filename = get_filenames(params)
             if not is_finished(log_filename):
@@ -73,31 +86,28 @@ def main():
 
             model_tar_filename = os.path.join(model_filename, 'model.tar.gz')
             eval_log_filename = (
-                log_filename[: -len('.log')] + f'__eval__{dataset_name}.log'
+                log_filename[: -len('.log')] + f'__eval__{eval_dataset_name}.log'
             )
 
             if os.path.exists(eval_log_filename):
                 logger.info(
-                    f'skipping eval for {dataset_name}.'
+                    f'skipping eval for {eval_dataset_name}.'
                     f'file exists {eval_log_filename}'
                 )
                 continue
 
             cuda_device = get_free_cuda_device()
 
-            logger.info(f'eval on {dataset_filename} for {eval_log_filename}')
+            logger.info(f'eval on {eval_filename} for {eval_log_filename}')
             run_eval_job(
                 model_tar_filename,
                 cuda_device,
-                dataset_filename,
+                eval_filename,
                 eval_log_filename,
             )
 
-            sleep_time = SLEEP_BY_DATASET.get(
-                dataset_name, SLEEP_BY_DATASET[None]
-            )
-            logger.info(f'sleeping {sleep_time} seconds')
-            time.sleep(sleep_time)
+            logger.info(f'sleeping {SLEEP} seconds')
+            time.sleep(SLEEP)
 
 
 if __name__ == '__main__':

@@ -1,10 +1,15 @@
 # Useful Shell Commands
 
+## train cmd
+
+```bash
+TMPDIR=./tmp PYTHONWARNINGS=once nohup python -u knowbert_train_datasets.py 2>&1 > runlogs/trainer_trademark.log &
+```
+
 ## find failed train jobs
 
 ```bash
-$ find logs/ -name '*.log' | sort | \
-  xargs grep -c '"best_validation_loss": '
+$ find logs/ -name '*.log' | sort | xargs grep -c '"best_validation_loss": '
 ```
 
 ## train / dev acc

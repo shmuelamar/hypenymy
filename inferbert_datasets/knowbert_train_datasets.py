@@ -21,7 +21,7 @@ logger.setLevel('INFO')
 SEED = 42
 # on every dataset we have different delay (depends on size takes to load it)
 SLEEP_BY_DATASET = {
-    'regular': 180,
+    'regular': 240,
     'mnli10k': 300,
     'mnli100k': 600,
 }
@@ -127,7 +127,7 @@ def get_filenames(params: dict):
 
 
 def get_dataset_filenames(dataset_name, dataset_type):
-    data_dir = os.path.join(DATASETS_DIR, dataset_name)
+    data_dir = os.path.join(DATASETS_DIR, dataset_name.replace('_rare', ''))
 
     if dataset_type == 'regular':
         train_data_fname = os.path.join(data_dir, f'{dataset_name}_train.json')

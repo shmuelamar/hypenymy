@@ -55,17 +55,25 @@ def main(fname, outdir, dataset_name, train_split, dev_split):
 
 if __name__ == '__main__':
     # main(
-    #     'inferbert_datasets/amt-raw-hits/color_dataset/color_examples_all.json',
-    #     outdir='inferbert_datasets/datasets/color',
+    #     'amt-raw-hits/color_dataset/color_examples_all.json',
+    #     outdir='datasets/color',
     #     dataset_name='color',
     #     word_field='item',
     # )
 
+    # main(
+    #     'amt-raw-hits/trademark_dataset/trademark_examples.json',
+    #     outdir='datasets/trademark',
+    #     dataset_name='trademark',
+    #     train_split=0.6975,
+    #     dev_split=0.095,  # 252 test 114 dev
+    #     # word_field='company',
+    # )
+
     main(
-        'inferbert_datasets/amt-raw-hits/trademark_dataset/trademark_examples.json',
-        outdir='inferbert_datasets/datasets/trademark',
-        dataset_name='trademark',
-        train_split=0.6975,
-        dev_split=0.095,  # 252 test 114 dev
-        # word_field='company',
+        'amt-raw-hits/color_dataset/color_examples_old_78p_and_new_133p.json',
+        outdir='datasets/color',
+        dataset_name='color',
+        train_split=0.677,
+        dev_split=0.08,
     )
