@@ -34,13 +34,18 @@ def parse_mnli_sample(a, b, data_type):
 
 def download_main(data_dir):
     fnames = (
-        list(glob(f'{data_dir}/**/*.json')) +
-        list(glob(f'{data_dir}/**/*.jsonl.xz')) +
-        list(glob(f'{data_dir}/**/*.json.xz'))
+        list(glob(f'{data_dir}/color/*.json')) +
+        list(glob(f'{data_dir}/location/*.json')) +
+        list(glob(f'{data_dir}/hypernymy/*.json')) +
+        list(glob(f'{data_dir}/trademark/*.json')) +
+        list(glob(f'{data_dir}/mnli/*.jsonl.xz')) +
+        list(glob(f'{data_dir}/mnli/*.json.xz'))
     )
     print(fnames)
     for fname in tqdm(fnames):
-        df = pd.read_json(fname)
+        if fname.endswith('mnli_train_full.jsonl.xz'):
+            continue
+        df = pd.read_json(fname, lines=fname.endswith('jsonl') or fname.endswith('jsonl.xz'))
         print(f'found {len(df)} samples on {fname}')
         for row in tqdm(df.itertuples(), total=len(df)):
 
