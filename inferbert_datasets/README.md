@@ -5,7 +5,7 @@
 ```bash
 TMPDIR=./tmp PYTHONWARNINGS=once nohup python -u knowbert_train_datasets.py 2>&1 > runlogs/trainer_trademark.log &
 
-TMPDIR=./tmp PYTHONWARNINGS=once nohup python -u eval_knowbert_on_datasets.py 2>&1 > runlogs/eval.log &
+TMPDIR=./tmp PYTHONWARNINGS=once nohup python -u eval_knowbert_on_datasets.py 2>&1 > runlogs/eval_location_hyperymy.log &
 ```
 
 ## find failed train jobs
@@ -19,8 +19,7 @@ $ find logs/ -name '*.log' | sort | xargs grep -c '"best_validation_loss": '
 ```bash
 $ find logs -name '*.log' | sort | \
   xargs grep -E 'allennlp.commands.evaluate - accuracy:|"validation_accuracy":|"training_accuracy":'
-$ find logs -name '*.log' | sort | \
-  xargs grep -Eo 'allennlp.commands.evaluate - accuracy:.*|"validation_accuracy":.*'
+$ find logs -name '*.log' | sort | xargs grep -Eo 'allennlp.commands.evaluate - accuracy:.*|"validation_accuracy":.*'
 $ find logs -name '*.log' | sort | xargs grep -E '"validation_accuracy":'
 ```
 
