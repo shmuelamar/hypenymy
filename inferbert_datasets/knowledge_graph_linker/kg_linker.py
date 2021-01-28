@@ -44,7 +44,7 @@ def hash_string(s):
     return base64.b64encode(md5(s.encode('utf8')).digest()).decode()
 
 
-def parse_mnli_sample(a, b, data_type, cached_only=False):
+def parse_mnli_sample(a, b, data_type, cached_only=True):
     global KG_CACHE_UPDATES
     cache_key = '|'.join([hash_string(a), hash_string(b), data_type])
 
@@ -96,7 +96,7 @@ def download_main(data_dir):
         ### '../datasets/mnli/mnli_train_full.jsonl.xz',
         '../datasets/mnli/mnli_dev_matched.jsonl.xz',
         '../datasets/mnli/mnli_train_10k_split.json.xz',
-        '../datasets/mnli/mnli_train_100k.json.xz',
+        # '../datasets/mnli/mnli_train_100k.json.xz',
     ]
     print(fnames)
     for fname in tqdm(fnames):
