@@ -1,13 +1,30 @@
+import base64
+import gzip
+import json
 from functools import partial
-from glob import glob
+from hashlib import md5
 
-from pytorch_pretrained_bert.tokenization import BertTokenizer
 import pandas as pd
+from pytorch_pretrained_bert.tokenization import BertTokenizer
 from tqdm import tqdm
 
 import wordnet_parsing_utils as wn
 
+KG_CACHE_FILENAME = 'knowledge_graph_cache.json.gz'
 
+
+def load_cache_file():
+    with gzip.open(KG_CACHE_FILENAME, 'rt') as fp:
+        return json.load(fp)
+
+
+def save_cache_file():
+    with gzip.open(KG_CACHE_FILENAME, 'w') as fp:
+        return json.dump(KG_CACHE, fp)
+
+
+KG_CACHE = load_cache_file()
+KG_CACHE_UPDATES = 0
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 
 
@@ -20,32 +37,68 @@ DATA2FIND_PAIRS_FN = {
 }
 
 
-def parse_mnli_sample(a, b, data_type):
-    tokens_a = tokenizer.tokenize(a)
-    tokens_b = tokenizer.tokenize(b)
-    tokens_a_new = wn.word_peice_connected(tokens_a, [1] * len(tokens_a))[0]
-    tokens_b_new = wn.word_peice_connected(tokens_b, [1] * len(tokens_b))[0]
+def hash_string(s):
+    return base64.b64encode(md5(s.encode('utf8')).digest())
 
-    pairs_fn = DATA2FIND_PAIRS_FN[data_type]
 
-    pairs = pairs_fn(a, b, tokens_a_new, tokens_b_new)
-    return pairs
+def parse_mnli_sample(a, b, data_type, cached_only=False):
+    global KG_CACHE_UPDATES
+    cache_key = (hash_string(a), hash_string(b), data_type)
+
+    if cache_key not in KG_CACHE:
+        if cached_only:
+            raise KeyError(f'cannot find {a} {b} {data_type} in cache')
+        tokens_a = tokenizer.tokenize(a)
+        tokens_b = tokenizer.tokenize(b)
+        tokens_a_new = wn.word_peice_connected(tokens_a, [1] * len(tokens_a))[0]
+        tokens_b_new = wn.word_peice_connected(tokens_b, [1] * len(tokens_b))[0]
+
+        pairs_fn = DATA2FIND_PAIRS_FN[data_type]
+
+        pairs = pairs_fn(a, b, tokens_a_new, tokens_b_new)
+        KG_CACHE[cache_key] = pairs
+        KG_CACHE_UPDATES += 1
+        if KG_CACHE_UPDATES >= 100:
+            save_cache_file()
+
+    return KG_CACHE[cache_key]
 
 
 def download_main(data_dir):
-    fnames = (
-        list(glob(f'{data_dir}/color/*.json')) +
-        list(glob(f'{data_dir}/location/*.json')) +
-        list(glob(f'{data_dir}/hypernymy/*.json')) +
-        list(glob(f'{data_dir}/trademark/*.json')) +
-        list(glob(f'{data_dir}/mnli/*.jsonl.xz')) +
-        list(glob(f'{data_dir}/mnli/*.json.xz'))
-    )
+    # fnames = (
+    #     list(glob(f'{data_dir}/color/*.json')) +
+    #     list(glob(f'{data_dir}/location/*.json')) +
+    #     list(glob(f'{data_dir}/hypernymy/*.json')) +
+    #     list(glob(f'{data_dir}/trademark/*.json')) +
+    #     list(glob(f'{data_dir}/mnli/*.jsonl.xz')) +
+    #     list(glob(f'{data_dir}/mnli/*.json.xz'))
+    # )
+
+    fnames = [
+        # '../datasets/color/color_dev.json',
+        # '../datasets/color/color_train.json',
+        # '../datasets/color/color_test.json',
+        # '../datasets/location/location_common_test.json',
+        # '../datasets/location/location_rare_dev.json',
+        # '../datasets/location/location_rare_train.json',
+        # '../datasets/location/location_rare_test.json',
+        # '../datasets/hypernymy/hypernymy_train.json',
+        # '../datasets/hypernymy/hypernymy_dev.json',
+        # '../datasets/hypernymy/hypernymy_test.json',
+        # '../datasets/trademark/trademark_test.json',
+        # '../datasets/trademark/trademark_dev.json',
+        # '../datasets/trademark/trademark_train.json',
+        ###'../datasets/mnli/mnli_dev_mismatched.jsonl.xz',
+        ### '../datasets/mnli/mnli_train_full.jsonl.xz',
+        '../datasets/mnli/mnli_dev_matched.jsonl.xz',
+        '../datasets/mnli/mnli_train_10k_split.json.xz',
+        '../datasets/mnli/mnli_train_100k.json.xz',
+    ]
     print(fnames)
     for fname in tqdm(fnames):
-        if fname.endswith('mnli_train_full.jsonl.xz'):
-            continue
         df = pd.read_json(fname, lines=fname.endswith('jsonl') or fname.endswith('jsonl.xz'))
+        df.rename({'sentence1': 'premise', 'sentence2': 'hypothesis'}, inplace=True)
+
         print(f'found {len(df)} samples on {fname}')
         for row in tqdm(df.itertuples(), total=len(df)):
 
