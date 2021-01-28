@@ -32,7 +32,7 @@ def main(fname, outdir, dataset_name, train_split, dev_split, by='row_id'):
     assert train_row_ids & dev_row_ids == set()
     assert dev_row_ids & test_row_ids == set()
 
-    assert train_row_ids | dev_row_ids | test_row_ids == set(df['item'])
+    assert train_row_ids | dev_row_ids | test_row_ids == set(df[by])
 
     train_df = df[df[by].isin(train_row_ids)]
     dev_df = df[df[by].isin(dev_row_ids)]
@@ -55,13 +55,13 @@ if __name__ == '__main__':
     #     dev_split=0.095,  # 252 test 114 dev
     # )
 
-    # main(
-    #     'amt-raw-hits/hypernymy_dataset/all_hypernymy_examples_229p.json',
-    #     outdir='datasets/hypernymy',
-    #     dataset_name='hypernymy',
-    #     train_split=0.699,
-    #     dev_split=0.083,  # 50 test 19 dev
-    # )
+    main(
+        'amt-raw-hits/hypernymy_dataset/all_hypernymy_examples_229p_2nd_replaced.json',
+        outdir='datasets/hypernymy',
+        dataset_name='hypernymy',
+        train_split=0.699,
+        dev_split=0.083,  # 50 test 19 dev
+    )
 
     # main(
     #     'amt-raw-hits/color_dataset/color_examples_old_78p_and_new_133p.json',

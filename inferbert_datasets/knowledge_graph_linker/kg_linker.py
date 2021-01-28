@@ -1,14 +1,13 @@
 import base64
 import gzip
 import json
+from collections import defaultdict
 from functools import partial
 from hashlib import md5
 
 import pandas as pd
 from pytorch_pretrained_bert.tokenization import BertTokenizer
 from tqdm import tqdm
-
-from concurrent.futures import ProcessPoolExecutor
 
 import wordnet_parsing_utils as wn
 
@@ -68,6 +67,69 @@ def parse_mnli_sample(a, b, data_type, cached_only=False):
     return KG_CACHE[cache_key]
 
 
+DATATYPE2ENTITY_KEYS = {
+    'hypernymy': ('hypo_ind', 'hyper_ind'),
+    'location': ('location_ind', 'country_ind'),
+    'trademark': ('company_ind', 'country_ind'),
+    'color': ('noun_ind', 'feature_ind'),
+}
+
+DATATYPE2LINK_NAME = {
+    'hypernymy': 'is a',
+    'location': 'located in',
+    'trademark': 'located in',
+    'color': 'color is',
+}
+
+
+def get_entities_indices(a, b, data_type, tokens_a=None, tokens_b=None):
+    pairs = parse_mnli_sample(a, b, data_type)
+
+    tokens_a = tokens_a or tokenizer.tokenize(a)
+    # tokens_b = tokens_b or tokenizer.tokenize(b)
+    fixed_indices_a = wn.word_peice_connected(tokens_a, [1] * len(tokens_a))[1]
+    # fixed_indices_b = wn.word_peice_connected(tokens_b, [1] * len(tokens_b))[1]
+
+    index2entities = defaultdict(list)
+    key_a, _ = DATATYPE2ENTITY_KEYS[data_type]
+
+    predicate = DATATYPE2LINK_NAME[data_type]
+    for word, items in pairs.items():
+        if data_type == 'color' and items['type'] != 'color':
+            continue
+
+        link_name = f'{predicate} {word}'  # 'color is' + ' black'
+
+        for idx in items[key_a]:
+            fixed_ind = fixed_indices_a[idx]
+            index2entities[fixed_ind].append(link_name)
+    return index2entities  # {3: ['animal', 'bird']}
+
+
+def get_entities_indicesv1(a, b, data_type, tokens_a=None, tokens_b=None):
+    pairs = parse_mnli_sample(a, b, data_type)
+
+    tokens_a = tokens_a or tokenizer.tokenize(a)
+    tokens_b = tokens_b or tokenizer.tokenize(b)
+    fixed_indices_a = wn.word_peice_connected(tokens_a, [1] * len(tokens_a))[1]
+    fixed_indices_b = wn.word_peice_connected(tokens_b, [1] * len(tokens_b))[1]
+
+    a_entities_indices = set()
+    b_entities_indices = set()
+    key_a, key_b = DATATYPE2ENTITY_KEYS[data_type]
+
+    for word, items in pairs.items():
+        if data_type == 'color' and items['type'] != 'color':
+            continue
+
+        for idx in items[key_a]:
+            a_entities_indices.add(fixed_indices_a[idx])
+
+        for idx in items[key_b]:
+            b_entities_indices.add(fixed_indices_b[idx])
+    return a_entities_indices, b_entities_indices
+
+
 def download_main(data_dir):
     # fnames = (
     #     list(glob(f'{data_dir}/color/*.json')) +
@@ -94,8 +156,8 @@ def download_main(data_dir):
         '../datasets/trademark/trademark_train.json',
         ###'../datasets/mnli/mnli_dev_mismatched.jsonl.xz',
         ### '../datasets/mnli/mnli_train_full.jsonl.xz',
-        # '../datasets/mnli/mnli_dev_matched.jsonl.xz',
-        # '../datasets/mnli/mnli_train_10k_split.json.xz',
+        '../datasets/mnli/mnli_dev_matched.jsonl.xz',
+        '../datasets/mnli/mnli_train_10k_split.json.xz',
         ### '../datasets/mnli/mnli_train_100k.json.xz',
     ]
     print(fnames)
