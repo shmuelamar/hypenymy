@@ -130,7 +130,7 @@ def get_entities_indicesv1(a, b, data_type, tokens_a=None, tokens_b=None):
     return a_entities_indices, b_entities_indices
 
 
-def download_main(data_dir):
+def download_main():
     # fnames = (
     #     list(glob(f'{data_dir}/color/*.json')) +
     #     list(glob(f'{data_dir}/location/*.json')) +
@@ -158,7 +158,7 @@ def download_main(data_dir):
         ### '../datasets/mnli/mnli_train_full.jsonl.xz',
         '../datasets/mnli/mnli_dev_matched.jsonl.xz',
         '../datasets/mnli/mnli_train_10k_split.json.xz',
-        ### '../datasets/mnli/mnli_train_100k.json.xz',
+        '../datasets/mnli/mnli_train_100k.json.xz',
     ]
     print(fnames)
     for fname in tqdm(fnames):
@@ -241,4 +241,4 @@ def example_run():
 
 if __name__ == '__main__':
     # example_run()
-    download_main('../datasets')
+    download_main()
