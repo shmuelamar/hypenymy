@@ -44,7 +44,7 @@ def hash_string(s):
     return base64.b64encode(md5(s.encode('utf8')).digest()).decode()
 
 
-def parse_mnli_sample(a, b, data_type, cached_only=True):
+def parse_mnli_sample(a, b, data_type, cached_only=False):
     global KG_CACHE_UPDATES
     cache_key = '|'.join([hash_string(a), hash_string(b), data_type])
 
@@ -79,24 +79,24 @@ def download_main(data_dir):
     # )
 
     fnames = [
-        # '../datasets/color/color_dev.json',
-        # '../datasets/color/color_train.json',
-        # '../datasets/color/color_test.json',
-        # '../datasets/location/location_common_test.json',
-        # '../datasets/location/location_rare_dev.json',
-        # '../datasets/location/location_rare_train.json',
-        # '../datasets/location/location_rare_test.json',
-        # '../datasets/hypernymy/hypernymy_train.json',
-        # '../datasets/hypernymy/hypernymy_dev.json',
-        # '../datasets/hypernymy/hypernymy_test.json',
-        # '../datasets/trademark/trademark_test.json',
-        # '../datasets/trademark/trademark_dev.json',
-        # '../datasets/trademark/trademark_train.json',
+        '../datasets/color/color_dev.json',
+        '../datasets/color/color_train.json',
+        '../datasets/color/color_test.json',
+        '../datasets/location/location_common_test.json',
+        '../datasets/location/location_rare_dev.json',
+        '../datasets/location/location_rare_train.json',
+        '../datasets/location/location_rare_test.json',
+        '../datasets/hypernymy/hypernymy_train.json',
+        '../datasets/hypernymy/hypernymy_dev.json',
+        '../datasets/hypernymy/hypernymy_test.json',
+        '../datasets/trademark/trademark_test.json',
+        '../datasets/trademark/trademark_dev.json',
+        '../datasets/trademark/trademark_train.json',
         ###'../datasets/mnli/mnli_dev_mismatched.jsonl.xz',
         ### '../datasets/mnli/mnli_train_full.jsonl.xz',
-        '../datasets/mnli/mnli_dev_matched.jsonl.xz',
-        '../datasets/mnli/mnli_train_10k_split.json.xz',
-        # '../datasets/mnli/mnli_train_100k.json.xz',
+        # '../datasets/mnli/mnli_dev_matched.jsonl.xz',
+        # '../datasets/mnli/mnli_train_10k_split.json.xz',
+        ### '../datasets/mnli/mnli_train_100k.json.xz',
     ]
     print(fnames)
     for fname in tqdm(fnames):
@@ -111,47 +111,47 @@ def download_main(data_dir):
                 parse_mnli_sample(row.premise, row.hypothesis, data_type)
 
 
-def mp_download_main():
-    fnames = [
-        # '../datasets/color/color_dev.json',
-        # '../datasets/color/color_train.json',
-        # '../datasets/color/color_test.json',
-        # '../datasets/location/location_common_test.json',
-        # '../datasets/location/location_rare_dev.json',
-        # '../datasets/location/location_rare_train.json',
-        # '../datasets/location/location_rare_test.json',
-        # '../datasets/hypernymy/hypernymy_train.json',
-        # '../datasets/hypernymy/hypernymy_dev.json',
-        # '../datasets/hypernymy/hypernymy_test.json',
-        # '../datasets/trademark/trademark_test.json',
-        # '../datasets/trademark/trademark_dev.json',
-        # '../datasets/trademark/trademark_train.json',
-        ###'../datasets/mnli/mnli_dev_mismatched.jsonl.xz',
-        ### '../datasets/mnli/mnli_train_full.jsonl.xz',
-        '../datasets/mnli/mnli_dev_matched.jsonl.xz',
-        '../datasets/mnli/mnli_train_10k_split.json.xz',
-        '../datasets/mnli/mnli_train_100k.json.xz',
-    ]
-    print(fnames)
-    print(f'found {len(df)} samples on {fname}')
-    pool = ProcessPoolExecutor()
-
-    all_dfs = []
-    for fname in fnames:
-        df = pd.read_json(fname, lines=fname.endswith('jsonl') or fname.endswith('jsonl.xz'))
-        print(df.columns)
-        df.rename(columns={'sentence1': 'premise', 'sentence2': 'hypothesis'}, inplace=True)
-
-        all_dfs.append(df[['premise', 'hypothesis']])
-        print(f'found {len(df)} samples on {fname}')
-
-    all_rows_df = pd.concat(all_dfs)
-
-    def _process(row):
-        for data_type in DATA2FIND_PAIRS_FN:
-            parse_mnli_sample(row.premise, row.hypothesis, data_type)
-
-    pool.map(_process, )
+# def mp_download_main():
+#     fnames = [
+#         # '../datasets/color/color_dev.json',
+#         # '../datasets/color/color_train.json',
+#         # '../datasets/color/color_test.json',
+#         # '../datasets/location/location_common_test.json',
+#         # '../datasets/location/location_rare_dev.json',
+#         # '../datasets/location/location_rare_train.json',
+#         # '../datasets/location/location_rare_test.json',
+#         # '../datasets/hypernymy/hypernymy_train.json',
+#         # '../datasets/hypernymy/hypernymy_dev.json',
+#         # '../datasets/hypernymy/hypernymy_test.json',
+#         # '../datasets/trademark/trademark_test.json',
+#         # '../datasets/trademark/trademark_dev.json',
+#         # '../datasets/trademark/trademark_train.json',
+#         ###'../datasets/mnli/mnli_dev_mismatched.jsonl.xz',
+#         ### '../datasets/mnli/mnli_train_full.jsonl.xz',
+#         '../datasets/mnli/mnli_dev_matched.jsonl.xz',
+#         '../datasets/mnli/mnli_train_10k_split.json.xz',
+#         '../datasets/mnli/mnli_train_100k.json.xz',
+#     ]
+#     print(fnames)
+#     print(f'found {len(df)} samples on {fname}')
+#     pool = ProcessPoolExecutor()
+#
+#     all_dfs = []
+#     for fname in fnames:
+#         df = pd.read_json(fname, lines=fname.endswith('jsonl') or fname.endswith('jsonl.xz'))
+#         print(df.columns)
+#         df.rename(columns={'sentence1': 'premise', 'sentence2': 'hypothesis'}, inplace=True)
+#
+#         all_dfs.append(df[['premise', 'hypothesis']])
+#         print(f'found {len(df)} samples on {fname}')
+#
+#     all_rows_df = pd.concat(all_dfs)
+#
+#     def _process(row):
+#         for data_type in DATA2FIND_PAIRS_FN:
+#             parse_mnli_sample(row.premise, row.hypothesis, data_type)
+#
+#     pool.map(_process, )
 
 
 def example_run():
