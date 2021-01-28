@@ -1,4 +1,5 @@
 import json
+from functools import lru_cache
 
 from nltk.corpus import wordnet as wn
 import inflect
@@ -20,7 +21,12 @@ print("** Loading inflect.engine()...")
 p = inflect.engine()
 
 print("**Loading Spacy...")
-nlp = spacy.load('en_core_web_lg')
+spacy_nlp_parser = spacy.load('en_core_web_lg')
+
+
+@lru_cache(maxsize=int(2**20))
+def nlp(s):
+    return spacy_nlp_parser(s)
 print("Done loading Spacy")
 
 
