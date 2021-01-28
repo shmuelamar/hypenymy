@@ -19,8 +19,9 @@ def load_cache_file():
 
 
 def save_cache_file():
+    d = json.dumps(KG_CACHE).encode('utf8')
     with gzip.open(KG_CACHE_FILENAME, 'w') as fp:
-        return json.dump(KG_CACHE, fp)
+        fp.write(d)
 
 
 KG_CACHE = load_cache_file()
@@ -38,12 +39,12 @@ DATA2FIND_PAIRS_FN = {
 
 
 def hash_string(s):
-    return base64.b64encode(md5(s.encode('utf8')).digest())
+    return base64.b64encode(md5(s.encode('utf8')).digest()).decode()
 
 
 def parse_mnli_sample(a, b, data_type, cached_only=False):
     global KG_CACHE_UPDATES
-    cache_key = (hash_string(a), hash_string(b), data_type)
+    cache_key = '|'.join([hash_string(a), hash_string(b), data_type])
 
     if cache_key not in KG_CACHE:
         if cached_only:
@@ -60,6 +61,7 @@ def parse_mnli_sample(a, b, data_type, cached_only=False):
         KG_CACHE_UPDATES += 1
         if KG_CACHE_UPDATES >= 100:
             save_cache_file()
+            KG_CACHE_UPDATES = 0
 
     return KG_CACHE[cache_key]
 
@@ -97,7 +99,8 @@ def download_main(data_dir):
     print(fnames)
     for fname in tqdm(fnames):
         df = pd.read_json(fname, lines=fname.endswith('jsonl') or fname.endswith('jsonl.xz'))
-        df.rename({'sentence1': 'premise', 'sentence2': 'hypothesis'}, inplace=True)
+        print(df.columns)
+        df.rename(columns={'sentence1': 'premise', 'sentence2': 'hypothesis'}, inplace=True)
 
         print(f'found {len(df)} samples on {fname}')
         for row in tqdm(df.itertuples(), total=len(df)):
@@ -125,8 +128,9 @@ def example_run():
         for dataset_type in list(DATA2FIND_PAIRS_FN):
             print(dataset_type, a[:20] + '...', b[:20] + '...')
             pairs = parse_mnli_sample(a, b, dataset_type)
-            print(pairs)
+            print(json.dumps(pairs, indent=4, sort_keys=True))
 
 
 if __name__ == '__main__':
+    # example_run()
     download_main('../datasets')
