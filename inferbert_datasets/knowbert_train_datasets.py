@@ -35,7 +35,7 @@ TRAIN_GRID = {
     'dataset_type': ['regular', 'mnli10k', 'mnli100k'],
     'num_epochs': [3, 4],
     'lr': [2e-5, 3e-5, 5e-5],
-    'dataset_name': ['location_rare', 'trademark', 'color', 'hypernymy'],
+    'dataset_name': ['location_common', 'location_rare', 'trademark', 'color', 'hypernymy'],
 }
 
 
@@ -127,7 +127,7 @@ def get_filenames(params: dict):
 
 
 def get_dataset_filenames(dataset_name, dataset_type):
-    data_dir = os.path.join(DATASETS_DIR, dataset_name.replace('_rare', ''))
+    data_dir = os.path.join(DATASETS_DIR, dataset_name.replace('_rare', '').replace('_common', ''))
 
     if dataset_type == 'regular':
         train_data_fname = os.path.join(data_dir, f'{dataset_name}_train.json')

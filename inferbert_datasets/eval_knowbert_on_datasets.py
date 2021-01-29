@@ -20,6 +20,7 @@ EVAL_DATASETS = {
     'mnli_dev_mismatched': os.path.join(DATASETS_DIR, 'mnli', 'mnli_dev_mismatched.jsonl.xz'),
     # location
     'location_rare_dev': os.path.join(DATASETS_DIR, 'location', 'location_rare_dev.json'),
+    'location_common_dev': os.path.join(DATASETS_DIR, 'location', 'location_common_dev.json'),
     'location_rare_test': os.path.join(DATASETS_DIR, 'location', 'location_rare_test.json'),
     'location_common_test': os.path.join(DATASETS_DIR, 'location', 'location_common_test.json'),
     # trademark
@@ -38,6 +39,13 @@ EVAL_DATASETS = {
 DATASET_NAME_TO_EVAL = {
     'location_rare': (
         'location_rare_dev',
+        'location_rare_test',
+        'location_common_test',
+        'mnli_dev_matched',
+        # 'mnli_dev_mismatched',
+    ),
+    'location_common': (
+        'location_common_dev',
         'location_rare_test',
         'location_common_test',
         'mnli_dev_matched',

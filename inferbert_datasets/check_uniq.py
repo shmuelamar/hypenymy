@@ -36,8 +36,8 @@ def singular_noun_fixed(word):
     return sing
 
 
-def main(dirname, word_field):
-    fnames = sorted(f for f in glob(dirname + '/*.json', recursive=True) if os.path.isfile(f))
+def main(dirname, word_field, filter=None):
+    fnames = sorted(f for f in glob(dirname + '/*.json', recursive=True) if os.path.isfile(f) and (not filter or filter in f or 'test' in f))
     print(f'checking {len(fnames)} files: ', fnames)
     dses = [pd.read_json(fname) for fname in fnames]
 
@@ -75,7 +75,8 @@ def main(dirname, word_field):
 
 
 if __name__ == '__main__':
-    main('datasets/location', word_field='location')
+    main('datasets/location', filter='common', word_field='location')
+    main('datasets/location', filter='rare', word_field='location')
     main('datasets/trademark', word_field='company')
     main('datasets/hypernymy', word_field='item')
     main('datasets/color', word_field='item')

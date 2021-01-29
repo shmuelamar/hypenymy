@@ -1,7 +1,9 @@
 import base64
 import gzip
 import json
-from collections import defaultdict
+import pickle
+import time
+from collections import defaultdict, namedtuple
 from concurrent.futures.process import ProcessPoolExecutor
 from functools import partial
 from hashlib import md5
@@ -66,6 +68,9 @@ def parse_mnli_sample(a, b, data_type, cached_only=False):
         KG_CACHE_UPDATES += 1
         if KG_CACHE_UPDATES >= 100:
             save_cache_file()
+            print('sleeping 1 sec...')
+            time.sleep(1)
+            print('done sleep')
             KG_CACHE_UPDATES = 0
 
     return KG_CACHE[cache_key]
@@ -148,10 +153,12 @@ def download_main():
         # '../datasets/color/color_dev.json',
         # '../datasets/color/color_train.json',
         # '../datasets/color/color_test.json',
-        # '../datasets/location/location_common_test.json',
-        # '../datasets/location/location_rare_dev.json',
-        # '../datasets/location/location_rare_train.json',
-        # '../datasets/location/location_rare_test.json',
+        '../datasets/location/location_rare_dev.json',
+        '../datasets/location/location_common_dev.json',
+        '../datasets/location/location_rare_train.json',
+        '../datasets/location/location_common_train.json',
+        '../datasets/location/location_rare_test.json',
+        '../datasets/location/location_common_test.json',
         # '../datasets/hypernymy/hypernymy_train.json',
         # '../datasets/hypernymy/hypernymy_dev.json',
         # '../datasets/hypernymy/hypernymy_test.json',
@@ -172,10 +179,10 @@ def download_main():
         print(df.columns)
         df.rename(columns={'sentence1': 'premise', 'sentence2': 'hypothesis'}, inplace=True)
 
-        df = df[66000:]
-        csents = set(df['premise'].tolist() + df['hypothesis'].tolist())
-        the_cache = nlp_cache(csents)
-        wn.nlp = lambda x: the_cache[x]
+        # df = df[66900:]
+        # csents = set(df['premise'].tolist() + df['hypothesis'].tolist())
+        # the_cache = nlp_cache(csents)
+        # wn.nlp = lambda x: the_cache[x]
 
         print(f'found {len(df)} samples on {fname}')
         for row in tqdm(df.itertuples(), total=len(df)):
@@ -185,22 +192,28 @@ def download_main():
     save_cache_file()
 
 
+ResType = namedtuple('ResType', ['noun_chunks', 'ents'])
+
+
+def parse_sent(s):
+    r = wn.nlp(s)
+    # res = ResType(noun_chunks=r.noun_chunks, ents=r.ents)
+    return s, r
+
+
 def nlp_cache(texts):
     print("Processing texts...")
-
-    partitions = minibatch(texts, size=16)
-    executor = Parallel(n_jobs=4, backend="multiprocessing", prefer="processes")
-    do = delayed(wn.nlp)
-    tasks = (do(batch) for i, batch in enumerate(partitions))
-    executor(tasks)
+    #
+    # partitions = minibatch(texts, size=16)
+    # executor = Parallel(n_jobs=4, backend="multiprocessing", prefer="processes")
+    # do = delayed(wn.nlp)
+    # tasks = (do(batch) for i, batch in enumerate(partitions))
+    # executor(tasks)
 
     texts = iter(tqdm(texts))
 
-    def parse_sent(s):
-        return s, wn.nlp(s)
-
     cache = {}
-    with ProcessPoolExecutor() as executor:
+    with ProcessPoolExecutor(max_workers=4) as executor:
         while True:
             batch = islice(texts, 100)
             if not batch:
