@@ -170,7 +170,7 @@ def download_main():
         ### '../datasets/mnli/mnli_train_full.jsonl.xz',
         # '../datasets/mnli/mnli_dev_matched.jsonl.xz',
         # '../datasets/mnli/mnli_train_10k_split.json.xz',
-        '../datasets/mnli/mnli_train_100k.json.xz',
+        # '../datasets/mnli/mnli_train_100k.json.xz',
     ]
 
     print(fnames)
