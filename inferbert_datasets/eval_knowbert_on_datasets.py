@@ -31,6 +31,8 @@ EVAL_DATASETS = {
     # hypernymy
     'hypernymy_dev': os.path.join(DATASETS_DIR, 'hypernymy', 'hypernymy_dev.json'),
     'hypernymy_test': os.path.join(DATASETS_DIR, 'hypernymy', 'hypernymy_test.json'),
+    'hypernymy_common_test': os.path.join(DATASETS_DIR, 'hypernymy', 'hypernymy_common_test.json'),
+    'hypernymy_rare_test': os.path.join(DATASETS_DIR, 'hypernymy', 'hypernymy_rare_test.json'),
 }
 
 DATASET_NAME_TO_EVAL = {
@@ -39,25 +41,27 @@ DATASET_NAME_TO_EVAL = {
         'location_rare_test',
         'location_common_test',
         'mnli_dev_matched',
-        'mnli_dev_mismatched',
+        # 'mnli_dev_mismatched',
     ),
     'trademark': (
         'trademark_dev',
         'trademark_test',
         'mnli_dev_matched',
-        'mnli_dev_mismatched',
+        # 'mnli_dev_mismatched',
     ),
     'color': {
         'color_dev',
         'color_test',
         'mnli_dev_matched',
-        'mnli_dev_mismatched',
+        # 'mnli_dev_mismatched',
     },
     'hypernymy': {
         'hypernymy_dev',
         'hypernymy_test',
         'mnli_dev_matched',
-        'mnli_dev_mismatched',
+        'hypernymy_common_test',
+        'hypernymy_rare_test',
+        # 'mnli_dev_mismatched',
     },
 }
 

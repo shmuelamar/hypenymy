@@ -2,11 +2,15 @@ import base64
 import gzip
 import json
 from collections import defaultdict
+from concurrent.futures.process import ProcessPoolExecutor
 from functools import partial
 from hashlib import md5
+from itertools import islice
 
 import pandas as pd
+from joblib import Parallel, delayed
 from pytorch_pretrained_bert.tokenization import BertTokenizer
+from spacy.util import minibatch
 from tqdm import tqdm
 
 import wordnet_parsing_utils as wn
@@ -141,31 +145,37 @@ def download_main():
     # )
 
     fnames = [
-        '../datasets/color/color_dev.json',
-        '../datasets/color/color_train.json',
-        '../datasets/color/color_test.json',
-        '../datasets/location/location_common_test.json',
-        '../datasets/location/location_rare_dev.json',
-        '../datasets/location/location_rare_train.json',
-        '../datasets/location/location_rare_test.json',
-        '../datasets/hypernymy/hypernymy_train.json',
-        '../datasets/hypernymy/hypernymy_dev.json',
-        '../datasets/hypernymy/hypernymy_test.json',
-        '../datasets/trademark/trademark_test.json',
-        '../datasets/trademark/trademark_dev.json',
-        '../datasets/trademark/trademark_train.json',
-        '../datasets/trademark/trademark_train_mnli10k.json.xz',
+        # '../datasets/color/color_dev.json',
+        # '../datasets/color/color_train.json',
+        # '../datasets/color/color_test.json',
+        # '../datasets/location/location_common_test.json',
+        # '../datasets/location/location_rare_dev.json',
+        # '../datasets/location/location_rare_train.json',
+        # '../datasets/location/location_rare_test.json',
+        # '../datasets/hypernymy/hypernymy_train.json',
+        # '../datasets/hypernymy/hypernymy_dev.json',
+        # '../datasets/hypernymy/hypernymy_test.json',
+        # '../datasets/trademark/trademark_test.json',
+        # '../datasets/trademark/trademark_dev.json',
+        # '../datasets/trademark/trademark_train.json',
+        # '../datasets/trademark/trademark_train_mnli10k.json.xz',
         ###'../datasets/mnli/mnli_dev_mismatched.jsonl.xz',
         ### '../datasets/mnli/mnli_train_full.jsonl.xz',
-        '../datasets/mnli/mnli_dev_matched.jsonl.xz',
-        '../datasets/mnli/mnli_train_10k_split.json.xz',
-        # '../datasets/mnli/mnli_train_100k.json.xz',
+        # '../datasets/mnli/mnli_dev_matched.jsonl.xz',
+        # '../datasets/mnli/mnli_train_10k_split.json.xz',
+        '../datasets/mnli/mnli_train_100k.json.xz',
     ]
+
     print(fnames)
     for fname in tqdm(fnames):
         df = pd.read_json(fname, lines=fname.endswith('jsonl') or fname.endswith('jsonl.xz'))
         print(df.columns)
         df.rename(columns={'sentence1': 'premise', 'sentence2': 'hypothesis'}, inplace=True)
+
+        df = df[66000:]
+        csents = set(df['premise'].tolist() + df['hypothesis'].tolist())
+        the_cache = nlp_cache(csents)
+        wn.nlp = lambda x: the_cache[x]
 
         print(f'found {len(df)} samples on {fname}')
         for row in tqdm(df.itertuples(), total=len(df)):
@@ -173,6 +183,33 @@ def download_main():
             for data_type in DATA2FIND_PAIRS_FN:
                 parse_mnli_sample(row.premise, row.hypothesis, data_type)
     save_cache_file()
+
+
+def nlp_cache(texts):
+    print("Processing texts...")
+
+    partitions = minibatch(texts, size=16)
+    executor = Parallel(n_jobs=4, backend="multiprocessing", prefer="processes")
+    do = delayed(wn.nlp)
+    tasks = (do(batch) for i, batch in enumerate(partitions))
+    executor(tasks)
+
+    texts = iter(tqdm(texts))
+
+    def parse_sent(s):
+        return s, wn.nlp(s)
+
+    cache = {}
+    with ProcessPoolExecutor() as executor:
+        while True:
+            batch = islice(texts, 100)
+            if not batch:
+                break
+
+            futures = [executor.submit(parse_sent, txt) for txt in batch]
+            results = [f.result() for f in futures]
+            cache.update({k: v for k, v in results})
+    return cache
 
 # def mp_download_main():
 #     fnames = [

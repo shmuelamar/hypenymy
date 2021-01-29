@@ -49,6 +49,10 @@ def main(dirname, word_field):
             fname1 = fnames[i]
             fname2 = fnames[j]
 
+            if fname1.endswith('_test.json') and fname2.endswith('_test.json'):
+                print('test files may overlap hit ids')
+                continue
+
             set1 = {tuple(x) for x in df1[[SENT1_FIELD, SENT2_FIELD]].itertuples(index=False)}
             set2 = {tuple(x) for x in df2[[SENT1_FIELD, SENT2_FIELD]].itertuples(index=False)}
 
