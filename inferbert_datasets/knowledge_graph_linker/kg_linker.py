@@ -154,11 +154,12 @@ def download_main():
         '../datasets/trademark/trademark_test.json',
         '../datasets/trademark/trademark_dev.json',
         '../datasets/trademark/trademark_train.json',
+        '../datasets/trademark/trademark_train_mnli10k.json.xz',
         ###'../datasets/mnli/mnli_dev_mismatched.jsonl.xz',
         ### '../datasets/mnli/mnli_train_full.jsonl.xz',
         '../datasets/mnli/mnli_dev_matched.jsonl.xz',
         '../datasets/mnli/mnli_train_10k_split.json.xz',
-        '../datasets/mnli/mnli_train_100k.json.xz',
+        # '../datasets/mnli/mnli_train_100k.json.xz',
     ]
     print(fnames)
     for fname in tqdm(fnames):
@@ -171,7 +172,7 @@ def download_main():
 
             for data_type in DATA2FIND_PAIRS_FN:
                 parse_mnli_sample(row.premise, row.hypothesis, data_type)
-
+    save_cache_file()
 
 # def mp_download_main():
 #     fnames = [
