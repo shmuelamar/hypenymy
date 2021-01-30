@@ -35,7 +35,7 @@ TRAIN_GRID = {
     'dataset_type': ['regular', 'mnli10k', 'mnli100k'],
     'num_epochs': [3, 4],
     'lr': [2e-5, 3e-5, 5e-5],
-    'dataset_name': ['location_common', 'location_rare', 'trademark', 'color', 'hypernymy'],
+    'dataset_name': ['combined'], #'location_common', 'location_rare', 'trademark', 'color', 'hypernymy'],
 }
 
 

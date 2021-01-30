@@ -150,15 +150,17 @@ def download_main():
     # )
 
     fnames = [
+        '../datasets/combined/combined_dev.json',
+        '../datasets/combined/combined_train.json',
         # '../datasets/color/color_dev.json',
         # '../datasets/color/color_train.json',
         # '../datasets/color/color_test.json',
-        '../datasets/location/location_rare_dev.json',
-        '../datasets/location/location_common_dev.json',
-        '../datasets/location/location_rare_train.json',
-        '../datasets/location/location_common_train.json',
-        '../datasets/location/location_rare_test.json',
-        '../datasets/location/location_common_test.json',
+        # '../datasets/location/location_rare_dev.json',
+        # '../datasets/location/location_common_dev.json',
+        # '../datasets/location/location_rare_train.json',
+        # '../datasets/location/location_common_train.json',
+        # '../datasets/location/location_rare_test.json',
+        # '../datasets/location/location_common_test.json',
         # '../datasets/hypernymy/hypernymy_train.json',
         # '../datasets/hypernymy/hypernymy_dev.json',
         # '../datasets/hypernymy/hypernymy_test.json',

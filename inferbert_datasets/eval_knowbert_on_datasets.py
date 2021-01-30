@@ -71,6 +71,15 @@ DATASET_NAME_TO_EVAL = {
         'hypernymy_rare_test',
         # 'mnli_dev_mismatched',
     },
+    'combined': {
+        'location_rare_test',
+        'location_common_test',
+        'trademark_test',
+        'color_test',
+        'hypernymy_common_test',
+        'hypernymy_rare_test',
+        'mnli_dev_matched',
+    }
 }
 
 

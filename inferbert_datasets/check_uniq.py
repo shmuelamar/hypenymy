@@ -59,8 +59,16 @@ def main(dirname, word_field, filter=None):
             print(f'checking {i} and {j} non-overlap sentences')
             assert set1 & set2 == set(), set1 & set2
 
-            set1_word = set(df1[word_field].apply(to_singular).str.lower().tolist())
-            set2_word = set(df2[word_field].apply(to_singular).str.lower().tolist())
+            if isinstance(word_field, str):
+                set1_word = set(df1[word_field].apply(to_singular).str.lower().tolist())
+                set2_word = set(df2[word_field].apply(to_singular).str.lower().tolist())
+            else:
+                set1_word = set()
+                set2_word = set()
+                for w_field in word_field:
+                    set1_word |= set(df1[~df1[w_field].isna()][w_field].apply(to_singular).str.lower().tolist())
+                    set2_word |= set(df2[~df2[w_field].isna()][w_field].apply(to_singular).str.lower().tolist())
+                print(len(set1_word), len(set2_word))
             print(f'checking {i} and {j} non-overlap words')
             assert set1_word & set2_word == set(), set1_word & set2_word
 
@@ -80,3 +88,4 @@ if __name__ == '__main__':
     main('datasets/trademark', word_field='company')
     main('datasets/hypernymy', word_field='item')
     main('datasets/color', word_field='item')
+    main('datasets/combined', word_field=['location', 'item', 'company'])

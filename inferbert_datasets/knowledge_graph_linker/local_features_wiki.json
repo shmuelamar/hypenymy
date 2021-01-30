@@ -5,6 +5,7 @@
     "-$44": [],
     "--and": [],
     "--is": [],
+    "--not": [],
     "--the": [],
     "-0": [],
     "-accounts": [],
@@ -32,6 +33,7 @@
     "1300s": [],
     "13th": [],
     "1400s": [],
+    "1440s": [],
     "1480s": [],
     "1500s": [],
     "1530s": [],
@@ -44,6 +46,7 @@
     "167-m-": [],
     "1680s": [],
     "16th": [],
+    "1740s": [],
     "1750s": [],
     "1760s": [],
     "1780s": [],
@@ -93,6 +96,7 @@
     "45s": [],
     "491/sb": [],
     "49ers": [],
+    "4th": [],
     "50s": [],
     "5a": [],
     "5th": [],
@@ -102,6 +106,7 @@
     "7.3a": [],
     "70s": [],
     "7a": [],
+    "8": [],
     "8(a)(5": [],
     "80s": [],
     "901s": [],
@@ -123,13 +128,18 @@
     "a.d.25": [],
     "a.d.96": [],
     "a.m.": [],
+    "a.s.e.": [],
     "a1": [],
     "a100,000": [],
     "a11": [],
     "a120": [],
+    "a12513": [],
     "a130": [],
     "a1353": [],
     "a20": [],
+    "a2996f(b)(6": [],
+    "a2996f(b)(8": [],
+    "a2996f(b)(9": [],
     "a2sea": [],
     "a4": [],
     "a504(a": [],
@@ -144,6 +154,7 @@
     "a74(m": [],
     "a?\u00afnhoa": [],
     "a?\u00aftone": [],
+    "a[t]he": [],
     "aacrobat": [],
     "aagency": [],
     "aagency-": [],
@@ -238,6 +249,13 @@
     "abortion": [],
     "aboukir": [],
     "abound": [],
+    "abracadabra": {
+        "color": [
+            "black-and-white"
+        ],
+        "material": [],
+        "shape": []
+    },
     "abraham": {
         "color": [],
         "material": [
@@ -250,6 +268,7 @@
     },
     "abrahamsen": [],
     "abram": [],
+    "abrasion": [],
     "abruptne": [],
     "absalom": [],
     "abse": [],
@@ -297,6 +316,8 @@
     "abyme": [],
     "abyssinia": [],
     "ac": [],
+    "aca?\u03c4emy": [],
+    "academe": [],
     "academia": [],
     "academic": [],
     "academician": [],
@@ -419,6 +440,7 @@
         "shape": []
     },
     "acronym": [],
+    "acropoli": [],
     "acrosefrom": [],
     "act": [],
     "act16": [],
@@ -457,6 +479,7 @@
     "acuman": [],
     "acuto": [],
     "ad": [],
+    "adage": [],
     "adaja": [],
     "adalar": [],
     "adam": {
@@ -483,6 +506,7 @@
         "material": [],
         "shape": []
     },
+    "addictivene": [],
     "addie": [],
     "addition": [],
     "additive": [],
@@ -495,6 +519,7 @@
     "adept": [],
     "adequacy": [],
     "adflugasdemo.html": [],
+    "adhd": [],
     "adherence": [],
     "adherent": [],
     "adiabne": [],
@@ -504,7 +529,9 @@
     "adjacency": [],
     "adjacent": [],
     "adjangba": [],
+    "adjective": [],
     "adjunct": [],
+    "adjuster": [],
     "adjustment": {
         "color": [
             "color"
@@ -759,6 +786,7 @@
     },
     "aggressive": [],
     "aggressor": [],
+    "aghiaso": [],
     "aghion": [],
     "agile": [],
     "agility": [],
@@ -795,6 +823,7 @@
         "shape": []
     },
     "agreementto": [],
+    "agri?\u00adculture": [],
     "agriculturalist": [],
     "agriculture": {
         "color": [],
@@ -1042,8 +1071,11 @@
     "aldrich": [],
     "alec": [],
     "aleinikoff": [],
+    "alek": [],
     "alem?\u00a1n": [],
+    "alentejo": [],
     "alert": [],
+    "alertne": [],
     "alesser": [],
     "alexander": {
         "color": [
@@ -1066,6 +1098,8 @@
     "alexandrian": [],
     "alfonso": [],
     "alfred": [],
+    "alga": [],
+    "algaida": [],
     "algarve": [],
     "algebra": [],
     "alger": [],
@@ -1090,6 +1124,7 @@
     },
     "alienation": [],
     "alignment": [],
+    "alioli": [],
     "alive": [],
     "aljubarrota": [],
     "aljube": [],
@@ -1148,6 +1183,7 @@
     "alligator": [],
     "alliy": [],
     "allocation": [],
+    "allon": [],
     "allotment": [],
     "allowance": [],
     "alloy": [],
@@ -1199,6 +1235,7 @@
         "shape": []
     },
     "alsacien": [],
+    "alston": [],
     "alt": [],
     "altadi": [],
     "altamira": [],
@@ -1218,6 +1255,7 @@
     "alterman": [],
     "alternate": [],
     "alternative": [],
+    "alternator": [],
     "althea": [],
     "altinkum": [],
     "altitude": [],
@@ -1235,6 +1273,7 @@
     "am-4pm": [],
     "am??lia": [],
     "ama": [],
+    "amadeu": [],
     "amalfi": {
         "color": [],
         "material": [
@@ -1394,9 +1433,11 @@
     },
     "amoreeffective": [],
     "amorose": [],
+    "amorousne": [],
     "amortization": [],
     "amoudia": [],
     "amount": [],
+    "amour": [],
     "amp": [],
     "ampang": [],
     "amphetamine": [],
@@ -1415,6 +1456,8 @@
     },
     "amphora": [],
     "amplification": [],
+    "amplifier": [],
+    "amputation": [],
     "amrein": [],
     "amritsar": [],
     "amsterdam": {
@@ -1443,11 +1486,13 @@
     "anadia": [],
     "anaheim": [],
     "anakin": [],
+    "analogue": [],
     "analogy": [],
     "analyse": [],
     "analyses),5": [],
     "analysi": [],
     "analyst": [],
+    "analyzer": [],
     "analyzing": [],
     "anamnesi": [],
     "anao": [],
@@ -1486,6 +1531,13 @@
         "shape": []
     },
     "anchorman": [],
+    "anchovy": {
+        "color": [],
+        "material": [
+            "wove paper"
+        ],
+        "shape": []
+    },
     "ancient": [],
     "and": [],
     "anda": [],
@@ -1494,11 +1546,14 @@
     "andecore": [],
     "andersen": [],
     "anderson": [],
+    "andfederal": [],
     "andorra": [],
+    "andr": [],
     "andr??s": [],
     "andratx": [],
     "andre": [],
     "andrew": [],
+    "andro": [],
     "android": [],
     "andromeda": {
         "color": [],
@@ -1733,6 +1788,7 @@
     "antichrist": [],
     "anticipation": [],
     "anticlimax": [],
+    "anticollegio": [],
     "antidote": [],
     "antifreeze": [],
     "antiga": [],
@@ -1740,6 +1796,7 @@
     "antihistamine": [],
     "antille": [],
     "antimony": [],
+    "antiparosea": [],
     "antiquaire": [],
     "antique": {
         "color": [
@@ -1795,6 +1852,7 @@
     "anything": [],
     "anything'll": [],
     "anzaisho": [],
+    "ao": [],
     "aol": [],
     "aoshima": [],
     "aoskdar": [],
@@ -1944,6 +2002,7 @@
         ],
         "shape": []
     },
+    "applewhite": [],
     "appliance": [],
     "applicability": [],
     "applicant": [],
@@ -1972,6 +2031,7 @@
     "approval": [],
     "approved": [],
     "approving": [],
+    "approximation": [],
     "apr.": [],
     "apricot": {
         "color": [
@@ -2066,6 +2126,7 @@
     "arawak": [],
     "arbiter": [],
     "arbitrageur": [],
+    "arbitration": [],
     "arbor": [],
     "arc": [],
     "arcade": [],
@@ -2100,6 +2161,7 @@
     "archdeacon": [],
     "arche": [],
     "archeabacterium": [],
+    "archeologica": [],
     "archeologico": [],
     "archeologist": [],
     "archer": {
@@ -2167,6 +2229,7 @@
         ],
         "shape": []
     },
+    "ardhanarishvara": [],
     "ardour": [],
     "area": [],
     "areia": [],
@@ -2206,6 +2269,14 @@
     "argument": [],
     "argument-": [],
     "argumentation": [],
+    "ariadne": {
+        "color": [],
+        "material": [
+            "canvas",
+            "oil paint"
+        ],
+        "shape": []
+    },
     "ariana": [],
     "ariane": {
         "color": [
@@ -2220,6 +2291,7 @@
     "arianegroup": [],
     "arieh": [],
     "arieiro": [],
+    "ariminium": [],
     "aristocracy": {
         "color": [
             "black-and-white"
@@ -2355,6 +2427,14 @@
         "shape": []
     },
     "aronson": [],
+    "arp": {
+        "color": [],
+        "material": [
+            "acrylic paint",
+            "paper"
+        ],
+        "shape": []
+    },
     "arqueolegico": [],
     "arqueologica": [],
     "arquette": [],
@@ -2451,9 +2531,11 @@
         ],
         "shape": []
     },
+    "artiste": [],
     "artistry": [],
     "artnew": [],
     "artwork": [],
+    "aru": [],
     "arule": [],
     "ary": [],
     "aryan": {
@@ -2464,6 +2546,7 @@
         "shape": []
     },
     "aryne": [],
+    "asa": [],
     "asakusa": [],
     "asano": [],
     "asb": [],
@@ -2495,8 +2578,10 @@
         "shape": []
     },
     "asceticism": [],
+    "asclepion": [],
     "asclepium": [],
     "ascot": [],
+    "asenali": [],
     "asfendiou": [],
     "ash": {
         "color": [],
@@ -2506,6 +2591,7 @@
         ],
         "shape": []
     },
+    "ashcroft": [],
     "asher": {
         "color": [],
         "material": [
@@ -2517,6 +2603,7 @@
     "ashford": [],
     "ashikaga": [],
     "ashkelon": [],
+    "ashlar": [],
     "ashley": [],
     "ashoka": [],
     "ashville": [],
@@ -2537,6 +2624,7 @@
     "ask": [],
     "askham": [],
     "askin": [],
+    "asking": [],
     "askme.com": [],
     "askov": [],
     "asparagu": [],
@@ -2588,6 +2676,7 @@
     },
     "assault": [],
     "assay": [],
+    "assemblage": [],
     "assembly": [],
     "assent": [],
     "assert": [],
@@ -2767,9 +2856,12 @@
     "attleboro": [],
     "attorney": [],
     "attraction": [],
+    "attractivene": [],
     "attribute": [],
     "attribution": [],
     "atwater": [],
+    "au": [],
+    "auberge": [],
     "aubergine": [],
     "aubriot": [],
     "auburn": [],
@@ -2913,6 +3005,7 @@
         ],
         "shape": []
     },
+    "autocracy": [],
     "autocrat": [],
     "autograph": [],
     "automaker": [],
@@ -3118,6 +3211,13 @@
         "shape": []
     },
     "azure": [],
+    "azurite": {
+        "color": [
+            "green"
+        ],
+        "material": [],
+        "shape": []
+    },
     "azzurra": [],
     "b": [],
     "b-271810": [],
@@ -3142,6 +3242,7 @@
     "b29": [],
     "b29s": [],
     "b5289": [],
+    "b5343": [],
     "ba": [],
     "ba?\u00adsi?\u00adli?\u00adca": [],
     "baalbek": {
@@ -3313,6 +3414,7 @@
         "shape": []
     },
     "bagdogra": [],
+    "bagehot": [],
     "bagel": {
         "color": [],
         "material": [],
@@ -3333,6 +3435,7 @@
     },
     "baglead": [],
     "bagmati": [],
+    "bagpipe": [],
     "baguette": [],
     "bagutta": [],
     "baha'i": [],
@@ -3351,6 +3454,7 @@
     },
     "bahru": [],
     "bahutier": [],
+    "bailen": [],
     "bailey": [],
     "bailout": [],
     "bain": [],
@@ -3376,6 +3480,7 @@
         ],
         "shape": []
     },
+    "bajo": [],
     "bakaly": [],
     "bakar": [],
     "baker": [],
@@ -3418,6 +3523,7 @@
     "baldy": [],
     "baleare": [],
     "balearic": [],
+    "baleia": [],
     "baleine": [],
     "baleira": [],
     "baler": [],
@@ -3557,9 +3663,12 @@
         ],
         "shape": []
     },
+    "banana)--display": [],
     "bancroft": [],
     "band": [],
     "bandage": [],
+    "bandanna": [],
+    "bandar": [],
     "banderillero": [],
     "bandhani": {
         "color": [],
@@ -3691,6 +3800,7 @@
     "bard": [],
     "barenakedino": [],
     "baresso": [],
+    "barg": [],
     "bargain": [],
     "bargaining": [],
     "barge": [],
@@ -3773,6 +3883,7 @@
         "shape": []
     },
     "barrio": [],
+    "barrister": [],
     "barro": [],
     "barroom": [],
     "barrow": [],
@@ -3891,6 +4002,7 @@
     "bastion": [],
     "bat": [],
     "batch": [],
+    "batelier": [],
     "bath": {
         "color": [],
         "material": [
@@ -4054,6 +4166,7 @@
     "beak": [],
     "beam": [],
     "beamer": [],
+    "beams;farewell": [],
     "bean": {
         "color": [],
         "material": [
@@ -4191,6 +4304,7 @@
         ],
         "shape": []
     },
+    "beersheba": [],
     "beet": [],
     "beetle": {
         "color": [],
@@ -4283,6 +4397,7 @@
     "bellboy": [],
     "belle": [],
     "bellecour": [],
+    "bellefontaine": [],
     "bellerin": [],
     "belligerence": [],
     "bellini": {
@@ -4393,6 +4508,7 @@
     "benlliure": [],
     "bennett": [],
     "benny": [],
+    "benson": [],
     "bent": [],
     "benz": [],
     "beowulf": [],
@@ -4400,6 +4516,7 @@
     "berahi": [],
     "berber": [],
     "berber?\u00ada": [],
+    "berbie": [],
     "bercy": [],
     "beresford": [],
     "beret": [],
@@ -4460,6 +4577,7 @@
     "berniyre": [],
     "bernsen": [],
     "bernstein": [],
+    "berridale": [],
     "berruguete": [],
     "berry": [],
     "berserk": [],
@@ -4478,6 +4596,7 @@
     "besieger": [],
     "bessette": [],
     "bessie": [],
+    "besson": [],
     "bestbestbest.pl": [],
     "bestiality": [],
     "bestseller": [],
@@ -4597,6 +4716,7 @@
         "shape": []
     },
     "bigarny": [],
+    "biggie": [],
     "biglaw": [],
     "biglobe": [],
     "bigotry": [],
@@ -4653,6 +4773,7 @@
     },
     "billing": [],
     "billion": [],
+    "billionaire": [],
     "billy": {
         "color": [],
         "material": [
@@ -4677,6 +4798,7 @@
     "bingo": [],
     "bink": [],
     "binocular": [],
+    "bintang": [],
     "binzuru": [],
     "bio": {
         "color": [],
@@ -4718,11 +4840,13 @@
         ],
         "shape": []
     },
+    "birdseed": [],
     "birdwatching": [],
     "birdwhistell": [],
     "birdwing": [],
     "birker": [],
     "birney": [],
+    "biron": [],
     "birth": {
         "color": [
             "color"
@@ -4810,6 +4934,7 @@
         "material": [],
         "shape": []
     },
+    "blackard": [],
     "blackballing": [],
     "blackberry": {
         "color": [
@@ -5211,6 +5336,7 @@
     "bohemia": [],
     "bohemian": [],
     "bohlen": [],
+    "bohyme": [],
     "boiler": [],
     "boilermaker": {
         "color": [],
@@ -5333,6 +5459,7 @@
     "boniface": [],
     "bonifacio": [],
     "bonito": [],
+    "bonker": [],
     "bonnard": [],
     "bonnat": [],
     "bonnet": {
@@ -5463,6 +5590,7 @@
     "borgia": [],
     "borgospesso": [],
     "bori": [],
+    "borinquen": [],
     "borja": [],
     "bork": [],
     "borletti": [],
@@ -5503,6 +5631,7 @@
         ],
         "shape": []
     },
+    "boswell": [],
     "bota": [],
     "botanico": [],
     "bother": [],
@@ -5562,6 +5691,7 @@
     "boulaye": [],
     "boulder": [],
     "boule": [],
+    "bouleterion": [],
     "boulevard": {
         "color": [
             "color"
@@ -5679,6 +5809,7 @@
         "material": [],
         "shape": []
     },
+    "boxster": [],
     "boy": {
         "color": [
             "color"
@@ -5711,6 +5842,7 @@
     "boyz": [],
     "bozena": [],
     "bozzetto": [],
+    "bp": [],
     "bpifrance": [],
     "br": [],
     "br??vent": [],
@@ -5752,6 +5884,7 @@
     "brady": [],
     "brae": [],
     "brag": [],
+    "braggart": [],
     "bragging": [],
     "brahm": [],
     "brahma": {
@@ -5769,6 +5902,7 @@
     "braider": [],
     "braille": [],
     "brain": [],
+    "brainard": [],
     "brainchild": [],
     "brainfood": [],
     "brainstorm": {
@@ -5819,11 +5953,13 @@
     "brantley": [],
     "brantwood": [],
     "braque": [],
+    "brasado": [],
     "braschi": [],
     "brasco": [],
     "braskem": [],
     "brassen": [],
     "brasserie": [],
+    "brassery": [],
     "brassware": [],
     "brasswork": {
         "color": [],
@@ -5888,6 +6024,7 @@
         ],
         "shape": []
     },
+    "brazo": [],
     "brea": [],
     "breach": {
         "color": [],
@@ -5962,6 +6099,14 @@
         ],
         "shape": []
     },
+    "bream": {
+        "color": [],
+        "material": [
+            "panel",
+            "oil paint"
+        ],
+        "shape": []
+    },
     "breast": [],
     "breastplate": {
         "color": [],
@@ -5977,12 +6122,14 @@
         "material": [],
         "shape": []
     },
+    "breathin": [],
     "breathing": [],
     "bredamenarinibu": [],
     "breechclout": [],
     "breeches": [],
     "breed": [],
     "breeder": [],
+    "breedin": [],
     "breeding": [],
     "breeding?\"rennie": [],
     "breeze": {
@@ -6000,6 +6147,7 @@
     "brera": [],
     "breslin": [],
     "bresse": [],
+    "bret": [],
     "breton": {
         "color": [],
         "material": [
@@ -6182,6 +6330,7 @@
     "brook": [],
     "brooke": [],
     "brooklyn": [],
+    "brooklynese": [],
     "broom": {
         "color": [],
         "material": [
@@ -6226,6 +6375,7 @@
     "brownback": [],
     "browne": [],
     "brownell": [],
+    "browner": [],
     "brownie": [],
     "browning": [],
     "brownout": [],
@@ -6252,10 +6402,19 @@
         "material": [],
         "shape": []
     },
+    "bruno": {
+        "color": [],
+        "material": [
+            "canvas",
+            "oil paint"
+        ],
+        "shape": []
+    },
     "brunt": [],
     "brush": [],
     "brussel": [],
     "brustein": [],
+    "brut": [],
     "brutality": {
         "color": [
             "black-and-white"
@@ -6320,6 +6479,7 @@
     "budget": [],
     "budgeting": [],
     "budhanilkantha": [],
+    "bueno": [],
     "buff": {
         "color": [],
         "material": [
@@ -6337,6 +6497,7 @@
     "buffer": [],
     "buffet": [],
     "buffett": [],
+    "buffoon": [],
     "buffy": [],
     "bug": [],
     "bugaku": [],
@@ -6415,6 +6576,7 @@
         "shape": []
     },
     "bullshit": [],
+    "bullwhip": [],
     "bully": [],
     "bullying": [],
     "bulwark": [],
@@ -6438,6 +6600,7 @@
         ],
         "shape": []
     },
+    "bungling": [],
     "bunk": [],
     "bunker": [],
     "bunkhouse": [],
@@ -6460,6 +6623,7 @@
     "burb": [],
     "burble": [],
     "burchiello": [],
+    "burchill": [],
     "burden": [],
     "bureau": {
         "color": [],
@@ -6518,6 +6682,7 @@
     "burping": [],
     "burr": [],
     "burrelle": [],
+    "burrito": [],
     "burro": [],
     "burrough": [],
     "bursa": [],
@@ -6638,6 +6803,7 @@
     "buzz": [],
     "buzzard": [],
     "buzzer": [],
+    "buzzing": [],
     "bvd": [],
     "by": [],
     "byat": [],
@@ -6648,6 +6814,7 @@
     "byproduct": [],
     "byron": [],
     "bystander": [],
+    "bytecode": [],
     "byu": [],
     "byway": [],
     "byzantine": [],
@@ -6660,7 +6827,9 @@
         "shape": []
     },
     "c": [],
+    "c++": [],
     "c-": [],
+    "c-322": [],
     "c-3313": [],
     "c-3318": [],
     "c.": [],
@@ -6728,6 +6897,7 @@
     "cabrera": [],
     "cacfp": [],
     "cache": [],
+    "cachet": [],
     "caco3": [],
     "cacophony": [],
     "cacti": {
@@ -6743,6 +6913,13 @@
     "cacu": [],
     "cad": [],
     "caddesi": [],
+    "caddie": {
+        "color": [
+            "Eastmancolor"
+        ],
+        "material": [],
+        "shape": []
+    },
     "caddy": [],
     "cadenabbia": [],
     "cadence": [],
@@ -6801,6 +6978,7 @@
     "cagney": [],
     "cahill": [],
     "cahoot": [],
+    "cai": [],
     "caiman": [],
     "cain": {
         "color": [
@@ -6884,9 +7062,11 @@
         ],
         "shape": []
     },
+    "cali": [],
     "caliber": [],
     "calibration": [],
     "calicut": [],
+    "calida": [],
     "calidarium": [],
     "calif.": [],
     "california": {
@@ -6953,6 +7133,7 @@
         ],
         "shape": []
     },
+    "calvinist": [],
     "calypso": {
         "color": [
             "orange"
@@ -7026,6 +7207,7 @@
         "material": [],
         "shape": []
     },
+    "cameraman": [],
     "camerawork": [],
     "camerelle": [],
     "cameri": [],
@@ -7052,6 +7234,14 @@
     "campbell": [],
     "campello": [],
     "camper": [],
+    "campfire": {
+        "color": [],
+        "material": [
+            "canvas",
+            "oil paint"
+        ],
+        "shape": []
+    },
     "campground": [],
     "campidoglio": [],
     "campina": [],
@@ -7137,6 +7327,7 @@
         ],
         "shape": []
     },
+    "candor": [],
     "candy": {
         "color": [],
         "material": [
@@ -7174,6 +7365,7 @@
     "cannine": [],
     "cannon": [],
     "cannonball": [],
+    "cano": [],
     "canoe": [],
     "canoeing": {
         "color": [],
@@ -7304,6 +7496,7 @@
         ],
         "shape": []
     },
+    "capriciousne": [],
     "capricornutum": [],
     "capshaw": [],
     "capstan": [],
@@ -7372,6 +7565,7 @@
     "caravanning": [],
     "caravanserai": [],
     "carbet": [],
+    "carbide": [],
     "carbine": [],
     "carbon": [],
     "carbonera": [],
@@ -7513,6 +7707,13 @@
         ],
         "shape": []
     },
+    "carp": {
+        "color": [],
+        "material": [
+            "silk"
+        ],
+        "shape": []
+    },
     "carpaccio": {
         "color": [
             "black-and-white"
@@ -7594,6 +7795,7 @@
     },
     "carrousel": [],
     "carrozze": [],
+    "carryover": [],
     "carson": [],
     "cart": [],
     "carta": [],
@@ -7601,6 +7803,7 @@
     "carte": [],
     "cartel": [],
     "carter": [],
+    "carter's)--thereby": [],
     "carthage": [],
     "carthaginian": [],
     "cartmel": [],
@@ -7655,6 +7858,7 @@
         ],
         "shape": []
     },
+    "cascai": [],
     "case": [],
     "casehandler": [],
     "casella": [],
@@ -7837,6 +8041,7 @@
         ],
         "shape": []
     },
+    "cathedrale": [],
     "catherine": [],
     "cathol?\u00adicism": [],
     "catholic": [],
@@ -8058,10 +8263,12 @@
         "shape": []
     },
     "central": [],
+    "centralia": [],
     "centrality": [],
     "centralization": [],
     "centre": [],
     "centrelink": [],
+    "centrist": [],
     "centroid": [],
     "century": [],
     "century--": [],
@@ -8096,12 +8303,14 @@
     "cervante": [],
     "cesar": [],
     "cesare": [],
+    "cesenatico": [],
     "cespede": [],
     "cessation": [],
     "cete": [],
     "ceteau": [],
     "ceteaubriand": [],
     "ceteaux": [],
+    "cetel": [],
     "cetell": [],
     "cetellana": [],
     "cetellina": [],
@@ -8118,6 +8327,7 @@
     "cetercian": [],
     "cetern": [],
     "cezanne": [],
+    "cfc": [],
     "cfo": [],
     "cfr": [],
     "ch": [],
@@ -8255,6 +8465,13 @@
     "chandella": [],
     "chandler": [],
     "chanel": [],
+    "chang": {
+        "color": [
+            "black-and-white"
+        ],
+        "material": [],
+        "shape": []
+    },
     "chang'an": [],
     "change": {
         "color": [
@@ -8496,6 +8713,7 @@
         "material": [],
         "shape": []
     },
+    "cheaney": [],
     "cheapne": [],
     "cheat": [],
     "cheating": {
@@ -8577,6 +8795,7 @@
     "chennai": [],
     "chenonceau": [],
     "chenonceaux": [],
+    "chenoweth": [],
     "cheop": [],
     "cheque": [],
     "chera": [],
@@ -8657,6 +8876,13 @@
     },
     "chewer": [],
     "chewing": [],
+    "cheyenne": {
+        "color": [
+            "black-and-white"
+        ],
+        "material": [],
+        "shape": []
+    },
     "chhattra": [],
     "chhattri": [],
     "chi": [],
@@ -8690,6 +8916,7 @@
         ],
         "shape": []
     },
+    "chickamauga": [],
     "chicken": {
         "color": [],
         "material": [
@@ -8698,6 +8925,7 @@
         ],
         "shape": []
     },
+    "chickpea": [],
     "chief": {
         "color": [],
         "material": [
@@ -8791,6 +9019,7 @@
         ],
         "shape": []
     },
+    "chinesene": [],
     "ching": [],
     "chini": [],
     "chink": [],
@@ -8845,6 +9074,7 @@
     "cholera": [],
     "cholesterol": [],
     "chompy": [],
+    "chool": [],
     "chopin": {
         "color": [],
         "material": [
@@ -8877,6 +9107,8 @@
     },
     "chore": [],
     "choreographer": [],
+    "chorrerosemeaning": [],
+    "chorro": [],
     "choru": [],
     "chough": [],
     "choupana": [],
@@ -8895,6 +9127,8 @@
         "shape": []
     },
     "christendom": [],
+    "christensen": [],
+    "christenson": [],
     "christi": [],
     "christian": {
         "color": [
@@ -8910,6 +9144,7 @@
     "christma": [],
     "christmase": [],
     "christo": [],
+    "christodoulo": [],
     "christopher": [],
     "chriswell": [],
     "chrome": [],
@@ -8927,6 +9162,7 @@
     "chuenpi": [],
     "chulan": [],
     "chulia": [],
+    "chump": [],
     "chung": [],
     "chunk": [],
     "chunky": [],
@@ -9130,6 +9366,7 @@
     "citizenship": [],
     "citrix": [],
     "city": [],
+    "city(chkceterminal": [],
     "cityalk": [],
     "cityand": [],
     "citybegan": [],
@@ -9299,6 +9536,7 @@
         "shape": []
     },
     "clearinghouse": [],
+    "clearne": [],
     "clearwater": [],
     "clease": [],
     "cleat": [],
@@ -9314,6 +9552,7 @@
         ],
         "shape": []
     },
+    "cleese": [],
     "cleft": [],
     "cleland": [],
     "clemente": [],
@@ -9376,6 +9615,7 @@
     "clinton": [],
     "clintonian": [],
     "clintonism": [],
+    "clintonista": [],
     "clintonite": [],
     "clip": [],
     "clipboard": [],
@@ -9545,6 +9785,7 @@
         "material": [],
         "shape": []
     },
+    "coalfield": [],
     "coalition": [],
     "coast": [],
     "coaster": [],
@@ -9633,6 +9874,7 @@
         "shape": []
     },
     "cockburn": [],
+    "cockell": [],
     "cockermouth": [],
     "cockney": [],
     "cockpit": [],
@@ -9724,6 +9966,7 @@
     "coherence": [],
     "cohill": [],
     "cohort": [],
+    "cohost": [],
     "coi": [],
     "coie": [],
     "coil": {
@@ -9817,6 +10060,7 @@
         "shape": []
     },
     "collegiata": [],
+    "collegio": [],
     "colleoni": [],
     "colleville": [],
     "collie": [],
@@ -9942,6 +10186,7 @@
     },
     "columnist": [],
     "colville": [],
+    "com??die": [],
     "com?\u00adpiygne": [],
     "com?\u03adunity": [],
     "coma": [],
@@ -10026,6 +10271,7 @@
     "comfort": [],
     "comic": [],
     "coming": [],
+    "comma": [],
     "command": [],
     "commandant": [],
     "commander": [],
@@ -10264,6 +10510,7 @@
     "comrade": [],
     "comtal": [],
     "comtoise": [],
+    "comunale": [],
     "comune": [],
     "comviq": [],
     "con": [],
@@ -10359,6 +10606,7 @@
     "concussion": [],
     "cond": [],
     "condemnation": [],
+    "condensation": [],
     "condescension": [],
     "conditi": [],
     "condition": [],
@@ -10406,6 +10654,7 @@
     "confection": [],
     "confederacy": [],
     "confederate": [],
+    "confederation": [],
     "conferee": [],
     "conference": {
         "color": [],
@@ -10501,7 +10750,9 @@
     },
     "conformism": [],
     "conformity": [],
+    "confounding": [],
     "confraternity": [],
+    "confride": [],
     "confrontation": {
         "color": [],
         "material": [
@@ -10540,6 +10791,8 @@
     },
     "conglomeration": [],
     "congo": [],
+    "congra": [],
+    "congratulation": [],
     "congre": [],
     "congregation": [],
     "congregationalist": [],
@@ -10726,6 +10979,7 @@
         ],
         "shape": []
     },
+    "constructionism": [],
     "consul": [],
     "consulate": [],
     "consult": [],
@@ -10738,6 +10992,7 @@
         "material": [],
         "shape": []
     },
+    "consulting": [],
     "consumable": [],
     "consumer": [],
     "consumerism": [],
@@ -10951,6 +11206,7 @@
         "shape": []
     },
     "cooperation": [],
+    "cooperative": [],
     "cooperstown": [],
     "coor": [],
     "coordination": [],
@@ -10974,6 +11230,7 @@
         ],
         "shape": []
     },
+    "copeland": [],
     "copper": {
         "color": [
             "copper"
@@ -10996,9 +11253,11 @@
     "coptic": [],
     "coptic'was": [],
     "copy": [],
+    "copy-": [],
     "copying": [],
     "copypaste": [],
     "copyright": [],
+    "coqua": [],
     "coral": {
         "color": [
             "pink",
@@ -11014,6 +11273,7 @@
     },
     "corba": [],
     "corbacy": [],
+    "corbeau": [],
     "corbett": [],
     "corbusier": [],
     "cord": [],
@@ -11025,6 +11285,7 @@
         ],
         "shape": []
     },
+    "cording": [],
     "cordobe": [],
     "corduroy": [],
     "core": [],
@@ -11083,7 +11344,9 @@
         ]
     },
     "cornwalli": [],
+    "coro": [],
     "coronari": [],
+    "coronary": [],
     "coronation": [],
     "coronel": [],
     "coroner": [],
@@ -11135,6 +11398,8 @@
         "shape": []
     },
     "corroboration": [],
+    "corroborator": [],
+    "corrosion": [],
     "corruption": {
         "color": [
             "black-and-white"
@@ -11182,6 +11447,8 @@
     "corticosteroid": [],
     "cortisol": [],
     "cortot": [],
+    "cort\u00e9": [],
+    "cosby": [],
     "cosimato": [],
     "cosma": [],
     "cosmetic": [],
@@ -11257,6 +11524,7 @@
     "councilman": [],
     "councilor": [],
     "counsel": [],
+    "counsela": [],
     "counseling": [],
     "counselor": [],
     "count": [],
@@ -11280,6 +11548,7 @@
         ],
         "shape": []
     },
+    "countertrade": [],
     "counterweight": [],
     "counting": [],
     "country": {
@@ -11351,6 +11620,7 @@
     "courthouse": [],
     "courtier": [],
     "courtroom": [],
+    "courts-": [],
     "courtship": {
         "color": [],
         "material": [
@@ -11434,6 +11704,14 @@
     "cpa": [],
     "cpi": [],
     "cpk": [],
+    "cpu": {
+        "color": [],
+        "material": [
+            "software",
+            "PowerBook Duo"
+        ],
+        "shape": []
+    },
     "cr": [],
     "cr?\u00aapes": [],
     "crab": [],
@@ -11528,6 +11806,7 @@
     "crawford": [],
     "crawfordville": [],
     "crawl": [],
+    "crawler": [],
     "crayfish": [],
     "craze": {
         "color": [
@@ -11536,9 +11815,11 @@
         "material": [],
         "shape": []
     },
+    "cre": [],
     "creak": [],
     "creaking": [],
     "cream": [],
+    "creati": [],
     "creation": {
         "color": [
             "color",
@@ -11551,6 +11832,7 @@
         ],
         "shape": []
     },
+    "creation,-": [],
     "creation-": [],
     "creationist": [],
     "creativene": [],
@@ -11720,6 +12002,7 @@
     "croseover": [],
     "crosesection": [],
     "crosethat": [],
+    "croseto": [],
     "crosewa": [],
     "cross": {
         "color": [],
@@ -11801,6 +12084,7 @@
         ],
         "shape": []
     },
+    "crudity": [],
     "cruelty": {
         "color": [
             "black-and-white"
@@ -11812,6 +12096,7 @@
     "cruiser": [],
     "crum": [],
     "crumb": [],
+    "crumbling": [],
     "crunch": [],
     "crusade": {
         "color": [],
@@ -11874,6 +12159,7 @@
     },
     "cuban": [],
     "cubby": [],
+    "cubbyhole": [],
     "cube": {
         "color": [],
         "material": [
@@ -11890,6 +12176,7 @@
     "cubism": [],
     "cubist": [],
     "cucci": [],
+    "cuchulainn": [],
     "cucumber": [],
     "cud": [],
     "cuisine": {
@@ -11914,6 +12201,7 @@
     },
     "cult": [],
     "cultivation": [],
+    "cultivator": [],
     "cultura": [],
     "cultural": [],
     "culturati": [],
@@ -11923,6 +12211,7 @@
     "cumberland": [],
     "cumbria": [],
     "cumin": [],
+    "cummerbund": [],
     "cummin": [],
     "cummiskey": [],
     "cumulation": [],
@@ -12002,6 +12291,7 @@
         ],
         "shape": []
     },
+    "curiste": [],
     "curl": [],
     "curnin": [],
     "curren": [],
@@ -12035,6 +12325,7 @@
     "cus": [],
     "cushion": [],
     "custard": [],
+    "custer": [],
     "custodian": [],
     "custody": {
         "color": [
@@ -12074,6 +12365,7 @@
         ],
         "shape": []
     },
+    "cutumba": [],
     "cv": [],
     "cv(%": [],
     "cvcl": [],
@@ -12124,6 +12416,7 @@
     "cynic": [],
     "cynicism": [],
     "cynique": [],
+    "cynosure": [],
     "cynthia": {
         "color": [
             "black-and-white"
@@ -12144,6 +12437,7 @@
     "czar": [],
     "czarek": [],
     "czech": [],
+    "czechoslovakia": [],
     "czesiek": [],
     "czyszni\u00f3w": [],
     "d": [],
@@ -12170,6 +12464,7 @@
     "d'extremadura": [],
     "d'eze": [],
     "d'h??tel": [],
+    "d'heure": [],
     "d'honneur": [],
     "d'iberville": [],
     "d'initiative": [],
@@ -12223,6 +12518,7 @@
     },
     "dada": [],
     "dadaism": [],
+    "daddi": [],
     "daddy": {
         "color": [
             "black-and-white"
@@ -12230,6 +12526,7 @@
         "material": [],
         "shape": []
     },
+    "daddyji": [],
     "dado": [],
     "daemon": [],
     "daffodil": [],
@@ -12267,8 +12564,10 @@
     "dahshur": [],
     "daibutsu": [],
     "daibutsuden": [],
+    "dailey": [],
     "daily": [],
     "daimler": [],
+    "daimlerchrysler": [],
     "daimyo": [],
     "dairy": [],
     "dairymaid": [],
@@ -12299,6 +12598,14 @@
         "shape": []
     },
     "dalo": [],
+    "dalton": {
+        "color": [],
+        "material": [
+            "canvas",
+            "oil paint"
+        ],
+        "shape": []
+    },
     "dam": [],
     "damage": [],
     "damaged-": [],
@@ -12388,12 +12695,14 @@
     "danube": [],
     "danver": [],
     "danzig": [],
+    "dao": [],
     "darcy": [],
     "dardanelle": [],
     "darger": [],
     "dargle": [],
     "daria": [],
     "daring": [],
+    "dariu": [],
     "darjeeling": {
         "color": [],
         "material": [
@@ -12420,6 +12729,7 @@
         "shape": []
     },
     "darrell": [],
+    "darrow": [],
     "dart": [],
     "dartboard": [],
     "daschle": [],
@@ -12443,6 +12753,13 @@
     },
     "date-": [],
     "dateline": [],
+    "datta": {
+        "color": [
+            "black-and-white"
+        ],
+        "material": [],
+        "shape": []
+    },
     "datum": [],
     "dauber": [],
     "daughter": {
@@ -12526,6 +12843,7 @@
     "db": [],
     "dbe": [],
     "dc": [],
+    "dc-9": [],
     "de": [],
     "de'medici": [],
     "deaboulogne": [],
@@ -12576,6 +12894,17 @@
     "deb": [],
     "debacle": [],
     "debate": [],
+    "debauchery": {
+        "color": [],
+        "material": [
+            "wood",
+            "cardboard",
+            "canvas",
+            "oil paint"
+        ],
+        "shape": []
+    },
+    "debenture": [],
     "debit": [],
     "debris": {
         "color": [],
@@ -12592,6 +12921,8 @@
         "shape": []
     },
     "debtor": [],
+    "debunker": [],
+    "debunking": [],
     "debut": [],
     "dec.": [],
     "decade": [],
@@ -12608,6 +12939,7 @@
     },
     "decay": [],
     "deccan": [],
+    "dece": [],
     "deceit": {
         "color": [
             "black-and-white"
@@ -12677,6 +13009,8 @@
     "decree": [],
     "decrepitude": [],
     "decriminalization": [],
+    "decter": [],
+    "dedicatee": [],
     "dedication": {
         "color": [],
         "material": [
@@ -12707,6 +13041,7 @@
     "deesi": [],
     "defamation": [],
     "default": [],
+    "defcon1": [],
     "defeat": [],
     "defeatism": [],
     "defeatist": [],
@@ -12750,6 +13085,7 @@
     "degradation": [],
     "degree": [],
     "dehydration": [],
+    "dei": [],
     "deionization": [],
     "deir": [],
     "deity": [],
@@ -12822,6 +13158,7 @@
     "dell'udienza": [],
     "dell'umbria": [],
     "della": [],
+    "delmaire": [],
     "delo": [],
     "delphi": [],
     "delta": [],
@@ -12838,6 +13175,7 @@
     "delusion": [],
     "delvecchio": [],
     "dem": [],
+    "demagogue": [],
     "demagoguery": [],
     "demagogy": [],
     "demajagua": [],
@@ -12898,6 +13236,7 @@
     "den": [],
     "denby": [],
     "denderah": [],
+    "deng": [],
     "deni": [],
     "denia": [],
     "denial": {
@@ -12959,6 +13298,7 @@
     "dependency": [],
     "dependent": [],
     "depiction": [],
+    "depletion": [],
     "deployment": [],
     "depopulation": [],
     "deportation": {
@@ -13012,6 +13352,7 @@
     },
     "deregulation": [],
     "derek": [],
+    "derer": [],
     "derewentwater": [],
     "derision": [],
     "derivation": [],
@@ -13228,6 +13569,7 @@
         "shape": []
     },
     "deutsch": [],
+    "deutschland": [],
     "dev": [],
     "devadasi": {
         "color": [
@@ -13284,6 +13626,7 @@
         "shape": []
     },
     "devising": [],
+    "devito": [],
     "devolution": [],
     "devonrex": [],
     "devoted": [],
@@ -13304,6 +13647,13 @@
             "canvas",
             "oil paint",
             "oil"
+        ],
+        "shape": []
+    },
+    "dew": {
+        "color": [],
+        "material": [
+            "water"
         ],
         "shape": []
     },
@@ -13445,6 +13795,7 @@
         "shape": []
     },
     "diehard": [],
+    "diem": [],
     "dieppe": {
         "color": [],
         "material": [
@@ -13464,6 +13815,7 @@
     "diet": [],
     "dieter": [],
     "diethylstilbestrol": [],
+    "dieting": [],
     "dieu": [],
     "diexodo": [],
     "difference": [],
@@ -13507,6 +13859,7 @@
         "shape": []
     },
     "dijon": [],
+    "dilation": [],
     "dilbert": [],
     "dilemma": {
         "color": [
@@ -13582,6 +13935,7 @@
     "dionne": [],
     "dionysiu": [],
     "dionyso": [],
+    "dior": [],
     "diorama": [],
     "dioskouride": [],
     "dioxide": [],
@@ -13635,6 +13989,7 @@
     },
     "disability": [],
     "disadvantage": [],
+    "disaggregation": [],
     "disagreement": [],
     "disappearance": [],
     "disappointment": [],
@@ -13736,6 +14091,7 @@
     "disinformation": [],
     "disingenuousne": [],
     "disintermediation": [],
+    "disjuncture": [],
     "disk": [],
     "diskette": [],
     "dislike": [],
@@ -13777,6 +14133,7 @@
         "shape": []
     },
     "dispensary": [],
+    "dispensation": [],
     "dispenser": [],
     "dispersal": [],
     "dispersion": [],
@@ -13834,6 +14191,7 @@
         ],
         "shape": []
     },
+    "distilling": [],
     "distinction": [],
     "distinctivene": [],
     "distortion": [],
@@ -13865,6 +14223,7 @@
         "material": [],
         "shape": []
     },
+    "disunity": [],
     "ditch": {
         "color": [],
         "material": [
@@ -13998,6 +14357,7 @@
         ],
         "shape": []
     },
+    "doge": [],
     "doggie": [],
     "dogging": [],
     "doggy": [],
@@ -14111,6 +14471,8 @@
     "donally": [],
     "donatello": [],
     "donation": [],
+    "dong": [],
+    "dongen": [],
     "dongo": [],
     "doni": [],
     "donjon": [],
@@ -14125,6 +14487,7 @@
     },
     "donna": [],
     "donor": [],
+    "donovan": [],
     "donut": [],
     "doodle": [],
     "doodlehead": [],
@@ -14162,9 +14525,11 @@
     "doorframe": [],
     "doorkeeper": [],
     "doorkey": [],
+    "doorman": [],
     "doornail": [],
     "doorpost": [],
     "doorstep": [],
+    "doorstoop": [],
     "doorway": {
         "color": [],
         "material": [
@@ -14208,6 +14573,7 @@
         ],
         "shape": []
     },
+    "dorsey": [],
     "dorsoduro": [],
     "dory": [],
     "doryphoru": [],
@@ -14218,6 +14584,7 @@
     "dotomburi": [],
     "douai": [],
     "douane": [],
+    "double": [],
     "doublemat": [],
     "doublet": [],
     "doubling": [],
@@ -14249,6 +14616,7 @@
     },
     "dougla": [],
     "dourne": [],
+    "douro": [],
     "dove": {
         "color": [],
         "material": [
@@ -14275,6 +14643,7 @@
     "dow": [],
     "dowager": [],
     "dowd": [],
+    "dowling": [],
     "down": [],
     "downey": [],
     "downfall": {
@@ -14428,6 +14797,7 @@
         ],
         "shape": []
     },
+    "dreamwork": [],
     "dreg": [],
     "dreidel": [],
     "dres": [],
@@ -14590,6 +14960,7 @@
     },
     "dub": [],
     "dubberly": [],
+    "dubcek": [],
     "dubcore": [],
     "dubia": [],
     "dublin": {
@@ -14628,6 +14999,7 @@
     "dud": [],
     "duda": [],
     "dude": [],
+    "dudley": [],
     "dudovitz": [],
     "due": [],
     "duel": {
@@ -14711,6 +15083,7 @@
     "duplicity": [],
     "dupont": [],
     "duque": [],
+    "durability": [],
     "duracell": [],
     "duration": [],
     "durbar": {
@@ -14799,6 +15172,13 @@
     "dwp": [],
     "dyck": [],
     "dye": [],
+    "dyeing": {
+        "color": [],
+        "material": [
+            "dye"
+        ],
+        "shape": []
+    },
     "dyer": [],
     "dygil": [],
     "dying": {
@@ -14856,6 +15236,7 @@
         "shape": []
     },
     "earmarked": [],
+    "earmuff": [],
     "earner": [],
     "earnestne": [],
     "earnhardt": [],
@@ -14873,6 +15254,7 @@
         ],
         "shape": []
     },
+    "earshot": [],
     "earth": {
         "color": [
             "color",
@@ -14945,6 +15327,8 @@
     "ebook": [],
     "ebora": [],
     "ebraico": [],
+    "ebullience": [],
+    "ebury": [],
     "ec": [],
     "eccentric": [],
     "eccentricity": [],
@@ -15007,6 +15391,7 @@
     },
     "eddie": [],
     "edelman": [],
+    "edelmeyer": [],
     "edelstein": [],
     "eden": [],
     "eder": [],
@@ -15015,6 +15400,7 @@
     "edger": [],
     "edgerton": [],
     "edgeway": [],
+    "edgewise": [],
     "edging": {
         "color": [],
         "material": [
@@ -15077,6 +15463,7 @@
     "eeoc": [],
     "effect": [],
     "effectivene": [],
+    "effeminacy": [],
     "efficacy": [],
     "efficiency": [],
     "effigy": [],
@@ -15150,6 +15537,7 @@
     "eira": [],
     "eirene": [],
     "eisen?\u00adhower": [],
+    "eisenhower": [],
     "eisner": [],
     "eivissa": [],
     "ejaculation": [],
@@ -15214,6 +15602,7 @@
     "elegance": [],
     "elektraverken": [],
     "element": [],
+    "elemental": [],
     "elementary": [],
     "eleona": [],
     "elephant": {
@@ -15269,6 +15658,7 @@
         ],
         "shape": []
     },
+    "ellerman": [],
     "elli": [],
     "ellipse": [],
     "ellison": [],
@@ -15370,6 +15760,7 @@
         "material": [],
         "shape": []
     },
+    "emigre": [],
     "emilia": {
         "color": [],
         "material": [
@@ -15385,6 +15776,7 @@
         ],
         "shape": []
     },
+    "emin": [],
     "eminence": {
         "color": [],
         "material": [
@@ -15441,6 +15833,7 @@
     "emptine": [],
     "emptor": [],
     "emrold": [],
+    "en": [],
     "enactment": [],
     "enamelware": [],
     "encampment": [],
@@ -15588,12 +15981,15 @@
     "enormity": [],
     "enosi": [],
     "enough": [],
+    "enoughji": [],
     "enquirer": [],
+    "enrichment": [],
     "enright": [],
     "enrollee": [],
     "enrollment": [],
     "enron": [],
     "ensaimada": [],
+    "ensarria": [],
     "ensemble": {
         "color": [
             "red"
@@ -15606,6 +16002,7 @@
         "shape": []
     },
     "ensuring": [],
+    "ent": [],
     "entablature": {
         "color": [],
         "material": [
@@ -15680,6 +16077,7 @@
     "entry": [],
     "entryve": [],
     "entryway": [],
+    "entury": [],
     "enumerator": [],
     "enunciation": [],
     "enusa": [],
@@ -15759,6 +16157,13 @@
         "shape": []
     },
     "epistle": [],
+    "epitaph": {
+        "color": [],
+        "material": [
+            "marble"
+        ],
+        "shape": []
+    },
     "epithet": [],
     "epitome": {
         "color": [
@@ -15874,6 +16279,7 @@
     "esc": [],
     "escalation": [],
     "escalator": [],
+    "escalope": [],
     "escapade": {
         "color": [
             "black-and-white"
@@ -15932,6 +16338,7 @@
     "establishe": [],
     "establishment": [],
     "estado": [],
+    "estalagem": [],
     "estate": [],
     "este": [],
     "esteem": [],
@@ -16008,11 +16415,21 @@
         ],
         "shape": []
     },
+    "eufaula": [],
     "eug??nie": [],
     "eugene": {
         "color": [],
         "material": [
             "wove paper"
+        ],
+        "shape": []
+    },
+    "eugenia": {
+        "color": [],
+        "material": [
+            "wood",
+            "canvas",
+            "oil paint"
         ],
         "shape": []
     },
@@ -16045,6 +16462,16 @@
     "euro": [],
     "eurobond": [],
     "euroland": [],
+    "europa": {
+        "color": [
+            "black-and-white"
+        ],
+        "material": [
+            "bronze",
+            "oil paint"
+        ],
+        "shape": []
+    },
     "europe": {
         "color": [],
         "material": [
@@ -16058,6 +16485,7 @@
     "euroser": [],
     "euskaltel": [],
     "eustatiu": [],
+    "eusti": [],
     "eutrophication": [],
     "eva": {
         "color": [
@@ -16164,6 +16592,7 @@
     "exam": [],
     "exam?\u00adinations": [],
     "examination": [],
+    "examiner": [],
     "example": [],
     "exasperation": [],
     "exca?\u00adva?\u00adtions": [],
@@ -16191,6 +16620,7 @@
     "exce": [],
     "excellence": [],
     "exception": [],
+    "exceptionalism": [],
     "excerpt": [],
     "exces": [],
     "exchange": [],
@@ -16240,6 +16670,7 @@
     },
     "executioner": [],
     "executive": [],
+    "exedrae": [],
     "exegesi": [],
     "exemption": [],
     "exercise": [],
@@ -16307,6 +16738,7 @@
         ],
         "shape": []
     },
+    "expediency": [],
     "expedient": [],
     "expedition": {
         "color": [],
@@ -16390,6 +16822,7 @@
     "exporter": [],
     "expose": [],
     "exposition": [],
+    "expostulation": [],
     "exposure": {
         "color": [
             "black-and-white"
@@ -16434,6 +16867,7 @@
     "extra": [],
     "extract": [],
     "extraction": [],
+    "extraordinaire": [],
     "extrapolation": [],
     "extravagance": {
         "color": [
@@ -16482,6 +16916,7 @@
     "eyewear": [],
     "eyman": [],
     "eyre": [],
+    "eyri": [],
     "eyzy": [],
     "eze": [],
     "eztika": {
@@ -16501,6 +16936,7 @@
     "faa": [],
     "faaade": [],
     "fab": [],
+    "faberg": [],
     "fable": {
         "color": [],
         "material": [
@@ -16554,6 +16990,7 @@
     },
     "faculty": [],
     "fad": [],
+    "fade": [],
     "fadin": [],
     "fading": [],
     "fado": {
@@ -16639,6 +17076,7 @@
     "falmouth": [],
     "faloria": [],
     "falsehood": [],
+    "falsification": [],
     "faltat": [],
     "faltering": [],
     "faludi": [],
@@ -16784,6 +17222,7 @@
     "farrow": [],
     "farruca": [],
     "fart": [],
+    "fasa": [],
     "fasab": [],
     "fasb": [],
     "fascination": {
@@ -16858,6 +17297,7 @@
         "shape": []
     },
     "fauna": [],
+    "fauquel": [],
     "faust": {
         "color": [
             "black-and-white"
@@ -16893,6 +17333,7 @@
     "fbi": [],
     "fcc": [],
     "fcic": [],
+    "fcw": [],
     "fda": [],
     "fdr": [],
     "fe": [],
@@ -17072,6 +17513,7 @@
         ],
         "shape": []
     },
+    "ferryboat": [],
     "ferservizi": [],
     "fertility": {
         "color": [
@@ -17114,6 +17556,7 @@
         ],
         "shape": []
     },
+    "fete": [],
     "fetish": [],
     "fetter": [],
     "fettuccini": [],
@@ -17187,6 +17630,7 @@
     "fieldwork": [],
     "fiellin": [],
     "fiend": [],
+    "fiesolana": [],
     "fiesole": {
         "color": [],
         "material": [
@@ -17201,6 +17645,16 @@
         "material": [
             "wove paper",
             "wood"
+        ],
+        "shape": []
+    },
+    "fife": {
+        "color": [],
+        "material": [
+            "graphite",
+            "pen",
+            "ink",
+            "watercolor paint"
         ],
         "shape": []
     },
@@ -17351,6 +17805,7 @@
     "finding": [],
     "findings6": [],
     "fine": [],
+    "fineberg": [],
     "fineman": [],
     "finene": [],
     "finery": [],
@@ -17535,8 +17990,10 @@
         "shape": []
     },
     "fixation": [],
+    "fixer": [],
     "fixing": [],
     "fixture": [],
+    "fl??malle": [],
     "fla.": [],
     "flack": [],
     "flag": {
@@ -17857,9 +18314,17 @@
     },
     "flowerbed": [],
     "flowerpot": [],
+    "flowing": {
+        "color": [
+            "black-and-white"
+        ],
+        "material": [],
+        "shape": []
+    },
     "floyd": [],
     "flu": [],
     "fluctuation": [],
+    "fluffysteron": [],
     "fluid": [],
     "fluidity": [],
     "fluorescent": [],
@@ -17900,6 +18365,7 @@
     "foal": [],
     "foal.\"he": [],
     "foam": [],
+    "foch": [],
     "focu": [],
     "focusing": [],
     "focussing": [],
@@ -17967,6 +18433,7 @@
     "fondling": [],
     "fondne": [],
     "fondue": [],
+    "foner": [],
     "fong": [],
     "fontaine": {
         "color": [],
@@ -18039,14 +18506,17 @@
     "footin": [],
     "footing": [],
     "footman": [],
+    "footmark": [],
     "footnote": [],
     "footpath": [],
     "footprint": [],
     "footstep": [],
     "footwear": [],
+    "foot\u00adhold": [],
     "fop": [],
     "for?\u00adna?\u00adrina": [],
     "for?\u00adtress": [],
+    "for?\u00adtresses": [],
     "for?\u03b4ress": [],
     "forat": [],
     "foray": [],
@@ -18079,6 +18549,7 @@
     "forearm": [],
     "forebear": [],
     "forecast": [],
+    "forecasting": [],
     "foreclosure": [],
     "forefather": [],
     "forefinger": [],
@@ -18108,6 +18579,7 @@
         "shape": []
     },
     "foretaste": [],
+    "forever-": [],
     "forfeiture": [],
     "forge": {
         "color": [],
@@ -18154,12 +18626,15 @@
     "formula": [],
     "formulation": [],
     "fornication": [],
+    "forrader": [],
     "forrest": [],
     "forrester": [],
     "forspecific": [],
+    "forsyth": [],
     "fort": [],
     "fort?\u03b2ess": [],
     "forth": [],
+    "forth;and": [],
     "forthrightne": [],
     "fortification": [],
     "fortiori": [],
@@ -18225,6 +18700,7 @@
     },
     "founder": [],
     "founding": [],
+    "foundling": [],
     "foundry": {
         "color": [],
         "material": [
@@ -18253,8 +18729,10 @@
     },
     "fourment": [],
     "fournier": [],
+    "foursome": [],
     "fourteen": [],
     "fourth": [],
+    "fowl": [],
     "fowler": [],
     "fox": {
         "color": [],
@@ -18269,6 +18747,7 @@
     "foyer": [],
     "foz": [],
     "fpa": [],
+    "fr": [],
     "fr??hel": [],
     "fraca": [],
     "fraction": [],
@@ -18312,6 +18791,7 @@
         "shape": []
     },
     "framework": [],
+    "frampton": [],
     "franaaise": [],
     "franc": [],
     "franca": [],
@@ -18368,9 +18848,11 @@
         ],
         "shape": []
     },
+    "franek": [],
     "frangipani": [],
     "frangokastello": [],
     "frank": [],
+    "frankfurt": [],
     "frankfurter": [],
     "franklin": [],
     "frankne": [],
@@ -18390,6 +18872,7 @@
     "fraumeni": [],
     "fray": [],
     "fraygrant": [],
+    "frazzle": [],
     "freak": [],
     "freckle": [],
     "fred": [],
@@ -18417,6 +18900,7 @@
     "freeze": [],
     "freezer": [],
     "freezing": [],
+    "freginal": [],
     "freight": {
         "color": [],
         "material": [
@@ -18442,6 +18926,7 @@
         "shape": []
     },
     "frequenter": [],
+    "fresca": [],
     "fresco": {
         "color": [],
         "material": [
@@ -18461,6 +18946,7 @@
     "fretwork": [],
     "freud": [],
     "fri": [],
+    "friar": [],
     "friction": [],
     "friday": {
         "color": [],
@@ -18474,6 +18960,7 @@
     "fried": [],
     "friedan": [],
     "friedman": [],
+    "friedrich": [],
     "friend": {
         "color": [
             "color"
@@ -18509,6 +18996,7 @@
         "shape": []
     },
     "frigidarium": [],
+    "frijole": [],
     "frill": [],
     "fringe": [],
     "frio": [],
@@ -18562,6 +19050,7 @@
     },
     "frontier": [],
     "frontierland": [],
+    "frosehave": [],
     "frost": {
         "color": [],
         "material": [
@@ -18610,6 +19099,7 @@
     "fu": [],
     "fuch": [],
     "fuel": [],
+    "fuenterraba": [],
     "fuerza": [],
     "fugate": [],
     "fugitivo": [],
@@ -18631,6 +19121,8 @@
     },
     "fujimori": [],
     "fujiwara": [],
+    "fukuda": [],
+    "fukuoka": [],
     "fukuyama": [],
     "fulcrum": {
         "color": [],
@@ -18674,6 +19166,7 @@
         "shape": []
     },
     "funfetamine": [],
+    "fungu": [],
     "funicular": [],
     "funk": [],
     "funnin": [],
@@ -18735,6 +19228,7 @@
     "g": [],
     "g.p.": [],
     "g.w.": [],
+    "g?": [],
     "g??n??ral": [],
     "ga": [],
     "ga.": [],
@@ -18876,6 +19370,7 @@
     "gampo": [],
     "gamut": [],
     "gandaa": [],
+    "gander": [],
     "gandhi": {
         "color": [],
         "material": [
@@ -18905,6 +19400,7 @@
     "gange": [],
     "gangplank": [],
     "gangrene": [],
+    "gangsta": [],
     "gangster": [],
     "gangtok": [],
     "gangway": {
@@ -18931,6 +19427,7 @@
         "shape": []
     },
     "garda": [],
+    "garde": [],
     "garden": {
         "color": [],
         "material": [
@@ -18955,6 +19452,13 @@
     "garfield": [],
     "gargan": [],
     "gargoulleau": [],
+    "gargoyle": {
+        "color": [],
+        "material": [
+            "metal"
+        ],
+        "shape": []
+    },
     "gari?\u00adbaldi": [],
     "garibaldi": {
         "color": [
@@ -19062,6 +19566,7 @@
     "gattaca": [],
     "gattamelata": [],
     "gauche": [],
+    "gaugain": [],
     "gauge": [],
     "gauguin": {
         "color": [
@@ -19279,6 +19784,14 @@
     "gerbil": [],
     "germ": [],
     "german": [],
+    "germantown": {
+        "color": [],
+        "material": [
+            "graphite",
+            "wove paper"
+        ],
+        "shape": []
+    },
     "germany": {
         "color": [],
         "material": [
@@ -19432,6 +19945,7 @@
         ],
         "shape": []
     },
+    "gimmick": [],
     "gin": [],
     "gina": {
         "color": [],
@@ -19475,6 +19989,7 @@
     "giorgio": [],
     "giorno": [],
     "giotto": [],
+    "giovane": [],
     "giovanni": [],
     "giraffe": {
         "color": [
@@ -19484,6 +19999,7 @@
         "material": [],
         "shape": []
     },
+    "girder": [],
     "girl": {
         "color": [
             "color",
@@ -19580,6 +20096,7 @@
         "shape": []
     },
     "gland": [],
+    "glanville": [],
     "glare": [],
     "glas": [],
     "glasgow": {
@@ -19621,6 +20138,7 @@
     "glenn": [],
     "glenridding": [],
     "glibne": [],
+    "glickman": [],
     "glide": [],
     "glider": [],
     "glimmering": {
@@ -19764,6 +20282,7 @@
     },
     "goatee": [],
     "goatherd": [],
+    "goatherder": [],
     "gob": [],
     "goblet": {
         "color": [],
@@ -19808,6 +20327,7 @@
     "gododdin": [],
     "godsend": [],
     "godspell": [],
+    "goedicke": [],
     "goer": [],
     "goethe": {
         "color": [],
@@ -19846,6 +20366,7 @@
         ]
     },
     "goldhagen": [],
+    "goldilock": [],
     "goldman": [],
     "goldmine": [],
     "goldsmith": {
@@ -19855,6 +20376,7 @@
         ],
         "shape": []
     },
+    "goldwater": [],
     "golf": {
         "color": [
             "black-and-white"
@@ -19888,6 +20410,7 @@
     "goliath": [],
     "golub": [],
     "gombe": [],
+    "gomez": [],
     "gommatesvara": [],
     "gomorrah": [],
     "goncalf": [],
@@ -19916,6 +20439,7 @@
         "material": [],
         "shape": []
     },
+    "goodall": [],
     "goodbye": {
         "color": [
             "black-and-white"
@@ -20046,6 +20570,7 @@
         ],
         "shape": []
     },
+    "goyave": [],
     "goyim": [],
     "gp": [],
     "gpa": [],
@@ -20448,6 +20973,7 @@
     "grille": [],
     "grilled": [],
     "grillwork": [],
+    "grim": [],
     "grimace": [],
     "grimblade": [],
     "grin": [],
@@ -20472,6 +20998,7 @@
         "shape": []
     },
     "grizedale": [],
+    "grizzleslope": [],
     "grizzly": [],
     "gro": [],
     "groan": [],
@@ -20486,6 +21013,7 @@
     "groove": [],
     "groovine": [],
     "grosberg": [],
+    "groseilier": [],
     "groseorloge": [],
     "groseorne": [],
     "groszy": [],
@@ -20530,6 +21058,7 @@
         "shape": []
     },
     "grower": [],
+    "growl": [],
     "growth": {
         "color": [
             "color"
@@ -20591,6 +21120,14 @@
         "shape": []
     },
     "guardamar": [],
+    "guardhouse": {
+        "color": [],
+        "material": [
+            "canvas",
+            "oil paint"
+        ],
+        "shape": []
+    },
     "guardi": [],
     "guardian": [],
     "guardianship": [],
@@ -20625,6 +21162,7 @@
     "guerre": [],
     "guerrilla": [],
     "gues": [],
+    "guessing": [],
     "guest": {
         "color": [
             "black-and-white"
@@ -20659,7 +21197,9 @@
     "guild": [],
     "guilder": [],
     "guildhall": [],
+    "guillaume": [],
     "guillemot": [],
+    "guillen": [],
     "guillotine": {
         "color": [
             "black-and-white"
@@ -20715,6 +21255,7 @@
         "shape": []
     },
     "gullibility": [],
+    "gully": [],
     "gulmarg": [],
     "gulp": [],
     "gum": [],
@@ -20733,6 +21274,7 @@
         "shape": []
     },
     "gunang": [],
+    "gunboat": [],
     "gundy": [],
     "gunfight": [],
     "gunfire": {
@@ -20797,6 +21339,7 @@
     "h'm": [],
     "h-2a": [],
     "h-2as": [],
+    "h.g.": [],
     "h.r.": [],
     "h.w.": [],
     "h??ltz": [],
@@ -20840,6 +21383,14 @@
     "hackwork": [],
     "hadn't": [],
     "hadrian": [],
+    "haft": {
+        "color": [],
+        "material": [
+            "wood",
+            "metal"
+        ],
+        "shape": []
+    },
     "hag": [],
     "hagenauer": [],
     "haggag": [],
@@ -20880,6 +21431,7 @@
     "hairspray": [],
     "haiti": [],
     "haji": [],
+    "hakata": [],
     "hakeem": [],
     "hakim": [],
     "hakone": [],
@@ -20984,6 +21536,7 @@
     "hampson": [],
     "hampton": [],
     "hamrick": [],
+    "hamster": [],
     "hamzy": [],
     "han": [],
     "hana": [],
@@ -21079,6 +21632,7 @@
     },
     "hankering": [],
     "hankinson": [],
+    "hanna": [],
     "hannah": {
         "color": [],
         "material": [
@@ -21194,6 +21748,7 @@
         ],
         "shape": []
     },
+    "harff": [],
     "harford": [],
     "hargarten": [],
     "harland": [],
@@ -21211,6 +21766,7 @@
         "material": [],
         "shape": []
     },
+    "harlingen": [],
     "harlow": {
         "color": [
             "black-and-white"
@@ -21297,6 +21853,15 @@
     "hase": [],
     "hashish": [],
     "hashoah": [],
+    "hasidim": {
+        "color": [],
+        "material": [
+            "pen",
+            "wove paper",
+            "India ink"
+        ],
+        "shape": []
+    },
     "hasmonean": [],
     "hassan": [],
     "hassett": [],
@@ -21434,6 +21999,7 @@
     "haymow": [],
     "hayne": [],
     "haywood": [],
+    "hayyim": [],
     "hazard": {
         "color": [
             "black-and-white"
@@ -21447,6 +22013,13 @@
             "oil paint",
             "canvas"
         ],
+        "shape": []
+    },
+    "hazel": {
+        "color": [
+            "hazel"
+        ],
+        "material": [],
         "shape": []
     },
     "hazing": [],
@@ -21505,6 +22078,7 @@
     "headset": [],
     "headwater": [],
     "headway": [],
+    "heal": [],
     "heald": [],
     "healer": [],
     "healing": [],
@@ -21548,6 +22122,7 @@
         "material": [],
         "shape": []
     },
+    "heartache": [],
     "heartbeat": {
         "color": [
             "black-and-white"
@@ -21555,8 +22130,10 @@
         "material": [],
         "shape": []
     },
+    "heartbreaker": [],
     "hearth": [],
     "heartland": [],
+    "heartlessne": [],
     "heartstring": [],
     "heartthrob": [],
     "heat": {
@@ -21606,6 +22183,13 @@
     "heel": [],
     "heeli": [],
     "hefner": [],
+    "heft": {
+        "color": [],
+        "material": [
+            "laid paper"
+        ],
+        "shape": []
+    },
     "hegemon": [],
     "hegemony": [],
     "heidenry": [],
@@ -21618,6 +22202,7 @@
         ],
         "shape": []
     },
+    "heilige": [],
     "heilpern": [],
     "hein": [],
     "heineken": {
@@ -21659,6 +22244,7 @@
         ],
         "shape": []
     },
+    "helgeland": [],
     "helicopter": [],
     "heliopoli": [],
     "helix": {
@@ -21698,6 +22284,14 @@
     "helper": [],
     "helsinger": [],
     "helvellyn": [],
+    "hem": {
+        "color": [],
+        "material": [
+            "canvas",
+            "oil paint"
+        ],
+        "shape": []
+    },
     "hemet": [],
     "hemicycle": [],
     "hemingway": [],
@@ -21744,6 +22338,7 @@
     "herakleium": [],
     "herald": [],
     "heraldry": [],
+    "herault": [],
     "herb": {
         "color": [
             "green"
@@ -21836,6 +22431,7 @@
     "hersenisso": [],
     "hersh": [],
     "hersheimmer": [],
+    "herzigovum": [],
     "herzl": [],
     "herzliya": [],
     "hesdin": {
@@ -21983,6 +22579,7 @@
     "hilt": [],
     "him-": [],
     "him.\"bayliss": [],
+    "him.\"nye": [],
     "him?\"le\u00f3n": [],
     "himalaya": [],
     "himalayan": {
@@ -21999,6 +22596,7 @@
     "hinckley": [],
     "hind": [],
     "hindi": [],
+    "hindmost": [],
     "hindquarter": [],
     "hindsight": [],
     "hindu": [],
@@ -22032,6 +22630,7 @@
     "hipaa": [],
     "hipne": [],
     "hippie": [],
+    "hippocrate": [],
     "hippodrome": [],
     "hippy": [],
     "hipsi": [],
@@ -22081,6 +22680,7 @@
     "hitchen": [],
     "hitler": [],
     "hitlerism": [],
+    "hitter": [],
     "hittin": [],
     "hitting": [],
     "hittite": [],
@@ -22088,6 +22688,7 @@
     "hiv": [],
     "hive": [],
     "hk$10": [],
+    "hk$15": [],
     "hk$200": [],
     "hk$50": [],
     "hkta": [],
@@ -22104,11 +22705,14 @@
     "hoax": [],
     "hoban": [],
     "hobbe": [],
+    "hobble": [],
     "hobby": [],
     "hochschild": [],
+    "hocism": [],
     "hock": [],
     "hockey": [],
     "hockney": [],
+    "hod": [],
     "hodgepodge": [],
     "hodgson": [],
     "hoe": {
@@ -22201,6 +22805,7 @@
         "shape": []
     },
     "hollywoodland": [],
+    "holman": [],
     "holme": [],
     "holocaust": [],
     "holoferne": [],
@@ -22285,6 +22890,7 @@
     },
     "homocharacter": [],
     "homogeneity": [],
+    "homonculu": [],
     "homosexual": [],
     "homosexuality": [],
     "homunculu": [],
@@ -22319,6 +22925,14 @@
             "black-and-white"
         ],
         "material": [],
+        "shape": []
+    },
+    "honeysuckle": {
+        "color": [],
+        "material": [
+            "wove paper",
+            "linen"
+        ],
         "shape": []
     },
     "honfleur": {
@@ -22400,6 +23014,7 @@
     },
     "hornaday": [],
     "hornbeam": [],
+    "hornbill": [],
     "hornby": [],
     "horney": [],
     "hornsby": [],
@@ -22531,6 +23146,7 @@
         ],
         "shape": []
     },
+    "houri": [],
     "house": {
         "color": [
             "color"
@@ -22545,6 +23161,7 @@
     "houseboat": [],
     "housebreaker": [],
     "housecleaning": [],
+    "houseguest": [],
     "household": [],
     "housekeeper": [],
     "housekeeping": [],
@@ -22588,6 +23205,8 @@
     "http://manybooks.net/": [],
     "huang": [],
     "hub": [],
+    "hubback": [],
+    "hubbard": [],
     "hubbell": [],
     "hubble": {
         "color": [
@@ -22771,6 +23390,7 @@
         "material": [],
         "shape": []
     },
+    "hurston": [],
     "hurt": {
         "color": [
             "azure"
@@ -22781,6 +23401,7 @@
         ],
         "shape": []
     },
+    "hurva": [],
     "husband": {
         "color": [],
         "material": [
@@ -22900,6 +23521,7 @@
     },
     "hypocrite": [],
     "hypodermic": [],
+    "hypostyle": [],
     "hypothesi": [],
     "hysteria": {
         "color": [
@@ -22915,6 +23537,7 @@
     "i.": [],
     "i.2": [],
     "i.m.": [],
+    "i?\u00abkembecis": [],
     "i]f": [],
     "i]t": [],
     "ia": [],
@@ -22938,6 +23561,13 @@
     },
     "ibizan": [],
     "ibm": [],
+    "ibrahim": {
+        "color": [
+            "bay"
+        ],
+        "material": [],
+        "shape": []
+    },
     "ibusuki": [],
     "ic": [],
     "icbm": [],
@@ -22984,6 +23614,8 @@
     "idealist": [],
     "idear": [],
     "identification": [],
+    "identifier": [],
+    "identifying": [],
     "identity": [],
     "ideogram": {
         "color": [],
@@ -23057,6 +23689,7 @@
     "ile": [],
     "ilia": [],
     "iliad": [],
+    "ilit": [],
     "ill": [],
     "ill.": [],
     "illegal": {
@@ -23100,6 +23733,7 @@
     "iltutmish": [],
     "im?\u03b0le?\u03f3\u03adents": [],
     "ima": [],
+    "imac": [],
     "image": {
         "color": [],
         "material": [
@@ -23121,6 +23755,7 @@
         "shape": []
     },
     "imagine": [],
+    "imax": [],
     "imbalance": [],
     "imbecile": [],
     "imbecility": [],
@@ -23172,15 +23807,18 @@
     "impedance": [],
     "impediment": [],
     "imperative": [],
+    "imperatives-": [],
     "imperatrice": [],
     "imperfection": [],
     "imperial": [],
     "imperiali": [],
     "imperialism": [],
     "imperioli": [],
+    "impermanence": [],
     "impersonation": [],
     "impersonator": [],
     "impetus": [],
+    "impiety": [],
     "implant": [],
     "implausibility": [],
     "implement": [],
@@ -23265,6 +23903,7 @@
         ],
         "shape": []
     },
+    "inbar": [],
     "inbox": [],
     "inc.": [],
     "inca": [],
@@ -23489,6 +24128,7 @@
     "info": [],
     "infomedia": [],
     "inform": [],
+    "informality": [],
     "information": {
         "color": [],
         "material": [
@@ -23504,6 +24144,7 @@
     "infringement": [],
     "infusion": [],
     "infy": [],
+    "ing": [],
     "ing??nue": [],
     "ingenue": [],
     "ingenuity": {
@@ -23594,6 +24235,7 @@
         "material": [],
         "shape": []
     },
+    "innocenti": [],
     "innovation": [],
     "innovator": {
         "color": [],
@@ -23738,6 +24380,7 @@
         "shape": []
     },
     "installer": [],
+    "installing": [],
     "installment": [],
     "instance": [],
     "instant": [],
@@ -23782,6 +24425,7 @@
     "insured": [],
     "insurer": [],
     "insurgency": [],
+    "insurgent": [],
     "insurrection": [],
     "intake": [],
     "intangible": [],
@@ -23871,6 +24515,7 @@
     "internacional": [],
     "internal": [],
     "international": [],
+    "internationalism": [],
     "internet": [],
     "internship": [],
     "interoffice": [],
@@ -24035,6 +24680,7 @@
         ],
         "shape": []
     },
+    "inventorysystemrequirement": [],
     "inverleith": [],
     "inverse": [],
     "invertebrate": [],
@@ -24078,6 +24724,7 @@
     "invoice": [],
     "involvement": [],
     "inwit": [],
+    "inzapbiz": [],
     "io": [],
     "ioc": [],
     "iolani": [],
@@ -24105,6 +24752,7 @@
     "ir4": [],
     "ira": [],
     "ira4": [],
+    "irabu": [],
     "iragan": [],
     "iraklion": [],
     "iran": [],
@@ -24143,6 +24791,7 @@
     "irregular": [],
     "irregularity": [],
     "irrelevance": [],
+    "irresistibility": [],
     "irresponsibility": [],
     "irrigation": {
         "color": [],
@@ -24417,6 +25066,7 @@
     "jambalaya": [],
     "jame": [],
     "jamek": [],
+    "jamie": [],
     "jamming": [],
     "jammu": [],
     "jamu": [],
@@ -24434,6 +25084,14 @@
     },
     "janeiro": [],
     "janela": [],
+    "janet": {
+        "color": [],
+        "material": [
+            "canvas",
+            "oil paint"
+        ],
+        "shape": []
+    },
     "jangling": [],
     "janik": [],
     "janina": [],
@@ -24526,6 +25184,7 @@
         ],
         "shape": []
     },
+    "jawbreaker": [],
     "jay": {
         "color": [],
         "material": [
@@ -24689,6 +25348,7 @@
         "shape": []
     },
     "jeweler": [],
+    "jeweller": [],
     "jewellery": [],
     "jewelry": {
         "color": [],
@@ -24700,10 +25360,12 @@
         "shape": []
     },
     "jewett": [],
+    "jewishne": [],
     "jewry": [],
     "jfk": [],
     "jfmip": [],
     "jhora": [],
+    "jiang": [],
     "jibe": [],
     "jig": [],
     "jigoku": [],
@@ -24720,6 +25382,7 @@
         ],
         "shape": []
     },
+    "jimi": [],
     "jimmu": [],
     "jingle": {
         "color": [],
@@ -24759,6 +25422,7 @@
         ],
         "shape": []
     },
+    "jockstrap": [],
     "joconde": {
         "color": [],
         "material": [
@@ -24844,6 +25508,26 @@
     "joly": [],
     "jomon": [],
     "jon": [],
+    "jonah": {
+        "color": [],
+        "material": [
+            "graphite",
+            "pen",
+            "oil paint",
+            "wove paper",
+            "canvas",
+            "India ink"
+        ],
+        "shape": []
+    },
+    "jondo": {
+        "color": [],
+        "material": [
+            "canvas",
+            "oil paint"
+        ],
+        "shape": []
+    },
     "jone": [],
     "jonei": [],
     "jonofi": [],
@@ -24866,6 +25550,7 @@
     "joshua": [],
     "jostle": [],
     "jot": [],
+    "joulwan": [],
     "journal": [],
     "journalism": [],
     "journalist": [],
@@ -24891,12 +25576,20 @@
         "shape": []
     },
     "joystick": [],
+    "jqa": [],
     "jr": [],
     "jr.": [],
     "ju": [],
     "juan": [],
     "juane": [],
     "juanito": [],
+    "juarez": {
+        "color": [
+            "black-and-white"
+        ],
+        "material": [],
+        "shape": []
+    },
     "jubilee": {
         "color": [
             "color"
@@ -24925,6 +25618,7 @@
         "material": [],
         "shape": []
     },
+    "judgement": [],
     "judgeship": [],
     "judgment": {
         "color": [
@@ -25020,6 +25714,7 @@
     },
     "jumble": [],
     "jumbo": [],
+    "jumilla": [],
     "jumiyge": [],
     "jump": [],
     "jumper": [],
@@ -25062,6 +25757,7 @@
         "shape": []
     },
     "junior": [],
+    "juniper": [],
     "junk": [],
     "junket": [],
     "junkie": [],
@@ -25131,6 +25827,7 @@
     "k.c.": [],
     "k.d": [],
     "k2": [],
+    "ka": [],
     "kaahumanu": [],
     "kabuki": [],
     "kabul": [],
@@ -25161,6 +25858,7 @@
     "kahala": [],
     "kahikatea": [],
     "kahoolawe": [],
+    "kahve": [],
     "kailasa": [],
     "kailasanatha": [],
     "kailash": [],
@@ -25216,6 +25914,7 @@
     "kammu": [],
     "kampf": [],
     "kan.": [],
+    "kanan": [],
     "kanazawa": [],
     "kanchenjunga": {
         "color": [],
@@ -25246,11 +25945,20 @@
     "kapitan": [],
     "kapok": [],
     "kapu": [],
+    "kara": {
+        "color": [],
+        "material": [
+            "canvas",
+            "oil paint"
+        ],
+        "shape": []
+    },
     "karadzic": [],
     "karagez": [],
     "karamon": [],
     "karampoli": [],
     "karan": [],
+    "karaoke": [],
     "karaszewski": [],
     "karate": [],
     "kardamena": [],
@@ -25262,6 +25970,7 @@
     "karnak": [],
     "karnataka": [],
     "karpatho": [],
+    "karukera": [],
     "karyaneka": [],
     "kashikojima": [],
     "kashmir": {
@@ -25301,6 +26010,7 @@
     "kathmandu": [],
     "katholikon": [],
     "kathy": [],
+    "katmandu": [],
     "katsura": [],
     "katz": [],
     "katzenbach": [],
@@ -25353,6 +26063,7 @@
     "ke?\u03adal": [],
     "keamatan": [],
     "keat": [],
+    "keaton": [],
     "kebab": {
         "color": [],
         "material": [
@@ -25403,6 +26114,7 @@
         ],
         "shape": []
     },
+    "kemal": [],
     "kemerdekaan": [],
     "kemp": [],
     "kempner": [],
@@ -25424,6 +26136,7 @@
     "kennel": [],
     "kenneth": [],
     "kennewick": [],
+    "kennickell": [],
     "kenny": [],
     "keno": [],
     "kensington": [],
@@ -25441,6 +26154,7 @@
     "kenzo": [],
     "kephren": [],
     "kephri": [],
+    "kepong": [],
     "keprese": [],
     "kerala": [],
     "kerchak": [],
@@ -25462,6 +26176,7 @@
     "kesar": [],
     "keske": [],
     "kessler": [],
+    "kestowicz": [],
     "keswick": [],
     "ketch": [],
     "ketchup": [],
@@ -25504,6 +26219,7 @@
     "keyne": [],
     "keynesianism": [],
     "keynote": [],
+    "keystroke": [],
     "keyword": [],
     "kg": [],
     "kgb": [],
@@ -25643,6 +26359,7 @@
     },
     "kingfish": [],
     "kingfisher": [],
+    "kingmaker": [],
     "kingpin": [],
     "kingston": [],
     "kingstonian": [],
@@ -25736,7 +26453,15 @@
     "kkr": [],
     "kl": [],
     "kla": [],
+    "klaa": [],
     "klan": [],
+    "klang": {
+        "color": [
+            "grey"
+        ],
+        "material": [],
+        "shape": []
+    },
     "klayman": [],
     "klcc": [],
     "klebold": [],
@@ -25748,6 +26473,7 @@
     "kleinman": [],
     "klepacki": [],
     "klif": [],
+    "klimaszewski": [],
     "kline": [],
     "kling": [],
     "klo": [],
@@ -25761,6 +26487,9 @@
     "kmart": [],
     "knack": [],
     "knee": [],
+    "kneepad": [],
+    "knesset": [],
+    "knick": [],
     "knicker": [],
     "knife": {
         "color": [],
@@ -25853,6 +26582,7 @@
     "kolatkowo": [],
     "kolymithre": [],
     "konark": [],
+    "kondo": [],
     "kondracke": [],
     "kong": [],
     "kongsi": [],
@@ -25860,6 +26590,8 @@
     "konomo": [],
     "koon": [],
     "kooning": [],
+    "kooningne": [],
+    "koontz": [],
     "koppel": [],
     "korakian": [],
     "koran": [],
@@ -25887,6 +26619,7 @@
     "koule": [],
     "kovalam": [],
     "kowloon": [],
+    "koy": [],
     "koya": [],
     "koyasan": [],
     "kp": [],
@@ -25898,6 +26631,8 @@
     "kramenin": [],
     "kramer": [],
     "krantz": [],
+    "kranz": [],
+    "kratz": [],
     "krauthammer": [],
     "kreipe": [],
     "kremlin": {
@@ -25935,6 +26670,7 @@
         "shape": []
     },
     "krzywousty": [],
+    "kshatriya": [],
     "kuantan": [],
     "kubrick": [],
     "kubur": [],
@@ -25950,6 +26686,7 @@
     "kull": [],
     "kulturkampf": [],
     "kumamoto": [],
+    "kumaon": [],
     "kumbu": [],
     "kun": [],
     "kundera": [],
@@ -25970,6 +26707,7 @@
         ],
         "shape": []
     },
+    "kusadasi": [],
     "kushinagar": [],
     "kutchin": [],
     "kuttner": [],
@@ -26169,6 +26907,7 @@
         "material": [],
         "shape": []
     },
+    "laibson": [],
     "lair": [],
     "lak": [],
     "lake": {
@@ -26289,6 +27028,7 @@
         ],
         "shape": []
     },
+    "landscaper": [],
     "landscaping": [],
     "landside": [],
     "landslide": {
@@ -26307,6 +27047,7 @@
     "langmuir": [],
     "langostino": [],
     "language": [],
+    "langue?\u00addoc": [],
     "languor": [],
     "lanka": [],
     "lansbury": [],
@@ -26370,6 +27111,7 @@
     },
     "larnogha": [],
     "laronne": [],
+    "larouche": [],
     "larry": [],
     "larut": [],
     "larvae": [],
@@ -26400,6 +27142,7 @@
     "latex": [],
     "latham": [],
     "lathe": [],
+    "latifah": [],
     "latin": [],
     "latina": [],
     "latino": [],
@@ -26441,6 +27184,7 @@
     "launching": [],
     "launderer": [],
     "laundre": [],
+    "laundromat": [],
     "laundry": {
         "color": [],
         "material": [
@@ -26604,6 +27348,7 @@
         "shape": []
     },
     "leatherwork": [],
+    "leaud": [],
     "leave": [],
     "lebanon": {
         "color": [
@@ -26620,9 +27365,11 @@
     },
     "lebed": [],
     "lecat": [],
+    "lecce": [],
     "leche": [],
     "lecherousne": [],
     "lecluck": [],
+    "lectern": [],
     "lecture": {
         "color": [],
         "material": [
@@ -26755,6 +27502,7 @@
     "leonard": [],
     "leonardo": [],
     "leone": [],
+    "leonsi": [],
     "leopard": {
         "color": [],
         "material": [
@@ -26770,6 +27518,7 @@
     "lesbianism": [],
     "lescroart": [],
     "lesher": [],
+    "lessee": [],
     "lesson": {
         "color": [],
         "material": [
@@ -26796,6 +27545,7 @@
         "material": [],
         "shape": []
     },
+    "letterbox": [],
     "letterhead": [],
     "letterman": [],
     "lettuce": [],
@@ -26826,6 +27576,14 @@
     },
     "leverage": [],
     "levesh": [],
+    "levi": {
+        "color": [],
+        "material": [
+            "canvas",
+            "oil paint"
+        ],
+        "shape": []
+    },
     "leviathan": {
         "color": [],
         "material": [
@@ -26842,6 +27600,7 @@
     "levity": [],
     "levsen": [],
     "levy": [],
+    "lew": [],
     "lewi": [],
     "lewinsky": [],
     "lewisburg": [],
@@ -26889,6 +27648,13 @@
     "libert": [],
     "libertarian": [],
     "libertarianism": [],
+    "liberte": {
+        "color": [],
+        "material": [
+            "laid paper"
+        ],
+        "shape": []
+    },
     "libertebell": [],
     "liberty": {
         "color": [
@@ -26917,10 +27683,12 @@
     "license": [],
     "licensee": [],
     "licensing": [],
+    "licensure": [],
     "lichtenstein": [],
     "liciniu": [],
     "lick": [],
     "lickin": [],
+    "licklider": [],
     "lico": [],
     "lid": {
         "color": [],
@@ -27012,6 +27780,7 @@
         "shape": []
     },
     "lightweight": [],
+    "likability": [],
     "like": [],
     "likelihood": [],
     "likene": [],
@@ -27025,6 +27794,7 @@
         ],
         "shape": []
     },
+    "lilienthal": [],
     "lilith": {
         "color": [
             "black-and-white"
@@ -27104,6 +27874,7 @@
         ],
         "shape": []
     },
+    "limeuil": [],
     "limey": [],
     "limin": [],
     "limit": [],
@@ -27262,6 +28033,7 @@
     "lithuania": [],
     "litigant": [],
     "litigation": [],
+    "litigationist": [],
     "litter": {
         "color": [],
         "material": [
@@ -27285,6 +28057,13 @@
     },
     "live": [],
     "livelihood": [],
+    "liver": {
+        "color": [],
+        "material": [
+            "liver"
+        ],
+        "shape": []
+    },
     "livery": [],
     "liveryman": [],
     "livestock": [],
@@ -27420,6 +28199,7 @@
     "loincloth": [],
     "loire": [],
     "loiro": [],
+    "lois": [],
     "lojack": [],
     "lomb": [],
     "lombard": {
@@ -27480,6 +28260,7 @@
     },
     "longitude": [],
     "longship": [],
+    "longside": [],
     "longview": [],
     "longyi": [],
     "lonigan": [],
@@ -27549,6 +28330,7 @@
         "material": [],
         "shape": []
     },
+    "losing": [],
     "loss": {
         "color": [
             "color"
@@ -27570,6 +28352,7 @@
     "lothian": [],
     "lotion": [],
     "lott": [],
+    "lotta": [],
     "lottery": {
         "color": [
             "color"
@@ -27587,6 +28370,7 @@
         ],
         "shape": []
     },
+    "loue": [],
     "loughrigg": [],
     "loui": [],
     "louise": {
@@ -27636,6 +28420,7 @@
         ],
         "shape": []
     },
+    "lovelessne": [],
     "loveline": [],
     "lovemaking": [],
     "lover": [],
@@ -27647,6 +28432,7 @@
     "lowell": [],
     "lower": [],
     "lowerincome": [],
+    "loweswater": [],
     "lowland": {
         "color": [],
         "material": [
@@ -27656,6 +28442,7 @@
         "shape": []
     },
     "lowlife": [],
+    "lowther": [],
     "lox": [],
     "loyalty": [],
     "loyola": [],
@@ -27663,6 +28450,7 @@
     "lozano": [],
     "lozare": [],
     "lozenge": [],
+    "lr": [],
     "lri": [],
     "lsc": [],
     "lsca": [],
@@ -27689,6 +28477,7 @@
     "lubbock": [],
     "lubitz": [],
     "lubrication": [],
+    "luby": [],
     "luca": [],
     "lucasfilm": [],
     "lucca": [],
@@ -27784,7 +28573,9 @@
         ],
         "shape": []
     },
+    "lunacy": [],
     "lunade": [],
+    "lunalilo": [],
     "lunatic": [],
     "lunch": [],
     "luncheon": [],
@@ -27835,6 +28626,7 @@
     "luz": [],
     "luzia": [],
     "lvov": [],
+    "lyc??e": [],
     "lycee": [],
     "lycra": [],
     "lydia": {
@@ -27853,6 +28645,13 @@
     "lymphoma": [],
     "lynch": [],
     "lynchburg": [],
+    "lynching": {
+        "color": [],
+        "material": [
+            "wove paper"
+        ],
+        "shape": []
+    },
     "lynn": [],
     "lynne": [],
     "lyon": [],
@@ -27873,7 +28672,9 @@
     "m/2,526": [],
     "m0010": [],
     "m3/yr": [],
+    "m4": [],
     "m55": [],
+    "m6": [],
     "m??di??val": [],
     "m??dicis": [],
     "m??lancolie": [],
@@ -27881,6 +28682,7 @@
     "m??tro": [],
     "m??tropole": [],
     "ma": [],
+    "ma?": [],
     "ma?\u00addei?\u00adra": [],
     "maarten": [],
     "maastricht": [],
@@ -27891,6 +28693,7 @@
         "material": [],
         "shape": []
     },
+    "macabich": [],
     "macanese": [],
     "macaonaco": [],
     "macaque": [],
@@ -27907,6 +28710,14 @@
         "shape": []
     },
     "maccabee": [],
+    "macdonald": {
+        "color": [],
+        "material": [
+            "pen",
+            "India ink"
+        ],
+        "shape": []
+    },
     "mace": {
         "color": [],
         "material": [
@@ -27919,6 +28730,7 @@
     "maceo": [],
     "macgyver": [],
     "mach": [],
+    "machault": [],
     "machete": {
         "color": [
             "black-and-white"
@@ -27959,7 +28771,10 @@
     "macre": [],
     "macree": [],
     "macroeconomic": [],
+    "macroeconomy": [],
+    "mact": [],
     "mad": [],
+    "madagascar": [],
     "madalena": {
         "color": [
             "black-and-white"
@@ -28098,6 +28913,7 @@
     "maggio": [],
     "maggiore": [],
     "maggot": [],
+    "maghreb": [],
     "magi": [],
     "magic": [],
     "magic--": [],
@@ -28178,6 +28994,7 @@
     "mahmud": [],
     "mahogany": [],
     "mahout": [],
+    "mahseer": [],
     "mai": {
         "color": [
             "color"
@@ -28211,6 +29028,7 @@
     "mailer": [],
     "mailing": [],
     "maillot": [],
+    "mailpiece": [],
     "mailprocessing": [],
     "mailstream": [],
     "main": [],
@@ -28260,11 +29078,13 @@
     "make": [],
     "maker": [],
     "makeup": [],
+    "makin": [],
     "making": [],
     "makriamo": [],
     "mal": [],
     "malacca": [],
     "malachi": [],
+    "malachite": [],
     "malahide": [],
     "malaise": [],
     "malaka": [],
@@ -28307,6 +29127,7 @@
         "shape": []
     },
     "malibu": [],
+    "malignancy": [],
     "malignity": [],
     "mall": {
         "color": [
@@ -28351,6 +29172,7 @@
     "maltreatment": [],
     "malwa": [],
     "mama": [],
+    "mamaji": [],
     "mambo": {
         "color": [
             "black-and-white"
@@ -28392,6 +29214,7 @@
     "manchester": [],
     "manchioneal": [],
     "manchuria": [],
+    "mandapa": [],
     "mandaraz": [],
     "mandarin": [],
     "mandate": [],
@@ -28458,6 +29281,7 @@
         ],
         "shape": []
     },
+    "manhattanite": [],
     "manhood": [],
     "mania": {
         "color": [
@@ -28629,6 +29453,7 @@
         ]
     },
     "marca": [],
+    "marcelino": [],
     "marcello": [],
     "marcellu": [],
     "march": {
@@ -28656,6 +29481,7 @@
     "marcovaldo": [],
     "marcu": [],
     "mare": [],
+    "maren": [],
     "marengo": {
         "color": [
             "black"
@@ -28822,6 +29648,7 @@
         ],
         "shape": []
     },
+    "markievicz": [],
     "marking": [],
     "marksman": {
         "color": [],
@@ -28832,6 +29659,7 @@
     },
     "markup": [],
     "marlenheim": [],
+    "marley": [],
     "marlin": {
         "color": [],
         "material": [
@@ -28940,6 +29768,7 @@
     "martiniquai": [],
     "martiniquaise": [],
     "martinique": [],
+    "martino": [],
     "martyna": [],
     "martyr": {
         "color": [
@@ -28988,6 +29817,13 @@
         "shape": []
     },
     "mas": [],
+    "masaccio": {
+        "color": [],
+        "material": [
+            "wove paper"
+        ],
+        "shape": []
+    },
     "masada": {
         "color": [
             "color"
@@ -29307,10 +30143,13 @@
     "mclehose": [],
     "mcmahon": [],
     "mcmorrow": [],
+    "mcmurphy": [],
     "mcnally": [],
     "mcnamara": [],
     "mcnasty": [],
+    "mcod": [],
     "mcpaper": [],
+    "mcparland": [],
     "mcphilip": [],
     "mcteer": [],
     "mcveigh": [],
@@ -29345,9 +30184,11 @@
         ],
         "shape": []
     },
+    "meagher": [],
     "meal": [],
     "mean": [],
     "meaning": [],
+    "meaninglessne": [],
     "meantime": [],
     "measles": [],
     "measure": {
@@ -29419,6 +30260,7 @@
     "medicaid": [],
     "medical": [],
     "medicare": [],
+    "medicare5": [],
     "medication": [],
     "medicee": [],
     "medici": [],
@@ -29489,6 +30331,7 @@
     "meg": [],
     "megabyte": [],
     "megahertz": [],
+    "megalomania": [],
     "megalomaniac": [],
     "megamerger": [],
     "megaphone": [],
@@ -29593,6 +30436,7 @@
         "shape": []
     },
     "memorization": [],
+    "memorizer": [],
     "memory": {
         "color": [
             "black-and-white"
@@ -29635,6 +30479,13 @@
     },
     "menidia": [],
     "meningiti": [],
+    "menino": {
+        "color": [],
+        "material": [
+            "paper"
+        ],
+        "shape": []
+    },
     "menor": [],
     "menorah": [],
     "menorca": [],
@@ -29731,6 +30582,7 @@
         ],
         "shape": []
     },
+    "messaging": [],
     "messenger": {
         "color": [],
         "material": [
@@ -29741,6 +30593,7 @@
     },
     "messiah": [],
     "messine": [],
+    "messing": [],
     "messrs.": [],
     "met": [],
     "meta": [],
@@ -29754,6 +30607,7 @@
         "shape": []
     },
     "metal": [],
+    "metallurgy": [],
     "metalwork": [],
     "metamorphosi": [],
     "metaphor": [],
@@ -29863,9 +30717,11 @@
         "material": [],
         "shape": []
     },
+    "mickie": [],
     "microbe": [],
     "microbiologist": [],
     "microbrewery": [],
+    "microchip": [],
     "microclimate": [],
     "microcosm": [],
     "microeconomic": [],
@@ -29880,6 +30736,7 @@
     "microscope": [],
     "microsoft": [],
     "microwave": [],
+    "mid-'60s": [],
     "mid-'70s": [],
     "mid-'80s": [],
     "mid-1700s": [],
@@ -29909,6 +30766,7 @@
     "midget": [],
     "midi": [],
     "midland": [],
+    "midler": [],
     "midlife": [],
     "midlist": [],
     "midlothian": [],
@@ -29927,6 +30785,7 @@
         "shape": []
     },
     "midosuji": [],
+    "midriff": [],
     "midsection": [],
     "midst": [],
     "midstream": {
@@ -30098,7 +30957,9 @@
     "millor": [],
     "milne": [],
     "milo": [],
+    "milopotamo": [],
     "milosevic": [],
+    "milou": [],
     "milwaukee": {
         "color": [],
         "material": [
@@ -30182,6 +31043,7 @@
     "mineral": [],
     "minerfin": [],
     "mingeikan": [],
+    "minggu": [],
     "mingling": [],
     "minh": [],
     "mini-": [],
@@ -30242,6 +31104,7 @@
     "minute": [],
     "minutiae": [],
     "minx": [],
+    "minzoni": [],
     "miquel": [],
     "mir": [],
     "mirabeau": {
@@ -30343,7 +31206,9 @@
     },
     "misfit": [],
     "misgovernment": [],
+    "mishap": [],
     "mishel": [],
+    "mishkenot": [],
     "mishmash": [],
     "misinformation": [],
     "misinterpretation": [],
@@ -30539,6 +31404,7 @@
         ],
         "shape": []
     },
+    "moderator": [],
     "moderna": [],
     "moderne": [],
     "modernisation": [],
@@ -30573,6 +31439,7 @@
     },
     "mohamed": [],
     "mohammed": [],
+    "mohawk": [],
     "mohenjodaro": [],
     "moisture": [],
     "mojacar": [],
@@ -30628,6 +31495,7 @@
     "molester": [],
     "moliare": [],
     "molinari": [],
+    "molitor": [],
     "moliyre": [],
     "mollusk": [],
     "molokai": [],
@@ -30701,8 +31569,16 @@
         "shape": []
     },
     "moneybox": [],
+    "moneymaker": [],
     "monger": [],
     "mongol": [],
+    "mongoose": {
+        "color": [],
+        "material": [
+            "wove paper"
+        ],
+        "shape": []
+    },
     "moni": [],
     "monica": [],
     "monicagate": [],
@@ -30736,6 +31612,7 @@
     },
     "monogamy": [],
     "monogram": [],
+    "monograph": [],
     "monolith": [],
     "monolithe": [],
     "monologue": {
@@ -30745,6 +31622,7 @@
         ],
         "shape": []
     },
+    "monomania": [],
     "monopolist": [],
     "monopoly": [],
     "monorail": [],
@@ -30759,6 +31637,7 @@
     "monstrance": [],
     "mont": [],
     "montage": [],
+    "montaigne": [],
     "montana": [],
     "montbard": [],
     "monte": [],
@@ -30820,6 +31699,7 @@
         "shape": []
     },
     "montsouri": [],
+    "montuiri": [],
     "monty": [],
     "monument": {
         "color": [
@@ -30932,6 +31812,7 @@
     "moritzen": [],
     "morlaix": [],
     "mormon": [],
+    "mornin": [],
     "morning": {
         "color": [],
         "material": [
@@ -31110,6 +31991,7 @@
     "motorway": [],
     "motto": [],
     "mouffetard": [],
+    "moulin": [],
     "moun?\u03b4ains": [],
     "mound": {
         "color": [],
@@ -31163,6 +32045,13 @@
         "shape": []
     },
     "mousetrap": [],
+    "mousse": {
+        "color": [],
+        "material": [
+            "whipped egg white"
+        ],
+        "shape": []
+    },
     "moustache": {
         "color": [
             "black"
@@ -31180,6 +32069,7 @@
     },
     "mouth?she": [],
     "mouthed": [],
+    "mouthful": [],
     "move": [],
     "movement": {
         "color": [],
@@ -31193,6 +32083,7 @@
     "moviegoer": [],
     "movin": [],
     "moving": [],
+    "mow": [],
     "mower": [],
     "mowing": [],
     "moyenne": [],
@@ -31292,7 +32183,9 @@
     "mullick": [],
     "mullin": [],
     "multibirth": [],
+    "multiconcentration": [],
     "multiculturalism": [],
+    "multiculturality": [],
     "multimethod": [],
     "multimillionaire": [],
     "multinational": [],
@@ -31411,6 +32304,13 @@
     },
     "musicologist": [],
     "musing": [],
+    "musique": {
+        "color": [],
+        "material": [
+            "laid paper"
+        ],
+        "shape": []
+    },
     "musk": [],
     "musket": [],
     "musketeer": {
@@ -31443,6 +32343,13 @@
         "shape": []
     },
     "mustache": [],
+    "mustang": {
+        "color": [],
+        "material": [
+            "paper"
+        ],
+        "shape": []
+    },
     "mustanger": [],
     "mustard": [],
     "muster": [],
@@ -31507,6 +32414,7 @@
     },
     "mystic": [],
     "mysticism": [],
+    "mystification": [],
     "mystique": [],
     "myth": [],
     "mythmaker": [],
@@ -31526,6 +32434,7 @@
     "n152": [],
     "n74": [],
     "n?": [],
+    "n??tre": [],
     "na": [],
     "naaq": [],
     "naave": [],
@@ -31664,6 +32573,7 @@
     "nationalization": [],
     "nationhood": [],
     "native": [],
+    "nativit": [],
     "nativity": {
         "color": [],
         "material": [
@@ -31721,6 +32631,13 @@
     "nawab": [],
     "naweiba": [],
     "naxo": [],
+    "nayak": {
+        "color": [
+            "black-and-white"
+        ],
+        "material": [],
+        "shape": []
+    },
     "nazareth": {
         "color": [],
         "material": [
@@ -31745,6 +32662,7 @@
     "nd": [],
     "ne": [],
     "nea": [],
+    "nealon": [],
     "neanderthal": [],
     "neapolitan": [],
     "neatne": [],
@@ -31822,6 +32740,8 @@
     "negligence": [],
     "negotiatedrequest": [],
     "negotiation": [],
+    "negotiator": [],
+    "negresco": [],
     "negril": [],
     "negrito": [],
     "negro": {
@@ -31832,6 +32752,7 @@
         ],
         "shape": []
     },
+    "negron": [],
     "nehring": [],
     "nehru": [],
     "nei": [],
@@ -31923,6 +32844,7 @@
     "netre": [],
     "netrepreneur": [],
     "netscape": [],
+    "nettle": [],
     "nettuno": [],
     "network": {
         "color": [
@@ -31937,7 +32859,9 @@
     "neuharth": [],
     "neuilly": [],
     "neumann": [],
+    "neurosi": [],
     "neurotransmitter": [],
+    "neustadt": [],
     "neutrality": {
         "color": [
             "black-and-white"
@@ -31959,6 +32883,14 @@
     "newark": [],
     "newberg": [],
     "newbie": [],
+    "newborn": {
+        "color": [],
+        "material": [
+            "wove paper",
+            "paper"
+        ],
+        "shape": []
+    },
     "newcomer": [],
     "newgrange": [],
     "newhaven": [],
@@ -31997,6 +32929,7 @@
     "newsteam": [],
     "newsweek": [],
     "newsweekly": [],
+    "newswoman": [],
     "newsy": [],
     "newt": [],
     "newton": [],
@@ -32135,6 +33068,7 @@
     },
     "nileometer": [],
     "nilsson": [],
+    "nin": [],
     "ninepence": [],
     "ninethirty": [],
     "ninety": [],
@@ -32148,6 +33082,7 @@
     "nitrate": [],
     "nitrogen": [],
     "nittany": [],
+    "nitty": [],
     "niven": [],
     "nixon": [],
     "njp)--to": [],
@@ -32200,6 +33135,7 @@
     },
     "nobody": [],
     "noboribetsu": [],
+    "noboriojicho": [],
     "nobunaga": [],
     "nocera": [],
     "nochlin": [],
@@ -32207,6 +33143,7 @@
     "nod": [],
     "nodding": [],
     "node": [],
+    "noe": [],
     "noec": [],
     "noir": [],
     "noire": [],
@@ -32227,6 +33164,7 @@
     "non-": [],
     "nonacademic": [],
     "nonargument": [],
+    "nonattainment": [],
     "nonbaker": [],
     "nonbulk": [],
     "noncompliance": [],
@@ -32243,9 +33181,13 @@
     "nonfiction": [],
     "nonfiler": [],
     "nonimmigrant": [],
+    "nonissue": [],
+    "nonlife": [],
     "nonmember": [],
     "nonorganism": [],
+    "nonproduction": [],
     "nonprofit": [],
+    "nonreader": [],
     "nonsense": [],
     "nonsmoker": [],
     "nonviolence": [],
@@ -32279,6 +33221,8 @@
         "shape": []
     },
     "nord": [],
+    "nordstrom": [],
+    "norfolk": [],
     "norgay": [],
     "noriega": [],
     "norm": [],
@@ -32374,6 +33318,7 @@
         "material": [],
         "shape": []
     },
+    "notepad": [],
     "nothin'": [],
     "nothing": [],
     "nothingne": [],
@@ -32460,6 +33405,7 @@
     "nueva": [],
     "nugent": [],
     "nugget": [],
+    "nuisance": [],
     "nuke": [],
     "nullification": [],
     "num?\u00adber": [],
@@ -32530,12 +33476,15 @@
         "shape": []
     },
     "nutter": [],
+    "nuttgen": [],
+    "nuttine": [],
     "nuweiba": [],
     "nuy": [],
     "nw": [],
     "nyatapola": [],
     "nyd2": [],
     "nye": [],
+    "nye.\"topham": [],
     "nye?\"drew": [],
     "nylon": [],
     "nymph": {
@@ -32610,6 +33559,7 @@
         "shape": []
     },
     "oat": [],
+    "oatcake": [],
     "oate": [],
     "oath": [],
     "oatmeal": {
@@ -32634,7 +33584,9 @@
         "shape": []
     },
     "oberkampf": [],
+    "obernai": [],
     "obesity": [],
+    "obfuscating": [],
     "obi": {
         "color": [],
         "material": [
@@ -32683,6 +33635,7 @@
     "obrapaa": [],
     "obscenity": [],
     "obscura": [],
+    "obscure": [],
     "obscurity": [],
     "observance": [],
     "observation": {
@@ -32821,6 +33774,8 @@
     "odour": [],
     "odysseu": [],
     "odyssey": [],
+    "oecd": [],
+    "oed": [],
     "oesophagu": [],
     "oestradiol": [],
     "oestriol": [],
@@ -32834,6 +33789,7 @@
         ],
         "shape": []
     },
+    "off-": [],
     "offal": [],
     "offenbach": [],
     "offender": [],
@@ -32853,6 +33809,7 @@
     },
     "offerman": [],
     "offeror": [],
+    "offhand": [],
     "office": {
         "color": [
             "color"
@@ -32893,9 +33850,11 @@
         ],
         "shape": []
     },
+    "oh": [],
     "oh?\"drew": [],
     "ohara": [],
     "ohio": [],
+    "ohioan": [],
     "oi": [],
     "oig": [],
     "oike": [],
@@ -32937,6 +33896,7 @@
     "oldsmobile": [],
     "oleander": [],
     "olek": [],
+    "olfactory": [],
     "oligarch": [],
     "oligarchy": [],
     "oligopoly": [],
@@ -33014,6 +33974,7 @@
     "on-": [],
     "onaoccasion": [],
     "onardo": [],
+    "oncology": [],
     "one": {
         "color": [
             "color"
@@ -33037,6 +33998,7 @@
     },
     "online": [],
     "onn": [],
+    "onnagata": [],
     "onsen": [],
     "onset": [],
     "onslaught": {
@@ -33118,6 +34080,7 @@
     "opposition": [],
     "oppression": [],
     "oppressor": [],
+    "opptintr": [],
     "oprah": [],
     "opry": [],
     "opt": [],
@@ -33131,6 +34094,7 @@
     "opu": [],
     "opulence": [],
     "opus": [],
+    "oracabessa": [],
     "oracle": {
         "color": [],
         "material": [
@@ -33281,6 +34245,7 @@
     "orientation": [],
     "oriente": [],
     "origin": [],
+    "origina": [],
     "original": [],
     "originality": [],
     "originator": [],
@@ -33327,6 +34292,7 @@
         "shape": []
     },
     "orphanage": [],
+    "orphelin": [],
     "orr": [],
     "orrery": [],
     "orrio": [],
@@ -33342,6 +34308,7 @@
     "orwell": [],
     "osag": [],
     "osaka": [],
+    "osborne": [],
     "osby": [],
     "oscar": [],
     "osha": [],
@@ -33352,6 +34319,7 @@
     "osman": [],
     "ospedale": [],
     "osprey": [],
+    "ossolinsky": [],
     "ossuary": [],
     "osteoporosi": [],
     "ostinato": [],
@@ -33496,6 +34464,7 @@
     "overabundance": [],
     "overall": [],
     "overarm": [],
+    "overbeck": [],
     "overbooking": [],
     "overcommitment": [],
     "overcrowding": [],
@@ -33514,6 +34483,7 @@
         "shape": []
     },
     "overhead": [],
+    "overindulgence": [],
     "overinterpretation": [],
     "overkill": [],
     "overland": [],
@@ -33535,6 +34505,7 @@
     "overpayment": [],
     "overpopulation": [],
     "overreaction": [],
+    "overriding": [],
     "overrun": [],
     "oversaving": [],
     "overseer": [],
@@ -33600,8 +34571,10 @@
     "p.d.": [],
     "p.g.": [],
     "p.g.a.": [],
+    "p.l.": [],
     "p.m.": [],
     "p.s.": [],
+    "p.s.--i": [],
     "p10": [],
     "p??piniyre": [],
     "p??rigord": [],
@@ -33616,6 +34589,7 @@
     "pace's--$18,000": [],
     "pacemaker": [],
     "pacer": [],
+    "pache": [],
     "pacific": [],
     "pacifism": [],
     "pacifist": [],
@@ -33744,6 +34718,7 @@
         "shape": []
     },
     "paint": [],
+    "paint?\u00adings": [],
     "paintball": [],
     "paintbrush": {
         "color": [],
@@ -33779,6 +34754,14 @@
         ],
         "shape": []
     },
+    "pajama": [],
+    "pajamas": {
+        "color": [
+            "black-and-white"
+        ],
+        "material": [],
+        "shape": []
+    },
     "pakistan": {
         "color": [],
         "material": [
@@ -33791,6 +34774,7 @@
     "pala": [],
     "palace": [],
     "palacio": [],
+    "palaeologu": [],
     "palai": [],
     "palate": [],
     "palau": [],
@@ -33911,6 +34895,7 @@
     "panache": [],
     "panader?\u00ada": [],
     "panagiraie": [],
+    "panaji": [],
     "panama": {
         "color": [
             "white"
@@ -33983,6 +34968,7 @@
     },
     "panipat": [],
     "panjang": [],
+    "panjim": [],
     "panning": [],
     "panoply": [],
     "panorama": {
@@ -34200,6 +35186,14 @@
     },
     "parcel": [],
     "parcell": [],
+    "parchment": {
+        "color": [],
+        "material": [
+            "calfskin",
+            "buckskin"
+        ],
+        "shape": []
+    },
     "pardon": [],
     "parecclesion": [],
     "parede": {
@@ -34228,6 +35222,7 @@
         "shape": []
     },
     "paribu": [],
+    "parikia": [],
     "paring": [],
     "parish": [],
     "parisian": [],
@@ -34278,6 +35273,7 @@
     "paroissiaux": [],
     "parole": [],
     "parolee": [],
+    "parosea": [],
     "parosenaxo": [],
     "paroseour": [],
     "paroseparikia": [],
@@ -34343,6 +35339,7 @@
         ],
         "shape": []
     },
+    "parvula": [],
     "pas": [],
     "pasadena": {
         "color": [],
@@ -34352,6 +35349,7 @@
         "shape": []
     },
     "pascagoula": [],
+    "pascal": [],
     "paseo": {
         "color": [],
         "material": [
@@ -34371,6 +35369,7 @@
     "pashupati": [],
     "pashupatinath": [],
     "paso": [],
+    "pasoan": [],
     "passage": {
         "color": [
             "color"
@@ -34394,6 +35393,7 @@
         "material": [],
         "shape": []
     },
+    "passero": [],
     "passing": {
         "color": [],
         "material": [
@@ -34410,6 +35410,13 @@
         "shape": []
     },
     "passo": [],
+    "passover": {
+        "color": [],
+        "material": [
+            "laid paper"
+        ],
+        "shape": []
+    },
     "passport": {
         "color": [
             "black-and-white"
@@ -34456,10 +35463,12 @@
     },
     "pastureland": [],
     "pat": [],
+    "pataca": [],
     "pataki": [],
     "pataliputra": [],
     "patan": [],
     "patana": [],
+    "patani": [],
     "patch": [],
     "patchwork": [],
     "patent": [],
@@ -34543,6 +35552,7 @@
         "material": [],
         "shape": []
     },
+    "patrizio": [],
     "patrol": [],
     "patron": [],
     "patrona": [],
@@ -34570,7 +35580,17 @@
     "pau": [],
     "paucity": [],
     "paugh": [],
+    "pauken": [],
     "paul": [],
+    "paula": {
+        "color": [
+            "black-and-white"
+        ],
+        "material": [
+            "albumin paper"
+        ],
+        "shape": []
+    },
     "pauley": [],
     "paulo": [],
     "pauper": {
@@ -34624,6 +35644,7 @@
         "material": [],
         "shape": []
     },
+    "paycheck--": [],
     "payday": {
         "color": [
             "black-and-white"
@@ -34683,6 +35704,7 @@
         ],
         "shape": []
     },
+    "peacekeeping": [],
     "peacemaker": [],
     "peacetime": [],
     "peach": {
@@ -34822,11 +35844,13 @@
         "material": [],
         "shape": []
     },
+    "pelli": [],
     "peloponnese": [],
     "pelosi": [],
     "pelt": [],
     "pelvi": [],
     "pemayangtse": [],
+    "pemd": [],
     "pen": {
         "color": [],
         "material": [
@@ -34917,6 +35941,7 @@
         "material": [],
         "shape": []
     },
+    "penn'orth": [],
     "pennant": [],
     "penney": [],
     "pennsylvania": {
@@ -35044,6 +36069,7 @@
         "shape": []
     },
     "perfume": [],
+    "pergamene": [],
     "pergamum": [],
     "peridot": {
         "color": [
@@ -35205,6 +36231,7 @@
         ],
         "shape": []
     },
+    "peta": [],
     "petal": [],
     "petaling": [],
     "peter": {
@@ -35329,6 +36356,7 @@
     "philanthropy": [],
     "philately": [],
     "philbin": [],
+    "philharmonic": [],
     "philip": [],
     "philippa": [],
     "philippine": [],
@@ -35403,10 +36431,12 @@
     "phylloxera": [],
     "physic": [],
     "physical": [],
+    "physicality": [],
     "physician": [],
     "physicist": [],
     "physiognomy": [],
     "physique": [],
+    "pi??atas": [],
     "piacenza": [],
     "piano": {
         "color": [],
@@ -35501,6 +36531,7 @@
         ],
         "shape": []
     },
+    "piercing": [],
     "pierre": [],
     "piet": [],
     "pietro": [],
@@ -35554,7 +36585,9 @@
         ],
         "shape": []
     },
+    "pil?\u00adgrims": [],
     "pila": [],
+    "pilar": [],
     "pilaster": [],
     "pilate": [],
     "pile": {
@@ -35711,6 +36744,7 @@
     "pirate": [],
     "pisa": [],
     "pisak": [],
+    "pisani": [],
     "pisano": [],
     "piscine": [],
     "pisi": [],
@@ -35740,6 +36774,7 @@
         ],
         "shape": []
     },
+    "pit??u": [],
     "pita": [],
     "pitch": [],
     "pitcher": {
@@ -35812,6 +36847,7 @@
             "circle"
         ]
     },
+    "pizzaria": [],
     "pizzeria": [],
     "pjff": [],
     "pk": [],
@@ -36018,6 +37054,7 @@
     "playmate": [],
     "playtex": [],
     "plaything": [],
+    "playtime": [],
     "playwright": [],
     "plaza": [],
     "plea": [],
@@ -36040,6 +37077,7 @@
     "plebiscito": [],
     "pledge": [],
     "plenipotentiary": [],
+    "plentitude": [],
     "plenty": {
         "color": [],
         "material": [
@@ -36054,6 +37092,8 @@
     "plethora": [],
     "pliers": [],
     "plight": [],
+    "plimon": [],
+    "plimpton": [],
     "plink": [],
     "plo": [],
     "plodder": [],
@@ -36076,6 +37116,7 @@
     "ploy": [],
     "plu": [],
     "pluck": [],
+    "plucking": [],
     "plug": [],
     "plugger": [],
     "plum": {
@@ -36142,6 +37183,7 @@
     "pneumonia": [],
     "pnp": [],
     "po": [],
+    "poacher": [],
     "poblete": [],
     "pocatello": [],
     "pocket": {
@@ -36180,6 +37222,7 @@
         ],
         "shape": []
     },
+    "poetes": [],
     "poetry": {
         "color": [],
         "material": [
@@ -36225,6 +37268,7 @@
         ],
         "shape": []
     },
+    "poirer": [],
     "poirot": [],
     "poise": [],
     "poiso": [],
@@ -36295,6 +37339,7 @@
     "policyholder": [],
     "policymaker": [],
     "polio": [],
+    "polish": [],
     "polishing": [],
     "politene": [],
     "politic": [],
@@ -36305,8 +37350,10 @@
         ],
         "shape": []
     },
+    "politicization": [],
     "politicking": [],
     "politico": [],
+    "polito": [],
     "poliwhirl": {
         "color": [
             "blue"
@@ -36393,6 +37440,7 @@
     },
     "pomerantz": [],
     "pommard": [],
+    "pommel": [],
     "pomona": {
         "color": [],
         "material": [
@@ -36415,6 +37463,7 @@
     },
     "pompidou": [],
     "pomposity": [],
+    "pon": [],
     "ponca": [],
     "poncha": {
         "color": [],
@@ -36443,6 +37492,7 @@
     "pondicherry": [],
     "ponente": [],
     "poniatowski": [],
+    "pont": [],
     "ponta": [],
     "ponte": [],
     "pontiac": [],
@@ -36451,6 +37501,19 @@
     "pontu": [],
     "pony": [],
     "ponzi": [],
+    "pooch": [],
+    "poodle": {
+        "color": [],
+        "material": [
+            "ink",
+            "gouache paint",
+            "paperboard",
+            "graphite",
+            "watercolor paint",
+            "pen"
+        ],
+        "shape": []
+    },
     "pooh": [],
     "pool": {
         "color": [],
@@ -36551,6 +37614,7 @@
     },
     "porte": [],
     "portela": [],
+    "portent": [],
     "porter": [],
     "portese": [],
     "portfolio": {
@@ -36583,6 +37647,7 @@
         ],
         "shape": []
     },
+    "portraitist": [],
     "portraiture": [],
     "portrayal": {
         "color": [],
@@ -36719,6 +37784,7 @@
     "potion": [],
     "potluck": [],
     "potomac": [],
+    "potpie": [],
     "potter": {
         "color": [],
         "material": [
@@ -36757,8 +37823,10 @@
     "poundin": [],
     "pounding": [],
     "pousada": [],
+    "poussin": [],
     "pov": [],
     "poverello": [],
+    "poverino": [],
     "poverty": {
         "color": [],
         "material": [
@@ -36868,6 +37936,7 @@
     "preacher": [],
     "preaching": [],
     "preamble": [],
+    "precariousne": [],
     "precaution": [],
     "precedence": [],
     "precedent": [],
@@ -37106,6 +38175,7 @@
     },
     "principality": [],
     "principle": [],
+    "pringle": [],
     "prinkipo": [],
     "print": {
         "color": [],
@@ -37384,6 +38454,7 @@
         ],
         "shape": []
     },
+    "proselytizer": [],
     "proserity": [],
     "prosetute": [],
     "prospect": {
@@ -37394,6 +38465,7 @@
         "shape": []
     },
     "prospecting": [],
+    "prospective": [],
     "prospector": [],
     "prospectus": [],
     "prosperity": {
@@ -37525,6 +38597,7 @@
     "pryce": [],
     "prying": [],
     "prytaneum": [],
+    "przekobiz": [],
     "przekosniak": [],
     "przyrobacki": [],
     "przyrolarouish": [],
@@ -37614,6 +38687,7 @@
         ],
         "shape": []
     },
+    "puffing": [],
     "puget": [],
     "puglia": [],
     "pugnochiuso": [],
@@ -37665,6 +38739,8 @@
     "pun": [],
     "punch": [],
     "punchline": [],
+    "punctuation": [],
+    "punctulata": [],
     "puncture": [],
     "pundit": [],
     "punishment": [],
@@ -37798,6 +38874,7 @@
     "putt": [],
     "puttin": [],
     "putting": [],
+    "putz": [],
     "puzzle": [],
     "pye": [],
     "pygmy": [],
@@ -37975,6 +39052,7 @@
         ],
         "shape": []
     },
+    "quietne": [],
     "quik": [],
     "quila": [],
     "quill": {
@@ -38000,6 +39078,7 @@
         ],
         "shape": []
     },
+    "quilting": [],
     "quimboiseur": [],
     "quince": [],
     "quinconce": [],
@@ -38028,6 +39107,7 @@
         ],
         "shape": []
     },
+    "quisiera": [],
     "quitter": [],
     "quiver": {
         "color": [],
@@ -38165,6 +39245,14 @@
     "racket": [],
     "racquet": [],
     "racquetball": [],
+    "radar": {
+        "color": [],
+        "material": [
+            "canvas",
+            "oil paint"
+        ],
+        "shape": []
+    },
     "radda": [],
     "radiance": {
         "color": [],
@@ -38195,6 +39283,7 @@
     "radioactivity": [],
     "radiologist": [],
     "radish": [],
+    "radiu": [],
     "radium": [],
     "radnor": [],
     "radosh": [],
@@ -38331,6 +39420,7 @@
         "shape": []
     },
     "rakia": [],
+    "raking": [],
     "raleigh": [],
     "ralliement": [],
     "rally": [],
@@ -38354,6 +39444,7 @@
         ],
         "shape": []
     },
+    "ramban": [],
     "rambla": [],
     "ramble": [],
     "rambler": {
@@ -38438,6 +39529,7 @@
     "rant": [],
     "ranting": [],
     "rao": [],
+    "raoul": [],
     "rap": [],
     "rapallo": {
         "color": [],
@@ -38614,6 +39706,7 @@
         ],
         "shape": []
     },
+    "razzmatazz": [],
     "rc3": [],
     "rcd": [],
     "rced": [],
@@ -38655,10 +39748,12 @@
     "readme": [],
     "readmission": [],
     "reagan": [],
+    "reaganism": [],
     "reagent": [],
     "real": [],
     "realaudio": [],
     "reale": [],
+    "reali": [],
     "realignment": [],
     "realism": [],
     "realist": [],
@@ -38765,6 +39860,7 @@
     "receipt": [],
     "receivable": [],
     "receiver": [],
+    "receivership": [],
     "recency": [],
     "receptacle": [],
     "reception": [],
@@ -38777,6 +39873,7 @@
     "recipe": [],
     "recipient": [],
     "recital": [],
+    "recitation": [],
     "recklessne": [],
     "reckonin": [],
     "reclamation": {
@@ -38936,6 +40033,7 @@
     "reebok": [],
     "reed": [],
     "reef": [],
+    "reekie": [],
     "reel": {
         "color": [],
         "material": [
@@ -38949,6 +40047,7 @@
         ],
         "shape": []
     },
+    "reengineering": [],
     "reese": [],
     "reestimate": [],
     "reeve": [],
@@ -38993,7 +40092,9 @@
         "material": [],
         "shape": []
     },
+    "reformatting": [],
     "reformer": [],
+    "reformism": [],
     "refresher": [],
     "refreshment": [],
     "refrigerator": [],
@@ -39025,6 +40126,7 @@
     "refusal": [],
     "refuse": [],
     "refutation": [],
+    "reg": [],
     "regal": [],
     "regalia": [],
     "regard": {
@@ -39066,6 +40168,7 @@
     "regulator": [],
     "rehab": [],
     "rehabilitation": [],
+    "rehavia": [],
     "rehearsal": {
         "color": [],
         "material": [
@@ -39075,7 +40178,9 @@
     },
     "rehfeld": [],
     "rehnquist": [],
+    "rehov": [],
     "reich": [],
+    "reicher": [],
     "reid": [],
     "reign": [],
     "reilly": [],
@@ -39114,6 +40219,7 @@
     "relation": [],
     "relationship": [],
     "relative": [],
+    "relativism": [],
     "relativist": [],
     "relativity": [],
     "relaxation": {
@@ -39167,6 +40273,7 @@
         "shape": []
     },
     "reliquary": [],
+    "relish": [],
     "reloading": [],
     "relocation": {
         "color": [],
@@ -39346,6 +40453,7 @@
         "shape": []
     },
     "replacement": [],
+    "replanting": [],
     "replay": [],
     "replica": {
         "color": [],
@@ -39389,6 +40497,7 @@
         "shape": []
     },
     "reprieve": [],
+    "reprint": [],
     "reprioritization": [],
     "reprisal": {
         "color": [
@@ -39403,6 +40512,7 @@
     "repubblica": [],
     "republic": [],
     "republican": [],
+    "republicanism": [],
     "republichood": [],
     "repudiation": [],
     "repulse": [],
@@ -39485,6 +40595,7 @@
         "material": [],
         "shape": []
     },
+    "resister": [],
     "resolution": {
         "color": [
             "color"
@@ -39549,6 +40660,7 @@
     },
     "restoorant": [],
     "restoration": [],
+    "restorer": [],
     "restraint": [],
     "restriction": [],
     "restriction-": [],
@@ -39688,6 +40800,7 @@
         "material": [],
         "shape": []
     },
+    "reveller": [],
     "revelry": {
         "color": [],
         "material": [
@@ -39777,7 +40890,9 @@
     },
     "revulsion": [],
     "reward": [],
+    "rewarding": [],
     "rework": [],
+    "rewrapping": [],
     "rewriting": [],
     "rex": [],
     "rey": [],
@@ -40119,6 +41234,8 @@
     "rizz": [],
     "rizzoli": [],
     "rjr": [],
+    "rlc": [],
+    "rmb": [],
     "rn": [],
     "rning": [],
     "ro": [],
@@ -40258,6 +41375,7 @@
         "shape": []
     },
     "rodger": [],
+    "rodham": [],
     "rodin": {
         "color": [],
         "material": [
@@ -40426,6 +41544,7 @@
     },
     "roseand": [],
     "roseanne": [],
+    "rosegarden": [],
     "rosen": [],
     "rosenberg": [],
     "rosenberger": [],
@@ -40483,6 +41602,7 @@
     "rotunda": [],
     "rouen": [],
     "rouge": [],
+    "rough": [],
     "roughto": [],
     "roulette": {
         "color": [
@@ -40509,6 +41629,7 @@
         "shape": []
     },
     "rousseau": [],
+    "roussillon": [],
     "rout": [],
     "route": [],
     "routha": [],
@@ -40637,6 +41758,7 @@
     "rule": [],
     "rulemaking": [],
     "ruler": [],
+    "rules,8": [],
     "ruling": [],
     "rum": {
         "color": [],
@@ -40688,6 +41810,7 @@
         ],
         "shape": []
     },
+    "rupert": [],
     "rural": [],
     "rush": [],
     "rushdie": [],
@@ -40701,6 +41824,7 @@
     "russianization": [],
     "rust": [],
     "rustic": [],
+    "rustle": [],
     "rustling": [],
     "rut": [],
     "rutan": [],
@@ -40718,6 +41842,8 @@
     "ruthlessne": [],
     "rv": [],
     "rwanda": [],
+    "rwc": [],
+    "rwc/4": [],
     "rx7": [],
     "ry": [],
     "ryan": [],
@@ -40851,8 +41977,10 @@
         "shape": []
     },
     "sadne": [],
+    "sadogashima": [],
     "sadomasochism": [],
     "saem": [],
+    "saenger": [],
     "safari": {
         "color": [
             "black-and-white"
@@ -40952,6 +42080,7 @@
     "sakurajima": [],
     "sakya": [],
     "sal": [],
+    "sala": [],
     "salad": [],
     "saladin": [],
     "salako": {
@@ -40976,6 +42105,8 @@
     "salchow": [],
     "sale": [],
     "salem": [],
+    "salerno": [],
+    "salesclerk": [],
     "saleslady": [],
     "salesman": {
         "color": [
@@ -41066,6 +42197,7 @@
         "shape": []
     },
     "salvation": [],
+    "salvator": [],
     "salve": [],
     "salver": [],
     "salvora": [],
@@ -41117,6 +42249,18 @@
         ],
         "shape": []
     },
+    "sampler": {
+        "color": [],
+        "material": [
+            "ink",
+            "gouache paint",
+            "graphite",
+            "watercolor paint",
+            "pen",
+            "paper"
+        ],
+        "shape": []
+    },
     "sampling": [],
     "samson": {
         "color": [
@@ -41140,6 +42284,7 @@
     "san'doro": [],
     "sanatorium": [],
     "sanchez": [],
+    "sancta": [],
     "sanction": [],
     "sanctity": [],
     "sanctuary": {
@@ -41197,6 +42342,16 @@
         "color": [],
         "material": [
             "bread"
+        ],
+        "shape": []
+    },
+    "sandy": {
+        "color": [
+            "black-and-white"
+        ],
+        "material": [
+            "canvas",
+            "oil paint"
         ],
         "shape": []
     },
@@ -41303,6 +42458,7 @@
     "sarnath": [],
     "sarong": [],
     "sarrail": [],
+    "sarsgaard": [],
     "sartre": [],
     "sash": {
         "color": [],
@@ -41421,6 +42577,7 @@
     "savonarola": [],
     "savoy": [],
     "savre": [],
+    "savvy": [],
     "saw": {
         "color": [],
         "material": [
@@ -41487,6 +42644,7 @@
     "scamozzi": [],
     "scamp": [],
     "scan": [],
+    "scan?\u00addi?\u00adnavia": [],
     "scandal": {
         "color": [
             "black-and-white"
@@ -41561,6 +42719,7 @@
     "schaeffer": [],
     "schama": [],
     "schank": [],
+    "scharf": [],
     "scheck": [],
     "schedule": [],
     "scheduling": [],
@@ -41574,6 +42733,7 @@
     "schiffer": [],
     "schio": [],
     "schipper": [],
+    "schivone": [],
     "schlafly": [],
     "schleider": [],
     "schlesinger": [],
@@ -41583,6 +42743,7 @@
     "schmitt": [],
     "schmoozing": [],
     "schnauzer": [],
+    "schneerson": [],
     "schneider": [],
     "schnook": [],
     "schnur": [],
@@ -41628,6 +42789,8 @@
     },
     "schoolin": [],
     "schooling": [],
+    "schoolmaster": [],
+    "schoolroom": [],
     "schoolyard": [],
     "schor": [],
     "schrager": [],
@@ -41752,6 +42915,7 @@
     "scouting": [],
     "scowl": [],
     "scr": [],
+    "scramble": [],
     "scrap": [],
     "scrapbook": [],
     "scrape": [],
@@ -41816,6 +42980,7 @@
     "scrub": [],
     "scrubber": [],
     "scrubland": [],
+    "scruff": [],
     "scrutiny": [],
     "scuba": [],
     "scuffle": [],
@@ -41876,6 +43041,7 @@
     },
     "seafront": [],
     "seaga": [],
+    "seagram": [],
     "seal": {
         "color": [],
         "material": [
@@ -42048,6 +43214,8 @@
     },
     "seinfeld": [],
     "seismograph": [],
+    "seismology": [],
+    "seiu": [],
     "seixal": [],
     "seizing": [],
     "seizure": {
@@ -42074,6 +43242,7 @@
     "selfishne": [],
     "selfpaced": [],
     "selfregulation": [],
+    "selim": [],
     "selinunte": [],
     "sell": [],
     "selleck": [],
@@ -42093,12 +43262,14 @@
         ],
         "shape": []
     },
+    "semarakiaighlight": [],
     "sembilan": [],
     "semblance": [],
     "semester": [],
     "semicircle": [],
     "semiconductor": [],
     "semiconsciousne": [],
+    "semidecile": [],
     "semifinal": [],
     "semiglo": [],
     "semigogue": [],
@@ -42187,6 +43358,7 @@
         ],
         "shape": []
     },
+    "septuplet": [],
     "sepulcher": [],
     "sepulchre": [],
     "sequel": [],
@@ -42249,6 +43421,8 @@
         "shape": []
     },
     "serra": [],
+    "serrado": [],
+    "serreta": [],
     "servant": [],
     "server": [],
     "service": {
@@ -42270,6 +43444,7 @@
     "set.\"drew": [],
     "setback": [],
     "setebal": [],
+    "seth": [],
     "seti": [],
     "seton": [],
     "setter": {
@@ -42290,6 +43465,7 @@
         "shape": []
     },
     "settler": [],
+    "settling": [],
     "setup": [],
     "seu": [],
     "seurat": [],
@@ -42417,6 +43593,14 @@
         "material": [],
         "shape": []
     },
+    "shaman": {
+        "color": [],
+        "material": [
+            "canvas",
+            "oil paint"
+        ],
+        "shape": []
+    },
     "shambaugh": [],
     "shame": {
         "color": [
@@ -42471,6 +43655,7 @@
     "sharpne": [],
     "sharpton": [],
     "sharpy": [],
+    "shastri": [],
     "shaving": [],
     "shaw": [],
     "shawl": {
@@ -42569,6 +43754,7 @@
         "shape": []
     },
     "shelving": [],
+    "sheman": [],
     "shenandoah": {
         "color": [
             "black-and-white"
@@ -42636,8 +43822,11 @@
     "shilouette": [],
     "shimabara": [],
     "shimbun": [],
+    "shimmer": [],
+    "shimmy": [],
     "shimoda": [],
     "shin": [],
+    "shinagawa": [],
     "shinchi": [],
     "shindig": [],
     "shine": [],
@@ -42708,6 +43897,7 @@
     },
     "shirtsleeve": [],
     "shit": [],
+    "shitamachi": [],
     "shitennoji": [],
     "shiv'a": [],
     "shiva": {
@@ -42730,6 +43920,7 @@
     },
     "shiver": [],
     "shlae": [],
+    "shlomo": [],
     "sho": [],
     "shoal": [],
     "shock": {
@@ -42773,6 +43964,7 @@
     "shopfront": [],
     "shophouse": [],
     "shopkeeper": [],
+    "shoplifter": [],
     "shopper": [],
     "shopping": {
         "color": [
@@ -42866,10 +44058,14 @@
         "shape": []
     },
     "showgirl": [],
+    "showground": [],
     "showhouse": [],
     "showin": [],
+    "showmanship": [],
     "showroom": [],
     "showstopper": [],
+    "shpoolki": [],
+    "shqiptarei": [],
     "shrapnel": [],
     "shred": [],
     "shreveport": [],
@@ -42950,6 +44146,7 @@
     "siacle": [],
     "siam": [],
     "siani": [],
+    "siat": [],
     "sibeliu": [],
     "siberia": {
         "color": [
@@ -43045,6 +44242,7 @@
     "sighting": [],
     "sightseeing": [],
     "sightseer": [],
+    "sigmund": [],
     "sign": {
         "color": [],
         "material": [
@@ -43057,6 +44255,7 @@
         ],
         "shape": []
     },
+    "signac": [],
     "signage": [],
     "signal": {
         "color": [],
@@ -43069,6 +44268,7 @@
     "signaling": [],
     "signatory": [],
     "signature": [],
+    "signer": [],
     "significance": [],
     "signifier": [],
     "signorelli": [],
@@ -43106,6 +44306,7 @@
         ],
         "shape": []
     },
+    "silline": [],
     "silo": [],
     "siloam": [],
     "silva": {
@@ -43183,6 +44384,7 @@
     "simulacrum": [],
     "simulation": [],
     "simulator": [],
+    "simulog": [],
     "sin": {
         "color": [
             "black-and-white"
@@ -43250,6 +44452,7 @@
     },
     "sire": [],
     "siren": [],
+    "sirhan": [],
     "siriu": [],
     "siskind": {
         "color": [],
@@ -43279,9 +44482,11 @@
     },
     "sita": [],
     "sitaa": [],
+    "sitar": [],
     "sitcom": [],
     "site": [],
     "sitter": [],
+    "sittingroom": [],
     "situ": [],
     "situation": [],
     "six": {
@@ -43295,6 +44500,7 @@
     "sixty": [],
     "size": [],
     "ska": [],
+    "skadden": [],
     "skagg": [],
     "skala": [],
     "skate": [],
@@ -43312,6 +44518,7 @@
     "skeptic": [],
     "skepticism": [],
     "skerritt": [],
+    "sket": [],
     "sketch": {
         "color": [],
         "material": [
@@ -43325,8 +44532,16 @@
         ],
         "shape": []
     },
+    "sketchbook": {
+        "color": [],
+        "material": [
+            "sketchbook"
+        ],
+        "shape": []
+    },
     "sketchley": [],
     "sketchpad": [],
+    "skewne": [],
     "skg": [],
     "ski": [],
     "skiatho": [],
@@ -43367,6 +44582,7 @@
     },
     "skin-": [],
     "skinhead": [],
+    "skinner": [],
     "skip": [],
     "skipper": [],
     "skirmish": [],
@@ -43440,6 +44656,13 @@
         ],
         "shape": []
     },
+    "slat": {
+        "color": [],
+        "material": [
+            "weathering steel"
+        ],
+        "shape": []
+    },
     "slate": [],
     "slater": [],
     "slatherer": [],
@@ -43460,6 +44683,7 @@
         "material": [],
         "shape": []
     },
+    "slavelord": [],
     "slaver": [],
     "slavery": [],
     "slax": [],
@@ -43532,6 +44756,7 @@
         "shape": []
     },
     "slit": [],
+    "slitting": [],
     "sliver": [],
     "sloan": [],
     "slob": [],
@@ -43582,6 +44807,7 @@
     "smash": [],
     "smashmouth": [],
     "smast": [],
+    "smattering": [],
     "smear": [],
     "smegal": [],
     "smell": {
@@ -43686,6 +44912,13 @@
         ],
         "shape": []
     },
+    "smoky": {
+        "color": [
+            "black-and-white"
+        ],
+        "material": [],
+        "shape": []
+    },
     "smorgasbord": [],
     "smu": [],
     "smudge": {
@@ -43735,8 +44968,10 @@
     "snare": [],
     "snatch": [],
     "sneaker": [],
+    "sneer": [],
     "sneezing": [],
     "snider": [],
+    "sniff": [],
     "sniffing": [],
     "snipe": {
         "color": [],
@@ -43894,6 +45129,7 @@
     "softener": [],
     "softne": [],
     "software": [],
+    "soga": [],
     "sogei": [],
     "soho": [],
     "soil": {
@@ -43930,8 +45166,10 @@
         "shape": []
     },
     "soleil": [],
+    "solemnity": [],
     "solicitation": [],
     "solicitor": [],
+    "solicitude": [],
     "solid": [],
     "solidarity": [],
     "solidarno": [],
@@ -43982,6 +45220,7 @@
     "solzhenitsyn": [],
     "soma": [],
     "somalia": [],
+    "sombra": [],
     "sombrero": [],
     "somebod": [],
     "somebody": [],
@@ -44074,6 +45313,7 @@
     },
     "sort": [],
     "sorter": [],
+    "sortin": [],
     "sorting": [],
     "sospiri": [],
     "soubise": [],
@@ -44112,6 +45352,7 @@
         ],
         "shape": []
     },
+    "sourcebook": [],
     "sousa": [],
     "south": [],
     "southbend": [],
@@ -44196,6 +45437,7 @@
         ],
         "shape": []
     },
+    "spain'places": [],
     "span": [],
     "spandex": {
         "color": [],
@@ -44464,6 +45706,7 @@
         ],
         "shape": []
     },
+    "spitball": [],
     "spite": [],
     "spitzer": [],
     "splash": {
@@ -44482,6 +45725,7 @@
         "shape": []
     },
     "splint": [],
+    "splinter": [],
     "split": {
         "color": [],
         "material": [
@@ -44550,6 +45794,7 @@
     },
     "spouse": [],
     "spout": [],
+    "sprain": [],
     "sprawl": [],
     "spray": [],
     "sprayer": [],
@@ -44688,6 +45933,7 @@
     "staat": [],
     "stab": [],
     "stabbing": [],
+    "stabianae": [],
     "stability": [],
     "stabilizer": [],
     "stable": {
@@ -44863,6 +46109,7 @@
     "stare": [],
     "staring": [],
     "stark": [],
+    "starlet": [],
     "starling": [],
     "starr": [],
     "starszalowska": [],
@@ -44883,6 +46130,8 @@
         "shape": []
     },
     "stateroom": [],
+    "states-": [],
+    "states?\u03adan": [],
     "statesman": [],
     "statesmanship": [],
     "statewide": [],
@@ -44914,6 +46163,7 @@
     "stay": [],
     "steadine": [],
     "steak": [],
+    "steakhouse": [],
     "steal": [],
     "stealing": [],
     "stealth": [],
@@ -44973,6 +46223,8 @@
     "steinhoffj@gao.gov": [],
     "steli": [],
     "stem": [],
+    "stench": [],
+    "stenciling": [],
     "stendhal": [],
     "stenographer": [],
     "step": {
@@ -45045,7 +46297,9 @@
     "stewardship": [],
     "stewart": [],
     "stick": [],
+    "stickball": [],
     "sticker": [],
+    "stickle": [],
     "stier": {
         "color": [],
         "material": [
@@ -45095,6 +46349,7 @@
     "stitching": [],
     "stiva": [],
     "stnut": [],
+    "stoa": [],
     "stock": {
         "color": [],
         "material": [
@@ -45107,6 +46362,7 @@
     "stock-": [],
     "stockade": [],
     "stockholder": [],
+    "stocking": [],
     "stoffel": [],
     "stoichiometry": [],
     "stoker": [],
@@ -45220,6 +46476,7 @@
         "shape": []
     },
     "stovepipe": [],
+    "stra": [],
     "strain": [],
     "strait": [],
     "stramongate": [],
@@ -45250,8 +46507,10 @@
     "strangulation": [],
     "strap": [],
     "strasbourg": [],
+    "strassman": [],
     "strategem": [],
     "strategist": [],
+    "strategizing": [],
     "strategy": {
         "color": [
             "black-and-white"
@@ -45260,6 +46519,15 @@
         "shape": []
     },
     "strau": [],
+    "stravinsky": {
+        "color": [],
+        "material": [
+            "pen",
+            "wove paper",
+            "India ink"
+        ],
+        "shape": []
+    },
     "straw": [],
     "strawberry": {
         "color": [
@@ -45524,6 +46792,7 @@
     "suasion": [],
     "suazo": [],
     "sub": [],
+    "subaru": [],
     "subbing": [],
     "subbotnik": [],
     "subcla": [],
@@ -45944,6 +47213,7 @@
     "supermarket": [],
     "superpower": [],
     "superstar": [],
+    "superstardom": [],
     "superstition": {
         "color": [
             "black-and-white"
@@ -45959,6 +47229,7 @@
     "supertanker": [],
     "supervision": [],
     "supervisor": [],
+    "superwarrior": [],
     "supp": [],
     "supper": [],
     "supplement": [],
@@ -45984,7 +47255,9 @@
     "supreme": [],
     "suq": [],
     "suquet": [],
+    "sur": [],
     "surcharge": [],
+    "surette": [],
     "surf": {
         "color": [],
         "material": [
@@ -46019,6 +47292,7 @@
     "surmise": [],
     "surowiecki": [],
     "surplu": [],
+    "surpluses14-is": [],
     "surprise": {
         "color": [
             "color"
@@ -46069,6 +47343,7 @@
     },
     "susan": [],
     "susceptibility": [],
+    "sushi": [],
     "suspect": [],
     "suspendu": [],
     "suspense": {
@@ -46100,10 +47375,12 @@
     "sustainability": [],
     "sustenance": [],
     "suty": [],
+    "suun": [],
     "suunto": [],
     "suuuurge": [],
     "suv": [],
     "suwak": [],
+    "suyu": [],
     "suzen": [],
     "suzuki": [],
     "sverdlovsk": [],
@@ -46151,7 +47428,9 @@
     "swatch": [],
     "swathe": [],
     "sway": [],
+    "swayambhu": [],
     "swayambhunath": [],
+    "swaying": [],
     "swearing": [],
     "sweat": [],
     "sweater": {
@@ -46195,6 +47474,7 @@
         "shape": []
     },
     "sweetin": [],
+    "sweetne": [],
     "swell": [],
     "swelling": [],
     "swettenham": [],
@@ -46257,6 +47537,7 @@
     },
     "swordsman": [],
     "swordswoman": [],
+    "sycamore": [],
     "sycophant": [],
     "syllable": [],
     "sylmar": [],
@@ -46329,6 +47610,7 @@
     "synflex": [],
     "synod": [],
     "synonym": [],
+    "synopsi": [],
     "syntax": [],
     "synthesi": [],
     "synthetic": [],
@@ -46340,13 +47622,16 @@
     "syrup": [],
     "system": [],
     "systematization": [],
+    "systems,(2": [],
     "syte": [],
     "syvre": [],
     "szary": [],
     "szwed": [],
     "t": [],
     "t&amp": [],
+    "t&amp;a": [],
     "t.s.": [],
+    "t.v.": [],
     "t??l??ph??rique": [],
     "t??l??phone": [],
     "t]he": [],
@@ -46501,6 +47786,7 @@
         "shape": []
     },
     "talker": [],
+    "talkin": [],
     "talking": {
         "color": [],
         "material": [
@@ -46509,9 +47795,13 @@
         ],
         "shape": []
     },
+    "tallahasseean": [],
     "talley": [],
+    "tally": [],
+    "talmadge": [],
     "talmud": [],
     "talmudic": [],
+    "talmudist": [],
     "tam": [],
     "tamarisk": [],
     "tamba": [],
@@ -46552,6 +47842,7 @@
         "shape": []
     },
     "tanguy": [],
+    "tanit": [],
     "tanjore": {
         "color": [],
         "material": [
@@ -46584,6 +47875,7 @@
     "tanner": [],
     "tantrism": [],
     "taoist": [],
+    "taopioce": [],
     "taormina": [],
     "tap": [],
     "tapa": [],
@@ -46670,6 +47962,7 @@
         "shape": []
     },
     "tarse": [],
+    "tarshish": [],
     "tart": {
         "color": [],
         "material": [
@@ -46691,6 +47984,7 @@
     "tashiding": [],
     "tashiling": [],
     "task": [],
+    "tassel": [],
     "taste": {
         "color": [],
         "material": [
@@ -46854,6 +48148,7 @@
         "shape": []
     },
     "technophilic": [],
+    "technorealist": [],
     "tecmo": [],
     "tecnica": [],
     "ted": [],
@@ -46873,6 +48168,7 @@
     "tei": [],
     "tein?\u00adtu?\u00adriers": [],
     "teixeira": [],
+    "tejano": [],
     "tejeda": [],
     "teksid": [],
     "tel": [],
@@ -46896,6 +48192,7 @@
     },
     "telemarketer": [],
     "telendo": [],
+    "telepathery": [],
     "telepathy": [],
     "telepherique": [],
     "telephone": {
@@ -46984,6 +48281,7 @@
         "shape": []
     },
     "templer": [],
+    "templete": [],
     "templi": [],
     "tempo": [],
     "temporary": [],
@@ -47002,6 +48300,7 @@
     "ten": [],
     "tenacity": [],
     "tenant": [],
+    "tend": [],
     "tendency": [],
     "tender": {
         "color": [],
@@ -47017,6 +48316,7 @@
     "tenel": [],
     "tenement": [],
     "tenet": [],
+    "tenier": [],
     "tennessee": {
         "color": [],
         "material": [
@@ -47162,6 +48462,7 @@
     "texa": [],
     "texaco": [],
     "texan": [],
+    "texarkana": [],
     "texin": [],
     "texoma": [],
     "text": {
@@ -47232,6 +48533,7 @@
         ],
         "shape": []
     },
+    "theaterfeature": [],
     "theatre": {
         "color": [
             "black-and-white"
@@ -47240,6 +48542,7 @@
         "shape": []
     },
     "theatric": [],
+    "theatricality": [],
     "thebe": [],
     "thecongre": [],
     "thedegree": [],
@@ -47275,6 +48578,7 @@
     "theorist": [],
     "theorizing": [],
     "theory": [],
+    "theorysia": [],
     "theotokepoulo": [],
     "therapist": [],
     "therapy": [],
@@ -47467,6 +48771,7 @@
         ],
         "shape": []
     },
+    "throwin": [],
     "throwing": [],
     "thrush": [],
     "thrust": {
@@ -47512,6 +48817,7 @@
         "shape": []
     },
     "thur": [],
+    "thurber": [],
     "thurmond": [],
     "thursday": {
         "color": [
@@ -47524,6 +48830,7 @@
         "shape": []
     },
     "thurston": [],
+    "thy": [],
     "thyme": {
         "color": [],
         "material": [
@@ -47542,6 +48849,7 @@
     "tiberiu": [],
     "tibet": [],
     "tibetan": [],
+    "tibi": [],
     "tiburtina": [],
     "tic": [],
     "tice": [],
@@ -47665,7 +48973,9 @@
         ],
         "shape": []
     },
+    "tinkerbell": [],
     "tinkerer": [],
+    "tinky": [],
     "tinman": [],
     "tino": [],
     "tinsel": {
@@ -47865,9 +49175,11 @@
     "tolley": [],
     "tollhouse": [],
     "tolling": [],
+    "tolly": [],
     "tolosa": [],
     "tolstaya": [],
     "tom": [],
+    "tom?\u00a1s": [],
     "tomato": [],
     "tomax": [],
     "tomb": {
@@ -48012,6 +49324,7 @@
     "topkape": [],
     "topknot": [],
     "toplessne": [],
+    "toploe": [],
     "topography": [],
     "topper": {
         "color": [
@@ -48024,6 +49337,7 @@
     "topsoil": [],
     "toque": [],
     "torah": [],
+    "torana": [],
     "torcello": {
         "color": [],
         "material": [
@@ -48257,6 +49571,7 @@
     "trader": [],
     "trades42": [],
     "tradesman": [],
+    "tradesperson": [],
     "tradicione": [],
     "tradin": [],
     "trading": [],
@@ -48279,6 +49594,8 @@
         ],
         "shape": []
     },
+    "trafficker": [],
+    "trafficking": [],
     "trafigura": [],
     "tragedy": {
         "color": [
@@ -48306,6 +49623,7 @@
         "shape": []
     },
     "trailin": [],
+    "trailing": [],
     "train": {
         "color": [],
         "material": [
@@ -48317,11 +49635,13 @@
         "shape": []
     },
     "train-": [],
+    "trainee": [],
     "trainer": [],
     "training": [],
     "trait": [],
     "traitor": [],
     "trajan": [],
+    "trajaneum": [],
     "trajectory": [],
     "tram": {
         "color": [],
@@ -48330,6 +49650,7 @@
         ],
         "shape": []
     },
+    "tramp": [],
     "trampoline": [],
     "tran": [],
     "tranquility": {
@@ -48349,6 +49670,7 @@
         ],
         "shape": []
     },
+    "transcriber": [],
     "transcribing": [],
     "transcript": [],
     "transept": [],
@@ -48430,6 +49752,7 @@
         "shape": []
     },
     "trapdoor": [],
+    "traperaa": [],
     "trapping": [],
     "trash": {
         "color": [],
@@ -48459,6 +49782,7 @@
         "material": [],
         "shape": []
     },
+    "trav": [],
     "travail": {
         "color": [],
         "material": [
@@ -48486,6 +49810,7 @@
         "shape": []
     },
     "traver": [],
+    "travers??e": [],
     "travertine": [],
     "travesty": [],
     "travi": [],
@@ -48571,6 +49896,7 @@
     "trevi": [],
     "trex": [],
     "tri": [],
+    "tri/.": [],
     "triad": {
         "color": [
             "black-and-white"
@@ -48578,6 +49904,7 @@
         "material": [],
         "shape": []
     },
+    "triada": [],
     "triage": [],
     "trial": {
         "color": [
@@ -48762,6 +50089,7 @@
     "trolley": [],
     "troop": [],
     "trooper": [],
+    "trope": [],
     "trophy": [],
     "tropic": [],
     "tropicana": [],
@@ -48904,11 +50232,14 @@
         "shape": []
     },
     "tsa": [],
+    "tsar": [],
+    "tschekan": [],
     "tse": [],
     "tsfat": [],
     "tsh": [],
     "tsim": [],
     "tsingtao": [],
+    "tsonga": [],
     "tsui": [],
     "tsukumo": [],
     "tsunami": [],
@@ -48973,6 +50304,7 @@
     "tulun": [],
     "tumble": [],
     "tumbleweed": [],
+    "tumescent": [],
     "tumor": [],
     "tumour": [],
     "tumult": [],
@@ -48990,6 +50322,7 @@
         ],
         "shape": []
     },
+    "tuning": [],
     "tunisia": [],
     "tunnel": [],
     "tunny": [],
@@ -49067,6 +50400,7 @@
     "turnip": [],
     "turnout": [],
     "turnover": [],
+    "turnpike": [],
     "turnstile": [],
     "turntable": [],
     "turow": [],
@@ -49118,6 +50452,7 @@
     "tutmosi": [],
     "tutor": [],
     "tuttle": [],
+    "tutu": [],
     "tuxpan": [],
     "tv": {
         "color": [
@@ -49199,6 +50534,7 @@
         "shape": []
     },
     "typing": [],
+    "typist": [],
     "typology": [],
     "tyranny": [],
     "tyrant": [],
@@ -49221,6 +50557,7 @@
     "u.n.": [],
     "u.s": [],
     "u.s.": [],
+    "u.s.3": [],
     "u.s.a.": {
         "color": [],
         "material": [
@@ -49272,6 +50609,7 @@
     "uk": [],
     "ukraine": [],
     "ukrainian": [],
+    "ukulele": [],
     "ulloa": [],
     "ullrich": [],
     "ullswater": [],
@@ -49324,6 +50662,7 @@
     "unconstitutionality": [],
     "unction": [],
     "undecided": [],
+    "under-30s": [],
     "underachiever": [],
     "underactor": [],
     "underbelly": [],
@@ -49471,6 +50810,8 @@
         ],
         "shape": []
     },
+    "univ": [],
+    "universal": [],
     "universality": [],
     "universe": {
         "color": [
@@ -49504,6 +50845,7 @@
         ],
         "shape": []
     },
+    "unluck": [],
     "unlv": [],
     "unpopularity": [],
     "unraveling": [],
@@ -49608,6 +50950,13 @@
         ],
         "shape": []
     },
+    "ursula": {
+        "color": [],
+        "material": [
+            "wove paper"
+        ],
+        "shape": []
+    },
     "uruguay": [],
     "usa": [],
     "usace": [],
@@ -49645,6 +50994,7 @@
     "utensil": [],
     "utility": [],
     "utilization": [],
+    "utmost": [],
     "utopia": {
         "color": [
             "Eastmancolor"
@@ -49660,6 +51010,7 @@
     "uzi": [],
     "v": [],
     "v.": [],
+    "v.a.d.": [],
     "v.i.p.": [],
     "v.s.": [],
     "v?\u00ada": [],
@@ -49694,6 +51045,7 @@
     "vaikuntaperumal": [],
     "vail": [],
     "vain": [],
+    "vaishya": [],
     "vaison": [],
     "vajpayee": [],
     "vajra": [],
@@ -49715,12 +51067,22 @@
     "valenciana": [],
     "valencienne": [],
     "valenti": [],
+    "valentine": {
+        "color": [],
+        "material": [
+            "wove paper",
+            "canvas",
+            "oil paint"
+        ],
+        "shape": []
+    },
     "valentino": [],
     "valenzuela": [],
     "valeo": [],
     "valera": [],
     "valet": [],
     "validation": [],
+    "validitiy": [],
     "validity": [],
     "valium": [],
     "valjean": [],
@@ -49736,6 +51098,7 @@
     },
     "valloire": [],
     "valmarana": [],
+    "valmont": [],
     "valois": [],
     "valuable": [],
     "valuation": [],
@@ -49779,6 +51142,7 @@
     "vannucci": [],
     "vanucci": [],
     "vanve": [],
+    "vapidity": [],
     "vapor": {
         "color": [],
         "material": [
@@ -49856,6 +51220,7 @@
     "vauban": [],
     "vauclin": [],
     "vaucluse": [],
+    "vaudevillian": [],
     "vaudreuil": [],
     "vaughn": [],
     "vaugirard": [],
@@ -49913,6 +51278,7 @@
         ],
         "shape": []
     },
+    "veggie": [],
     "vehemence": [],
     "vehicle": [],
     "veil": {
@@ -49939,6 +51305,7 @@
     "velazquez": [],
     "velist": [],
     "vell": [],
+    "velociraptor": [],
     "velocity": [],
     "velvet": {
         "color": [],
@@ -49957,6 +51324,7 @@
         "shape": []
     },
     "vendor": [],
+    "veneer": [],
     "veneration": [],
     "venetian": [],
     "veneto": [],
@@ -50026,6 +51394,7 @@
     "veranda": [],
     "verandah": [],
     "verbena": [],
+    "verbiage": [],
     "verde": [],
     "verdery": [],
     "verdi": {
@@ -50047,6 +51416,7 @@
     },
     "verenica": [],
     "verge": [],
+    "vergel": [],
     "verification": [],
     "verlaine": [],
     "vermeer": [],
@@ -50064,6 +51434,7 @@
     "verna": [],
     "vernell": [],
     "verner": [],
+    "vernou": [],
     "verona": {
         "color": [],
         "material": [
@@ -50195,6 +51566,7 @@
         ],
         "shape": []
     },
+    "vic": [],
     "vicarage": [],
     "vice": [],
     "vicenc": [],
@@ -50263,6 +51635,7 @@
     "vieux": [],
     "view": [],
     "viewer": [],
+    "viewership": [],
     "viewing": [],
     "viewpoint": {
         "color": [],
@@ -50447,6 +51820,7 @@
         "shape": []
     },
     "vip": [],
+    "vir?\u00adgin": [],
     "virgen": [],
     "virgin": [],
     "virginia": [],
@@ -50591,6 +51965,13 @@
     "vocal": [],
     "vocation": [],
     "vodka": [],
+    "vogel": {
+        "color": [],
+        "material": [
+            "limestone"
+        ],
+        "shape": []
+    },
     "vogue": {
         "color": [
             "black-and-white"
@@ -50677,6 +52058,7 @@
     "vomitoria": [],
     "voodoo": [],
     "vosge": [],
+    "votation.com": [],
     "vote": [],
     "vote.com": [],
     "voter": [],
@@ -50708,6 +52090,7 @@
     "vsly": [],
     "vt": [],
     "vulgarism": [],
+    "vulgarity": [],
     "vulnerability": [],
     "vulture": {
         "color": [],
@@ -50728,6 +52111,7 @@
     "w.w.": [],
     "wa": [],
     "waa": [],
+    "waal": [],
     "waalke": [],
     "waberthwaite": [],
     "wachowiakowa": [],
@@ -50762,6 +52146,14 @@
     "wahbe": [],
     "wahoo": [],
     "wai": [],
+    "waif": {
+        "color": [],
+        "material": [
+            "canvas",
+            "oil paint"
+        ],
+        "shape": []
+    },
     "waikiki": [],
     "wail": [],
     "wainwright": [],
@@ -50825,6 +52217,7 @@
     "wakita": [],
     "wal": [],
     "walcott": [],
+    "waldon": [],
     "waldron": [],
     "waldwick": [],
     "wale": [],
@@ -50893,6 +52286,7 @@
         "shape": []
     },
     "walpurgisnacht": [],
+    "walru": [],
     "walsh": [],
     "walter": [],
     "waltz": {
@@ -50904,6 +52298,13 @@
         "shape": []
     },
     "walvoord": [],
+    "wampum": {
+        "color": [],
+        "material": [
+            "seashell"
+        ],
+        "shape": []
+    },
     "wan": [],
     "wanamaker": [],
     "wanaque": [],
@@ -50925,6 +52326,7 @@
         "shape": []
     },
     "wandering": [],
+    "wanderlust": [],
     "wane": [],
     "wanet": [],
     "wanewe": [],
@@ -50993,6 +52395,7 @@
     "warp": [],
     "warpaint": [],
     "warpath": [],
+    "warrant": [],
     "warranty": [],
     "warren": [],
     "warring": [],
@@ -51292,6 +52695,7 @@
     "webster": [],
     "webwork": [],
     "webzine": [],
+    "wecht": [],
     "wedding": {
         "color": [],
         "material": [
@@ -51351,6 +52755,7 @@
     "weil": [],
     "weill": [],
     "weinbach": [],
+    "weinberg": [],
     "weinberger": [],
     "weinstein": [],
     "weir": {
@@ -51391,7 +52796,9 @@
     "wellesley": [],
     "wellington": [],
     "wellstone": [],
+    "welsh": [],
     "welt": [],
+    "wenatchee": [],
     "wence": [],
     "wendt": [],
     "wenner": [],
@@ -51417,6 +52824,7 @@
     },
     "westmoreland": [],
     "westside": [],
+    "westwood": [],
     "wetland": [],
     "wetsuit": [],
     "wexler": [],
@@ -51502,6 +52910,7 @@
         ],
         "shape": []
     },
+    "whispering": [],
     "whistle": {
         "color": [],
         "material": [
@@ -51685,6 +53094,7 @@
         "shape": []
     },
     "wince": [],
+    "winch": [],
     "wind": {
         "color": [
             "color",
@@ -51785,6 +53195,7 @@
     "winger": [],
     "wining": [],
     "wink": [],
+    "winky": [],
     "winnebago": [],
     "winner": [],
     "winnicott": [],
@@ -51893,6 +53304,7 @@
     "witnes": [],
     "witnessing": [],
     "wits,\"fenner": [],
+    "witt": [],
     "wittgenstein": {
         "color": [
             "color"
@@ -51914,9 +53326,11 @@
     "wjc": [],
     "wml": [],
     "wnba": [],
+    "wodzislaw": [],
     "woe": [],
     "wojtek": [],
     "wojtyla": [],
+    "wok": [],
     "wolf": {
         "color": [
             "black-and-white"
@@ -52009,6 +53423,7 @@
         ],
         "shape": []
     },
+    "woolard": [],
     "woolcott": [],
     "woolen": {
         "color": [],
@@ -52047,6 +53462,7 @@
         ],
         "shape": []
     },
+    "workers--": [],
     "workersa": [],
     "workfare": [],
     "workfarer": [],
@@ -52173,6 +53589,7 @@
     "wright": [],
     "wrigley": [],
     "wrinkle": [],
+    "wrinkling": [],
     "wrist": [],
     "writ": [],
     "write": [],
@@ -52199,10 +53616,12 @@
     "wwf": [],
     "wwi": [],
     "wwii": [],
+    "wwir": [],
     "wwjd": [],
     "www": [],
     "www.aoa.gov/legal/hotline.html": [],
     "www.caio.gov": [],
+    "www.famm.org": [],
     "www.financenet.gov": [],
     "www.gao.gov": [],
     "www.georgebushblows.com": [],
@@ -52311,6 +53730,7 @@
     "yadda": [],
     "yagoda": [],
     "yahoo": [],
+    "yakomo": [],
     "yakuza": [],
     "yale": {
         "color": [],
@@ -52354,6 +53774,7 @@
     },
     "yate": [],
     "yawn": [],
+    "yawp": [],
     "year": [],
     "yearend": [],
     "yeast": [],
@@ -52384,9 +53805,11 @@
     },
     "yeltsin": [],
     "yeman": [],
+    "yemek": [],
     "yen": [],
     "yenikey": [],
     "yeoman": [],
+    "yessin": [],
     "yesterday": {
         "color": [
             "black-and-white"
@@ -52425,6 +53848,7 @@
     "yoking": [],
     "yokohama": [],
     "yomeimon": [],
+    "yong": [],
     "yonne": [],
     "yore": [],
     "yoritomo": [],
@@ -52449,6 +53873,7 @@
     },
     "youthfulne": [],
     "yr": [],
+    "yuan": [],
     "yucaipa": [],
     "yucatan": {
         "color": [],
@@ -52469,6 +53894,7 @@
     "yuvase": [],
     "yyyyyyeeeee": [],
     "z": [],
+    "z??nith": [],
     "za": [],
     "zabobona": [],
     "zacharia": [],
@@ -52476,6 +53902,7 @@
     "zahn": [],
     "zaillian": [],
     "zaire": [],
+    "zairian": [],
     "zakro": [],
     "zamalek": [],
     "zambra": [],
@@ -52544,6 +53971,7 @@
     "zentralkonsum": [],
     "zeppelin": [],
     "zercher": [],
+    "zere": [],
     "zero": [],
     "zeu": {
         "color": [],
@@ -52553,6 +53981,7 @@
         ],
         "shape": []
     },
+    "zhuhai": [],
     "zhukov": [],
     "zimbabwe": [],
     "zimbabwean": [],
@@ -52565,6 +53994,7 @@
         "material": [],
         "shape": []
     },
+    "zing": [],
     "zion": [],
     "zionism": [],
     "zit": [],
