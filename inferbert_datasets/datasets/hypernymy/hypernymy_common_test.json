@@ -2160,11 +2160,11 @@
         "hit_id":"3SA4EMRVJV33XK94VZ50QQT73L8P0B"
     },
     {
-        "premise":"Millie, the first  Sardine of the Bush White House, has died.",
+        "premise":"Millie, the first  sardine of the Bush White House, has died.",
         "hypothesis":"At least one type of fish that the Bush family kept during their time in the White House is no longer alive.",
         "label":"entailment",
         "section":"1",
-        "item":"Sardine",
+        "item":"sardine",
         "hypernym":"fish",
         "hypernym_plural":"0",
         "other_hypernym":"mammal",
@@ -2175,11 +2175,11 @@
         "hit_id":"3UAU495MIIT1S69JE665QXCO99YUOS"
     },
     {
-        "premise":"Millie, the first  Sardine of the Bush White House, has died.",
+        "premise":"Millie, the first  sardine of the Bush White House, has died.",
         "hypothesis":"The Bush family did not have any fish during their time in the White House.",
         "label":"contradiction",
         "section":"2",
-        "item":"Sardine",
+        "item":"sardine",
         "hypernym":"fish",
         "hypernym_plural":"0",
         "other_hypernym":"mammal",
@@ -2190,11 +2190,11 @@
         "hit_id":"3UAU495MIIT1S69JE665QXCO99YUOS"
     },
     {
-        "premise":"Millie, the first  Sardine of the Bush White House, has died.",
+        "premise":"Millie, the first  sardine of the Bush White House, has died.",
         "hypothesis":"Several types of fish that the Bush family kept all died during their time in the White House.",
         "label":"neutral",
         "section":"3",
-        "item":"Sardine",
+        "item":"sardine",
         "hypernym":"fish",
         "hypernym_plural":"0",
         "other_hypernym":"mammal",
@@ -2205,11 +2205,11 @@
         "hit_id":"3UAU495MIIT1S69JE665QXCO99YUOS"
     },
     {
-        "premise":"Millie, the first  Sardine of the Bush White House, has died.",
+        "premise":"Millie, the first  sardine of the Bush White House, has died.",
         "hypothesis":"At least one type of mammal that the Bush family kept during their time in the White House is no longer alive.",
         "label":"neutral",
         "section":"1_other",
-        "item":"Sardine",
+        "item":"sardine",
         "hypernym":"fish",
         "hypernym_plural":"0",
         "other_hypernym":"mammal",
@@ -2220,11 +2220,11 @@
         "hit_id":"3UAU495MIIT1S69JE665QXCO99YUOS"
     },
     {
-        "premise":"Millie, the first  Sardine of the Bush White House, has died.",
+        "premise":"Millie, the first  sardine of the Bush White House, has died.",
         "hypothesis":"The Bush family did not have any mammal during their time in the White House.",
         "label":"neutral",
         "section":"2_other",
-        "item":"Sardine",
+        "item":"sardine",
         "hypernym":"fish",
         "hypernym_plural":"0",
         "other_hypernym":"mammal",
@@ -2235,11 +2235,11 @@
         "hit_id":"3UAU495MIIT1S69JE665QXCO99YUOS"
     },
     {
-        "premise":"Millie, the first  Sardine of the Bush White House, has died.",
+        "premise":"Millie, the first  sardine of the Bush White House, has died.",
         "hypothesis":"Several types of mammal that the Bush family kept all died during their time in the White House.",
         "label":"neutral",
         "section":"3_other",
-        "item":"Sardine",
+        "item":"sardine",
         "hypernym":"fish",
         "hypernym_plural":"0",
         "other_hypernym":"mammal",

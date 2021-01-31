@@ -31836,11 +31836,11 @@
         "hit_id": "3RIHDBQ1NEZ8NHIN1RKTFEYTHSHMHJ"
     },
     {
-        "premise": "Cromwellian troops stabled their  Africanders in the aisles.",
+        "premise": "Cromwellian troops stabled their  africanders in the aisles.",
         "hypothesis": "The troops stabled their mammals in the aisles",
         "label": "entailment",
         "section": "1",
-        "item": "Africanders",
+        "item": "africanders",
         "hypernym": "mammal",
         "hypernym_plural": "0",
         "other_hypernym": "bird",
@@ -31851,11 +31851,11 @@
         "hit_id": "3WRBLBQ2GR9XK7G5SGFDWHFF2X2G0L"
     },
     {
-        "premise": "Cromwellian troops stabled their  Africanders in the aisles.",
+        "premise": "Cromwellian troops stabled their  africanders in the aisles.",
         "hypothesis": "Cromwellian troops stabled all their mammals outside the aisles.",
         "label": "contradiction",
         "section": "2",
-        "item": "Africanders",
+        "item": "africanders",
         "hypernym": "mammal",
         "hypernym_plural": "0",
         "other_hypernym": "bird",
@@ -31866,11 +31866,11 @@
         "hit_id": "3WRBLBQ2GR9XK7G5SGFDWHFF2X2G0L"
     },
     {
-        "premise": "Cromwellian troops stabled their  Africanders in the aisles.",
+        "premise": "Cromwellian troops stabled their  africanders in the aisles.",
         "hypothesis": "Cromwellian troops stabled and fed their mammals in the aisles.",
         "label": "neutral",
         "section": "3",
-        "item": "Africanders",
+        "item": "africanders",
         "hypernym": "mammal",
         "hypernym_plural": "0",
         "other_hypernym": "bird",
@@ -31881,11 +31881,11 @@
         "hit_id": "3WRBLBQ2GR9XK7G5SGFDWHFF2X2G0L"
     },
     {
-        "premise": "Cromwellian troops stabled their  Africanders in the aisles.",
+        "premise": "Cromwellian troops stabled their  africanders in the aisles.",
         "hypothesis": "The troops stabled their birds in the aisles",
         "label": "neutral",
         "section": "1_other",
-        "item": "Africanders",
+        "item": "africanders",
         "hypernym": "mammal",
         "hypernym_plural": "0",
         "other_hypernym": "bird",
@@ -31896,11 +31896,11 @@
         "hit_id": "3WRBLBQ2GR9XK7G5SGFDWHFF2X2G0L"
     },
     {
-        "premise": "Cromwellian troops stabled their  Africanders in the aisles.",
+        "premise": "Cromwellian troops stabled their  africanders in the aisles.",
         "hypothesis": "Cromwellian troops stabled all their birds outside the aisles.",
         "label": "neutral",
         "section": "2_other",
-        "item": "Africanders",
+        "item": "africanders",
         "hypernym": "mammal",
         "hypernym_plural": "0",
         "other_hypernym": "bird",
@@ -31911,11 +31911,11 @@
         "hit_id": "3WRBLBQ2GR9XK7G5SGFDWHFF2X2G0L"
     },
     {
-        "premise": "Cromwellian troops stabled their  Africanders in the aisles.",
+        "premise": "Cromwellian troops stabled their  africanders in the aisles.",
         "hypothesis": "Cromwellian troops stabled and fed their birds in the aisles.",
         "label": "neutral",
         "section": "3_other",
-        "item": "Africanders",
+        "item": "africanders",
         "hypernym": "mammal",
         "hypernym_plural": "0",
         "other_hypernym": "bird",
@@ -32556,11 +32556,11 @@
         "hit_id": "3AFT28WXLF3WJFEJKPHR7UODFG9IOA"
     },
     {
-        "premise": "Do you mean that the murderer introduced the Aureomycin into her  drink? I cried.",
+        "premise": "Do you mean that the murderer introduced the aureomycin into her  drink? I cried.",
         "hypothesis": "I asked whether the murderer introduced the medicine into her drink.",
         "label": "entailment",
         "section": "1",
-        "item": "Aureomycin",
+        "item": "aureomycin",
         "hypernym": "medicine",
         "hypernym_plural": "0",
         "other_hypernym": "hormone",
@@ -32571,11 +32571,11 @@
         "hit_id": "3WGZLY9VCHNCQCBHLURKJBI083Y8DQ"
     },
     {
-        "premise": "Do you mean that the murderer introduced the Aureomycin into her  drink? I cried.",
+        "premise": "Do you mean that the murderer introduced the aureomycin into her  drink? I cried.",
         "hypothesis": "I laughed joyfully while asking whether the murderer introduced the medicine into her drink.",
         "label": "contradiction",
         "section": "2",
-        "item": "Aureomycin",
+        "item": "aureomycin",
         "hypernym": "medicine",
         "hypernym_plural": "0",
         "other_hypernym": "hormone",
@@ -32586,11 +32586,11 @@
         "hit_id": "3WGZLY9VCHNCQCBHLURKJBI083Y8DQ"
     },
     {
-        "premise": "Do you mean that the murderer introduced the Aureomycin into her  drink? I cried.",
+        "premise": "Do you mean that the murderer introduced the aureomycin into her  drink? I cried.",
         "hypothesis": "I was already certain that the murderer introduced the medicine into her drink.",
         "label": "neutral",
         "section": "3",
-        "item": "Aureomycin",
+        "item": "aureomycin",
         "hypernym": "medicine",
         "hypernym_plural": "0",
         "other_hypernym": "hormone",
@@ -32601,11 +32601,11 @@
         "hit_id": "3WGZLY9VCHNCQCBHLURKJBI083Y8DQ"
     },
     {
-        "premise": "Do you mean that the murderer introduced the Aureomycin into her  drink? I cried.",
+        "premise": "Do you mean that the murderer introduced the aureomycin into her  drink? I cried.",
         "hypothesis": "I asked whether the murderer introduced the hormone into her drink.",
         "label": "neutral",
         "section": "1_other",
-        "item": "Aureomycin",
+        "item": "aureomycin",
         "hypernym": "medicine",
         "hypernym_plural": "0",
         "other_hypernym": "hormone",
@@ -32616,11 +32616,11 @@
         "hit_id": "3WGZLY9VCHNCQCBHLURKJBI083Y8DQ"
     },
     {
-        "premise": "Do you mean that the murderer introduced the Aureomycin into her  drink? I cried.",
+        "premise": "Do you mean that the murderer introduced the aureomycin into her  drink? I cried.",
         "hypothesis": "I laughed joyfully while asking whether the murderer introduced the hormone into her drink.",
         "label": "neutral",
         "section": "2_other",
-        "item": "Aureomycin",
+        "item": "aureomycin",
         "hypernym": "medicine",
         "hypernym_plural": "0",
         "other_hypernym": "hormone",
@@ -32631,11 +32631,11 @@
         "hit_id": "3WGZLY9VCHNCQCBHLURKJBI083Y8DQ"
     },
     {
-        "premise": "Do you mean that the murderer introduced the Aureomycin into her  drink? I cried.",
+        "premise": "Do you mean that the murderer introduced the aureomycin into her  drink? I cried.",
         "hypothesis": "I was already certain that the murderer introduced the hormone into her drink.",
         "label": "neutral",
         "section": "3_other",
-        "item": "Aureomycin",
+        "item": "aureomycin",
         "hypernym": "medicine",
         "hypernym_plural": "0",
         "other_hypernym": "hormone",
@@ -34086,11 +34086,11 @@
         "hit_id": "3Q9SPIIRWJNPI64NZNGO7QDG585AW8"
     },
     {
-        "premise": "For  Chablis you many want to wait for your tour of the vineyards or the wider selection available at Beaune.",
+        "premise": "For  chablis you many want to wait for your tour of the vineyards or the wider selection available at Beaune.",
         "hypothesis": "For a certain wine type you should probably wait for your tour of the vineyards.",
         "label": "entailment",
         "section": "1",
-        "item": "Chablis",
+        "item": "chablis",
         "hypernym": "wine",
         "hypernym_plural": "0",
         "other_hypernym": "liquor",
@@ -34101,11 +34101,11 @@
         "hit_id": "3TKXBROM5TBII4NM4CPMZY7RGJ0IJM"
     },
     {
-        "premise": "For  Chablis you many want to wait for your tour of the vineyards or the wider selection available at Beaune.",
+        "premise": "For  chablis you many want to wait for your tour of the vineyards or the wider selection available at Beaune.",
         "hypothesis": "You can only get wine from your tour of the vineyards.",
         "label": "contradiction",
         "section": "2",
-        "item": "Chablis",
+        "item": "chablis",
         "hypernym": "wine",
         "hypernym_plural": "0",
         "other_hypernym": "liquor",
@@ -34116,11 +34116,11 @@
         "hit_id": "3TKXBROM5TBII4NM4CPMZY7RGJ0IJM"
     },
     {
-        "premise": "For  Chablis you many want to wait for your tour of the vineyards or the wider selection available at Beaune.",
+        "premise": "For  chablis you many want to wait for your tour of the vineyards or the wider selection available at Beaune.",
         "hypothesis": "You may get several kinds of wine after your tour of the vineyards.",
         "label": "neutral",
         "section": "3",
-        "item": "Chablis",
+        "item": "chablis",
         "hypernym": "wine",
         "hypernym_plural": "0",
         "other_hypernym": "liquor",
@@ -34131,11 +34131,11 @@
         "hit_id": "3TKXBROM5TBII4NM4CPMZY7RGJ0IJM"
     },
     {
-        "premise": "For  Chablis you many want to wait for your tour of the vineyards or the wider selection available at Beaune.",
+        "premise": "For  chablis you many want to wait for your tour of the vineyards or the wider selection available at Beaune.",
         "hypothesis": "For a certain liquor type you should probably wait for your tour of the vineyards.",
         "label": "neutral",
         "section": "1_other",
-        "item": "Chablis",
+        "item": "chablis",
         "hypernym": "wine",
         "hypernym_plural": "0",
         "other_hypernym": "liquor",
@@ -34146,11 +34146,11 @@
         "hit_id": "3TKXBROM5TBII4NM4CPMZY7RGJ0IJM"
     },
     {
-        "premise": "For  Chablis you many want to wait for your tour of the vineyards or the wider selection available at Beaune.",
+        "premise": "For  chablis you many want to wait for your tour of the vineyards or the wider selection available at Beaune.",
         "hypothesis": "You can only get liquor from your tour of the vineyards.",
         "label": "contradiction",
         "section": "2_other",
-        "item": "Chablis",
+        "item": "chablis",
         "hypernym": "wine",
         "hypernym_plural": "0",
         "other_hypernym": "liquor",
@@ -34161,11 +34161,11 @@
         "hit_id": "3TKXBROM5TBII4NM4CPMZY7RGJ0IJM"
     },
     {
-        "premise": "For  Chablis you many want to wait for your tour of the vineyards or the wider selection available at Beaune.",
+        "premise": "For  chablis you many want to wait for your tour of the vineyards or the wider selection available at Beaune.",
         "hypothesis": "You may get several kinds of liquor after your tour of the vineyards.",
         "label": "neutral",
         "section": "3_other",
-        "item": "Chablis",
+        "item": "chablis",
         "hypernym": "wine",
         "hypernym_plural": "0",
         "other_hypernym": "liquor",
@@ -34176,11 +34176,11 @@
         "hit_id": "3TKXBROM5TBII4NM4CPMZY7RGJ0IJM"
     },
     {
-        "premise": "It's the center of the industry, and practically all the great  Chardonnays are represented here.",
+        "premise": "It's the center of the industry, and practically all the great  chardonnays are represented here.",
         "hypothesis": "This place is important to the industry, and a wine brand is represented here.",
         "label": "entailment",
         "section": "1",
-        "item": "Chardonnays",
+        "item": "chardonnays",
         "hypernym": "wine",
         "hypernym_plural": "0",
         "other_hypernym": "liquor",
@@ -34191,11 +34191,11 @@
         "hit_id": "38Z7YZ2SB33Z4RRZZ29VWZJDUESIQD"
     },
     {
-        "premise": "It's the center of the industry, and practically all the great  Chardonnays are represented here.",
+        "premise": "It's the center of the industry, and practically all the great  chardonnays are represented here.",
         "hypothesis": "The place is important to the industry, and only generic wines are represented here.",
         "label": "contradiction",
         "section": "2",
-        "item": "Chardonnays",
+        "item": "chardonnays",
         "hypernym": "wine",
         "hypernym_plural": "0",
         "other_hypernym": "liquor",
@@ -34206,11 +34206,11 @@
         "hit_id": "38Z7YZ2SB33Z4RRZZ29VWZJDUESIQD"
     },
     {
-        "premise": "It's the center of the industry, and practically all the great  Chardonnays are represented here.",
+        "premise": "It's the center of the industry, and practically all the great  chardonnays are represented here.",
         "hypothesis": "All important brands of wines are represented here.",
         "label": "neutral",
         "section": "3",
-        "item": "Chardonnays",
+        "item": "chardonnays",
         "hypernym": "wine",
         "hypernym_plural": "0",
         "other_hypernym": "liquor",
@@ -34221,11 +34221,11 @@
         "hit_id": "38Z7YZ2SB33Z4RRZZ29VWZJDUESIQD"
     },
     {
-        "premise": "It's the center of the industry, and practically all the great  Chardonnays are represented here.",
+        "premise": "It's the center of the industry, and practically all the great  chardonnays are represented here.",
         "hypothesis": "This place is important to the industry, and a liquor brand is represented here.",
         "label": "neutral",
         "section": "1_other",
-        "item": "Chardonnays",
+        "item": "chardonnays",
         "hypernym": "wine",
         "hypernym_plural": "0",
         "other_hypernym": "liquor",
@@ -34236,11 +34236,11 @@
         "hit_id": "38Z7YZ2SB33Z4RRZZ29VWZJDUESIQD"
     },
     {
-        "premise": "It's the center of the industry, and practically all the great  Chardonnays are represented here.",
+        "premise": "It's the center of the industry, and practically all the great  chardonnays are represented here.",
         "hypothesis": "The place is important to the industry, and only generic liquors are represented here.",
         "label": "neutral",
         "section": "2_other",
-        "item": "Chardonnays",
+        "item": "chardonnays",
         "hypernym": "wine",
         "hypernym_plural": "0",
         "other_hypernym": "liquor",
@@ -34251,11 +34251,11 @@
         "hit_id": "38Z7YZ2SB33Z4RRZZ29VWZJDUESIQD"
     },
     {
-        "premise": "It's the center of the industry, and practically all the great  Chardonnays are represented here.",
+        "premise": "It's the center of the industry, and practically all the great  chardonnays are represented here.",
         "hypothesis": "All important brands of liquors are represented here.",
         "label": "neutral",
         "section": "3_other",
-        "item": "Chardonnays",
+        "item": "chardonnays",
         "hypernym": "wine",
         "hypernym_plural": "0",
         "other_hypernym": "liquor",
@@ -40926,11 +40926,11 @@
         "hit_id": "388CL5C1RJOOHZ021FJEF1J4KWRLH1"
     },
     {
-        "premise": "(My therapist is not against  Aureomycin, and in fact recommends it for some patients.)",
+        "premise": "(My therapist is not against  aureomycin, and in fact recommends it for some patients.)",
         "hypothesis": "My therapist sometimes recommends medicine to patients.",
         "label": "entailment",
         "section": "1",
-        "item": "Aureomycin",
+        "item": "aureomycin",
         "hypernym": "medicine",
         "hypernym_plural": "medicines",
         "other_hypernym": "hormone",
@@ -40941,11 +40941,11 @@
         "hit_id": "37OPIVELUU47LG9Y4OUO6N3TQGAAHI"
     },
     {
-        "premise": "(My therapist is not against  Aureomycin, and in fact recommends it for some patients.)",
+        "premise": "(My therapist is not against  aureomycin, and in fact recommends it for some patients.)",
         "hypothesis": "My therapist never recommends medicine to patients.",
         "label": "contradiction",
         "section": "2",
-        "item": "Aureomycin",
+        "item": "aureomycin",
         "hypernym": "medicine",
         "hypernym_plural": "medicines",
         "other_hypernym": "hormone",
@@ -40956,11 +40956,11 @@
         "hit_id": "37OPIVELUU47LG9Y4OUO6N3TQGAAHI"
     },
     {
-        "premise": "(My therapist is not against  Aureomycin, and in fact recommends it for some patients.)",
+        "premise": "(My therapist is not against  aureomycin, and in fact recommends it for some patients.)",
         "hypothesis": "My therapist has recommended medicine to me before.",
         "label": "neutral",
         "section": "3",
-        "item": "Aureomycin",
+        "item": "aureomycin",
         "hypernym": "medicine",
         "hypernym_plural": "medicines",
         "other_hypernym": "hormone",
@@ -40971,11 +40971,11 @@
         "hit_id": "37OPIVELUU47LG9Y4OUO6N3TQGAAHI"
     },
     {
-        "premise": "(My therapist is not against  Aureomycin, and in fact recommends it for some patients.)",
+        "premise": "(My therapist is not against  aureomycin, and in fact recommends it for some patients.)",
         "hypothesis": "My therapist sometimes recommends hormone to patients.",
         "label": "neutral",
         "section": "1_other",
-        "item": "Aureomycin",
+        "item": "aureomycin",
         "hypernym": "medicine",
         "hypernym_plural": "medicines",
         "other_hypernym": "hormone",
@@ -40986,11 +40986,11 @@
         "hit_id": "37OPIVELUU47LG9Y4OUO6N3TQGAAHI"
     },
     {
-        "premise": "(My therapist is not against  Aureomycin, and in fact recommends it for some patients.)",
+        "premise": "(My therapist is not against  aureomycin, and in fact recommends it for some patients.)",
         "hypothesis": "My therapist never recommends hormone to patients.",
         "label": "neutral",
         "section": "2_other",
-        "item": "Aureomycin",
+        "item": "aureomycin",
         "hypernym": "medicine",
         "hypernym_plural": "medicines",
         "other_hypernym": "hormone",
@@ -41001,11 +41001,11 @@
         "hit_id": "37OPIVELUU47LG9Y4OUO6N3TQGAAHI"
     },
     {
-        "premise": "(My therapist is not against  Aureomycin, and in fact recommends it for some patients.)",
+        "premise": "(My therapist is not against  aureomycin, and in fact recommends it for some patients.)",
         "hypothesis": "My therapist has recommended hormone to me before.",
         "label": "neutral",
         "section": "3_other",
-        "item": "Aureomycin",
+        "item": "aureomycin",
         "hypernym": "medicine",
         "hypernym_plural": "medicines",
         "other_hypernym": "hormone",
@@ -43266,11 +43266,11 @@
         "hit_id": "3FO95NVK5C1OA69VHTS95RZ5ZZXSRJ"
     },
     {
-        "premise": "that is used in most  Slo-Bid.",
+        "premise": "that is used in most  slo-bid.",
         "hypothesis": "Most of a certain type of medicine contains that.",
         "label": "entailment",
         "section": "1",
-        "item": "Slo-Bid",
+        "item": "slo-bid",
         "hypernym": "medicine",
         "hypernym_plural": "0",
         "other_hypernym": "hormone",
@@ -43281,11 +43281,11 @@
         "hit_id": "3E9ZFLPWOYTJDOSBLG4NQ7F6RIGXIS"
     },
     {
-        "premise": "that is used in most  Slo-Bid.",
+        "premise": "that is used in most  slo-bid.",
         "hypothesis": "There are no medicines that contain that.",
         "label": "contradiction",
         "section": "2",
-        "item": "Slo-Bid",
+        "item": "slo-bid",
         "hypernym": "medicine",
         "hypernym_plural": "0",
         "other_hypernym": "hormone",
@@ -43296,11 +43296,11 @@
         "hit_id": "3E9ZFLPWOYTJDOSBLG4NQ7F6RIGXIS"
     },
     {
-        "premise": "that is used in most  Slo-Bid.",
+        "premise": "that is used in most  slo-bid.",
         "hypothesis": "Most medicines don't have that.",
         "label": "neutral",
         "section": "3",
-        "item": "Slo-Bid",
+        "item": "slo-bid",
         "hypernym": "medicine",
         "hypernym_plural": "0",
         "other_hypernym": "hormone",
@@ -43311,11 +43311,11 @@
         "hit_id": "3E9ZFLPWOYTJDOSBLG4NQ7F6RIGXIS"
     },
     {
-        "premise": "that is used in most  Slo-Bid.",
+        "premise": "that is used in most  slo-bid.",
         "hypothesis": "Most of a certain type of hormone contains that.",
         "label": "neutral",
         "section": "1_other",
-        "item": "Slo-Bid",
+        "item": "slo-bid",
         "hypernym": "medicine",
         "hypernym_plural": "0",
         "other_hypernym": "hormone",
@@ -43326,11 +43326,11 @@
         "hit_id": "3E9ZFLPWOYTJDOSBLG4NQ7F6RIGXIS"
     },
     {
-        "premise": "that is used in most  Slo-Bid.",
+        "premise": "that is used in most  slo-bid.",
         "hypothesis": "There are no hormones that contain that.",
         "label": "neutral",
         "section": "2_other",
-        "item": "Slo-Bid",
+        "item": "slo-bid",
         "hypernym": "medicine",
         "hypernym_plural": "0",
         "other_hypernym": "hormone",
@@ -43341,11 +43341,11 @@
         "hit_id": "3E9ZFLPWOYTJDOSBLG4NQ7F6RIGXIS"
     },
     {
-        "premise": "that is used in most  Slo-Bid.",
+        "premise": "that is used in most  slo-bid.",
         "hypothesis": "Most hormones don't have that.",
         "label": "neutral",
         "section": "3_other",
-        "item": "Slo-Bid",
+        "item": "slo-bid",
         "hypernym": "medicine",
         "hypernym_plural": "0",
         "other_hypernym": "hormone",
@@ -44436,11 +44436,11 @@
         "hit_id": "3ABAOCJ4R85L0AHQKH7NOSQUBODQM4"
     },
     {
-        "premise": "Take the idea that men became less competitive because women insisted on monogamy, which lowers  TSH.",
+        "premise": "Take the idea that men became less competitive because women insisted on monogamy, which lowers  tsh.",
         "hypothesis": "Lowering hormones makes men less competitive.",
         "label": "entailment",
         "section": "1",
-        "item": "TSH",
+        "item": "tsh",
         "hypernym": "hormone",
         "hypernym_plural": "0",
         "other_hypernym": "medicine",
@@ -44451,11 +44451,11 @@
         "hit_id": "3MIVREZQVHZQAMHNZ5U79FYQMJIQKZ"
     },
     {
-        "premise": "Take the idea that men became less competitive because women insisted on monogamy, which lowers  TSH.",
+        "premise": "Take the idea that men became less competitive because women insisted on monogamy, which lowers  tsh.",
         "hypothesis": "Lowering hormones increases competitiveness in men.",
         "label": "contradiction",
         "section": "2",
-        "item": "TSH",
+        "item": "tsh",
         "hypernym": "hormone",
         "hypernym_plural": "0",
         "other_hypernym": "medicine",
@@ -44466,11 +44466,11 @@
         "hit_id": "3MIVREZQVHZQAMHNZ5U79FYQMJIQKZ"
     },
     {
-        "premise": "Take the idea that men became less competitive because women insisted on monogamy, which lowers  TSH.",
+        "premise": "Take the idea that men became less competitive because women insisted on monogamy, which lowers  tsh.",
         "hypothesis": "Hormones are inexpensive and safe to take.",
         "label": "neutral",
         "section": "3",
-        "item": "TSH",
+        "item": "tsh",
         "hypernym": "hormone",
         "hypernym_plural": "0",
         "other_hypernym": "medicine",
@@ -44481,11 +44481,11 @@
         "hit_id": "3MIVREZQVHZQAMHNZ5U79FYQMJIQKZ"
     },
     {
-        "premise": "Take the idea that men became less competitive because women insisted on monogamy, which lowers  TSH.",
+        "premise": "Take the idea that men became less competitive because women insisted on monogamy, which lowers  tsh.",
         "hypothesis": "Lowering medicines makes men less competitive.",
         "label": "neutral",
         "section": "1_other",
-        "item": "TSH",
+        "item": "tsh",
         "hypernym": "hormone",
         "hypernym_plural": "0",
         "other_hypernym": "medicine",
@@ -44496,11 +44496,11 @@
         "hit_id": "3MIVREZQVHZQAMHNZ5U79FYQMJIQKZ"
     },
     {
-        "premise": "Take the idea that men became less competitive because women insisted on monogamy, which lowers  TSH.",
+        "premise": "Take the idea that men became less competitive because women insisted on monogamy, which lowers  tsh.",
         "hypothesis": "Lowering medicines increases competitiveness in men.",
         "label": "neutral",
         "section": "2_other",
-        "item": "TSH",
+        "item": "tsh",
         "hypernym": "hormone",
         "hypernym_plural": "0",
         "other_hypernym": "medicine",
@@ -44511,11 +44511,11 @@
         "hit_id": "3MIVREZQVHZQAMHNZ5U79FYQMJIQKZ"
     },
     {
-        "premise": "Take the idea that men became less competitive because women insisted on monogamy, which lowers  TSH.",
+        "premise": "Take the idea that men became less competitive because women insisted on monogamy, which lowers  tsh.",
         "hypothesis": "medicines are inexpensive and safe to take.",
         "label": "neutral",
         "section": "3_other",
-        "item": "TSH",
+        "item": "tsh",
         "hypernym": "hormone",
         "hypernym_plural": "0",
         "other_hypernym": "medicine",

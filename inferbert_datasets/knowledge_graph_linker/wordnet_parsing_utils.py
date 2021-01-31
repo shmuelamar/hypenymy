@@ -98,17 +98,25 @@ def to_singular(word_list):
 
 
 ### hypernymy
-def pick_nouns_for_hypernyms(sentence):
+def pick_nouns_for_hypernyms(sentence, mode='noun'):
     doc = nlp(sentence)
     entities = [a.text for a in doc.ents]   # entities from SpiCy NER
     nouns = []
-    for chunk in doc.noun_chunks:   # looking for NP chunks
-        cand = chunk.root
-        loc_after_chunk = (' ' + sentence + ' ').find(chunk.root.text) +len(chunk.root.text) -1
-        loc_after_chunk = loc_after_chunk-1 if loc_after_chunk >= len(sentence) else loc_after_chunk    # In case the chunk ends where the sentence ends (so no character after it)
-        has_dash = (sentence[(' ' + sentence + ' ').find(chunk.root.text) -2] == '-') or (sentence[loc_after_chunk] == '-')
-        if cand.text not in entities and not cand.text[0].isupper() and cand.pos_=='NOUN' and not has_dash:
-            nouns.append(chunk.root.text)
+    pos_list = dict(include_propn=['NOUN', 'PROPN'], noun=['NOUN'])
+    if True:
+        for d in doc:
+            cand_is_upper = (d.text != sentence[0:len(d.text)] and d.text[0].isupper())
+            if d.pos_ in ['NOUN', 'PROPN', 'ADJ'] and not cand_is_upper:
+                nouns.append(d.text.lower())
+    else:
+        for chunk in doc.noun_chunks:   # looking for NP chunks
+            cand = chunk.root
+            cand_is_upper = (cand.text != sentence[0:len(cand.text)] and cand.text[0].isupper())
+            loc_after_chunk = (' ' + sentence + ' ').find(chunk.root.text) +len(chunk.root.text) -1
+            loc_after_chunk = loc_after_chunk-1 if loc_after_chunk >= len(sentence) else loc_after_chunk    # In case the chunk ends where the sentence ends (so no character after it)
+            has_dash = (sentence[(' ' + sentence + ' ').find(chunk.root.text) -2] == '-') or (sentence[loc_after_chunk] == '-')
+            if cand.text not in entities and not cand_is_upper and cand.pos_ in pos_list[mode] and not has_dash:
+                nouns.append(chunk.root.text.lower())
     return list(set(to_singular(nouns))), doc
 
 

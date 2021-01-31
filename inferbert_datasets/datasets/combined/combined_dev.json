@@ -5586,11 +5586,11 @@
         "hit_id": "3UXQ63NLAANEQMXG1N9ITQG6PLKLBN"
     },
     {
-        "premise": "There was Sectral in Mrs. Inglethorp's  drink.",
+        "premise": "There was sectral in Mrs. Inglethorp's  drink.",
         "hypothesis": "Someone put the medicine in the drink.",
         "label": "entailment",
         "section": "1",
-        "item": "Sectral",
+        "item": "sectral",
         "hypernym": "medicine",
         "hypernym_plural": "0",
         "other_hypernym": "hormone",
@@ -5601,11 +5601,11 @@
         "hit_id": "3ZXV7Q5FJBPB0ZFQTC2F9XH4AAYFCJ"
     },
     {
-        "premise": "There was Sectral in Mrs. Inglethorp's  drink.",
+        "premise": "There was sectral in Mrs. Inglethorp's  drink.",
         "hypothesis": "Mrs. Ingelthorp's drink had no medicine in it.",
         "label": "contradiction",
         "section": "2",
-        "item": "Sectral",
+        "item": "sectral",
         "hypernym": "medicine",
         "hypernym_plural": "0",
         "other_hypernym": "hormone",
@@ -5616,11 +5616,11 @@
         "hit_id": "3ZXV7Q5FJBPB0ZFQTC2F9XH4AAYFCJ"
     },
     {
-        "premise": "There was Sectral in Mrs. Inglethorp's  drink.",
+        "premise": "There was sectral in Mrs. Inglethorp's  drink.",
         "hypothesis": "The medicine was too sour to take without being mixed in a drink.",
         "label": "neutral",
         "section": "3",
-        "item": "Sectral",
+        "item": "sectral",
         "hypernym": "medicine",
         "hypernym_plural": "0",
         "other_hypernym": "hormone",
@@ -5631,11 +5631,11 @@
         "hit_id": "3ZXV7Q5FJBPB0ZFQTC2F9XH4AAYFCJ"
     },
     {
-        "premise": "There was Sectral in Mrs. Inglethorp's  drink.",
+        "premise": "There was sectral in Mrs. Inglethorp's  drink.",
         "hypothesis": "Someone put the hormone in the drink.",
         "label": "contradiction",
         "section": "1_other",
-        "item": "Sectral",
+        "item": "sectral",
         "hypernym": "medicine",
         "hypernym_plural": "0",
         "other_hypernym": "hormone",
@@ -5646,11 +5646,11 @@
         "hit_id": "3ZXV7Q5FJBPB0ZFQTC2F9XH4AAYFCJ"
     },
     {
-        "premise": "There was Sectral in Mrs. Inglethorp's  drink.",
+        "premise": "There was sectral in Mrs. Inglethorp's  drink.",
         "hypothesis": "Mrs. Ingelthorp's drink had no hormone in it.",
         "label": "neutral",
         "section": "2_other",
-        "item": "Sectral",
+        "item": "sectral",
         "hypernym": "medicine",
         "hypernym_plural": "0",
         "other_hypernym": "hormone",
@@ -5661,11 +5661,11 @@
         "hit_id": "3ZXV7Q5FJBPB0ZFQTC2F9XH4AAYFCJ"
     },
     {
-        "premise": "There was Sectral in Mrs. Inglethorp's  drink.",
+        "premise": "There was sectral in Mrs. Inglethorp's  drink.",
         "hypothesis": "The hormone was too sour to take without being mixed in a drink.",
         "label": "neutral",
         "section": "3_other",
-        "item": "Sectral",
+        "item": "sectral",
         "hypernym": "medicine",
         "hypernym_plural": "0",
         "other_hypernym": "hormone",
@@ -5856,11 +5856,11 @@
         "hit_id": "3SD15I2WD2VR46QWZQOAMO0XBVJ634"
     },
     {
-        "premise": "The  Tenormin had not been newly made up.",
+        "premise": "The  tenormin had not been newly made up.",
         "hypothesis": "The medicine was old, having been made some time ago.",
         "label": "entailment",
         "section": "1",
-        "item": "Tenormin",
+        "item": "tenormin",
         "hypernym": "medicine",
         "hypernym_plural": "0",
         "other_hypernym": "hormone",
@@ -5871,11 +5871,11 @@
         "hit_id": "38RHULDV9YG4OONLBB81OO1ZIGAIWK"
     },
     {
-        "premise": "The  Tenormin had not been newly made up.",
+        "premise": "The  tenormin had not been newly made up.",
         "hypothesis": "The medicine was made today, just after it was ordered.",
         "label": "contradiction",
         "section": "2",
-        "item": "Tenormin",
+        "item": "tenormin",
         "hypernym": "medicine",
         "hypernym_plural": "0",
         "other_hypernym": "hormone",
@@ -5886,11 +5886,11 @@
         "hit_id": "38RHULDV9YG4OONLBB81OO1ZIGAIWK"
     },
     {
-        "premise": "The  Tenormin had not been newly made up.",
+        "premise": "The  tenormin had not been newly made up.",
         "hypothesis": "The medicine is on special today, said the pharmacist, to compensate for it's age.",
         "label": "neutral",
         "section": "3",
-        "item": "Tenormin",
+        "item": "tenormin",
         "hypernym": "medicine",
         "hypernym_plural": "0",
         "other_hypernym": "hormone",
@@ -5901,11 +5901,11 @@
         "hit_id": "38RHULDV9YG4OONLBB81OO1ZIGAIWK"
     },
     {
-        "premise": "The  Tenormin had not been newly made up.",
+        "premise": "The  tenormin had not been newly made up.",
         "hypothesis": "The hormone was old, having been made some time ago.",
         "label": "neutral",
         "section": "1_other",
-        "item": "Tenormin",
+        "item": "tenormin",
         "hypernym": "medicine",
         "hypernym_plural": "0",
         "other_hypernym": "hormone",
@@ -5916,11 +5916,11 @@
         "hit_id": "38RHULDV9YG4OONLBB81OO1ZIGAIWK"
     },
     {
-        "premise": "The  Tenormin had not been newly made up.",
+        "premise": "The  tenormin had not been newly made up.",
         "hypothesis": "The hormone was made today, just after it was ordered.",
         "label": "neutral",
         "section": "2_other",
-        "item": "Tenormin",
+        "item": "tenormin",
         "hypernym": "medicine",
         "hypernym_plural": "0",
         "other_hypernym": "hormone",
@@ -5931,11 +5931,11 @@
         "hit_id": "38RHULDV9YG4OONLBB81OO1ZIGAIWK"
     },
     {
-        "premise": "The  Tenormin had not been newly made up.",
+        "premise": "The  tenormin had not been newly made up.",
         "hypothesis": "The hormone is on special today, said the pharmacist, to compensate for it's age.",
         "label": "neutral",
         "section": "3_other",
-        "item": "Tenormin",
+        "item": "tenormin",
         "hypernym": "medicine",
         "hypernym_plural": "0",
         "other_hypernym": "hormone",
@@ -5946,11 +5946,11 @@
         "hit_id": "38RHULDV9YG4OONLBB81OO1ZIGAIWK"
     },
     {
-        "premise": "Madeira cake and  Tokay are extremely long-lasting, so you can safely bring some back.",
+        "premise": "Madeira cake and  tokay are extremely long-lasting, so you can safely bring some back.",
         "hypothesis": "Some wine can last for a long time.",
         "label": "entailment",
         "section": "1",
-        "item": "Tokay",
+        "item": "tokay",
         "hypernym": "wine",
         "hypernym_plural": "0",
         "other_hypernym": "liquor",
@@ -5961,11 +5961,11 @@
         "hit_id": "32K26U12DNPA1O7UTN2UBP28J20DV3"
     },
     {
-        "premise": "Madeira cake and  Tokay are extremely long-lasting, so you can safely bring some back.",
+        "premise": "Madeira cake and  tokay are extremely long-lasting, so you can safely bring some back.",
         "hypothesis": "It's never safe to bring wine back with you.",
         "label": "contradiction",
         "section": "2",
-        "item": "Tokay",
+        "item": "tokay",
         "hypernym": "wine",
         "hypernym_plural": "0",
         "other_hypernym": "liquor",
@@ -5976,11 +5976,11 @@
         "hit_id": "32K26U12DNPA1O7UTN2UBP28J20DV3"
     },
     {
-        "premise": "Madeira cake and  Tokay are extremely long-lasting, so you can safely bring some back.",
+        "premise": "Madeira cake and  tokay are extremely long-lasting, so you can safely bring some back.",
         "hypothesis": "It's traditional to drink wine with Madeira cake.",
         "label": "neutral",
         "section": "3",
-        "item": "Tokay",
+        "item": "tokay",
         "hypernym": "wine",
         "hypernym_plural": "0",
         "other_hypernym": "liquor",
@@ -5991,11 +5991,11 @@
         "hit_id": "32K26U12DNPA1O7UTN2UBP28J20DV3"
     },
     {
-        "premise": "Madeira cake and  Tokay are extremely long-lasting, so you can safely bring some back.",
+        "premise": "Madeira cake and  tokay are extremely long-lasting, so you can safely bring some back.",
         "hypothesis": "Some liquor can last for a long time.",
         "label": "neutral",
         "section": "1_other",
-        "item": "Tokay",
+        "item": "tokay",
         "hypernym": "wine",
         "hypernym_plural": "0",
         "other_hypernym": "liquor",
@@ -6006,11 +6006,11 @@
         "hit_id": "32K26U12DNPA1O7UTN2UBP28J20DV3"
     },
     {
-        "premise": "Madeira cake and  Tokay are extremely long-lasting, so you can safely bring some back.",
+        "premise": "Madeira cake and  tokay are extremely long-lasting, so you can safely bring some back.",
         "hypothesis": "It's never safe to bring liquor back with you.",
         "label": "neutral",
         "section": "2_other",
-        "item": "Tokay",
+        "item": "tokay",
         "hypernym": "wine",
         "hypernym_plural": "0",
         "other_hypernym": "liquor",
@@ -6021,11 +6021,11 @@
         "hit_id": "32K26U12DNPA1O7UTN2UBP28J20DV3"
     },
     {
-        "premise": "Madeira cake and  Tokay are extremely long-lasting, so you can safely bring some back.",
+        "premise": "Madeira cake and  tokay are extremely long-lasting, so you can safely bring some back.",
         "hypothesis": "It's traditional to drink liquor with Madeira cake.",
         "label": "neutral",
         "section": "3_other",
-        "item": "Tokay",
+        "item": "tokay",
         "hypernym": "wine",
         "hypernym_plural": "0",
         "other_hypernym": "liquor",

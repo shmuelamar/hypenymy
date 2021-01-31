@@ -36,7 +36,6 @@ KG_CACHE_UPDATES = 0
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 
 
-# FIXME: @ohad - what is the default kwargs for these functions
 DATA2FIND_PAIRS_FN = {
     'hypernymy': partial(wn.find_hypernymy_pairs, filter_repeat_word=True),
     'color': partial(wn.find_color_pairs, local_wiki_features=wn.local_wiki_features),

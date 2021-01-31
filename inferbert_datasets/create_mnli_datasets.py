@@ -57,18 +57,18 @@ if __name__ == '__main__':
     #     fname=os.path.join(DATASETS_DIR, 'location', 'location_rare_train.json'),
     #     out_fname_tmpl=os.path.join(DATASETS_DIR, 'location', 'location_rare_train_{}.json.xz'),
     # )
-    main(
-        fname=os.path.join(DATASETS_DIR, 'location', 'location_common_train.json'),
-        out_fname_tmpl=os.path.join(DATASETS_DIR, 'location', 'location_common_train_{}.json.xz'),
-    )
+    # main(
+    #     fname=os.path.join(DATASETS_DIR, 'location', 'location_common_train.json'),
+    #     out_fname_tmpl=os.path.join(DATASETS_DIR, 'location', 'location_common_train_{}.json.xz'),
+    # )
     # main(
     #     fname=os.path.join(DATASETS_DIR, 'trademark', 'trademark_train.json'),
     #     out_fname_tmpl=os.path.join(DATASETS_DIR, 'trademark', 'trademark_train_{}.json.xz'),
     # )
-    # main(
-    #     fname=os.path.join(DATASETS_DIR, 'hypernymy', 'hypernymy_train.json'),
-    #     out_fname_tmpl=os.path.join(DATASETS_DIR, 'hypernymy', 'hypernymy_train_{}.json.xz'),
-    # )
+    main(
+        fname=os.path.join(DATASETS_DIR, 'hypernymy', 'hypernymy_train.json'),
+        out_fname_tmpl=os.path.join(DATASETS_DIR, 'hypernymy', 'hypernymy_train_{}.json.xz'),
+    )
     # main(
     #     fname=os.path.join(DATASETS_DIR, 'color', 'color_train.json'),
     #     out_fname_tmpl=os.path.join(DATASETS_DIR, 'color', 'color_train_{}.json.xz'),

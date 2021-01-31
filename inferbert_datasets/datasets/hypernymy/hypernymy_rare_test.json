@@ -90,11 +90,11 @@
         "hit_id":"3QGTX7BCHP3W6VXBFE9EYJRCUV75ZK"
     },
     {
-        "premise":"You ridin' out to tell the army we're here with the  Brahmen? Drew asked.",
+        "premise":"You ridin' out to tell the army we're here with the  brahmen? Drew asked.",
         "hypothesis":"Drew knows the name of at least one type of mammal.",
         "label":"entailment",
         "section":"1",
-        "item":"Brahmen",
+        "item":"brahmen",
         "hypernym":"mammal",
         "hypernym_plural":"0",
         "other_hypernym":"bird",
@@ -105,11 +105,11 @@
         "hit_id":"37MQ8Z1JQEX4284J195XM5FY4R92YM"
     },
     {
-        "premise":"You ridin' out to tell the army we're here with the  Brahmen? Drew asked.",
+        "premise":"You ridin' out to tell the army we're here with the  brahmen? Drew asked.",
         "hypothesis":"Drew has never been in proximity to any mammals.",
         "label":"contradiction",
         "section":"2",
-        "item":"Brahmen",
+        "item":"brahmen",
         "hypernym":"mammal",
         "hypernym_plural":"0",
         "other_hypernym":"bird",
@@ -120,11 +120,11 @@
         "hit_id":"37MQ8Z1JQEX4284J195XM5FY4R92YM"
     },
     {
-        "premise":"You ridin' out to tell the army we're here with the  Brahmen? Drew asked.",
+        "premise":"You ridin' out to tell the army we're here with the  brahmen? Drew asked.",
         "hypothesis":"The army was planning on slaughtering the mammals that were with Drew to feed the soldiers.",
         "label":"neutral",
         "section":"3",
-        "item":"Brahmen",
+        "item":"brahmen",
         "hypernym":"mammal",
         "hypernym_plural":"0",
         "other_hypernym":"bird",
@@ -135,11 +135,11 @@
         "hit_id":"37MQ8Z1JQEX4284J195XM5FY4R92YM"
     },
     {
-        "premise":"You ridin' out to tell the army we're here with the  Brahmen? Drew asked.",
+        "premise":"You ridin' out to tell the army we're here with the  brahmen? Drew asked.",
         "hypothesis":"Drew knows the name of at least one type of bird.",
         "label":"neutral",
         "section":"1_other",
-        "item":"Brahmen",
+        "item":"brahmen",
         "hypernym":"mammal",
         "hypernym_plural":"0",
         "other_hypernym":"bird",
@@ -150,11 +150,11 @@
         "hit_id":"37MQ8Z1JQEX4284J195XM5FY4R92YM"
     },
     {
-        "premise":"You ridin' out to tell the army we're here with the  Brahmen? Drew asked.",
+        "premise":"You ridin' out to tell the army we're here with the  brahmen? Drew asked.",
         "hypothesis":"Drew has never been in proximity to any birds.",
         "label":"neutral",
         "section":"2_other",
-        "item":"Brahmen",
+        "item":"brahmen",
         "hypernym":"mammal",
         "hypernym_plural":"0",
         "other_hypernym":"bird",
@@ -165,11 +165,11 @@
         "hit_id":"37MQ8Z1JQEX4284J195XM5FY4R92YM"
     },
     {
-        "premise":"You ridin' out to tell the army we're here with the  Brahmen? Drew asked.",
+        "premise":"You ridin' out to tell the army we're here with the  brahmen? Drew asked.",
         "hypothesis":"The army was planning on slaughtering the birds that were with Drew to feed the soldiers.",
         "label":"neutral",
         "section":"3_other",
-        "item":"Brahmen",
+        "item":"brahmen",
         "hypernym":"mammal",
         "hypernym_plural":"0",
         "other_hypernym":"bird",
@@ -540,11 +540,11 @@
         "hit_id":"3BS6ERDL938PMYSTSFUMZXM925RD6M"
     },
     {
-        "premise":"Sweat that sour temper and  Holland out of him.",
+        "premise":"Sweat that sour temper and  holland out of him.",
         "hypothesis":"The liquor in him might be sweated out.",
         "label":"entailment",
         "section":"1",
-        "item":"Holland",
+        "item":"holland",
         "hypernym":"liquor",
         "hypernym_plural":"0",
         "other_hypernym":"wine",
@@ -555,11 +555,11 @@
         "hit_id":"3E9VAUV7BWFT7BZNEOYCSNYWGG5AY7"
     },
     {
-        "premise":"Sweat that sour temper and  Holland out of him.",
+        "premise":"Sweat that sour temper and  holland out of him.",
         "hypothesis":"He doesn't have any liquor in him.",
         "label":"contradiction",
         "section":"2",
-        "item":"Holland",
+        "item":"holland",
         "hypernym":"liquor",
         "hypernym_plural":"0",
         "other_hypernym":"wine",
@@ -570,11 +570,11 @@
         "hit_id":"3E9VAUV7BWFT7BZNEOYCSNYWGG5AY7"
     },
     {
-        "premise":"Sweat that sour temper and  Holland out of him.",
+        "premise":"Sweat that sour temper and  holland out of him.",
         "hypothesis":"He only has a few drops of liquor in him.",
         "label":"neutral",
         "section":"3",
-        "item":"Holland",
+        "item":"holland",
         "hypernym":"liquor",
         "hypernym_plural":"0",
         "other_hypernym":"wine",
@@ -585,11 +585,11 @@
         "hit_id":"3E9VAUV7BWFT7BZNEOYCSNYWGG5AY7"
     },
     {
-        "premise":"Sweat that sour temper and  Holland out of him.",
+        "premise":"Sweat that sour temper and  holland out of him.",
         "hypothesis":"The wine in him might be sweated out.",
         "label":"neutral",
         "section":"1_other",
-        "item":"Holland",
+        "item":"holland",
         "hypernym":"liquor",
         "hypernym_plural":"0",
         "other_hypernym":"wine",
@@ -600,11 +600,11 @@
         "hit_id":"3E9VAUV7BWFT7BZNEOYCSNYWGG5AY7"
     },
     {
-        "premise":"Sweat that sour temper and  Holland out of him.",
+        "premise":"Sweat that sour temper and  holland out of him.",
         "hypothesis":"He doesn't have any wine in him.",
         "label":"neutral",
         "section":"2_other",
-        "item":"Holland",
+        "item":"holland",
         "hypernym":"liquor",
         "hypernym_plural":"0",
         "other_hypernym":"wine",
@@ -615,11 +615,11 @@
         "hit_id":"3E9VAUV7BWFT7BZNEOYCSNYWGG5AY7"
     },
     {
-        "premise":"Sweat that sour temper and  Holland out of him.",
+        "premise":"Sweat that sour temper and  holland out of him.",
         "hypothesis":"He only has a few drops of wine in him.",
         "label":"neutral",
         "section":"3_other",
-        "item":"Holland",
+        "item":"holland",
         "hypernym":"liquor",
         "hypernym_plural":"0",
         "other_hypernym":"wine",
@@ -1260,11 +1260,11 @@
         "hit_id":"3NQUW096N69V2TIJ33VM2KLG1LHL9D"
     },
     {
-        "premise":"Islanders often drink the somewhat acid  Rioja mixed with lemonade (gaseosa).",
+        "premise":"Islanders often drink the somewhat acid  rioja mixed with lemonade (gaseosa).",
         "hypothesis":"Wines sometimes have an acidic nature to them.",
         "label":"entailment",
         "section":"1",
-        "item":"Rioja",
+        "item":"rioja",
         "hypernym":"wine",
         "hypernym_plural":"wines",
         "other_hypernym":"liquor",
@@ -1275,11 +1275,11 @@
         "hit_id":"37PGLWGSJT7DTOT4MXPY0D74V5QIK5"
     },
     {
-        "premise":"Islanders often drink the somewhat acid  Rioja mixed with lemonade (gaseosa).",
+        "premise":"Islanders often drink the somewhat acid  rioja mixed with lemonade (gaseosa).",
         "hypothesis":"People don't mix wines with other drinks.",
         "label":"contradiction",
         "section":"2",
-        "item":"Rioja",
+        "item":"rioja",
         "hypernym":"wine",
         "hypernym_plural":"wines",
         "other_hypernym":"liquor",
@@ -1290,11 +1290,11 @@
         "hit_id":"37PGLWGSJT7DTOT4MXPY0D74V5QIK5"
     },
     {
-        "premise":"Islanders often drink the somewhat acid  Rioja mixed with lemonade (gaseosa).",
+        "premise":"Islanders often drink the somewhat acid  rioja mixed with lemonade (gaseosa).",
         "hypothesis":"Islanders tend to prefer mixing their drinks with wine instead of other drinks.",
         "label":"neutral",
         "section":"3",
-        "item":"Rioja",
+        "item":"rioja",
         "hypernym":"wine",
         "hypernym_plural":"wines",
         "other_hypernym":"liquor",
@@ -1305,11 +1305,11 @@
         "hit_id":"37PGLWGSJT7DTOT4MXPY0D74V5QIK5"
     },
     {
-        "premise":"Islanders often drink the somewhat acid  Rioja mixed with lemonade (gaseosa).",
+        "premise":"Islanders often drink the somewhat acid  rioja mixed with lemonade (gaseosa).",
         "hypothesis":"liquors sometimes have an acidic nature to them.",
         "label":"neutral",
         "section":"1_other",
-        "item":"Rioja",
+        "item":"rioja",
         "hypernym":"wine",
         "hypernym_plural":"wines",
         "other_hypernym":"liquor",
@@ -1320,11 +1320,11 @@
         "hit_id":"37PGLWGSJT7DTOT4MXPY0D74V5QIK5"
     },
     {
-        "premise":"Islanders often drink the somewhat acid  Rioja mixed with lemonade (gaseosa).",
+        "premise":"Islanders often drink the somewhat acid  rioja mixed with lemonade (gaseosa).",
         "hypothesis":"People don't mix liquors with other drinks.",
         "label":"neutral",
         "section":"2_other",
-        "item":"Rioja",
+        "item":"rioja",
         "hypernym":"wine",
         "hypernym_plural":"wines",
         "other_hypernym":"liquor",
@@ -1335,11 +1335,11 @@
         "hit_id":"37PGLWGSJT7DTOT4MXPY0D74V5QIK5"
     },
     {
-        "premise":"Islanders often drink the somewhat acid  Rioja mixed with lemonade (gaseosa).",
+        "premise":"Islanders often drink the somewhat acid  rioja mixed with lemonade (gaseosa).",
         "hypothesis":"Islanders tend to prefer mixing their drinks with liquor instead of other drinks.",
         "label":"neutral",
         "section":"3_other",
-        "item":"Rioja",
+        "item":"rioja",
         "hypernym":"wine",
         "hypernym_plural":"wines",
         "other_hypernym":"liquor",
