@@ -37,7 +37,7 @@ tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 
 
 DATA2FIND_PAIRS_FN = {
-    'hypernymy': partial(wn.find_hypernymy_pairs, filter_repeat_word=True),
+    'hypernymy2': partial(wn.find_hypernymy_pairs, filter_repeat_word=True),
     'color': partial(wn.find_color_pairs, local_wiki_features=wn.local_wiki_features),
     'location': partial(wn.find_location_country_pairs, local_wiki=wn.local_wiki, include_ORG=True),
     'trademark': partial(wn.find_trademark_country_pairs, local_wiki=wn.local_wiki),
@@ -67,23 +67,23 @@ def parse_mnli_sample(a, b, data_type, cached_only=False):
         KG_CACHE_UPDATES += 1
         if KG_CACHE_UPDATES >= 100:
             save_cache_file()
-            print('sleeping 1 sec...')
-            time.sleep(1)
-            print('done sleep')
+            # print('sleeping 1 sec...')
+            # time.sleep(1)
+            # print('done sleep')
             KG_CACHE_UPDATES = 0
 
     return KG_CACHE[cache_key]
 
 
 DATATYPE2ENTITY_KEYS = {
-    'hypernymy': ('hypo_ind', 'hyper_ind'),
+    'hypernymy2': ('hypo_ind', 'hyper_ind'),
     'location': ('location_ind', 'country_ind'),
     'trademark': ('company_ind', 'country_ind'),
     'color': ('noun_ind', 'feature_ind'),
 }
 
 DATATYPE2LINK_NAME = {
-    'hypernymy': 'is a',
+    'hypernymy2': 'is a',
     'location': 'located in',
     'trademark': 'located in',
     'color': 'color is',
@@ -171,7 +171,7 @@ def download_main():
         ### '../datasets/mnli/mnli_train_full.jsonl.xz',
         '../datasets/mnli/mnli_dev_matched.jsonl.xz',
         '../datasets/mnli/mnli_train_10k_split.json.xz',
-        '../datasets/mnli/mnli_train_100k.json.xz',
+        # '../datasets/mnli/mnli_train_100k.json.xz',
     ]
 
     print(fnames)

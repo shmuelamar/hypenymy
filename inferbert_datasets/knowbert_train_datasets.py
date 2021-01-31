@@ -35,7 +35,7 @@ TRAIN_GRID = {
     'dataset_type': ['regular', 'mnli10k', 'mnli100k'],
     'num_epochs': [3, 4],
     'lr': [2e-5, 3e-5, 5e-5],
-    'dataset_name': ['combined'], #'location_common', 'location_rare', 'trademark', 'color', 'hypernymy'],
+    'dataset_name': ['combined', 'hypernymy'], #'location_common', 'location_rare', 'trademark', 'color', 'hypernymy'],
 }
 
 
@@ -90,13 +90,13 @@ def get_overrides(
     }
 
 
-def get_grid_():
+def get_grid():
     domains = [domain for param, domain in TRAIN_GRID.items()]
     for values in product(*domains):
         yield dict(zip(TRAIN_GRID.keys(), values))
 
 
-def get_grid():
+def get_grid_best_only():
     grid = [
         ['combined', 'mnli10k',	4, 2e-5],
         ['location_common', 'mnli10k', 4, 3e-5],
