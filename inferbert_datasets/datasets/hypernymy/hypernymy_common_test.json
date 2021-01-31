@@ -497,7 +497,7 @@
     {
         "premise":"Red  swatch and mirrors in matching gilt frames cover the walls.",
         "hypothesis":"The red colored material made a sort of wall covering, used in this case.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"1_other",
         "item":"swatch",
         "hypernym":"fabric",
@@ -512,7 +512,7 @@
     {
         "premise":"Red  swatch and mirrors in matching gilt frames cover the walls.",
         "hypothesis":"The material was used to frame the mirrors and the walls were painted gold.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"2_other",
         "item":"swatch",
         "hypernym":"fabric",
@@ -1217,7 +1217,7 @@
     {
         "premise":"\"Here's half a crown for my share.\" Tommy was holding the  handkerchief thoughtfully.",
         "hypothesis":"Tommy has a piece of material in his hand.",
-        "label":"entailment",
+        "label":"contradiction",
         "section":"1_other",
         "item":"handkerchief",
         "hypernym":"fabric",
@@ -1232,7 +1232,7 @@
     {
         "premise":"\"Here's half a crown for my share.\" Tommy was holding the  handkerchief thoughtfully.",
         "hypothesis":"Tommy never holds material items while thinking.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"2_other",
         "item":"handkerchief",
         "hypernym":"fabric",
@@ -1307,7 +1307,7 @@
     {
         "premise":"We will feed on your young and enslave the rest of you as our  mouse",
         "hypothesis":"We will enslave you like birds.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"1_other",
         "item":"mouse",
         "hypernym":"mammal",
@@ -1577,7 +1577,7 @@
     {
         "premise":"Well, let's do it. Tommy laid his  paper finally aside.",
         "hypothesis":"Tommy set down a fabric.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"1_other",
         "item":"paper",
         "hypernym":"material",
@@ -1937,7 +1937,7 @@
     {
         "premise":"The crowd froze, like startled  rabbits.",
         "hypothesis":"The crowd behaved like scared birds.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"1_other",
         "item":"rabbits",
         "hypernym":"mammal",
@@ -1952,7 +1952,7 @@
     {
         "premise":"The crowd froze, like startled  rabbits.",
         "hypothesis":"The crowd kept moving like a bunch of angry birds.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2_other",
         "item":"rabbits",
         "hypernym":"mammal",
@@ -2312,7 +2312,7 @@
     {
         "premise":"Thorn's body sagged and he sat on the body of a felled  sheep.",
         "hypothesis":"Thorn only sits on living birds.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2_other",
         "item":"sheep",
         "hypernym":"mammal",

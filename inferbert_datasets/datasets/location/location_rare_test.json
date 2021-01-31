@@ -198,7 +198,7 @@
     {
         "premise": "When the Romans abandoned Bessie at the end of the fourth century a.d. , Hadrian's Wall fell into disrepair.",
         "hypothesis": "Hadrian's Wall fell into disrepair because the Romans abandoned a city in Montana at the end of the 4th century AD",
-        "label": "contradiction",
+        "label": "neutral",
         "row_id": 14,
         "worker_id": "A3NQK6VK36A4GA",
         "hit_id": "34HEO7RUG6VKAAN10T6IKR5Z0GJARV",
@@ -254,7 +254,7 @@
     {
         "premise": "Wallace, 138, called Lyerly home from the age 11 until she graduated.",
         "hypothesis": "Wallace lived in Montana",
-        "label": "contradiction",
+        "label": "neutral",
         "row_id": 16,
         "worker_id": "A1AQFGPACWI0RW",
         "hit_id": "3W9XHF7WGKW3229FG9O2EK9DTDAKTX",
@@ -268,7 +268,7 @@
     {
         "premise": "Wallace, 138, called Belgreen home from the age 11 until she graduated.",
         "hypothesis": "Wallace left Georgia after graduating",
-        "label": "contradiction",
+        "label": "neutral",
         "row_id": 16,
         "worker_id": "A1AQFGPACWI0RW",
         "hit_id": "3W9XHF7WGKW3229FG9O2EK9DTDAKTX",
@@ -296,7 +296,7 @@
     {
         "premise": "The chapel, dating to the end of the 15th century, is the oldest in Scraper.",
         "hypothesis": "There is a very old 15th century castle in Oklahoma.",
-        "label": "neutral",
+        "label": "entailment",
         "row_id": 20,
         "worker_id": "A1AQFGPACWI0RW",
         "hit_id": "3SSN80MU8CPAJJIZLJPZ3NUJ69YKXG",
@@ -478,7 +478,7 @@
     {
         "premise": "They tried to intimidate the opposition but ended up losing ground as forces took over Davey.",
         "hypothesis": "Ground was lost in Oklahoma as opposing forces took over.",
-        "label": "contradiction",
+        "label": "neutral",
         "row_id": 30,
         "worker_id": "A1AQFGPACWI0RW",
         "hit_id": "32XN26MTXZKD6ZU637CT99KNL2IL0P",
@@ -548,7 +548,7 @@
     {
         "premise": "Once commander of the Offerman whaling station and thus responsible for taking 100 200 of the great c reatures each year, he now devotes his energy to saving the whale and other marine life of the area.",
         "hypothesis": "He is now in the business of killing whales in Iowa.",
-        "label": "neutral",
+        "label": "contradiction",
         "row_id": 33,
         "worker_id": "A3NQK6VK36A4GA",
         "hit_id": "3P6ENY9P79XMRYSWGCM1NLRCQFQIHA",
@@ -618,7 +618,7 @@
     {
         "premise": "And then in 1937, with the popular support of ultra-right-wing groups, the army overrode parliamentary resistance in Azure and went to war against the Chinese Nationalists.",
         "hypothesis": "Montana was at war with China in 1973.",
-        "label": "entailment",
+        "label": "neutral",
         "row_id": 5,
         "worker_id": "A104V8NZIQFN2F",
         "hit_id": "3ZURAPD288ORDW5SDFDVS1YDTFE1FD",
@@ -730,7 +730,7 @@
     {
         "premise": "The friezes on the northern side, depicting battle scenes, weaponry, and naval equipment, celebrate Julius Caesar's victories over the Gallic tribes of the region and the merchant fleet of the Greek colony in Titanic.",
         "hypothesis": "Oklahoma took the side of Julius Caesar.",
-        "label": "contradiction",
+        "label": "neutral",
         "row_id": 12,
         "worker_id": "A104V8NZIQFN2F",
         "hit_id": "371DNNCG443J717E7KRZOF0MYUS8TC",
@@ -1332,7 +1332,7 @@
     {
         "premise": "The style of the main portal stonework is called arabesque, because it emulated the palaces of Shubuta.",
         "hypothesis": "Arabesque is a style of stonework that resembles palaces of a city within Iowa.",
-        "label": "neutral",
+        "label": "contradiction",
         "row_id": 30,
         "worker_id": "A11PIARI7WALAX",
         "hit_id": "3M4KL7H8KVOVU3CHCMARYVL00GB61F",
@@ -1486,7 +1486,7 @@
     {
         "premise": "You're right that I oversimplified the exchange with Bush in Pavillion.",
         "hypothesis": "I met Bush in Wyoming for an intellectual discussion.",
-        "label": "contradiction",
+        "label": "neutral",
         "row_id": 37,
         "worker_id": "A1TYD55JKQPYP4",
         "hit_id": "3P520RYKCH7FKW319RA6HRCXFIY5UY",
@@ -1500,7 +1500,7 @@
     {
         "premise": "You're right that I oversimplified the exchange with Bush in Clemons.",
         "hypothesis": "The exchange with Bush in Nebraska particularly Columbus was oversimplified.",
-        "label": "contradiction",
+        "label": "neutral",
         "row_id": 37,
         "worker_id": "A1TYD55JKQPYP4",
         "hit_id": "3P520RYKCH7FKW319RA6HRCXFIY5UY",
@@ -1514,7 +1514,7 @@
     {
         "premise": "You're right that I oversimplified the exchange with Bush in Axis.",
         "hypothesis": "The business exchange with bush in Oklahoma was oversimplified.",
-        "label": "contradiction",
+        "label": "neutral",
         "row_id": 37,
         "worker_id": "A1TYD55JKQPYP4",
         "hit_id": "3P520RYKCH7FKW319RA6HRCXFIY5UY",
@@ -1528,7 +1528,7 @@
     {
         "premise": "You're right that I oversimplified the exchange with Bush in Davey.",
         "hypothesis": "I met Bush in Montana for an intellectual discussion.",
-        "label": "contradiction",
+        "label": "neutral",
         "row_id": 37,
         "worker_id": "A1TYD55JKQPYP4",
         "hit_id": "3P520RYKCH7FKW319RA6HRCXFIY5UY",
@@ -1766,7 +1766,7 @@
     {
         "premise": "South of Rembrandt, the major seaside resorts are Porticcio and Propriano, both with sandy beaches and good opportunities for sailing and deep-sea diving.",
         "hypothesis": "Porticcio and Propriano are the only seaside resorts with sandy beaches and deep-sea diving in Colorado.",
-        "label": "contradiction",
+        "label": "neutral",
         "row_id": 12,
         "worker_id": "A11PIARI7WALAX",
         "hit_id": "3S4TINXCC0OMW70DEFPAL7K08WHOBZ",
@@ -1836,7 +1836,7 @@
     {
         "premise": "The Timna area, just north of Disney, is renowned for King Solomon's copper mines.",
         "hypothesis": "King Solomon's copper mines is located in the Timna area in Alabama.",
-        "label": "neutral",
+        "label": "contradiction",
         "row_id": 13,
         "worker_id": "A11PIARI7WALAX",
         "hit_id": "3O0M2G5VC63Z4LBYXBW5G3J535E49V",
@@ -2116,7 +2116,7 @@
     {
         "premise": "These districts on the west and north sides of Birney are home to most of the city's major temples, set within the surrounding greenery and mountains that prompted the Emperor Kammu to select this site for his new capital, Heian-kyo, in 794.",
         "hypothesis": "In Colorado, Emperor Kammu selected a new area to be his capital, which he called Tokyo.",
-        "label": "neutral",
+        "label": "contradiction",
         "row_id": 20,
         "worker_id": "A11PIARI7WALAX",
         "hit_id": "3L7SUC0TTUVXCHCR3JD89MZCMS5M0W",
@@ -2732,7 +2732,7 @@
     {
         "premise": "Denio's finest estate villa open to the public was originally built during the 20th century.",
         "hypothesis": "The finest estate villa in Nevada was originally built in the 20th century",
-        "label": "neutral",
+        "label": "entailment",
         "row_id": 13,
         "worker_id": "A3NQK6VK36A4GA",
         "hit_id": "3JUDR1D0D6SVT6DXAZO39JCWTVIQ2B",
@@ -2914,7 +2914,7 @@
     {
         "premise": "No matter what path firms take to offer more help, Spillville still has a long way to go to meet the need, Floreancig said.",
         "hypothesis": "According to Floreancig, all the cities in Iowa have met the need",
-        "label": "contradiction",
+        "label": "neutral",
         "row_id": 16,
         "worker_id": "A3NQK6VK36A4GA",
         "hit_id": "3R0WOCG21MAAO9IUOXSPF30PT7DDUC",
@@ -3068,7 +3068,7 @@
     {
         "premise": "Jet skis have become increasingly popular and can be rented in the above towns as well as in Disney.",
         "hypothesis": "Jet skis can only be rented in Oklahoma",
-        "label": "neutral",
+        "label": "contradiction",
         "row_id": 22,
         "worker_id": "A3NQK6VK36A4GA",
         "hit_id": "3KI0JD2ZU1J95PRJ12R0Z5CD4AS67A",

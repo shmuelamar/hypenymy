@@ -17,7 +17,7 @@
     {
         "premise":"How do you know if your daughter is on  adrenosterones?",
         "hypothesis":"Humans have never been on hormones.",
-        "label":"contradiction",
+        "label":"neutral",
         "section":"2",
         "item":"adrenosterones",
         "hypernym":"hormone",
@@ -332,7 +332,7 @@
     {
         "premise":"A horse sitter mistakenly thought Mr. Ed was having a seizure and gave him a  carminative.",
         "hypothesis":"The horse was left to suffer, untreated and ignored, offered no hormone or treatment.",
-        "label":"neutral",
+        "label":"contradiction",
         "section":"2_other",
         "item":"carminative",
         "hypernym":"medicine",
