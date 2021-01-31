@@ -29,7 +29,7 @@ SLEEP_BY_DATASET = {
 BASE_DIR = os.path.dirname(__file__)
 DATASETS_DIR = os.path.join(BASE_DIR, 'datasets')
 MODELS_DIR = os.path.join(BASE_DIR, 'models')
-LOGS_DIR = os.path.join(BASE_DIR, 'logs')
+LOGS_DIR = os.path.join(BASE_DIR, 'best-logs')
 
 TRAIN_GRID = {
     'dataset_type': ['regular', 'mnli10k', 'mnli100k'],
@@ -90,10 +90,28 @@ def get_overrides(
     }
 
 
-def get_grid():
+def get_grid_():
     domains = [domain for param, domain in TRAIN_GRID.items()]
     for values in product(*domains):
         yield dict(zip(TRAIN_GRID.keys(), values))
+
+
+def get_grid():
+    grid = [
+        ['combined', 'mnli10k',	4, 2e-5],
+        ['location_common', 'mnli10k', 4, 3e-5],
+        ['hypernymy', 'mnli100k', 3, 5e-5],
+        ['color', 'mnli100k', 4, 3e-5],
+        ['trademark', 'mnli10k', 4, 2e-5],
+    ]
+
+    keys = [
+        'dataset_name',
+        'dataset_type',
+        'num_epochs',
+        'lr',
+    ]
+    return [dict(zip(keys, x)) for x in grid]
 
 
 def get_free_cuda_device():

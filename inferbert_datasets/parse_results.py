@@ -27,7 +27,7 @@ def main():
             'num_epochs': num_epochs,
             'lr': lr,
             'evalset_name': evalset_name,
-            'acc': round(float(acc), 4),
+            'acc': round(float(acc)*100, 2),
         })
 
     df = pd.DataFrame(eval_data)
