@@ -6,6 +6,7 @@ import time
 from collections import defaultdict, namedtuple
 from concurrent.futures.process import ProcessPoolExecutor
 from functools import partial
+from glob import glob
 from hashlib import md5
 from itertools import islice
 
@@ -65,11 +66,9 @@ def parse_mnli_sample(a, b, data_type, cached_only=False):
         pairs = pairs_fn(a, b, tokens_a_new, tokens_b_new)
         KG_CACHE[cache_key] = pairs
         KG_CACHE_UPDATES += 1
-        if KG_CACHE_UPDATES >= 100:
+        if KG_CACHE_UPDATES >= 2000:
             save_cache_file()
-            # print('sleeping 1 sec...')
-            # time.sleep(1)
-            # print('done sleep')
+            print('save done')
             KG_CACHE_UPDATES = 0
 
     return KG_CACHE[cache_key]
@@ -149,30 +148,30 @@ def download_main():
     # )
 
     fnames = [
-        '../datasets/combined/combined_dev.json',
-        '../datasets/combined/combined_train.json',
-        '../datasets/color/color_dev.json',
-        '../datasets/color/color_train.json',
-        '../datasets/color/color_test.json',
-        '../datasets/location/location_rare_dev.json',
-        '../datasets/location/location_common_dev.json',
-        '../datasets/location/location_rare_train.json',
-        '../datasets/location/location_common_train.json',
-        '../datasets/location/location_rare_test.json',
-        '../datasets/location/location_common_test.json',
-        '../datasets/hypernymy/hypernymy_train.json',
-        '../datasets/hypernymy/hypernymy_dev.json',
-        '../datasets/hypernymy/hypernymy_test.json',
-        '../datasets/trademark/trademark_test.json',
-        '../datasets/trademark/trademark_dev.json',
-        '../datasets/trademark/trademark_train.json',
-        '../datasets/trademark/trademark_train_mnli10k.json.xz',
+        # '../datasets/combined/combined_dev.json',
+        # '../datasets/combined/combined_train.json',
+        # '../datasets/color/color_dev.json',
+        # '../datasets/color/color_train.json',
+        # '../datasets/color/color_test.json',
+        # '../datasets/location/location_rare_dev.json',
+        # '../datasets/location/location_common_dev.json',
+        # '../datasets/location/location_rare_train.json',
+        # '../datasets/location/location_common_train.json',
+        # '../datasets/location/location_rare_test.json',
+        # '../datasets/location/location_common_test.json',
+        # '../datasets/hypernymy/hypernymy_train.json',
+        # '../datasets/hypernymy/hypernymy_dev.json',
+        # '../datasets/hypernymy/hypernymy_test.json',
+        # '../datasets/trademark/trademark_test.json',
+        # '../datasets/trademark/trademark_dev.json',
+        # '../datasets/trademark/trademark_train.json',
+        # '../datasets/trademark/trademark_train_mnli10k.json.xz',
         ###'../datasets/mnli/mnli_dev_mismatched.jsonl.xz',
-        '../datasets/mnli/mnli_train_full.jsonl.xz',
+        # '../datasets/mnli/mnli_train_full.jsonl.xz',
         #'../datasets/mnli/mnli_dev_matched.jsonl.xz',
         #'../datasets/mnli/mnli_train_10k_split.json.xz',
         #'../datasets/mnli/mnli_train_100k.json.xz',
-    ]
+    ] + list(glob('../datasets/seen_test/*.json', recursive=True))
 
     print(fnames)
     for fname in tqdm(fnames):

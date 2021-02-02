@@ -34,6 +34,12 @@ EVAL_DATASETS = {
     'hypernymy_test': os.path.join(DATASETS_DIR, 'hypernymy', 'hypernymy_test.json'),
     'hypernymy_common_test': os.path.join(DATASETS_DIR, 'hypernymy', 'hypernymy_common_test.json'),
     'hypernymy_rare_test': os.path.join(DATASETS_DIR, 'hypernymy', 'hypernymy_rare_test.json'),
+    # seen_datasets
+    'color_seen_test': os.path.join(DATASETS_DIR, 'seen_test', 'color_seen_test.json'),
+    'hypernymy_seen_test': os.path.join(DATASETS_DIR, 'seen_test', 'hypernymy_seen_test.json'),
+    'location_common_seen_test': os.path.join(DATASETS_DIR, 'seen_test', 'location_common_seen_test.json'),
+    'location_rare_seen_test': os.path.join(DATASETS_DIR, 'seen_test', 'location_rare_seen_test.json'),
+    'trademark_seen_test': os.path.join(DATASETS_DIR, 'seen_test', 'trademark_seen_test.json'),
 }
 
 DATASET_NAME_TO_EVAL = {
@@ -78,6 +84,11 @@ DATASET_NAME_TO_EVAL = {
         'color_test',
         'hypernymy_common_test',
         'hypernymy_rare_test',
+        'color_seen_test',
+        'hypernymy_seen_test',
+        'location_common_seen_test',
+        'location_rare_seen_test',
+        'trademark_seen_test',
         'mnli_dev_matched',
     }
 }
